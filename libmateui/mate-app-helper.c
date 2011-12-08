@@ -343,7 +343,7 @@ scale_pixbuf (GdkPixbuf *pixbuf, GtkIconSize icon_size) {
         pix_y = gdk_pixbuf_get_height (pixbuf);
 
 	/* Only scale if the image doesn't match the required
-	 * icon size 
+	 * icon size
 	 */
         if (pix_x > width || pix_y > height) {
         	double greatest;
@@ -359,7 +359,7 @@ scale_pixbuf (GdkPixbuf *pixbuf, GtkIconSize icon_size) {
                 g_object_unref (G_OBJECT (scaled));
 		return image;
 	}
-	
+
 	return gtk_image_new_from_pixbuf (pixbuf);
 }
 
@@ -925,12 +925,11 @@ mate_save_accels (gpointer data)
  * mate_accelerators_sync:
  *
  * Flush the accelerator definitions into the application specific
- * configuration file $HOME/.mate2/accels/<app-id>.
+ * configuration file $HOME/.config/mate/accels/<app-id>.
  */
-void
-mate_accelerators_sync (void)
+void mate_accelerators_sync(void)
 {
-  mate_save_accels (NULL);
+	mate_save_accels(NULL);
 }
 
 /* Creates a menu item appropriate for the SEPARATOR, ITEM, TOGGLEITEM, or
@@ -1148,7 +1147,7 @@ create_help_entries (GtkMenuShell *menu_shell, MateUIInfo *uiinfo, gint pos)
 {
 	gchar *path;
 	gchar *title = N_("_Contents");
-		
+
 	uiinfo->widget = gtk_image_menu_item_new_with_mnemonic (L_(title));
 	uiinfo->hint = g_strdup (_("View help for this application"));
 
@@ -1156,16 +1155,16 @@ create_help_entries (GtkMenuShell *menu_shell, MateUIInfo *uiinfo, gint pos)
 
 	g_signal_connect_data (uiinfo->widget, "activate",
 			       G_CALLBACK (help_view_display_callback),
-			       g_strdup (uiinfo->moreinfo), 
+			       g_strdup (uiinfo->moreinfo),
 			       (GClosureNotify) g_free, 0);
-	
+
 	gtk_menu_shell_insert (menu_shell, uiinfo->widget, pos);
 
 	/* Install global accelerator */
 
-	path = g_strdup_printf("<%s>/help-contents-item", 
+	path = g_strdup_printf("<%s>/help-contents-item",
 			       mate_program_get_app_id (mate_program_get()));
-	
+
 	/* Associate the key combo with the accel path */
 	gtk_accel_map_add_entry (path, GDK_F1, 0);
 
@@ -1175,7 +1174,7 @@ create_help_entries (GtkMenuShell *menu_shell, MateUIInfo *uiinfo, gint pos)
 					      path);
 
 	g_free (path);
-	
+
 	gtk_widget_show_all (uiinfo->widget);
 
 	return ++pos;
@@ -1323,14 +1322,14 @@ menus_have_tearoff_changed_notify(MateConfClient            *client,
 				  gpointer                user_data)
 {
 	GtkWidget *menu;
-	
+
 	if (entry->value->type != MATECONF_VALUE_BOOL)
 		return;
 
 	GDK_THREADS_ENTER();
 
 	menu = GTK_WIDGET (user_data);
-	
+
 	if (mateconf_value_get_bool (entry->value)) {
 		GtkWidget *tearoff;
 
@@ -1340,7 +1339,7 @@ menus_have_tearoff_changed_notify(MateConfClient            *client,
 			/* Do nothing */
 			goto end;
 		}
-		
+
 		/* Add the tearoff */
 		tearoff = gtk_tearoff_menu_item_new ();
 		gtk_widget_show (tearoff);
@@ -1356,7 +1355,7 @@ menus_have_tearoff_changed_notify(MateConfClient            *client,
 			/* Do nothing */
 			goto end;
 		}
-		
+
 		/* Remove the tearoff */
 		gtk_widget_destroy (tearoff);
 		g_object_set_data (G_OBJECT (menu), "mate-app-tearoff", NULL);
@@ -1382,7 +1381,7 @@ menus_have_tearoff_changed_notify(MateConfClient            *client,
  * Description:
  * Fills the specified menu shell with items created from the specified
  * @uiinfo, inserting them from item number @pos on and using the specified
- * builder data (@uibdata) -- this is intended for language bindings. 
+ * builder data (@uibdata) -- this is intended for language bindings.
  *
  * The other parameters have the same meaning as in mate_app_fill_menu().
  **/
@@ -1458,7 +1457,7 @@ mate_app_fill_menu_custom (GtkMenuShell       *menu_shell,
 				GtkWidget *tearoff;
 				guint notify_id;
 				MateConfClient *client;
-				
+
 				menu = gtk_menu_new ();
 				gtk_menu_item_set_submenu
 					(GTK_MENU_ITEM(uiinfo->widget), menu);
