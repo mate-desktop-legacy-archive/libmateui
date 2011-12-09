@@ -8,9 +8,9 @@ AC_PREREQ(2.54)
 # if backwards compatibility has been broken,
 # set LIBMATEUI_BINARY_AGE and LIBMATEUI_INTERFACE_AGE to 0.
 #
-m4_define([libmateui_major_version], [2011])
-m4_define([libmateui_minor_version], [12])
-m4_define([libmateui_micro_version], [01])
+m4_define([libmateui_major_version], [1])
+m4_define([libmateui_minor_version], [1])
+m4_define([libmateui_micro_version], [0])
 m4_define([libmateui_interface_age], [4])
 # If you need a modifier for the version number.
 # Normally empty, but can be used to make "fixup" releases.
@@ -18,17 +18,17 @@ m4_define([libmateui_extraversion], [])
 
 dnl Required versions of other packages
 m4_define([libxml_required_version],         [2.4.20])
-m4_define([libmate_required_version],       [2.13.7])
-m4_define([libmatecanvas_required_version], [2.0.0])
-m4_define([libmatecomponentui_required_version],    [2.13.1])
-m4_define([mateconf_required_version],          [1.1.11])
+m4_define([libmate_required_version],       [1.1.0])
+m4_define([libmatecanvas_required_version], [1.1.0])
+m4_define([libmatecomponentui_required_version],    [1.1.0])
+m4_define([mateconf_required_version],          [1.1.0])
 m4_define([pango_required_version],          [1.1.2])
 m4_define([glib_required_version],           [2.16.0])
 m4_define([gio_required_version],            [2.16.0])
 m4_define([gtk_required_version],            [2.12.0])
-m4_define([matevfs_required_version],       [2.7.3])
+m4_define([matevfs_required_version],       [1.1.0])
 m4_define([libglade_required_version],       [2.0.0])
-m4_define([mate_keyring_required_version],  [0.4])
+m4_define([mate_keyring_required_version],  [1.1.0])
 
 dnl libtool versioning from libmate
 
