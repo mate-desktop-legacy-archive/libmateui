@@ -179,13 +179,13 @@ libmateui_module_info_get (void)
 
 		_mate_ui_gettext_init (FALSE);
 
-		req[0].required_version = "1.101.2";
+		req[0].required_version = "1.0.0";
 		req[0].module_info = LIBMATECOMPONENTUI_MODULE;
 
 		req[1].required_version = VERSION;
 		req[1].module_info = mate_client_module_info_get ();
 
-		req[2].required_version = "1.1.1";
+		req[2].required_version = "1.0.0";
 		req[2].module_info = mate_mateconf_ui_module_info_get ();
 
 		req[3].required_version = NULL;
