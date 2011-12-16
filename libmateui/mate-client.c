@@ -1058,10 +1058,10 @@ mate_client_module_info_get (void)
 
 		_mate_ui_gettext_init (FALSE);
 
-		req[0].required_version = "1.3.7";
+		req[0].required_version = "1.1.0";
 		req[0].module_info = mate_gtk_module_info_get ();
 
-		req[1].required_version = "1.102.0";
+		req[1].required_version = "1.1.0";
 		req[1].module_info = libmate_module_info_get ();
 
 		req[2].required_version = NULL;

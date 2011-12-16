@@ -10,7 +10,7 @@ AC_PREREQ(2.54)
 #
 m4_define([libmateui_major_version], [1])
 m4_define([libmateui_minor_version], [1])
-m4_define([libmateui_micro_version], [1])
+m4_define([libmateui_micro_version], [2])
 m4_define([libmateui_interface_age], [4])
 # If you need a modifier for the version number.
 # Normally empty, but can be used to make "fixup" releases.
