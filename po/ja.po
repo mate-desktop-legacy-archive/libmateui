@@ -3,7 +3,7 @@
 # Yukihiro Nakai <Nakai@abricot.co.jp>, 1998,2001.
 # Eiichiro ITANI <emu@ceres.dti.ne.jp>, 1999.
 # Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 1999-2002, 2010.
-# KAMAGASAKO Masatoshi <emerald@mate.gr.jp>, 2003
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003
 # Takeshi AIHANA <takeshi.aihana@gmail.com>, 2003-2008.
 #
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "POT-Creation-Date: 2010-09-19 08:55+0000\n"
 "PO-Revision-Date: 2008-02-22 23:22+0900\n"
 "Last-Translator: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>\n"
-"Language-Team: Japanese <mate-translation@mate.gr.jp>\n"
+"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
