@@ -228,7 +228,7 @@ PKG_CHECK_MODULES(LIBMATEUI_GLADE, [$MATEUI_MODULES dnl
 dnl
 dnl Check for gtk-doc
 dnl
-GTK_DOC_CHECK([1.0])
+GTK_DOC_CHECK([1.0],[--flavour no-tmpl])
 
 
 dnl AC_SUBST GTK+ version
