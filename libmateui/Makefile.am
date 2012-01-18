@@ -249,7 +249,8 @@ libmateui_2_la_LDFLAGS = \
 libmateui_2_la_LIBADD = \
 	$(LIBMATEUI_LIBS)			\
 	$(SM_LIBS)				\
-	$(X11_LIBS)
+	$(X11_LIBS)				\
+	$(LIBM)
 
 LDADD = \
 	libmateui-2.la $(LIBMATEUI_LIBS)
