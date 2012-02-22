@@ -9,8 +9,8 @@ AC_PREREQ(2.54)
 # set LIBMATEUI_BINARY_AGE and LIBMATEUI_INTERFACE_AGE to 0.
 #
 m4_define([libmateui_major_version], [1])
-m4_define([libmateui_minor_version], [1])
-m4_define([libmateui_micro_version], [2])
+m4_define([libmateui_minor_version], [2])
+m4_define([libmateui_micro_version], [0])
 m4_define([libmateui_interface_age], [4])
 # If you need a modifier for the version number.
 # Normally empty, but can be used to make "fixup" releases.
@@ -129,7 +129,7 @@ esac
 AM_CONDITIONAL(OS_WIN32, [test "$os_win32" = "yes"])
 AC_SUBST(MATE_KEYRING)
 
-GETTEXT_PACKAGE=libmateui-2.0
+GETTEXT_PACKAGE=libmateui
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",
                    [Name of gettext translation domain for library])
