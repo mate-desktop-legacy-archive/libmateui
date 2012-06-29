@@ -1,0 +1,1250 @@
+========== af.po ==========
+# Afrikaans translation of libmateui.
+# Copyright (C) 2004 Zuza Software Foundation
+# This file is distributed under the same license as the libmateui package.
+# Zuza Software Foundation <info@translate.org.za>, 2004
+# F Wolff <friedel@translate.org.za>, 2008
+
+
+
+
+========== am.po ==========
+# Translations into the Amharic Language.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmateui package.
+# Ge'ez Frontier Foundation <locales@geez.org>, 2002.
+#
+
+
+
+
+========== ar.po ==========
+# translation of libmateui.HEAD.ar.po to Arabic
+# translation of libmateui.HEAD.ar.po to
+# Copyright (C) 2002 THE libmateui.HEAD.ar'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmateui.po package.
+#
+#
+# Arafat Medini <lumina@silverpen.de>, 2002,2003.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+#  <lumina@silverpen.de>, 2004.
+# Ayman Hourieh <aymanh@gmail.com>, 2004.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008.
+# Djihed Afifi <djihed@gmail.com>, 2006.
+
+
+
+
+========== as.po ==========
+# translation of as.po to Assamese
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amitakhya Phukan <amitakhya@svn.gnome.org>, 2008.
+# Amitakhya Phukan <aphukan@redhat.com>, 2008.
+
+
+
+
+========== ast.po ==========
+# translation of libmateui-2.0.po to Asturian
+# Asturian translation for libmateui
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the libmateui package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+# Xose S. Puente <xspuente@gmail.com>, 2007.
+
+
+
+
+========== az.po ==========
+# translation of libmateui.HEAD.az.po to Azerbaijani
+# translation of libmateui.HEAD.po to Azerbaijani Turkish
+# translation of libmateui.HEAD.az.po to Azerbaijani Turkish
+# Copyright (C) 2001, 2004 Free Software Foundation, Inc.
+# Mətin Əmirov <metin@karegen.com>, 2003, 2004.
+#
+
+
+
+
+========== be.po ==========
+# Беларускі пераклад libmateui.HEAD.
+# Copyright (C) 2001-2002,2003, 2004 Free Software Foundation, Inc.
+# Vital Khilko <dojlid@mova.org>, 2003, 2005.
+# Alexander Nyakhaychyk <nab@mail.by>, 2004, 2008
+#
+#
+#
+
+
+
+
+========== be@latin.po ==========
+# Biełaruski pierakład libmateui.HEAD.po
+# Copyright (C) 2007 THE libmateui.HEAD's COPYRIGHT HOLDER
+# Alaksandar Navicki <zolak@lacinka.org> 2007. www.lacinka.org
+
+
+
+
+========== bg.po ==========
+# Bulgarian translation for libmateui po-file.
+# Copyright (C) 2002, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Borislav Aleksandrov <B.Aleksandrov@cnsys.bg>, 2002.
+# Vladimir Petkov <vpetkov@i-space.org>, 2004.
+# Alexander Shopov <ash@contact.bg>, 2005, 2006, 2007, 2008.
+#
+#
+
+
+
+
+========== bn.po ==========
+# Bengali Translation of the libMATEui package
+# Copyright (C) 2003, Free Software Foundation.
+# This file is distributed under the same license as the libMATEui package.
+# Saugata Ghosh <e_saugata@vsnl.net>, 2003.
+# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+# Maruf Ovee <maruf@ankur.org.bd>, 2009.
+# Israt Jahan <israt@ankur.org.bd>, 2010.
+#
+
+
+
+
+========== bn_IN.po ==========
+# translation of bn_IN.po to Bengali INDIA
+# Bengali India Translation of the libMATEui package
+# Copyright (C) 2003, Free Software Foundation.
+# This file is distributed under the same license as the libMATEui package.
+#
+# Saugata Ghosh <e_saugata@vsnl.net>, 2003.
+# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+# Runa Bhattacharjee <runabh@gmail.com>, 2006.
+# Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+
+
+
+
+========== br.po ==========
+# Breton translation of the  libmateui package
+# Copyright (C) 2004-2010 The MATE Foundation
+# This file is distributed under the same license as the libmateui package.
+#
+# Thierry Vignaud <tvignaud@mandrakesoft.com>, 2004.
+# Jamy <jamybzh@free.fr>, 2009.
+# Alan Monfort <alan.monfort@free.fr>, 2010.
+#
+
+
+
+
+========== bs.po ==========
+# translation of libmateui.HEAD.bs.po to Bosnian
+# translation of libmateui to Bosnian
+# This file is distributed under the same license as the libmateui package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2004.
+# Kenan Hadžiavdić <kenanh@frisurf.no>, 2004.
+# Kenan Hadžiavdić <kenan@bgnett.no>, 2004.
+#
+
+
+
+
+========== ca.po ==========
+# Catalan translation of libmateui.
+# Copyright © 2002-2008 Free Software Foundation, Inc.
+# Dani Vilar <32023dvr@comb.es>, 2002.
+# Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006, 2007.
+# Gil Forcada <gilforcada@guifi.net>, 2008.
+#
+
+
+
+
+========== ca@valencia.po ==========
+# translation of libmateui.master.po to catalan
+# Catalan translation of libmateui.
+# Copyright © 2002-2008, 2009 Free Software Foundation, Inc.
+#
+# Dani Vilar <32023dvr@comb.es>, 2002.
+# Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006, 2007.
+# Gil Forcada <gilforcada@guifi.net>, 2008.
+# Carles Ferrando Garcia <carles.ferrando@gmail.com>, 2009.
+
+
+
+
+========== crh.po ==========
+# Qırımtatarca (Qırım Türkçe) libmateui.
+# This file is distributed under the same license as the libmateui package.
+#
+# Reşat SABIQ <tilde.birlik@gmail.com>, 2008, 2009.
+
+
+
+
+========== cs.po ==========
+# Czech translation of libmateui.
+# Copyright (C) 2002, 2006, 2008 Free Software Foundation, Inc.
+# Copyright (C) 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
+# This file is distributed under the same license as the libmateui package.
+# Michal Bukovjan <bukm@centrum.cz>, 2002.
+# Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005, 2006.
+# Jakub Friedl <jfriedl@suse.cz>, 2006.
+# Petr Kovar <pknbe@volny.cz>, 2008.
+#
+
+
+
+
+========== cy.po ==========
+# libmateui yn Gymraeg.
+# This file is distributed under the same license as the libmateui package.
+# www.gyfieithu.co.uk <kyfieithu@dotmon.com>, 2003
+# and mate-cy@pengwyn.linux.org.uk mailing list.
+# Dafydd Harries <daf@muse.19inch.net>, 2003 2004.
+# Typo-fixes from Gareth Bowker.
+# adnabyddiaeth, adnabyddwr, dynodwr, neu dynodydd? Rhaid dewis.
+# Iestyn Pryce <dylunio@gmail.com>, 2009.
+
+
+
+
+========== da.po ==========
+# Danish translation of libmateui.
+# Copyright (C) 1998-2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmateui package.
+# Keld Simonsen <keld@dkuug.dk>, 2001.
+# Kjartan Maraas <kmaraas@gnome.org>, 1998, 1999, 2000
+# Ole Laursen <olau@hardworking.dk>, 2002, 03, 04.
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2004 - 2005.
+# Marie Lund <marielund@post.cybercity.dk>, 2005.
+# Kenneth Nielsen <k.nielsen81@gmail.com>, 2007.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2008.
+#
+# Se po-filen til Gtk+ for nogle konventioner.
+#
+
+
+
+
+========== de.po ==========
+# German translation for libmateui.
+# Copyright (C) 2002-2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmateui package.
+# Benjamin Greiner <benjamin.greiner@gmx.net>, 2002.
+# Christian Meyer <chrisime@gnome.org>, 2002.
+# Christian Neumair <chris@mate-de.org>, 2003, 2004.
+# Hendrik Richter <hendrikr@gnome.org>, 2004, 2005, 2006, 2007.
+#
+
+
+
+
+========== dz.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+
+
+
+========== el.po ==========
+# translation of el.po to 
+# translation of el.po to
+# translation of el.po to Greek
+# Greek translation of libmateui.
+# Copyright (C) 2002 Free Software Foundation.
+#
+# simos: 159 messages, 22Apr2002, initial translation.
+# kostas: 298 messages, 22Apr2002, initial translation.
+# kostas: 298 messages, 05Jan2003, reviewed and updated translation for Mate 2.1x.
+# kostas: 305 messages,10Aug2003, updated translation for Mate 2.4.x
+# Nikos: 304 messages, 26Jan2004, fixes for 2.6.x
+# Nikos: 325 messages, 25Aug2004, updated translation for 2.8.x
+# Simos Xenitellis <simos74@gmx.net>, 2002, 2003.
+# Kostas Papadimas <pkst@gnome.org>, 2002, 2003, 2004.
+# Nikos Charonitakis <charosn@her.forthnet.gr>, 2004, 2005.
+#
+#
+
+
+
+
+========== en@shaw.po ==========
+# Shavian translation for libmateui.
+# Copyright (C) 2009 The Mate Foundation.
+# Thomas Thurman <tthurman@gnome.org>, 2009.
+
+
+
+
+========== en_CA.po ==========
+# English/Canada translation of libmateui
+# Copyright (C) 2004-2005 Adam Weinberger and the MATE Foundation
+# This file is distributed under the same licence as the PACKAGE package.
+# Adam Weinberger <adamw@gnome.org>, 2004, 2005.
+#
+#
+
+
+
+
+========== en_GB.po ==========
+# British translation for libmateui
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmateui package
+# Abigail Brady <morwen@evilmagic.org>, 2002.
+#
+#
+
+
+
+
+========== eo.po ==========
+# translation of libmateui.po to Esperanto
+# This file is distributed under the same license as the libmateui package.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# Joël BRICH <joel.brich@laposte.net>, 2003
+# Joop EGGEN <joop_eggen@yahoo.de>, 2006
+# Guillaume SAVATON <llumeao@gmail.com>, 2006
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010.
+#
+
+
+
+
+========== es.po ==========
+# translation of libmateui.HEAD.po to Español
+# Héctor García Álvarez <hector@scouts-es.org>, 2001.
+# Germán Poo Caamaño <gpoo@ubiobio.cl>, 2002.
+# Juan Manuel García Molina <juanma_gm@wanadoo.es>, 2002,2003.
+# Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2002-2005, 2006.
+# Translation into spanish of libmateui.
+# Francisco Javier Fernández <serrador@arrakis.es> (Revision)
+# Copyright © 2001-2003, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Jorge González <jorgegonz@svn.gnome.org>, 2007, 200, 2009.
+
+
+
+
+========== et.po ==========
+# MATE kasutajaliidese teegi eesti keele tõlge.
+# Estonian translation of libmateui.
+#
+# Copyright (C) 2002-2006 Free Software Foundation, Inc.
+# Copyright (C) 2007-2009 The Mate Project.
+# This file is distributed under the same license as the libmateui package.
+#
+# Tõivo Leedjärv <toivo linux ee>, 2002-2004.
+# Priit Laes <amd store20 com>, 2004, 2006.
+# Ivar Smolin <okul linux ee>, 2005-2009.
+#
+
+
+
+
+========== eu.po ==========
+# translation of libmateui.HEAD.po to Basque
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2004, 2005, 2006, 2007.
+
+
+
+
+========== fa.po ==========
+# Persian translation of libmateui.
+# Copyright (C) 2003, 2005 Sharif FarsiWeb, Inc.
+# Roozbeh Pournader <roozbeh@farsiweb.info>, 2003.
+# Alireza Kheirkhahan <alireza@bamdad.org>, 2005.
+#
+
+
+
+
+========== fi.po ==========
+# libmateui Finnish translation
+# Suomennos: http://mate-fi.sourceforge.net/
+#
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Ville Hautamäki <villeh@cs.joensuu.fi>, 1998.
+# Mikko Rauhala <mjr@iki.fi>, 1999
+# Pauli Virtanen <pauli.virtanen@hut.fi>, 2000-2005
+# Ilkka Tuohela <hile@iki.fi>, 2005
+#
+
+
+
+
+========== fr.po ==========
+# French translation of libmateui.
+# Copyright (C) 2001-2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmateui package.
+#
+# Christophe Merlet (RedFox) <redfox@redfoxcenter.org>, 2001-2006.
+# Christophe Fergeau <teuf@users.sourceforge.net>, 2002
+# Sun G11n <mate_int_l10n@ireland.sun.com>, 2002.
+# Benoît Dejean <benoit@placenet.org>, 2006.
+# Jonathan Ernst <jonathan@ernstfamily.ch>, 2006.
+# Robert-André Mauchin <zebob.m@pengzone.org>, 2007.
+# Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007.
+#
+
+
+
+
+========== fur.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+
+
+
+
+========== ga.po ==========
+# Irish translations of libmateui package.
+# Copyright (C) 2003, 2004, 2007 Free Software Foundation, Inc.
+# Paul Duffy <dubhthach@zion.nuigalway.ie>, 2003.
+# Alastair McKinstry <mckinstry@computer.org>, 2004.
+# Seán de Búrca <leftmostcat@gmail.com>, 2007.
+#
+
+
+
+
+========== gl.po ==========
+# translation of libmateui to Galician
+# Copyright (C) 1999-2004 Jesús Bravo Álvarez
+#
+# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
+# colaborar connosco, podes atopar máis información en http://www.trasno.net
+#
+# First Version: 1999-08-30 17:48+0200
+#
+# Jesús Bravo Álvarez <suso@trasno.net>, 1999-2004.
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
+# Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2008.
+# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
+# Fran Diéguez <frandieguez@ubuntu.com>, 2010.
+# Francisco Diéguez <frandieguez@ubuntu.com>, 2010.
+
+
+
+
+========== gu.po ==========
+# translation of libmateui.master.gu.po to Gujarati
+# MagNet <magnet@magnet-i.com>, 2004.
+# Ankit Patel <ankit@redhat.com>, 2004, 2007, 2008.
+# Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
+# Sweta Kothari <swkothar@redhat.com>, 2009.
+# Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+
+
+
+
+========== he.po ==========
+# translation of libmateui.HEAD.he.po to Hebrew
+# translation of libmateui.mate-2-0.he.po to Hebrew
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
+# Gil Osher <dolfin@rpg.org.il>, 2002, 2004.
+# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2002,2003.
+#
+
+
+
+
+========== hi.po ==========
+# translation of hi.po to Hindi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Anurag Seetha <anuragseetha@yahoo.com>, 2003.
+# G Karunakar <karunakar@freedomink.org>, 2003.
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004.
+# Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2009.
+
+
+
+
+========== hr.po ==========
+# Translation of libmateui to Croatiann
+# Copyright (C) Croatiann team
+# Translators: Automatski Prijevod <>,Robert Sedak <robert.sedak@sk.tel.hr>,
+
+
+
+
+========== hu.po ==========
+# Hungarian translation for libmateui.
+# Copyright (C) 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmateui package.
+#
+# Emese Kovacs <emese@mate.hu>, 2002.
+# Szabolcs Ban <shooby@mate.hu>, 2002.
+# Andras Timar <timar@mate.hu>, 2002, 2003, 2004.
+# Laszlo Dvornik <dvornik@mate.hu>, 2004.
+# Gabor Kelemen <kelemeng@mate.hu>, 2004, 2005, 2006, 2007, 2008.
+
+
+
+
+========== hy.po ==========
+#bmateui armenian translation 
+# Copyright (C) 2006 MATE FOUNDATION
+# This file is distributed under the same license as the libmateui package.
+# 
+#
+
+
+
+
+
+========== id.po ==========
+# Indonesia translation of libmateui.
+# Copyright (C) 2005 THE libmateui'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmateui package.
+#
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2005.
+# Andika Triwidada <andika@gmail.com>, 2010.
+# Dirgita <dirgitadevina@gmail.com>, 2010.
+# Dirgita Devina <dirgitadevina@yahoo.co.id>, 2010.
+
+
+
+
+========== is.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Samúel Jón Gunnarsson <sammi@techattack.nu>, 2003
+
+
+
+
+========== it.po ==========
+# Italian localization for libmateui-2
+# Copyright (C) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+# Christopher R. Gabriel <cgabriel@cgabriel.org>, 2001
+# Alessio Frusciante <algol@firenze.linux.it>, 2003.
+# Francesco Marletta <francesco.marletta@tiscali.it>, 2004, 205, 2006, 20007, 2008, 2009.
+#
+# Francesco Marletta <francesco.marletta@tiscali.it>, 2009.
+
+
+
+
+========== ja.po ==========
+# libmateui ja.po.
+# Copyright (C) 1998-2008,2010 Free Software Foundation, Inc.
+# Yukihiro Nakai <Nakai@abricot.co.jp>, 1998,2001.
+# Eiichiro ITANI <emu@ceres.dti.ne.jp>, 1999.
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 1999-2002, 2010.
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003
+# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2003-2008.
+#
+
+
+
+
+========== ka.po ==========
+# translation of ka.po to Georgian
+# translation of libmateui to Georgian
+# This file is distributed under the same license as the PACKAGE package.
+# Besik Meshveliani <besik28@gmail.com>
+#
+# Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2007.
+
+
+
+
+========== kk.po ==========
+# Kazakh translation for libmateui
+# Copyright (C) 2010 HZ
+# This file is distributed under the same license as the libmateui package.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010.
+#
+
+
+
+
+========== kn.po ==========
+# translation of libmateui.HEAD.kn.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2008, 2009, 2010.
+
+
+
+
+========== ko.po ==========
+# This file is distributed with the same license as libmateui package
+# Changwoo Ryu <cwryu@debian.org>, 1998-2003, 2004-2006, 2007
+# Young-Ho, Cha <ganadist@mizi.com>, 2002
+#
+
+
+
+
+========== ku.po ==========
+# translation of libmateui.HEAD.po to Kurdish
+# Erdal Ronahi <erdal.ronahi@gmail.com, pckurd@hotmail.com>, 2005.
+#
+#
+#
+
+
+
+
+========== la.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+
+
+
+========== li.po ==========
+
+
+
+
+========== lt.po ==========
+# translation of lt.po to Lithuanian
+# Lithuanian translation of libmateui.
+# Copyright (C) 2000-2007, 2008 Free Software Foundation, Inc.
+# Kęstutis Kružikas <DrKestas@takas.lt>, 2000.
+# Gediminas Paulauskas <menesis@delfi.lt>, 2000-2004.
+# Tomas Kuliavas <tokul@users.sourceforge.net>, 2004.
+# Žygimantas Beručka <zygis@gnome.org>, 2004-2007.
+# Mantas Kriaučiūnas <mantas@akl.lt>, 2006-2007.
+# Gintautas Miliauskas <gintas@akl.lt>, 2008.
+# Rimas Kudelis <rq@akl.lt>, 2010.
+
+
+
+
+========== lv.po ==========
+# translation of lv.po to Latvian
+# Latvian translation of libmateui.
+# Copyright (C) 2003, 2006, 2009 Free Software Foundation, Inc.
+#
+#
+# Artis Trops <hornet@navigator.lv>, 2003.
+# Raivis Dejus <orvils@gmail.com>, 2006, 2009.
+
+
+
+
+========== mai.po ==========
+# translation of libmateui.HEAD.po to Maithili
+# Copyright (C) 2006 The MATE Foundation
+# This file is distributed under the same license as the PACKAGE package.
+# BOSS GNU/Linux <bosslinux@cdac.in>, 2008.
+
+
+
+
+========== mg.po ==========
+# MALAGASY TRANSLATION OF LIBMATEUI.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Thierry Randrianiriana <thierry@isvtec.com>, 2006.
+
+
+
+
+========== mi.po ==========
+# Māori translation of libmateui.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmateui package.
+# John C Barstow <jbowtie@amathaine.com>, 2004.
+#
+
+
+
+
+========== mk.po ==========
+# translation of mk.po to Macedonian
+# translation of libmateui.HEAD.mk.po to
+# translation of libmateui.HEAD.mk.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
+#
+#  <maraton@petlica>, 2002.
+# Bozidar Proevski <bobibobi@freemail.com.mk>, 2002,2003.
+# Ime Prezime <email@adresa.com>, 2003.
+# Ivan Stojmirov <stojmir@linux.net.mk>, 2003.
+# Arangel Angov <ufo@linux.net.mk>, 2004, 2006, 2008.
+# Арангел Ангов <ufo@linux.net.mk>, 2005.
+# Jovan Naumovski <jovan@lugola.net>, 2006, 2007.
+
+
+
+
+========== ml.po ==========
+# translation of libmateui.HEAD.ml.po to Malayalam
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# FSF-India <locale@gnu.org.in>, 2003.
+# Ani Peter <apeter@redhat.com>, 2006, 2007, 2008.
+# Santhosh Thottingal <santhosh.thottingal@gmail.com>, 2007.
+
+
+
+
+========== mn.po ==========
+# translation of mn.po to Mongolian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Sanlig Badral <badral@chinggis.com>, 2003.
+# Sanlig Badral <Badral@openmn.org>, 2003, 2004.
+# Sanlig Badral <badral@openmn.org>, 2004, 2008.
+
+
+
+
+========== mr.po ==========
+# translation of libmateui.HEAD.mr.po to marathi
+# Marathi translation of libmateui.po
+# Copyright (C) 2003 Jitendra Shah
+#
+# FIRST AUTHOR - Swapnil Hajare<dreamil1000a@yaho.com>, 2003.
+# SECOND AUTHOR - Sandeep shedmake <sandeep.shedmake@gmail.com>, 2008.
+# sandeep shedmake <sandeep.shedmake@gmail.com>, 2008.
+
+
+
+
+========== ms.po ==========
+# Malay Translation of libmateui base on MateLib Malay Translation (khai)
+# Copyright (C) 2001,2002 Free Software Foundation, Inc.
+# Khairulanuar Abd Majid <khairul@my.enemy.org, 2001.
+# Hasbullah bin Pit <sebol@ikhlas.com>, 2002.
+
+
+
+
+========== nb.po ==========
+# Norwegian translation of libmateui (bokmål dialect).
+# Copyright (C) 1998-2003 Free Software Foundation, Inc.
+# Kjartan Maraas <kmaraas@gnome.org>, 1998-2006.
+#
+
+
+
+
+========== nds.po ==========
+# Low German translation for libmateui.
+# Copyright (C) 2009 libmateui's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmateui package.
+# Nils-Christoph Fiedler <fiedler@medienkompanie.de>, 2009.
+#
+
+
+
+
+========== ne.po ==========
+# translation of libmateui.mate-2-20.ne.po to Nepali
+# This file is distributed under the same license as the libmateui package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Pawan Chitrakar <pawan@nplinux.org> , 2004.
+# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
+# Jyotshna Shrestha <jyotshna@mpp.org.np>, 2005.
+# Bishnu Adhikari <bsn_adk@hotmail.com>, 2005.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+
+
+
+
+========== nl.po ==========
+# Nederlandse vertaling van libmateui.
+#
+# Copyright (C) 2002 Free Software Foundation, Inc.
+#
+# Tino Meinen <a.t.meinen@chello.nl>, 2002, 2006
+# Ronald Hummelink <ronald@hummelink.xs4all.nl>, 2002
+# Reinout van Schouwen <reinout@cs.vu.nl>, 2002-2006
+# Wouter Bolsterlee <wbolster@gnome.org>, 2007
+#
+
+
+
+
+========== nn.po ==========
+# translation of nn.po to Norwegian Nynorsk
+# Norwegian translation of mate-libs (bokmål dialect).
+# Copyright (C) 1998-2000, 2003, 2004, 2006, 2008 Free Software Foundation, Inc.
+#
+# Kjartan Maraas <kmaraas@online.no>, 1998-2000.
+# Åsmund Skjæveland <aasmunds@fys.uio.no>, 2003, 2004, 2006.
+# Åsmund Skjæveland <aasmunds@ulrik.uio.no>, 2008.
+
+
+
+
+========== nso.po ==========
+# Northern Sotho translation of libmateui.
+# Copyright (C) 2004 Zuza Software Foundation (Translate.org.za)
+# This file is distributed under the same license as the libmateui package.
+#
+# Zuza Software Foundation <info@translate.org.za>, 2004
+#
+
+
+
+
+========== oc.po ==========
+# Translation of oc.po to Occitan
+# Occitan translation of libmateui.
+# Copyright (C) 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmateui package.
+#
+#
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2007.
+
+
+
+
+========== or.po ==========
+# translation of libmateui.master.or.po to Oriya
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Subhransu Behera <arya_subhransu@yahoo.co.in>, 2006, 2007.
+# Manoj Kumar Giri <giri.manojkr@gmail.com>, 2008.
+# Manoj Kumar Giri <mgiri@redhat.com>, 2010.
+
+
+
+
+========== pa.po ==========
+# translation of libmateui.HEAD.po to Punjabi
+# Copyright (C) 2004 THE libmateui.HEAD'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libmateui.HEAD package.
+#
+# Amanpreet Singh Alam <amanlinux@netscape.net>, 2004.
+# A S Alam <aalam@users.sf.net>, 2004, 2005, 2007, 2009.
+
+
+
+
+========== pl.po ==========
+# translation of libmateui.HEAD.pl.po to Polish
+# Artur Flinta <aflinta@at.kernel.pl>, 2006.
+# Artur Flinta <aflinta@gmail.com>, 2008.
+# Copyright (C) 2001-2005, 2006, 2008 Free Software Foundation, Inc.
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aktualną wersję tego pliku możesz odnaleźć w repozytorium cvs.matepl.org
+# (:pserver:anonymous@cvs.matepl.org:/matepl, puste hasło)
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas na adres:
+# translators@matepl.org
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+
+
+========== ps.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+
+
+
+========== pt.po ==========
+# libmateui's Portuguese Translation
+# Copyright © 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 libmateui
+# Distributed under the same licence as the libmateui package
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008.
+#
+
+
+
+
+========== pt_BR.po ==========
+# Brazilian Portuguese translation of libmateui.
+# Copyright (C) 2002-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmateui package.
+# Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2002.
+# David Barzilay <barzilay@redhat.com>, 2003.
+# Raphael Higino <raphaelh@uai.com.br>, 2004, 2005.
+# Claudio André <claudio.andre@correios.net.br>, 2006.
+# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006-2007.
+# Washington Lins <washington-lins@uol.com.br>, 2007.
+# Og Maciel <ogmaciel@gnome.org>, 2008.
+#
+
+
+
+
+========== ro.po ==========
+# Romanian translation for libmateui
+# Copyright (C) 2002 - 2008 Free Software Foundation, Inc.
+# Mugurel Tudor <mugurelu@gmail.com>, 2002, 2003.
+# Marius Andreiana <marius galuna.ro>, 2003.
+# Mișu Moldovan <dumol@mate.ro>, 2003 - 2009.
+#
+
+
+
+
+========== ru.po ==========
+# translation of libmateui to Russian
+# Copyright (C) 2001-2002, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Valek Filippov <frob@df.ru>, 2001-2002.
+# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2002-2003.
+# Leonid Kanter <leon@asplinux.ru>, 2005, 2006, 2007.
+# Yuri Kozlov <kozlov.y@gmail.com>, 2008.
+
+
+
+
+========== rw.po ==========
+# translation of libmateui to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmateui package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+
+
+
+
+========== si.po ==========
+# translation of si.po to Sinhala
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Danishka Navin <snavin@redhat.com>, 2007.
+
+
+
+
+========== sk.po ==========
+# libmateui sk.po
+# Copyright (C) 2002, 2003, 2004, 2005, 2008 Free Software Foundation, Inc.
+# Marcel Telka <marcel@telka.sk>, 2002, 2003, 2004, 2005, 2008.
+#
+
+
+
+
+========== sl.po ==========
+# Slovenian translations for Libmateui.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmateui package.
+#
+# Andraž Tori <andraz.tori1@guest.arnes.si>, 2002.
+# Matic Žgur <mr.zgur@gmail.com>, 2007.
+# Matej Urbančič <mateju@svn.gnome.org>, 2008 - 2010.
+#
+
+
+
+
+========== sq.po ==========
+# Përkthimi i mesazheve të libmateui në shqip
+# Copyright (C) 2006, 2007, 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmateui package.
+#
+#
+# Laurent Dhima  <laurenti@alblinux.net>, 2003, 2004, 2005, 2006, 2007, 2008.
+
+
+
+
+========== sr.po ==========
+# Serbian translation of libmateui
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004, 2005, 2006, 2007.
+#
+# This file is distributed under the same license as the libmateui package.
+#
+# Maintainer: Данило Шеган <dsegan@gmx.net>
+# Contributed: Бојан Живановић <bojanz@panet.co.yu>
+# Reviewed on 2004-02-02 by: Бојан Сузић <bojans@teol.net>
+# Reviewed on 2005-07-09 by: Данило Шеган <danilo@gnome.org>
+# Reviewed on 2005-07-17 by: Данило Шеган <danilo@gnome.org>
+# Translated on 2006-02-01 by: Слободан Д. Средојевић <slobo@akrep.be>
+#
+
+
+
+
+========== sr@ije.po ==========
+# Serbian translation of libmateui
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004.
+#
+# This file is distributed under the same license as the libmateui package.
+#
+# Maintainer: Данило Шеган <dsegan@gmx.net>
+# Contributed: Бојан Живановић <bojanz@panet.co.yu>
+# Reviewed on 2004-02-02 by: Бојан Сузић <bojans@teol.net>
+#
+
+
+
+
+========== sr@latin.po ==========
+# Serbian translation of libmateui
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004, 2005, 2006, 2007.
+#
+# This file is distributed under the same license as the libmateui package.
+#
+# Maintainer: Danilo Šegan <dsegan@gmx.net>
+# Contributed: Bojan Živanović <bojanz@panet.co.yu>
+# Reviewed on 2004-02-02 by: Bojan Suzić <bojans@teol.net>
+# Reviewed on 2005-07-09 by: Danilo Šegan <danilo@gnome.org>
+# Reviewed on 2005-07-17 by: Danilo Šegan <danilo@gnome.org>
+# Translated on 2006-02-01 by: Slobodan D. Sredojević <slobo@akrep.be>
+#
+
+
+
+
+========== sv.po ==========
+# Swedish messages for libmateui.
+# Copyright (C) 2001, 2002, 2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007.
+# Christian Rose <menthos@menthos.com>, 2001, 2002, 2003, 2004, 2005.
+# Mikael Hallendal <micke@codefactory.se>, 2002.
+#
+# $Id: sv.po,v 1.97 2006/12/11 23:16:55 dnylande Exp $
+#
+
+
+
+
+========== ta.po ==========
+# translation of libmateui.HEAD.ta.po to Tamil
+# Tamil translation of libmateui2.
+# Copyright (C) 2001, 2002, 2003, 2004, 2006, 2008 Free Software Foundation, Inc.
+#
+# Dinesh Nadarajah <n_dinesh@yahoo.com>, 2001, 2002, 2003.
+# Jayaradha N <jaya@pune.redhat.com>, 2004.
+# Felix <ifelix25@gmail.com>, 2006.
+# தங்கம் அருண் <thangam.arunx@gmail.com>, 2007.
+# I. Felix <ifelix@redhat.com>, 2008.
+
+
+
+
+========== te.po ==========
+# translation of libmateui.master.te.po to Telugu
+# Telugu translation of libmateui
+# Copyright (C) 2005 Free Software Foundation, Andhra Pradesh.
+# This file is distributed under the same license as the libmateui package
+#
+#
+# Prajasakti Localisation Team <localisation@prajasakti.com>, 2005.
+# Krishna Babu K <kkrothap@redhat.com>, 2008, 2009.
+
+
+
+
+========== th.po ==========
+# Thai translation for libmateui.
+# Copyright (C) 2004-2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libmateui package.
+# Paisa Seeluangsawat <paisa@users.sf.net>, 2004.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2008.
+#
+
+
+
+
+========== tk.po ==========
+# Turkmen translation of epiphany
+# Copyright (C) 2004 Free Software Foundation
+# Copyright (C) 2004 Gurban Mühemmet Tewekgeli and
+#                                Kakilik - Turkmen free software developers community
+# This file is distributed under the terms of GNU General Public License (GPL)
+# Gurban Mühemmet Tewekgeli <gmtavakkoli@yahoo.com>, 2004.
+#
+#
+
+
+
+
+========== tr.po ==========
+# Turkish translation of libmateui2.
+# Copyright (C) 2001-2003, 2004, 2005 Free Software Foundation, Inc.
+# Arman Aksoy <armish@linux-sevenler.de, 2003
+# Görkem Çetin <gorkem@gelecek.com.tr>, 2001,2002.
+# Ömer Fadıl USTA <omer_fad@hotmail.com>, 2001.
+# Görkem Çetin <gorkem@kde.org>, 2004.
+# Baris Cicek <baris@teamforce.name.tr>, 2004, 2005.
+# Baris Cicek <baris@teamforce.name.tr>, 2007.
+# Fatih Ergüven <fatih@erguven.org>, 2007.
+#
+#
+# Baris Cicek <baris@teamforce.name.tr>, 2008.
+# Baris Cicek <baris@teamforce.name.tr>, 2008.
+# Baris Cicek <baris@teamforce.name.tr>, 2008.
+
+
+
+
+========== tt.po ==========
+# Tatarish translation
+# Albert Fazlí <tatarish.l10n@gmail.com>, 2005.
+#
+
+
+
+
+========== ug.po ==========
+# Uighur translation for libmateui
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the libmateui package.
+# Sahran <sahran@live.com>, 2008.
+#
+
+
+
+
+========== uk.po ==========
+# Ukrainian translation of libmateui.
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Yuriy Syrota <rasta@renome.rovno.ua>, 2001.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2004-2007
+#
+
+
+
+
+========== uz@cyrillic.po ==========
+# translation of uz@cyrillic.po to Uzbek
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Nurali Abdurahmonov <mavnur@gmail.com>, 2008.
+
+
+
+
+========== vi.po ==========
+# Vietnamese translation of LibMateUI.
+# Copyright © 2008 Mate i18n Project for Vietnamese.
+# Hoang Ngoc Tu <hntu@gmx.de>, 2000-2002.
+# Joern v. Kattchee <kattchee@cs.tu-berlin.de>, 2000-2002.
+# Nguyễn Thái Ngọc Duy <pclouds@vnlinux.org>, 2004.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2008.
+# 
+
+
+
+
+========== wa.po ==========
+# Translation into the walloon language.
+#
+# Si vos voloz donner on côp di spale pol ratournaedje di Mate (ou des
+# ôtes libes programes) sicrijhoz mu a l' adresse emile
+# <srtxg@chanae.alphanet.ch>; nos avans co bråmint di l' ovraedje a fé.
+#
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch> 2001-2003
+# Pablo Saratxaga <pablo@walon.org>, 2003, 2004.
+#
+
+
+
+
+========== xh.po ==========
+# Xhosa translation of libmateui	
+# Copyright (C) 2005 Canonical Ltd.
+# This file is distributed under the same license as the libmateui package.
+# Translation by Canonical Ltd <translations@canonical.com> with thanks to
+# Translation World CC in South Africa, 2005.
+#
+
+
+
+
+========== yi.po ==========
+# Yiddish version
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Raphael Finkel <raphael@cs.uky.edu>, 2003.
+#
+
+
+
+
+========== zh_CN.po ==========
+# libmateui translation for zh_CN
+# Copyright 1999-2009 Free Software Foundation, Inc.
+# Wang Li <charlesw1234@163.com>, 2001
+# Sun Gl0n <mate_int_l10n@ireland.sun.com>, 2002
+# Funda Wang <fundawang@gmail.com>, 2003, 2007, 2008
+# Ni Hui <shuizhuyuanluo@126.com>, 2009
+#
+
+
+
+
+========== zh_HK.po ==========
+# Chinese (Hong Kong) translation of libmateui.
+# Copyright (C) 2001, 02, 03, 04, 06, 07 Free Software Foundation, Inc.
+# Joe Man <trmetal@yahoo.com.hk>, 2001-02.
+# Abel Cheung <abel@oaka.org>, 2002-04, 06.
+# Woodman Tuen <wmtuen@gmail.com>, 2007.
+#
+#
+
+
+
+
+========== zh_TW.po ==========
+# Chinese (Taiwan) translation of libmateui.
+# Copyright (C) 2001, 02, 03, 04, 06, 07 Free Software Foundation, Inc.
+# Joe Man <trmetal@yahoo.com.hk>, 2001-02.
+# Abel Cheung <abel@oaka.org>, 2002-04, 06.
+# Woodman Tuen <wmtuen@gmail.com>, 2007.
+#
+#
+
+
+
+
+========== zu.po ==========
+# Zulu translation of libmateui.
+# Copyright (C) 2004 Zuza Software Foundation (Translate.org.za)
+# This file is distributed under the same license as the libmateui package.
+#
+# Zuza Software Foundation <info@translate.org.za>, 2004
+#
+
+
+
+
