@@ -1,27 +1,26 @@
-# Danish translation of libmateui.
-# Copyright (C) 1998-2008 Free Software Foundation, Inc.
-# This file is distributed under the same license as the libmateui package.
-# Keld Simonsen <keld@dkuug.dk>, 2001.
-# Kjartan Maraas <kmaraas@gnome.org>, 1998, 1999, 2000
-# Ole Laursen <olau@hardworking.dk>, 2002, 03, 04.
-# Martin Willemoes Hansen <mwh@sysrq.dk>, 2004 - 2005.
-# Marie Lund <marielund@post.cybercity.dk>, 2005.
-# Kenneth Nielsen <k.nielsen81@gmail.com>, 2007.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2008.
-#
-# Se po-filen til Gtk+ for nogle konventioner.
-#
+# Keld Simonsen <keld@dkuug.dk>, 2001.
+# Kenneth Nielsen <k.nielsen81@gmail.com>, 2007.
+# Kjartan Maraas <kmaraas@gnome.org>, 1998, 1999, 2000.
+# Marie Lund <marielund@post.cybercity.dk>, 2005.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateui\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-05-30 19:43+0200\n"
-"PO-Revision-Date: 2009-05-15 00:31+0200\n"
-"Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
-"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-22 19:43+0100\n"
+"PO-Revision-Date: 2012-02-22 18:51+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/MATE/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../demos/mdi_demo.c:128
 msgid "Child Item 1"
@@ -39,115 +38,114 @@ msgstr "Afkom-element 2"
 msgid "Hint for item 2"
 msgstr "Tip til element 2"
 
-#: ../libmateui/mate-about.c:187
+#: ../libmateui/mate-about.c:199
 msgid "Credits"
 msgstr "Bidragydere"
 
-#: ../libmateui/mate-about.c:219
+#: ../libmateui/mate-about.c:222
 msgid "Written by"
 msgstr "Skrevet af"
 
-#: ../libmateui/mate-about.c:234
+#: ../libmateui/mate-about.c:235
 msgid "Documented by"
 msgstr "Dokumenteret af"
 
-#: ../libmateui/mate-about.c:249
+#: ../libmateui/mate-about.c:248
 msgid "Translated by"
 msgstr "Oversat af"
 
-#: ../libmateui/mate-about.c:312
+#: ../libmateui/mate-about.c:315
 msgid "C_redits"
 msgstr "_Bidragydere"
 
-#: ../libmateui/mate-about.c:365
+#: ../libmateui/mate-about.c:367
 msgid "Program name"
 msgstr "Programnavn"
 
-#: ../libmateui/mate-about.c:366
+#: ../libmateui/mate-about.c:368
 msgid "The name of the program"
 msgstr "Navn på programmet"
 
-#: ../libmateui/mate-about.c:373
+#: ../libmateui/mate-about.c:375
 msgid "Program version"
 msgstr "Programversion"
 
-#: ../libmateui/mate-about.c:374
+#: ../libmateui/mate-about.c:376
 msgid "The version of the program"
 msgstr "Programmets version"
 
-#: ../libmateui/mate-about.c:380
+#: ../libmateui/mate-about.c:382
 msgid "Copyright string"
 msgstr "Ophavsretsstreng"
 
-#: ../libmateui/mate-about.c:381
+#: ../libmateui/mate-about.c:383
 msgid "Copyright information for the program"
 msgstr "Ophavsretsoplysninger for programmet"
 
-#: ../libmateui/mate-about.c:388
+#: ../libmateui/mate-about.c:390
 msgid "Comments string"
 msgstr "Kommentartekst"
 
-#: ../libmateui/mate-about.c:389
+#: ../libmateui/mate-about.c:391
 msgid "Comments about the program"
 msgstr "Kommentarer om programmet"
 
-#: ../libmateui/mate-about.c:395
+#: ../libmateui/mate-about.c:397
 msgid "Authors"
 msgstr "Forfattere"
 
-#: ../libmateui/mate-about.c:396
+#: ../libmateui/mate-about.c:398
 msgid "List of authors of the programs"
 msgstr "Liste over programmets programmører"
 
-#: ../libmateui/mate-about.c:398
+#: ../libmateui/mate-about.c:400
 msgid "Author entry"
 msgstr "Forfatterpunkt"
 
-#: ../libmateui/mate-about.c:399
+#: ../libmateui/mate-about.c:401
 msgid "A single author entry"
 msgstr "Et enkelt forfatterpunkt"
 
-#: ../libmateui/mate-about.c:406
+#: ../libmateui/mate-about.c:408
 msgid "Documenters"
 msgstr "Forfattere af dokumentation"
 
-#: ../libmateui/mate-about.c:407
+#: ../libmateui/mate-about.c:409
 msgid "List of people documenting the program"
 msgstr "Liste over forfattere af dokumentation til programmet"
 
-#: ../libmateui/mate-about.c:409
+#: ../libmateui/mate-about.c:411
 msgid "Documenter entry"
 msgstr "Dokumentationsforfatterpunkt"
 
-#: ../libmateui/mate-about.c:410
+#: ../libmateui/mate-about.c:412
 msgid "A single documenter entry"
 msgstr "Et enkelt dokumentationsforfatterpunkt"
 
-#: ../libmateui/mate-about.c:418
+#: ../libmateui/mate-about.c:420
 msgid "Translator credits"
 msgstr "Oversættere"
 
-#: ../libmateui/mate-about.c:419
+#: ../libmateui/mate-about.c:421
 msgid ""
 "Credits to the translators. This string should be marked as translatable"
 msgstr "Medvirkende oversættere. Denne streng bør mærkes som oversættelig"
 
-#: ../libmateui/mate-about.c:426
-#: ../libmateui/mate-druid-page-standard.c:123
+#: ../libmateui/mate-about.c:428 ../libmateui/mate-druid-page-standard.c:123
 msgid "Logo"
 msgstr "Logo"
 
-#: ../libmateui/mate-about.c:427
+#: ../libmateui/mate-about.c:429
 msgid "A logo for the about box"
 msgstr "Et logo for \"om\"-vinduet"
 
-#: ../libmateui/mate-about.c:506
+#: ../libmateui/mate-about.c:503
 #, c-format
 msgid "About %s"
 msgstr "Om %s"
 
 #. Some standard menus
-#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:551
+#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:553
 #: ../test-mate/testmate.xml.h:5
 msgid "_File"
 msgstr "_Fil"
@@ -156,7 +154,7 @@ msgstr "_Fil"
 msgid "_File/"
 msgstr "_Fil/"
 
-#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:554
+#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:556
 msgid "_Edit"
 msgstr "R_edigér"
 
@@ -164,7 +162,7 @@ msgstr "R_edigér"
 msgid "_Edit/"
 msgstr "R_edigér/"
 
-#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:557
+#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:559
 msgid "_View"
 msgstr "_Vis"
 
@@ -172,7 +170,7 @@ msgstr "_Vis"
 msgid "_View/"
 msgstr "_Vis/"
 
-#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:560
+#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:562
 msgid "_Settings"
 msgstr "_Indstillinger"
 
@@ -181,7 +179,7 @@ msgid "_Settings/"
 msgstr "_Indstillinger/"
 
 #. If you have more then one New type, use this tree
-#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:326
+#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:328
 msgid "_New"
 msgstr "_Ny"
 
@@ -189,7 +187,7 @@ msgstr "_Ny"
 msgid "_New/"
 msgstr "_Ny/"
 
-#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:563
+#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:565
 msgid "Fi_les"
 msgstr "Fi_ler"
 
@@ -197,15 +195,15 @@ msgstr "Fi_ler"
 msgid "Fi_les/"
 msgstr "Fi_ler/"
 
-#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:566
+#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:568
 msgid "_Windows"
 msgstr "Vin_duer"
 
-#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:572
+#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:574
 msgid "_Game"
 msgstr "_Spil"
 
-#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:569
+#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:571
 #: ../test-mate/testmate.xml.h:6
 msgid "_Help"
 msgstr "_Hjælp"
@@ -286,9 +284,8 @@ msgstr "_Afslut"
 msgid "Quit the application"
 msgstr "Afslut dette program"
 
-#.
 #. * The "Edit" menu
-#.
+#. 
 #. Cut
 #: ../libmateui/mate-app-helper.c:158
 msgid "Cu_t"
@@ -380,9 +377,8 @@ msgstr "E_genskaber"
 msgid "Modify the file's properties"
 msgstr "Ændr filens egenskaber"
 
-#.
 #. * The Settings menu
-#.
+#. 
 #. Settings
 #: ../libmateui/mate-app-helper.c:214
 msgid "Prefere_nces"
@@ -393,9 +389,9 @@ msgid "Configure the application"
 msgstr "Konfigurér programmet"
 
 #. 20
-#.
+#. 
 #. * And the "Help" menu
-#.
+#. 
 #. About
 #: ../libmateui/mate-app-helper.c:224 ../test-mate/testmate.xml.h:4
 msgid "_About"
@@ -413,9 +409,8 @@ msgstr "Marker _alt"
 msgid "Select everything"
 msgstr "Markér det hele"
 
-#.
 #. * Window menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:237
 msgid "Create New _Window"
 msgstr "Opret nyt _vindue"
@@ -432,9 +427,8 @@ msgstr "L_uk dette vindue"
 msgid "Close the current window"
 msgstr "Luk det aktuelle vindue"
 
-#.
 #. * The "Game" menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:251
 msgid "_New Game"
 msgstr "_Nyt spil"
@@ -500,31 +494,31 @@ msgstr "_Afslut spillet"
 msgid "End the current game"
 msgstr "Afslut det aktuelle spil"
 
-#: ../libmateui/mate-app-helper.c:1150
+#: ../libmateui/mate-app-helper.c:1149
 msgid "_Contents"
 msgstr "_Indhold"
 
-#: ../libmateui/mate-app-helper.c:1153
+#: ../libmateui/mate-app-helper.c:1152
 msgid "View help for this application"
 msgstr "Vis hjælp til dette program"
 
-#: ../libmateui/mate-app-helper.c:2524
+#: ../libmateui/mate-app-helper.c:2523
 msgid "Text Below Icons"
 msgstr "Tekst under ikoner"
 
-#: ../libmateui/mate-app-helper.c:2525
+#: ../libmateui/mate-app-helper.c:2524
 msgid "Priority Text Beside Icons"
 msgstr "Prioriteret tekst ved siden af ikoner"
 
-#: ../libmateui/mate-app-helper.c:2526
+#: ../libmateui/mate-app-helper.c:2525
 msgid "Icons Only"
 msgstr "Kun ikoner"
 
-#: ../libmateui/mate-app-helper.c:2527
+#: ../libmateui/mate-app-helper.c:2526
 msgid "Text Only"
 msgstr "Kun tekst"
 
-#: ../libmateui/mate-app-helper.c:2588
+#: ../libmateui/mate-app-helper.c:2587
 #, c-format
 msgid "Use Desktop Default (%s)"
 msgstr "Benyt forvalgt for skrivebord (%s)"
@@ -611,9 +605,7 @@ msgstr "HTTP-mellemværten kræver at du logger på.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Du skal logge på for at tilgå \"%s\".\n"
-"%s"
+msgstr "Du skal logge på for at tilgå \"%s\".\n%s"
 
 #: ../libmateui/mate-authentication-manager.c:88
 msgid "Your password will be transmitted unencrypted."
@@ -628,7 +620,8 @@ msgstr "Din adgangskode vil blive sendt krypteret."
 msgid "Authentication Required"
 msgstr "Brugerverifikation krævet"
 
-#. Translators: "You must log in to acces user@server.com/share domain MYWINDOWSDOMAIN."
+#. Translators: "You must log in to acces user@server.com/share domain
+#. MYWINDOWSDOMAIN."
 #: ../libmateui/mate-authentication-manager.c:303
 #, c-format
 msgid "You must log in to access %s domain %s\n"
@@ -727,7 +720,7 @@ msgstr "Oprindelig tid"
 msgid "The initial time"
 msgstr "Den oprindelig tid"
 
-#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:96
+#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:93
 msgid "Date"
 msgstr "Dato"
 
@@ -757,7 +750,7 @@ msgid "mate_date_edit_get_date deprecated, use mate_date_edit_get_time"
 msgstr "mate_date_edit_get_date er forældet, brug mate_date_edit_get_time"
 
 #: ../libmateui/mate-druid-page-standard.c:115
-#: ../libmateui/mate-font-picker.c:147
+#: ../libmateui/mate-font-picker.c:127
 msgid "Title"
 msgstr "Titel"
 
@@ -769,7 +762,6 @@ msgstr "Titel for hjælperen"
 msgid "Logo image"
 msgstr "Logobilllede"
 
-# det er et nysseligt pyntebillede øverst i hjælperne
 #: ../libmateui/mate-druid-page-standard.c:131
 msgid "Top Watermark"
 msgstr "Vandmærke foroven"
@@ -896,11 +888,9 @@ msgstr "GTK-indtastningsfeltet"
 
 #: ../libmateui/mate-file-entry.c:234
 msgid ""
-"Unique identifier for the file entry.  This will be used to save the history "
-"list."
-msgstr ""
-"Unikt navn til filindtastningen - dette bliver brugt til at gemme "
-"historiklisten"
+"Unique identifier for the file entry.  This will be used to save the history"
+" list."
+msgstr "Unikt navn til filindtastningen - dette bliver brugt til at gemme historiklisten"
 
 #: ../libmateui/mate-file-entry.c:242 ../libmateui/mate-icon-entry.c:178
 msgid "Browse Dialog Title"
@@ -918,8 +908,7 @@ msgstr "Mappeindtastning"
 msgid ""
 "Whether the file entry is being used to enter directory names or complete "
 "filenames."
-msgstr ""
-"Om filindtastningen bruges til at indtaste mappenavne eller fuldføre filnavne"
+msgstr "Om filindtastningen bruges til at indtaste mappenavne eller fuldføre filnavne"
 
 #: ../libmateui/mate-file-entry.c:259
 msgid "Modal"
@@ -951,13 +940,10 @@ msgstr "MateEntry"
 
 #: ../libmateui/mate-file-entry.c:285
 msgid ""
-"MateEntry that the file entry uses for entering filenames.  You can use "
-"this property to get the MateEntry if you need to modify or query any of "
-"its parameters."
-msgstr ""
-"Den MateEntry som filindtastningen bruger til at indtaste filnavne. Du kan "
-"bruge denne egenskab til at få fat i MateEntry'en hvis du har behov for at "
-"ændre eller kende nogle af dens parametre"
+"MateEntry that the file entry uses for entering filenames.  You can use this"
+" property to get the MateEntry if you need to modify or query any of its "
+"parameters."
+msgstr "Den MateEntry som filindtastningen bruger til at indtaste filnavne. Du kan bruge denne egenskab til at få fat i MateEntry'en hvis du har behov for at ændre eller kende nogle af dens parametre"
 
 #: ../libmateui/mate-file-entry.c:295
 msgid "GtkEntry"
@@ -968,10 +954,7 @@ msgid ""
 "GtkEntry that the file entry uses for entering filenames.  You can use this "
 "property to get the GtkEntry if you need to modify or query any of its "
 "parameters."
-msgstr ""
-"Den GtkEntry som filindtastningen bruger til at indtaste filnavne. Du kan "
-"bruge denne egenskab til at få fat i GtkEntry'en hvis du har behov for at "
-"ændre eller kende nogle af dens parametre"
+msgstr "Den GtkEntry som filindtastningen bruger til at indtaste filnavne. Du kan bruge denne egenskab til at få fat i GtkEntry'en hvis du har behov for at ændre eller kende nogle af dens parametre"
 
 #: ../libmateui/mate-file-entry.c:306
 msgid "Use GtkFileChooser"
@@ -981,9 +964,7 @@ msgstr "Benyt GtkFileChooser"
 msgid ""
 "Whether to use the new GtkFileChooser widget or the GtkFileSelection widget "
 "to select files."
-msgstr ""
-"Om den nye GtkFileChooser-kontrol eller GtkFileSelection-kontrollen skal "
-"bruges til at vælge filer."
+msgstr "Om den nye GtkFileChooser-kontrol eller GtkFileSelection-kontrollen skal bruges til at vælge filer."
 
 #: ../libmateui/mate-file-entry.c:316
 msgid "GtkFileChooser Action"
@@ -1013,77 +994,74 @@ msgstr "_Gennemse..."
 msgid "Pop up a file selector to choose a file"
 msgstr "Vis et vindue til at vælge en fil"
 
-#: ../libmateui/mate-font-picker.c:58
+#: ../libmateui/mate-font-picker.c:60
 msgid "sans 12"
 msgstr "sans 12"
 
-#: ../libmateui/mate-font-picker.c:59
+#: ../libmateui/mate-font-picker.c:61
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 msgstr "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzÆæØøÅå"
 
-#: ../libmateui/mate-font-picker.c:60
+#: ../libmateui/mate-font-picker.c:62
 msgid "Pick a Font"
 msgstr "Vælg en skrifttype"
 
-#: ../libmateui/mate-font-picker.c:148
+#: ../libmateui/mate-font-picker.c:127
 msgid "The title of the selection dialog box"
 msgstr "Titel for vælgervinduet"
 
-#: ../libmateui/mate-font-picker.c:156
+#: ../libmateui/mate-font-picker.c:129
 msgid "Mode"
 msgstr "Tilstand"
 
-#: ../libmateui/mate-font-picker.c:157
+#: ../libmateui/mate-font-picker.c:129
 msgid "The mode of operation of the font picker"
 msgstr "Operationstilstand for skrifttypevælgeren"
 
-#: ../libmateui/mate-font-picker.c:166
+#: ../libmateui/mate-font-picker.c:131
 msgid "Font name"
 msgstr "Skrifttypenavn"
 
-#: ../libmateui/mate-font-picker.c:167
+#: ../libmateui/mate-font-picker.c:131
 msgid "Name of the selected font"
 msgstr "Navnet på den valgte skrifttype"
 
-#: ../libmateui/mate-font-picker.c:176 ../libmateui/mate-font-picker.c:972
-msgid "Font"
-msgstr "Skrifttype"
-
-#: ../libmateui/mate-font-picker.c:177
-msgid "The selected GtkFont"
-msgstr "Den valgte GtkFont"
-
-#: ../libmateui/mate-font-picker.c:184
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text"
 msgstr "Eksempeltekst"
 
-#: ../libmateui/mate-font-picker.c:185
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text shown in the dialog"
 msgstr "Eksempeltekst som vises i vinduet"
 
-#: ../libmateui/mate-font-picker.c:193
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in label"
 msgstr "Benyt skrifttype i etiket"
 
-#: ../libmateui/mate-font-picker.c:194
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in the label in font info mode"
 msgstr "Benyt skrifttypen i etiketten i skrifttypeinfotilstand"
 
-#: ../libmateui/mate-font-picker.c:202
+#. 8 min, 72 max, 14 default
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label"
 msgstr "Skriftstørrelse for etiket"
 
-#: ../libmateui/mate-font-picker.c:203
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label in font info mode"
 msgstr "Skriftstørrelsen for etiketten i skrifttypeinfotilstand"
 
-#: ../libmateui/mate-font-picker.c:213
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size"
 msgstr "Vis størrelse"
 
-#: ../libmateui/mate-font-picker.c:214
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size in font info mode"
 msgstr "Vis størrelse i skrifttypeinfotilstand"
+
+#: ../libmateui/mate-font-picker.c:864
+msgid "Font"
+msgstr "Skrifttype"
 
 #: ../libmateui/mate-mateconf-ui.c:61
 msgid "MATE MateConf UI Support"
@@ -1097,23 +1075,17 @@ msgstr "_Detaljer"
 #, c-format
 msgid ""
 "The application \"%s\" attempted to change an aspect of your configuration "
-"that your system administrator or operating system vendor does not allow you "
-"to change. Some of the settings you have selected may not take effect, or "
+"that your system administrator or operating system vendor does not allow you"
+" to change. Some of the settings you have selected may not take effect, or "
 "may not be restored next time you use the application."
-msgstr ""
-"Programmet \"%s\" forsøgte at ændre et aspekt ved din konfiguration som din "
-"systemadministrator ikke tillader dig at ændre. Nogle af de indstillingerne "
-"du har angivet, vil muligvis ikke træde i kraft eller blive husket til næste "
-"gang du bruger dette program."
+msgstr "Programmet \"%s\" forsøgte at ændre et aspekt ved din konfiguration som din systemadministrator ikke tillader dig at ændre. Nogle af de indstillingerne du har angivet, vil muligvis ikke træde i kraft eller blive husket til næste gang du bruger dette program."
 
 #: ../libmateui/mate-mateconf-ui.c:178
 #, c-format
 msgid ""
 "An error occurred while loading or saving configuration information for %s. "
 "Some of your configuration settings may not work properly."
-msgstr ""
-"En fejl opstod under indlæsning eller gemning af konfigurationsoplysninger "
-"for %s. Nogle af indstillingerne virker måske ikke korrekt."
+msgstr "En fejl opstod under indlæsning eller gemning af konfigurationsoplysninger for %s. Nogle af indstillingerne virker måske ikke korrekt."
 
 #: ../libmateui/mate-href.c:102
 msgid "URL"
@@ -1151,17 +1123,13 @@ msgstr "Denne knap vil bringe dig videre til den adresse den viser."
 msgid ""
 "An error has occurred while trying to launch the default web browser.\n"
 "Please check your settings in the 'Preferred Applications' preference tool."
-msgstr ""
-"En fejl opstod under forsøg på at starte den forvalgte webbrowser.\n"
-"Kontrollér dine indstillingerne i værktøjet \"Foretrukne programmer\"."
+msgstr "En fejl opstod under forsøg på at starte den forvalgte webbrowser.\nKontrollér dine indstillingerne i værktøjet \"Foretrukne programmer\"."
 
 #: ../libmateui/mate-icon-entry.c:170
 msgid ""
-"Unique identifier for the icon entry.  This will be used to save the history "
-"list."
-msgstr ""
-"Unikt navn til ikonindtastningen - dette bliver brugt til at gemme "
-"historiklisten"
+"Unique identifier for the icon entry.  This will be used to save the history"
+" list."
+msgstr "Unikt navn til ikonindtastningen - dette bliver brugt til at gemme historiklisten"
 
 #: ../libmateui/mate-icon-entry.c:179
 msgid "Title for the Browse icon dialog."
@@ -1187,10 +1155,7 @@ msgstr "Ikonvælgervindue"
 msgid ""
 "Icon picker dialog.  You can use this property to get the GtkDialog if you "
 "need to modify or query any of its properties."
-msgstr ""
-"Ikonvælgervinde - du kan bruge denne egenskab til at få fat i den "
-"underliggende GtkDialog hvis du har behov for at ændre eller kende nogle af "
-"dens parametre"
+msgstr "Ikonvælgervinde - du kan bruge denne egenskab til at få fat i den underliggende GtkDialog hvis du har behov for at ændre eller kende nogle af dens parametre"
 
 #: ../libmateui/mate-icon-entry.c:312 ../libmateui/mate-icon-entry.c:996
 msgid "Choose Icon"
@@ -1320,13 +1285,9 @@ msgstr "Vis eksempel"
 msgid "Whether the pixmap entry should have a preview."
 msgstr "Om billedindtastningen skal have et eksempel"
 
-# som "No Icon"
-#: ../libmateui/mate-pixmap-entry.c:179
-#: ../libmateui/mate-pixmap-entry.c:473
+#: ../libmateui/mate-pixmap-entry.c:179 ../libmateui/mate-pixmap-entry.c:473
 msgid "No Image"
-msgstr ""
-"Intet\n"
-"billede"
+msgstr "Intet\nbillede"
 
 #: ../libmateui/mate-pixmap-entry.c:196
 msgid "Image Preview"
@@ -1344,26 +1305,26 @@ msgstr "Kan ikke finde en hbox, bruger en almindelig filvælger"
 msgid "Preview"
 msgstr "Eksempel"
 
-#: ../libmateui/mate-scores.c:77
+#: ../libmateui/mate-scores.c:74
 msgid "Top Ten"
 msgstr "Top ti"
 
-#: ../libmateui/mate-scores.c:90
+#: ../libmateui/mate-scores.c:87
 msgid "User"
 msgstr "Bruger"
 
-#: ../libmateui/mate-scores.c:93
+#: ../libmateui/mate-scores.c:90
 msgid "Score"
 msgstr "Point"
 
 #. TRANSLATORS NOTE: Date format used when showing scores in games.
 #. * Please refer to manpage of strftime(3) for complete reference.
-#.
-#: ../libmateui/mate-scores.c:193
+#. 
+#: ../libmateui/mate-scores.c:182
 msgid "%a %b %d %T %Y"
 msgstr "%a %d %b %Y %T"
 
-#: ../libmateui/mate-scores.c:394
+#: ../libmateui/mate-scores.c:369
 msgid "Sans 14"
 msgstr "Sans 14"
 
@@ -1419,232 +1380,10 @@ msgstr "TERMINAL"
 msgid "MATE GUI Library"
 msgstr "MATE GUI-bibliotek"
 
-#: ../libmateui/mate-ui-init.c:232
+#: ../libmateui/mate-ui-init.c:226
 msgid "Could not open link"
 msgstr "Kunne ikke åbne henvisning"
 
 #: ../test-mate/testmate.xml.h:3
 msgid "Exit the test"
 msgstr "Afslut testprogrammet"
-
-#~ msgid "%s is a link to something that is not a folder"
-#~ msgstr "%s er en henvisning til noget som ikke er en mappe"
-
-#~ msgid "%s is a link without a destination location"
-#~ msgstr "%s er en henvisning uden bestemmelsessted"
-
-#~ msgid "%s is not a folder"
-#~ msgstr "%s er ikke en mappe"
-
-#~ msgid "Could not monitor '%s': %s"
-#~ msgstr "Kunne ikke overvåge \"%s\": %s"
-
-#~ msgid "Could not get info for '%s': %s"
-#~ msgstr "Kunne ikke skaffe oplysninger om \"%s\": %s"
-
-#~ msgid "Could not create '%s': %s"
-#~ msgstr "Kunne ikke oprette \"%s\": %s"
-
-#~ msgid "Network Servers"
-#~ msgstr "Netværksservere"
-
-#~ msgid "File System"
-#~ msgstr "Filsystem"
-
-#~ msgid "'%s': %s"
-#~ msgstr "\"%s\": %s"
-
-#~ msgid "Bookmark saving failed (%s)"
-#~ msgstr "Bogmærkegemning mislykkedes (%s)"
-
-#~ msgid "Error getting information for '%s'"
-#~ msgstr "Fejl ved indhentning af information for \"%s\""
-
-#~ msgid "Could not get information for file '%s': %s"
-#~ msgstr "Kunne ikke skaffe oplysninger om filen \"%s\": %s"
-
-#~ msgid "Failed to open file '%s': %s"
-#~ msgstr "Kunne ikke åbne filen \"%s\": %s"
-
-#~ msgid ""
-#~ "Failed to load image '%s': reason not known, probably a corrupt image file"
-#~ msgstr ""
-#~ "Kunne ikke indlæse billedet \"%s\": ukendt årsag, formodentlig en ødelagt "
-#~ "billedfil"
-
-#~ msgid "Multiple segmentation faults occurred; can't display error dialog\n"
-#~ msgstr "Flere segmentfejl opstod; kan ikke vise fejlvinduet\n"
-
-#~ msgid ""
-#~ "Segmentation fault!\n"
-#~ "Cannot display crash dialog\n"
-#~ msgstr ""
-#~ "Segmentfejl!\n"
-#~ "Kan ikke vise nedbrudsvinduet\n"
-
-#~ msgid "Usage: mate_segv2 appname signum\n"
-#~ msgstr "Brug: mate_segv2 programnavn signum\n"
-
-#~ msgid "Debugging %s"
-#~ msgstr "Fejlfinder i %s"
-
-#~ msgid ""
-#~ "<b>The application %s has crashed.</b>\n"
-#~ "\n"
-#~ "Please install <b>bug-buddy</b>, the\n"
-#~ "MATE crash report tool, which enables you\n"
-#~ "to send the developers detailed information\n"
-#~ "about the error.\n"
-#~ msgstr ""
-#~ "<b>Programmet %s er gået ned.</b>\n"
-#~ "\n"
-#~ "Installér venligst <b>bug-buddy</b> (Fejl-Frede)\n"
-#~ "som er MATEs fejlrapporteringsværktøj. Dette\n"
-#~ "program sætter dig i stand til at sende detaljerede\n"
-#~ "fejlrapporter af sted til programudviklerne.\n"
-
-#~ msgid "Error reading file '%s': %s"
-#~ msgstr "Fejl ved læsning af filen \"%s\": %s"
-
-#~ msgid "Error rewinding file '%s': %s"
-#~ msgstr "Fejl ved tilbagespoling af filen \"%s\": %s"
-
-#~ msgid "No name"
-#~ msgstr "Intet navn"
-
-#~ msgid "File '%s' is not a regular file or directory."
-#~ msgstr "Filen %s er ikke en almindelig fil eller mappe"
-
-#~ msgid "Error cannot find file id '%s'"
-#~ msgstr "Fejl, kan ikke finde fil-id \"%s\""
-
-#~ msgid "No filename to save to"
-#~ msgstr "Intet filnavn at gemme under"
-
-#~ msgid "Starting %s"
-#~ msgstr "Starter %s"
-
-#~ msgid "No URL to launch"
-#~ msgstr "Ingen URL at starte"
-
-#~ msgid "Not a launchable item"
-#~ msgstr "Ikke et kørbart element"
-
-#~ msgid "No command (Exec) to launch"
-#~ msgstr "Ingen kommando (Exec) at køre"
-
-#~ msgid "Bad command (Exec) to launch"
-#~ msgstr "Ugyldig kommando (Exec)"
-
-#~ msgid "Unknown encoding of: %s"
-#~ msgstr "Ukendt tegnkodning af: %s"
-
-#~ msgid "Error writing file '%s': %s"
-#~ msgstr "Fejl ved skrivning af filen \"%s\": %s"
-
-#~ msgid "History id"
-#~ msgstr "Historik-id"
-
-#~ msgid "Icon selector"
-#~ msgstr "Ikonvælger"
-
-#~ msgid "Save password in _keyring"
-#~ msgstr "Gem adgangskode i n_øglering"
-
-#~ msgid ""
-#~ "The MATE Session Manager (process %d) has crashed\n"
-#~ "due to a fatal error (%s).\n"
-#~ "When you close this dialog, all applications will close and your session "
-#~ "will exit.\n"
-#~ "Please save all your files before closing this dialog."
-#~ msgstr ""
-#~ "Mates sessionhåndtering (proces %d) er gået ned\n"
-#~ "pga. en fatal fejl (%s).\n"
-#~ "Når du lukker dette vindue, vil alle programmer lukke og din session "
-#~ "afslutte.\n"
-#~ "Gem alle åbne filer før du lukker dette vindue."
-
-#~ msgid "The Application \"%s\" has quit unexpectedly."
-#~ msgstr "Programmet \"%s\" er uventet død."
-
-#~ msgid "process %d: %s"
-#~ msgstr "proces %d: %s"
-
-#~ msgid ""
-#~ "You can inform the developers of what happened to help them fix it.  Or "
-#~ "you can restart the application right now."
-#~ msgstr ""
-#~ "Du kan informere udviklerne om hvad der er sket for at hjælpe dem til at "
-#~ "rette problemet. Eller du kan genstarte programmet med det samme."
-
-#~ msgid "_Restart Application"
-#~ msgstr "_Genstart program"
-
-#~ msgid "_Inform Developers"
-#~ msgstr "_Informér udviklere"
-
-#~ msgid "_Debug"
-#~ msgstr "_Fejlanalysering"
-
-#~ msgid " domain %s"
-#~ msgstr " domæne %s"
-
-#~ msgid "Color Selector"
-#~ msgstr "Farvevælger"
-
-#~ msgid "Gdk debugging flags to set"
-#~ msgstr "Gdk-fejlsøgningsflag som skal aktiveres"
-
-#~ msgid "FLAGS"
-#~ msgstr "FLAG"
-
-#~ msgid "Gdk debugging flags to unset"
-#~ msgstr "Gdk-fejlsøgningsflag som skal deaktiveres"
-
-#~ msgid "Make X calls synchronous"
-#~ msgstr "Gør X-kald synkrone"
-
-#~ msgid "Don't use X shared memory extension"
-#~ msgstr "Brug ikke X-udvidelse til delt hukommelse"
-
-#~ msgid "Program name as used by the window manager"
-#~ msgstr "Programnavn som benyttet af vindueshåndteringen"
-
-#~ msgid "NAME"
-#~ msgstr "NAVN"
-
-#~ msgid "Program class as used by the window manager"
-#~ msgstr "Programklasse som benyttet af vindueshåndteringen"
-
-#~ msgid "CLASS"
-#~ msgstr "KLASSE"
-
-#~ msgid "HOST"
-#~ msgstr "VÆRT"
-
-#~ msgid "PORT"
-#~ msgstr "PORT"
-
-#~ msgid "STYLE"
-#~ msgstr "STIL"
-
-#~ msgid "Gtk+ debugging flags to set"
-#~ msgstr "Gtk+-fejlsøgningsflag som skal aktiveres"
-
-#~ msgid "Gtk+ debugging flags to unset"
-#~ msgstr "Gtk+-fejlsøgningsflag som skal deaktiveres"
-
-#~ msgid "Make all warnings fatal"
-#~ msgstr "Gør alle advarsler fatale"
-
-#~ msgid "Load an additional Gtk module"
-#~ msgstr "Indlæs et ekstra Gtk+-modul"
-
-#~ msgid "MODULE"
-#~ msgstr "MODUL"
-
-#~ msgid "GTK+"
-#~ msgstr "GTK+"
-
-#~ msgid "MateConf error details: %s\n"
-#~ msgstr "Detaljer om MateConf-fejl: %s\n"

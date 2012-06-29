@@ -1,25 +1,24 @@
-# translation of libmateui.master.or.po to Oriya
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
-# Subhransu Behera <arya_subhransu@yahoo.co.in>, 2006, 2007.
+# 
+# Translators:
 # Manoj Kumar Giri <giri.manojkr@gmail.com>, 2008.
 # Manoj Kumar Giri <mgiri@redhat.com>, 2010.
+# Subhransu Behera <arya_subhransu@yahoo.co.in>, 2006, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateui.master.or\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libmateui&component=general\n"
-"POT-Creation-Date: 2010-05-07 07:19+0000\n"
-"PO-Revision-Date: 2010-05-11 21:15+0530\n"
-"Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
-"Language-Team: Oriya <Translation-team-or@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-22 19:43+0100\n"
+"PO-Revision-Date: 2012-02-22 18:51+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
+"Language: or\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../demos/mdi_demo.c:128
 msgid "Child Item 1"
@@ -37,114 +36,114 @@ msgstr "ଶିଶୁ ବସ୍ତୁ 2"
 msgid "Hint for item 2"
 msgstr "ବସ୍ତୁ 2 ବିଷୟରେ ଆଭାସ"
 
-#: ../libmateui/mate-about.c:187
+#: ../libmateui/mate-about.c:199
 msgid "Credits"
 msgstr "ସ୍ବୀକ୍ରୁତି"
 
-#: ../libmateui/mate-about.c:219
+#: ../libmateui/mate-about.c:222
 msgid "Written by"
 msgstr "ଲେଖକ"
 
-#: ../libmateui/mate-about.c:234
+#: ../libmateui/mate-about.c:235
 msgid "Documented by"
 msgstr "ଦଲିଲ ଲେଖକ"
 
-#: ../libmateui/mate-about.c:249
+#: ../libmateui/mate-about.c:248
 msgid "Translated by"
 msgstr "ଅନୁବାଦକ"
 
-#: ../libmateui/mate-about.c:312
+#: ../libmateui/mate-about.c:315
 msgid "C_redits"
 msgstr "ସ୍ବୀକୃତି (_r)"
 
-#: ../libmateui/mate-about.c:365
+#: ../libmateui/mate-about.c:367
 msgid "Program name"
 msgstr "ପ୍ରଗ୍ରାମ ନାମ"
 
-#: ../libmateui/mate-about.c:366
+#: ../libmateui/mate-about.c:368
 msgid "The name of the program"
 msgstr "ପ୍ରୋଗ୍ରାମ ର ନାମ"
 
-#: ../libmateui/mate-about.c:373
+#: ../libmateui/mate-about.c:375
 msgid "Program version"
 msgstr "ପ୍ରୋଗ୍ରାମ ର ସଂସ୍କରଣ"
 
-#: ../libmateui/mate-about.c:374
+#: ../libmateui/mate-about.c:376
 msgid "The version of the program"
 msgstr "ପ୍ରୋଗ୍ରାମ ର ସଂସ୍କରଣ"
 
-#: ../libmateui/mate-about.c:380
+#: ../libmateui/mate-about.c:382
 msgid "Copyright string"
 msgstr "ସ୍ବତ୍ତ୍ବାଧୀକାର ବାକ୍ଯଖଣ୍ଡ"
 
-#: ../libmateui/mate-about.c:381
+#: ../libmateui/mate-about.c:383
 msgid "Copyright information for the program"
 msgstr "ପ୍ରୋଗ୍ରାମ ପାଇଁ ସ୍ବତ୍ତ୍ବାଧୀକାର ସୂଚନା"
 
-#: ../libmateui/mate-about.c:388
+#: ../libmateui/mate-about.c:390
 msgid "Comments string"
 msgstr "ଟିପ୍ପଣୀ ବାକ୍ଯଖଣ୍ଡ"
 
-#: ../libmateui/mate-about.c:389
+#: ../libmateui/mate-about.c:391
 msgid "Comments about the program"
 msgstr "ପ୍ରୋଗ୍ରାମ ବିଷୟରେ ଟିପ୍ପଣୀ"
 
-#: ../libmateui/mate-about.c:395
+#: ../libmateui/mate-about.c:397
 msgid "Authors"
 msgstr "ଲେଖକଗଣ"
 
-#: ../libmateui/mate-about.c:396
+#: ../libmateui/mate-about.c:398
 msgid "List of authors of the programs"
 msgstr "ପ୍ରୋଗ୍ରାମ ପାଇଁ ଲେଖକ ମାନଙ୍କର ତାଲିକା"
 
-#: ../libmateui/mate-about.c:398
+#: ../libmateui/mate-about.c:400
 msgid "Author entry"
 msgstr "ଲେଖକ ପ୍ରବିଷ୍ଟି"
 
-#: ../libmateui/mate-about.c:399
+#: ../libmateui/mate-about.c:401
 msgid "A single author entry"
 msgstr "ଏକମାତ୍ର ଲେଖକ ପ୍ରବିଷ୍ଟି"
 
-#: ../libmateui/mate-about.c:406
+#: ../libmateui/mate-about.c:408
 msgid "Documenters"
 msgstr "ଦସ୍ତାବେଜକର୍ତା"
 
-#: ../libmateui/mate-about.c:407
+#: ../libmateui/mate-about.c:409
 msgid "List of people documenting the program"
 msgstr "ଏହି ପ୍ରୋଗ୍ରାମର ଦସ୍ତାବେଜୀକରଣ କରୁଥିବା ବ୍ଯକ୍ତି ମାନଙ୍କ ସୂଚୀ"
 
-#: ../libmateui/mate-about.c:409
+#: ../libmateui/mate-about.c:411
 msgid "Documenter entry"
 msgstr "ଦସ୍ତାବେଜକର୍ତା ପ୍ରବିଷ୍ଟି"
 
-#: ../libmateui/mate-about.c:410
+#: ../libmateui/mate-about.c:412
 msgid "A single documenter entry"
 msgstr "ଏକମାତ୍ର ଦସ୍ତାବେଜକର୍ତା ପ୍ରବିଷ୍ଟି"
 
-#: ../libmateui/mate-about.c:418
+#: ../libmateui/mate-about.c:420
 msgid "Translator credits"
 msgstr "ଶୁଭ୍ରାଂଶୁ ବେହେରା <arya_subhransu@yahoo.co.in>"
 
-#: ../libmateui/mate-about.c:419
-msgid "Credits to the translators. This string should be marked as translatable"
+#: ../libmateui/mate-about.c:421
+msgid ""
+"Credits to the translators. This string should be marked as translatable"
 msgstr "ଅନୁବାଦକ ମାନଙ୍କୁ ଶ୍ରେୟ। ଏହି ବାକ୍ଯଖଣ୍ଡକୁ ଅନୁବାଦ ଯୋଗ୍ଯ ବୋଲି ଚିହ୍ନିତ କରାଯିବା ଉଚିତ"
 
-#: ../libmateui/mate-about.c:426
-#: ../libmateui/mate-druid-page-standard.c:123
+#: ../libmateui/mate-about.c:428 ../libmateui/mate-druid-page-standard.c:123
 msgid "Logo"
 msgstr "ପ୍ରତୀକ"
 
-#: ../libmateui/mate-about.c:427
+#: ../libmateui/mate-about.c:429
 msgid "A logo for the about box"
 msgstr "ବିବରଣୀ ବାକ୍ସ ପାଇଁ ଗୋଟିଏ ପ୍ରତୀକ"
 
-#: ../libmateui/mate-about.c:506
+#: ../libmateui/mate-about.c:503
 #, c-format
 msgid "About %s"
 msgstr "%s ବିଷୟରେ"
 
 #. Some standard menus
-#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:551
+#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:553
 #: ../test-mate/testmate.xml.h:5
 msgid "_File"
 msgstr "ଫାଇଲ (_F)"
@@ -153,7 +152,7 @@ msgstr "ଫାଇଲ (_F)"
 msgid "_File/"
 msgstr "ଫାଇଲ (_F)/"
 
-#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:554
+#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:556
 msgid "_Edit"
 msgstr "ସମ୍ପାଦନ କରନ୍ତୁ (_E)"
 
@@ -161,7 +160,7 @@ msgstr "ସମ୍ପାଦନ କରନ୍ତୁ (_E)"
 msgid "_Edit/"
 msgstr "ସମ୍ପାଦନ କରନ୍ତୁ (_E)/"
 
-#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:557
+#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:559
 msgid "_View"
 msgstr "ଦ୍ରୁଶ୍ଯ (_V)"
 
@@ -169,7 +168,7 @@ msgstr "ଦ୍ରୁଶ୍ଯ (_V)"
 msgid "_View/"
 msgstr "ଦ୍ରୁଶ୍ଯ (_V)/"
 
-#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:560
+#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:562
 msgid "_Settings"
 msgstr "ବିନ୍ଯାସ (_S)"
 
@@ -178,7 +177,7 @@ msgid "_Settings/"
 msgstr "ବିନ୍ଯାସ (_S)/"
 
 #. If you have more then one New type, use this tree
-#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:326
+#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:328
 msgid "_New"
 msgstr "ନୂତନ (_N)"
 
@@ -186,7 +185,7 @@ msgstr "ନୂତନ (_N)"
 msgid "_New/"
 msgstr "ନୂତନ (_N)/"
 
-#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:563
+#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:565
 msgid "Fi_les"
 msgstr "ଫାଇଲଗୁଡ଼ିକ (_l)"
 
@@ -194,15 +193,15 @@ msgstr "ଫାଇଲଗୁଡ଼ିକ (_l)"
 msgid "Fi_les/"
 msgstr "ଫାଇଲଗୁଡ଼ିକ (_l)/"
 
-#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:566
+#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:568
 msgid "_Windows"
 msgstr "Windows (_W)"
 
-#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:572
+#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:574
 msgid "_Game"
 msgstr "ଖେଳ (_G)"
 
-#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:569
+#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:571
 #: ../test-mate/testmate.xml.h:6
 msgid "_Help"
 msgstr "ସହାୟତା (_H)"
@@ -283,9 +282,8 @@ msgstr "ବିଦାୟ ନିଅନ୍ତୁ (_Q)"
 msgid "Quit the application"
 msgstr "ପ୍ରୟୋଗକୁ ଛାଡି ଦିଅନ୍ତୁ"
 
-#.
 #. * The "Edit" menu
-#.
+#. 
 #. Cut
 #: ../libmateui/mate-app-helper.c:158
 msgid "Cu_t"
@@ -377,9 +375,8 @@ msgstr "ଗୁଣଧର୍ମ (_P)"
 msgid "Modify the file's properties"
 msgstr "ଫାଇଲର ଗୁଣଧର୍ମକୁ ପରିବର୍ତିତ କରନ୍ତୁ"
 
-#.
 #. * The Settings menu
-#.
+#. 
 #. Settings
 #: ../libmateui/mate-app-helper.c:214
 msgid "Prefere_nces"
@@ -390,9 +387,9 @@ msgid "Configure the application"
 msgstr "ପ୍ରୟୋଗକୁ ବିନ୍ଯାସ କରନ୍ତୁ"
 
 #. 20
-#.
+#. 
 #. * And the "Help" menu
-#.
+#. 
 #. About
 #: ../libmateui/mate-app-helper.c:224 ../test-mate/testmate.xml.h:4
 msgid "_About"
@@ -410,9 +407,8 @@ msgstr "ସବୁକିଛି ଚୟନ କରନ୍ତୁ (_A)"
 msgid "Select everything"
 msgstr "ସବୁ ବାଛନ୍ତୁ"
 
-#.
 #. * Window menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:237
 msgid "Create New _Window"
 msgstr "ନୂତନ ୱିଣ୍ଡୋ ସ୍ରୁଷ୍ଟି କରନ୍ତୁ (_W)"
@@ -429,9 +425,8 @@ msgstr "ଏହି ୱିଣ୍ଡୋକୁ ବନ୍ଦ କରନ୍ତୁ (_C)"
 msgid "Close the current window"
 msgstr "ସାମ୍ପ୍ରତିକ ୱିଣ୍ଡୋ ବନ୍ଦ କରନ୍ତୁ"
 
-#.
 #. * The "Game" menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:251
 msgid "_New Game"
 msgstr "ନୂତନ ଖେଳ (_N)"
@@ -497,31 +492,31 @@ msgstr "ଖେଳ ବନ୍ଦ କରନ୍ତୁ (_E)"
 msgid "End the current game"
 msgstr "ସାମ୍ପ୍ରତିକ ଖେଳକୁ ବନ୍ଦ କରନ୍ତୁ"
 
-#: ../libmateui/mate-app-helper.c:1150
+#: ../libmateui/mate-app-helper.c:1149
 msgid "_Contents"
 msgstr "ସୂଚୀପତ୍ର (_C)"
 
-#: ../libmateui/mate-app-helper.c:1153
+#: ../libmateui/mate-app-helper.c:1152
 msgid "View help for this application"
 msgstr "ଏହି ପ୍ରୟୋଗ ପାଇଁ ସହାୟତା ଦେଖନ୍ତୁ"
 
-#: ../libmateui/mate-app-helper.c:2524
+#: ../libmateui/mate-app-helper.c:2523
 msgid "Text Below Icons"
 msgstr "ଚିତ୍ରସଙ୍କେତ ତଳେ ପାଠ୍ଯ"
 
-#: ../libmateui/mate-app-helper.c:2525
+#: ../libmateui/mate-app-helper.c:2524
 msgid "Priority Text Beside Icons"
 msgstr "ଚିତ୍ରସଙ୍କେତ ପାଖରେ ଗୁରୁତ୍ବପୂର୍ଣ୍ଣ ପାଠ୍ଯ"
 
-#: ../libmateui/mate-app-helper.c:2526
+#: ../libmateui/mate-app-helper.c:2525
 msgid "Icons Only"
 msgstr "କେବଳ ଚିତ୍ରସଙ୍କେତ"
 
-#: ../libmateui/mate-app-helper.c:2527
+#: ../libmateui/mate-app-helper.c:2526
 msgid "Text Only"
 msgstr "କେବଳ ପାଠ୍ଯ"
 
-#: ../libmateui/mate-app-helper.c:2588
+#: ../libmateui/mate-app-helper.c:2587
 #, c-format
 msgid "Use Desktop Default (%s)"
 msgstr "ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ଡେସ୍କଟପ୍ (%s)କୁ ବ୍ଯବହାର କରନ୍ତୁ"
@@ -608,9 +603,7 @@ msgstr "ଆପଣଙ୍କର HTTP ପ୍ରୋକ୍ସି ଅଭିଗମ ପ�
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"\"%s\"କୁ ଅଭିଗମ କରିବା ପାଇଁ ଆପଣ ଲଗଇନ୍ କରିବା ଉଚିତ।\n"
-"%s"
+msgstr "\"%s\"କୁ ଅଭିଗମ କରିବା ପାଇଁ ଆପଣ ଲଗଇନ୍ କରିବା ଉଚିତ।\n%s"
 
 #: ../libmateui/mate-authentication-manager.c:88
 msgid "Your password will be transmitted unencrypted."
@@ -625,7 +618,8 @@ msgstr "ଆପଣଙ୍କ ପ୍ରବେଶ ସଙ୍କେତଟି ବିନ
 msgid "Authentication Required"
 msgstr "ବୈଧିକରଣ ଆବଶ୍ଯକ"
 
-#. Translators: "You must log in to acces user@server.com/share domain MYWINDOWSDOMAIN."
+#. Translators: "You must log in to acces user@server.com/share domain
+#. MYWINDOWSDOMAIN."
 #: ../libmateui/mate-authentication-manager.c:303
 #, c-format
 msgid "You must log in to access %s domain %s\n"
@@ -724,7 +718,7 @@ msgstr "ପ୍ରାରମ୍ଭିକ ସମୟ"
 msgid "The initial time"
 msgstr "ପ୍ରାରମ୍ଭିକ ସମୟ"
 
-#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:96
+#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:93
 msgid "Date"
 msgstr "ତାରିଖ"
 
@@ -754,7 +748,7 @@ msgid "mate_date_edit_get_date deprecated, use mate_date_edit_get_time"
 msgstr "mate_date_edit_get_date ଅବରୋଧିତ ଅଟେ, mate_date_edit_get_timeକୁ ବ୍ଯବହାର କରନ୍ତୁ"
 
 #: ../libmateui/mate-druid-page-standard.c:115
-#: ../libmateui/mate-font-picker.c:147
+#: ../libmateui/mate-font-picker.c:127
 msgid "Title"
 msgstr "ଶୀର୍ଷକ"
 
@@ -892,8 +886,8 @@ msgstr "GTK ପ୍ରବିଷ୍ଟି"
 
 #: ../libmateui/mate-file-entry.c:234
 msgid ""
-"Unique identifier for the file entry.  This will be used to save the history "
-"list."
+"Unique identifier for the file entry.  This will be used to save the history"
+" list."
 msgstr "ଫାଇଲ ଭରଣ ପାଇଁ ଅନନ୍ଯ ପରିଚୟ। ଇତିହାସ ତାଲିକାକୁ ସଂରକ୍ଷିତ କରିବା ପାଇଁ ଏହା ବ୍ଯବହାର କରାଯିବ।"
 
 #: ../libmateui/mate-file-entry.c:242 ../libmateui/mate-icon-entry.c:178
@@ -944,13 +938,10 @@ msgstr "Mate ପ୍ରବିଷ୍ଟି"
 
 #: ../libmateui/mate-file-entry.c:285
 msgid ""
-"MateEntry that the file entry uses for entering filenames.  You can use "
-"this property to get the MateEntry if you need to modify or query any of "
-"its parameters."
-msgstr ""
-"MateEntry ଗୋଟିଏ ଫାଇଲ ପ୍ରବିଷ୍ଟି ଫାଇଲ ଯାହାକୁ ଫାଇଲ ନାମ ମାନଙ୍କୁ ଭରଣ କରିବା ପାଇଁ ବ୍ଯବହାର "
-"କରାଯାଏ। ଆପଣ ଏହାର କୌଣସି ପାରାମିଟରକୁ ଆପଣ ରୂପାନ୍ତରିତ କରିବା ପାଇଁ କିମ୍ବା ପ୍ରଶ୍ନ ପଚାରିବା ପାଇଁ ଯଦି "
-"ଚାହୁଁଛନ୍ତି ତାହାହେଲେ ଏହି ଗୁଣକୁ MateEntry ପାଇବା ପାଇଁ ବ୍ଯବହାର କରି ପାରିବେ।"
+"MateEntry that the file entry uses for entering filenames.  You can use this"
+" property to get the MateEntry if you need to modify or query any of its "
+"parameters."
+msgstr "MateEntry ଗୋଟିଏ ଫାଇଲ ପ୍ରବିଷ୍ଟି ଫାଇଲ ଯାହାକୁ ଫାଇଲ ନାମ ମାନଙ୍କୁ ଭରଣ କରିବା ପାଇଁ ବ୍ଯବହାର କରାଯାଏ। ଆପଣ ଏହାର କୌଣସି ପାରାମିଟରକୁ ଆପଣ ରୂପାନ୍ତରିତ କରିବା ପାଇଁ କିମ୍ବା ପ୍ରଶ୍ନ ପଚାରିବା ପାଇଁ ଯଦି ଚାହୁଁଛନ୍ତି ତାହାହେଲେ ଏହି ଗୁଣକୁ MateEntry ପାଇବା ପାଇଁ ବ୍ଯବହାର କରି ପାରିବେ।"
 
 #: ../libmateui/mate-file-entry.c:295
 msgid "GtkEntry"
@@ -961,10 +952,7 @@ msgid ""
 "GtkEntry that the file entry uses for entering filenames.  You can use this "
 "property to get the GtkEntry if you need to modify or query any of its "
 "parameters."
-msgstr ""
-"GtkEntry ଗୋଟିଏ ଫାଇଲ ପ୍ରବିଷ୍ଟି ଫାଇଲ ଯାହାକୁ ଫାଇଲ ନାମ ମାନଙ୍କୁ ଭରଣ କରିବା ପାଇଁ ବ୍ଯବହାର "
-"କରାଯାଏ। ଆପଣ ଏହାର କୌଣସି ପାରାମିଟରକୁ ଆପଣ ରୂପାନ୍ତରିତ କରିବା ପାଇଁ କିମ୍ବା ପ୍ରଶ୍ନ ପଚାରିବା ପାଇଁ ଯଦି "
-"ଚାହୁଁଛନ୍ତି ତାହାହେଲେ ଏହି ଗୁଣକୁ GtkEntry ପାଇବା ପାଇଁ ବ୍ଯବହାର କରି ପାରିବେ।"
+msgstr "GtkEntry ଗୋଟିଏ ଫାଇଲ ପ୍ରବିଷ୍ଟି ଫାଇଲ ଯାହାକୁ ଫାଇଲ ନାମ ମାନଙ୍କୁ ଭରଣ କରିବା ପାଇଁ ବ୍ଯବହାର କରାଯାଏ। ଆପଣ ଏହାର କୌଣସି ପାରାମିଟରକୁ ଆପଣ ରୂପାନ୍ତରିତ କରିବା ପାଇଁ କିମ୍ବା ପ୍ରଶ୍ନ ପଚାରିବା ପାଇଁ ଯଦି ଚାହୁଁଛନ୍ତି ତାହାହେଲେ ଏହି ଗୁଣକୁ GtkEntry ପାଇବା ପାଇଁ ବ୍ଯବହାର କରି ପାରିବେ।"
 
 #: ../libmateui/mate-file-entry.c:306
 msgid "Use GtkFileChooser"
@@ -974,9 +962,7 @@ msgstr "Gtk ଫାଇଲ ଚୟନକକୁ ବ୍ଯବହାର କରନ୍�
 msgid ""
 "Whether to use the new GtkFileChooser widget or the GtkFileSelection widget "
 "to select files."
-msgstr ""
-"ଫାଇଲ ମାନଙ୍କୁ ଚୟନ କରିବା ପାଇଁ ନୂତନ GtkFileChooser ୱିଜେଟ ଏବଂ GtkFileSelection ୱିବିଜେଟ "
-"ମଧ୍ଯରୁ କାହାକୁ ବ୍ଯବହାର କରିବ।"
+msgstr "ଫାଇଲ ମାନଙ୍କୁ ଚୟନ କରିବା ପାଇଁ ନୂତନ GtkFileChooser ୱିଜେଟ ଏବଂ GtkFileSelection ୱିବିଜେଟ ମଧ୍ଯରୁ କାହାକୁ ବ୍ଯବହାର କରିବ।"
 
 #: ../libmateui/mate-file-entry.c:316
 msgid "GtkFileChooser Action"
@@ -1006,77 +992,74 @@ msgstr "ବ୍ରାଉଜ କରନ୍ତୁ (_B)..."
 msgid "Pop up a file selector to choose a file"
 msgstr "ଗୋଟିଏ ଫାଇଲ ଚୟନ କରିବା ପାଇଁ ଫାଇଲ ଚୟନକଙ୍କୁ ବାହାରକୁ ଆଣନ୍ତୁ"
 
-#: ../libmateui/mate-font-picker.c:58
+#: ../libmateui/mate-font-picker.c:60
 msgid "sans 12"
 msgstr "sans ୧୨"
 
-#: ../libmateui/mate-font-picker.c:59
+#: ../libmateui/mate-font-picker.c:61
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 msgstr "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 
-#: ../libmateui/mate-font-picker.c:60
+#: ../libmateui/mate-font-picker.c:62
 msgid "Pick a Font"
 msgstr "ଗୋଟିଏ ଅକ୍ଷରରୂପକୁ ବାଛନ୍ତୁ"
 
-#: ../libmateui/mate-font-picker.c:148
+#: ../libmateui/mate-font-picker.c:127
 msgid "The title of the selection dialog box"
 msgstr "ଚୟନ ସଂଳାପ ବାକ୍ସର ଶୀର୍ଷକ"
 
-#: ../libmateui/mate-font-picker.c:156
+#: ../libmateui/mate-font-picker.c:129
 msgid "Mode"
 msgstr "ଧାରା"
 
-#: ../libmateui/mate-font-picker.c:157
+#: ../libmateui/mate-font-picker.c:129
 msgid "The mode of operation of the font picker"
 msgstr "ଅକ୍ଷରରୂପ ମନୋନୟନର ଧାରା"
 
-#: ../libmateui/mate-font-picker.c:166
+#: ../libmateui/mate-font-picker.c:131
 msgid "Font name"
 msgstr "ଅକ୍ଷରରୂପର ନାମ"
 
-#: ../libmateui/mate-font-picker.c:167
+#: ../libmateui/mate-font-picker.c:131
 msgid "Name of the selected font"
 msgstr "ଚୟିତ ଅକ୍ଷରରୂପର ନାମ"
 
-#: ../libmateui/mate-font-picker.c:176 ../libmateui/mate-font-picker.c:972
-msgid "Font"
-msgstr "ଅକ୍ଷରରୂପ"
-
-#: ../libmateui/mate-font-picker.c:177
-msgid "The selected GtkFont"
-msgstr "ଚୟିତ Gtk ଅକ୍ଷରରୂପ"
-
-#: ../libmateui/mate-font-picker.c:184
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text"
 msgstr "ପାଠ୍ଯକୁ ଅବଲୋକନ କରନ୍ତୁ"
 
-#: ../libmateui/mate-font-picker.c:185
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text shown in the dialog"
 msgstr "ଏହି ସଂଳାପରେ ପ୍ରଦର୍ଶିତ ପାଠ୍ଯକୁ ଅବଲୋକନ କରନ୍ତୁ"
 
-#: ../libmateui/mate-font-picker.c:193
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in label"
 msgstr "ସୂଚକରେ ଥିବା ଅକ୍ଷରରୂପକୁ ବ୍ଯବହାର କରନ୍ତୁ"
 
-#: ../libmateui/mate-font-picker.c:194
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in the label in font info mode"
 msgstr "ଅକ୍ଷରରୂପ ସୂଚନା ଧାରାରେ ସୂଚକରେ ଥିବା ଅକ୍ଷରରୂପକୁ ବ୍ଯବହାର କରନ୍ତୁ"
 
-#: ../libmateui/mate-font-picker.c:202
+#. 8 min, 72 max, 14 default
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label"
 msgstr "ସୂଚକ ପାଇଁ ଅକ୍ଷରରୂପର ଆକାର"
 
-#: ../libmateui/mate-font-picker.c:203
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label in font info mode"
 msgstr "ଅକ୍ଷରରୂପ ସୂଚନା ଧାରାରେ ସୂଚକ ପାଇଁ ଅକ୍ଷରରୂପର ଆକାର"
 
-#: ../libmateui/mate-font-picker.c:213
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size"
 msgstr "ଆକାର ପ୍ରଦର୍ଶନ କରନ୍ତୁ"
 
-#: ../libmateui/mate-font-picker.c:214
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size in font info mode"
 msgstr "ଅକ୍ଷରରୂପ ସୂଚନା ଧାରାରେ ଆକାର ପ୍ରଦର୍ଶନ କରନ୍ତୁ"
+
+#: ../libmateui/mate-font-picker.c:864
+msgid "Font"
+msgstr "ଅକ୍ଷରରୂପ"
 
 #: ../libmateui/mate-mateconf-ui.c:61
 msgid "MATE MateConf UI Support"
@@ -1090,23 +1073,17 @@ msgstr "ବିସ୍ତ୍ରୁତ ବିବରଣୀ (_D)"
 #, c-format
 msgid ""
 "The application \"%s\" attempted to change an aspect of your configuration "
-"that your system administrator or operating system vendor does not allow you "
-"to change. Some of the settings you have selected may not take effect, or "
+"that your system administrator or operating system vendor does not allow you"
+" to change. Some of the settings you have selected may not take effect, or "
 "may not be restored next time you use the application."
-msgstr ""
-"\"%s\" ଅନୁପ୍ରୟୋଗଟି ଆପଣଙ୍କ ବିନ୍ଯାସର ଗୋଟିଏ ଲକ୍ଷଣକୁ ବଦଳାଇବା ପାଇଁ ଉଦ୍ଯମ କଲା ଯାହାକୁ ବଦଳଇବାର "
-"ଅନୁମତି ଆପଣଙ୍କୁ ଆପଣଙ୍କର ତନ୍ତ୍ରର ପ୍ରଶାସକ ଏବଂ ପ୍ରଚାଳନ ତନ୍ତ୍ର ବିକ୍ରେତା ଦେଇ ନାହାଁନ୍ତି। ଆପଣ ଚୟନ "
-"କରିଥିବା ବିନ୍ଯାସ ମାନଙ୍କୁ କିଛି ପ୍ରଭାବଶାଳୀ ହୋଇ ନ ପାରନ୍ତି, କିମ୍ବା ଆପଣ ପୂନର୍ବାର ଏହି ପ୍ରୟୋଗକୁ ବ୍ଯବହାର "
-"କଲେ ଏହା ପୁନଃସ୍ଥାପିତ ହୋଇ ନପାରେ।"
+msgstr "\"%s\" ଅନୁପ୍ରୟୋଗଟି ଆପଣଙ୍କ ବିନ୍ଯାସର ଗୋଟିଏ ଲକ୍ଷଣକୁ ବଦଳାଇବା ପାଇଁ ଉଦ୍ଯମ କଲା ଯାହାକୁ ବଦଳଇବାର ଅନୁମତି ଆପଣଙ୍କୁ ଆପଣଙ୍କର ତନ୍ତ୍ରର ପ୍ରଶାସକ ଏବଂ ପ୍ରଚାଳନ ତନ୍ତ୍ର ବିକ୍ରେତା ଦେଇ ନାହାଁନ୍ତି। ଆପଣ ଚୟନ କରିଥିବା ବିନ୍ଯାସ ମାନଙ୍କୁ କିଛି ପ୍ରଭାବଶାଳୀ ହୋଇ ନ ପାରନ୍ତି, କିମ୍ବା ଆପଣ ପୂନର୍ବାର ଏହି ପ୍ରୟୋଗକୁ ବ୍ଯବହାର କଲେ ଏହା ପୁନଃସ୍ଥାପିତ ହୋଇ ନପାରେ।"
 
 #: ../libmateui/mate-mateconf-ui.c:178
 #, c-format
 msgid ""
 "An error occurred while loading or saving configuration information for %s. "
 "Some of your configuration settings may not work properly."
-msgstr ""
-"%s ପାଇଁ ବିନ୍ଯାସ ସୂଚନା ଧାରଣ ଏବଂ ସଂରକ୍ଷଣ କରିବା ସମୟରେ ଗୋଟିଏ ତ୍ରୁଟି ପରିଲିଖିତ ହେଲା। ଆପଣଙ୍କର କିଛି "
-"ବିନ୍ଯାସ ବ୍ଯବସ୍ଥାପନ ସଠିକ ଭାବରେ କାର୍ଯ୍ଯ କରି ନ ପାରେ।"
+msgstr "%s ପାଇଁ ବିନ୍ଯାସ ସୂଚନା ଧାରଣ ଏବଂ ସଂରକ୍ଷଣ କରିବା ସମୟରେ ଗୋଟିଏ ତ୍ରୁଟି ପରିଲିଖିତ ହେଲା। ଆପଣଙ୍କର କିଛି ବିନ୍ଯାସ ବ୍ଯବସ୍ଥାପନ ସଠିକ ଭାବରେ କାର୍ଯ୍ଯ କରି ନ ପାରେ।"
 
 #: ../libmateui/mate-href.c:102
 msgid "URL"
@@ -1144,15 +1121,12 @@ msgstr "ଏହି ବଟନଟି ଆପଣଙ୍କୁ ଏହା ଦ୍ବା�
 msgid ""
 "An error has occurred while trying to launch the default web browser.\n"
 "Please check your settings in the 'Preferred Applications' preference tool."
-msgstr ""
-"ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ୱେବ ବ୍ରାଉଜରକୁ ପ୍ରାରମ୍ଭ କରିବାର ପ୍ରଚେଷ୍ଟା କରୁଥିବା ସମୟରେ ଗୋଟିଏ ତ୍ରୁଟି ପରିଲିଖିତ "
-"ହେଲା।\n"
-"ଦୟାକରି ଆପଣଙ୍କର ବିନ୍ଯାସକୁ 'ଅନୁଗ୍ରହୀତ ପ୍ରୟୋଗ'ର ପ୍ରାଧାନ୍ଯ ଉପକରଣରେ ଯାଞ୍ଚ କରନ୍ତୁ।"
+msgstr "ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ୱେବ ବ୍ରାଉଜରକୁ ପ୍ରାରମ୍ଭ କରିବାର ପ୍ରଚେଷ୍ଟା କରୁଥିବା ସମୟରେ ଗୋଟିଏ ତ୍ରୁଟି ପରିଲିଖିତ ହେଲା।\nଦୟାକରି ଆପଣଙ୍କର ବିନ୍ଯାସକୁ 'ଅନୁଗ୍ରହୀତ ପ୍ରୟୋଗ'ର ପ୍ରାଧାନ୍ଯ ଉପକରଣରେ ଯାଞ୍ଚ କରନ୍ତୁ।"
 
 #: ../libmateui/mate-icon-entry.c:170
 msgid ""
-"Unique identifier for the icon entry.  This will be used to save the history "
-"list."
+"Unique identifier for the icon entry.  This will be used to save the history"
+" list."
 msgstr "ଚିତ୍ରସଙ୍କେତ ପ୍ରବିଷ୍ଟି ପାଇଁ ଅନନ୍ଯ ପରିଚୟକ। ଏହା ଐତିହାସିକ ତାଲିକାକୁ ସଂରକ୍ଷଣ କରିବା ପାଇଁ ବ୍ଯବହ୍ରୁତ ହେବ।"
 
 #: ../libmateui/mate-icon-entry.c:179
@@ -1179,9 +1153,7 @@ msgstr "ପିକର ସଂଳାପ"
 msgid ""
 "Icon picker dialog.  You can use this property to get the GtkDialog if you "
 "need to modify or query any of its properties."
-msgstr ""
-"ଚିତ୍ରସଙ୍କେତ ଚୟନ ସଂଳାପ। ଆପଣ ଏହି ଗୁଣକୁ ପ୍ରୟୋଗ କରି GtkDialogକୁ ପାଇ ପାରିବେ ଯଦି ଆପଣ ଏହାର "
-"କୌଣସି ଗୁଣଧର୍ମକୁ ରୂପାନ୍ତରିତ କରିବା ପାଇଁ କିମ୍ବା ପ୍ରଶ୍ନ ପଚାରି ପାଇଁ ଚାହୁଁଛନ୍ତି।"
+msgstr "ଚିତ୍ରସଙ୍କେତ ଚୟନ ସଂଳାପ। ଆପଣ ଏହି ଗୁଣକୁ ପ୍ରୟୋଗ କରି GtkDialogକୁ ପାଇ ପାରିବେ ଯଦି ଆପଣ ଏହାର କୌଣସି ଗୁଣଧର୍ମକୁ ରୂପାନ୍ତରିତ କରିବା ପାଇଁ କିମ୍ବା ପ୍ରଶ୍ନ ପଚାରି ପାଇଁ ଚାହୁଁଛନ୍ତି।"
 
 #: ../libmateui/mate-icon-entry.c:312 ../libmateui/mate-icon-entry.c:996
 msgid "Choose Icon"
@@ -1311,8 +1283,7 @@ msgstr "ପୂର୍ବାଲୋକନ କରନ୍ତୁ"
 msgid "Whether the pixmap entry should have a preview."
 msgstr "pixmap ପ୍ରବିଷ୍ଟିର ଗୋଟିଏ ପୂର୍ବାଲୋକନ ରହିବା ଉଚିତ କି।"
 
-#: ../libmateui/mate-pixmap-entry.c:179
-#: ../libmateui/mate-pixmap-entry.c:473
+#: ../libmateui/mate-pixmap-entry.c:179 ../libmateui/mate-pixmap-entry.c:473
 msgid "No Image"
 msgstr "କୌଣସି ପ୍ରତିଛବି ନାହିଁ"
 
@@ -1332,26 +1303,26 @@ msgstr "ଗୋଟିଏ ସାଧାରଣ ଫାଇଲ ଚୟନକୁ ବ୍�
 msgid "Preview"
 msgstr "ପୂର୍ବାବଲୋକନ"
 
-#: ../libmateui/mate-scores.c:77
+#: ../libmateui/mate-scores.c:74
 msgid "Top Ten"
 msgstr "ଶ୍ରେଷ୍ଠ ଦଶ"
 
-#: ../libmateui/mate-scores.c:90
+#: ../libmateui/mate-scores.c:87
 msgid "User"
 msgstr "ଚାଳକ"
 
-#: ../libmateui/mate-scores.c:93
+#: ../libmateui/mate-scores.c:90
 msgid "Score"
 msgstr "ସ୍କୋର"
 
 #. TRANSLATORS NOTE: Date format used when showing scores in games.
 #. * Please refer to manpage of strftime(3) for complete reference.
-#.
-#: ../libmateui/mate-scores.c:193
+#. 
+#: ../libmateui/mate-scores.c:182
 msgid "%a %b %d %T %Y"
 msgstr "%a %b %d %T %Y"
 
-#: ../libmateui/mate-scores.c:394
+#: ../libmateui/mate-scores.c:369
 msgid "Sans 14"
 msgstr "Sans ୧୪"
 
@@ -1407,11 +1378,10 @@ msgstr "ପ୍ରଦର୍ଶକ"
 msgid "MATE GUI Library"
 msgstr "ନୋମ ଜି.ୟୁ.ଆଇ. ଲାଇବ୍ରେରୀ"
 
-#: ../libmateui/mate-ui-init.c:232
+#: ../libmateui/mate-ui-init.c:226
 msgid "Could not open link"
 msgstr "ସଂଯୋଗକୁ ଖୋଲି ପାରିଲା ନାହିଁ"
 
 #: ../test-mate/testmate.xml.h:3
 msgid "Exit the test"
 msgstr "ପରୀକ୍ଷଣରୁ ବାହାରକୁ ଯାଆନ୍ତୁ"
-

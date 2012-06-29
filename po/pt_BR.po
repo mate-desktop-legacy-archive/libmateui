@@ -1,25 +1,27 @@
-# Brazilian Portuguese translation of libmateui.
-# Copyright (C) 2002-2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the libmateui package.
-# Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2002.
-# David Barzilay <barzilay@redhat.com>, 2003.
-# Raphael Higino <raphaelh@uai.com.br>, 2004, 2005.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Claudio André <claudio.andre@correios.net.br>, 2006.
-# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006-2007.
-# Washington Lins <washington-lins@uol.com.br>, 2007.
+# David Barzilay <barzilay@redhat.com>, 2003.
+# Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2002.
 # Og Maciel <ogmaciel@gnome.org>, 2008.
-#
+# Raphael Higino <raphaelh@uai.com.br>, 2004, 2005.
+# Washington Lins <washington-lins@uol.com.br>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateui\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-17 18:20-0400\n"
-"PO-Revision-Date: 2010-04-17 18:13-0300\n"
-"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <mate-pt_br-list@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-22 19:43+0100\n"
+"PO-Revision-Date: 2012-02-22 18:47+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/MATE/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: ../demos/mdi_demo.c:128
 msgid "Child Item 1"
@@ -37,123 +39,114 @@ msgstr "Item filho 2"
 msgid "Hint for item 2"
 msgstr "Dica para item 2"
 
-#: ../libmateui/mate-about.c:187
+#: ../libmateui/mate-about.c:199
 msgid "Credits"
 msgstr "Créditos"
 
-#: ../libmateui/mate-about.c:219
+#: ../libmateui/mate-about.c:222
 msgid "Written by"
 msgstr "Escrito por"
 
-#: ../libmateui/mate-about.c:234
+#: ../libmateui/mate-about.c:235
 msgid "Documented by"
 msgstr "Documentado por"
 
-#: ../libmateui/mate-about.c:249
+#: ../libmateui/mate-about.c:248
 msgid "Translated by"
 msgstr "Traduzido por"
 
-#: ../libmateui/mate-about.c:312
+#: ../libmateui/mate-about.c:315
 msgid "C_redits"
 msgstr "_Créditos"
 
-#: ../libmateui/mate-about.c:365
+#: ../libmateui/mate-about.c:367
 msgid "Program name"
 msgstr "Nome do programa"
 
-#: ../libmateui/mate-about.c:366
+#: ../libmateui/mate-about.c:368
 msgid "The name of the program"
 msgstr "O nome do programa"
 
-#: ../libmateui/mate-about.c:373
+#: ../libmateui/mate-about.c:375
 msgid "Program version"
 msgstr "Versão do programa"
 
-#: ../libmateui/mate-about.c:374
+#: ../libmateui/mate-about.c:376
 msgid "The version of the program"
 msgstr "A versão do programa"
 
-#: ../libmateui/mate-about.c:380
+#: ../libmateui/mate-about.c:382
 msgid "Copyright string"
 msgstr "Texto de copyright"
 
-#: ../libmateui/mate-about.c:381
+#: ../libmateui/mate-about.c:383
 msgid "Copyright information for the program"
 msgstr "Informação de copyright do programa"
 
-#: ../libmateui/mate-about.c:388
+#: ../libmateui/mate-about.c:390
 msgid "Comments string"
 msgstr "Texto de comentários"
 
-#: ../libmateui/mate-about.c:389
+#: ../libmateui/mate-about.c:391
 msgid "Comments about the program"
 msgstr "Comentários sobre o programa"
 
-#: ../libmateui/mate-about.c:395
+#: ../libmateui/mate-about.c:397
 msgid "Authors"
 msgstr "Autores"
 
-#: ../libmateui/mate-about.c:396
+#: ../libmateui/mate-about.c:398
 msgid "List of authors of the programs"
 msgstr "Lista dos autores do programa"
 
-#: ../libmateui/mate-about.c:398
+#: ../libmateui/mate-about.c:400
 msgid "Author entry"
 msgstr "Registro de autor"
 
-#: ../libmateui/mate-about.c:399
+#: ../libmateui/mate-about.c:401
 msgid "A single author entry"
 msgstr "Um registro único de autor"
 
-#: ../libmateui/mate-about.c:406
+#: ../libmateui/mate-about.c:408
 msgid "Documenters"
 msgstr "Documentadores"
 
-#: ../libmateui/mate-about.c:407
+#: ../libmateui/mate-about.c:409
 msgid "List of people documenting the program"
 msgstr "Lista de pessoas que documentaram o programa"
 
-#: ../libmateui/mate-about.c:409
+#: ../libmateui/mate-about.c:411
 msgid "Documenter entry"
 msgstr "Registro de documentador"
 
-#: ../libmateui/mate-about.c:410
+#: ../libmateui/mate-about.c:412
 msgid "A single documenter entry"
 msgstr "Um registro único de documentador"
 
-#: ../libmateui/mate-about.c:418
+#: ../libmateui/mate-about.c:420
 msgid "Translator credits"
-msgstr ""
-"Evandro Fernandes Giovanini <evandrofg@ig.com.br>\n"
-"David Barzilay <barzilay@redhat.com>\n"
-"Raphael Higino <In memoriam>\n"
-"Claudio André <claudio.andre@correios.net.br>\n"
-"Leonardo Ferreira Fontenelle <leonardof@gnome.org>\n"
-"Washington Lins <washington-lins@uol.com.br>\n"
-"Og Maciel <ogmaciel@gnome.org>"
+msgstr "Evandro Fernandes Giovanini <evandrofg@ig.com.br>\nDavid Barzilay <barzilay@redhat.com>\nRaphael Higino <In memoriam>\nClaudio André <claudio.andre@correios.net.br>\nLeonardo Ferreira Fontenelle <leonardof@gnome.org>\nWashington Lins <washington-lins@uol.com.br>\nOg Maciel <ogmaciel@gnome.org>"
 
-#: ../libmateui/mate-about.c:419
+#: ../libmateui/mate-about.c:421
 msgid ""
 "Credits to the translators. This string should be marked as translatable"
-msgstr ""
-"Créditos aos tradutores. Esta expressão deve ser marcada como traduzível"
+msgstr "Créditos aos tradutores. Esta expressão deve ser marcada como traduzível"
 
-#: ../libmateui/mate-about.c:426
-#: ../libmateui/mate-druid-page-standard.c:123
+#: ../libmateui/mate-about.c:428 ../libmateui/mate-druid-page-standard.c:123
 msgid "Logo"
 msgstr "Logotipo"
 
-#: ../libmateui/mate-about.c:427
+#: ../libmateui/mate-about.c:429
 msgid "A logo for the about box"
 msgstr "Um logotipo para a caixa Sobre"
 
-#: ../libmateui/mate-about.c:506
+#: ../libmateui/mate-about.c:503
 #, c-format
 msgid "About %s"
 msgstr "Sobre %s"
 
 #. Some standard menus
-#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:551
+#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:553
 #: ../test-mate/testmate.xml.h:5
 msgid "_File"
 msgstr "_Arquivo"
@@ -162,7 +155,7 @@ msgstr "_Arquivo"
 msgid "_File/"
 msgstr "_Arquivo/"
 
-#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:554
+#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:556
 msgid "_Edit"
 msgstr "_Editar"
 
@@ -170,7 +163,7 @@ msgstr "_Editar"
 msgid "_Edit/"
 msgstr "_Editar/"
 
-#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:557
+#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:559
 msgid "_View"
 msgstr "_Ver"
 
@@ -178,7 +171,7 @@ msgstr "_Ver"
 msgid "_View/"
 msgstr "_Ver/"
 
-#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:560
+#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:562
 msgid "_Settings"
 msgstr "C_onfigurações"
 
@@ -187,7 +180,7 @@ msgid "_Settings/"
 msgstr "C_onfigurações/"
 
 #. If you have more then one New type, use this tree
-#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:326
+#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:328
 msgid "_New"
 msgstr "_Novo"
 
@@ -195,7 +188,7 @@ msgstr "_Novo"
 msgid "_New/"
 msgstr "_Novo/"
 
-#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:563
+#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:565
 msgid "Fi_les"
 msgstr "Ar_quivos"
 
@@ -203,15 +196,15 @@ msgstr "Ar_quivos"
 msgid "Fi_les/"
 msgstr "Ar_quivos/"
 
-#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:566
+#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:568
 msgid "_Windows"
 msgstr "_Janelas"
 
-#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:572
+#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:574
 msgid "_Game"
 msgstr "_Jogo"
 
-#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:569
+#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:571
 #: ../test-mate/testmate.xml.h:6
 msgid "_Help"
 msgstr "Aj_uda"
@@ -292,9 +285,8 @@ msgstr "Sai_r"
 msgid "Quit the application"
 msgstr "Sai do aplicativo"
 
-#.
 #. * The "Edit" menu
-#.
+#. 
 #. Cut
 #: ../libmateui/mate-app-helper.c:158
 msgid "Cu_t"
@@ -386,9 +378,8 @@ msgstr "_Propriedades"
 msgid "Modify the file's properties"
 msgstr "Modifica as propriedades do arquivo"
 
-#.
 #. * The Settings menu
-#.
+#. 
 #. Settings
 #: ../libmateui/mate-app-helper.c:214
 msgid "Prefere_nces"
@@ -399,9 +390,9 @@ msgid "Configure the application"
 msgstr "Configura o aplicativo"
 
 #. 20
-#.
+#. 
 #. * And the "Help" menu
-#.
+#. 
 #. About
 #: ../libmateui/mate-app-helper.c:224 ../test-mate/testmate.xml.h:4
 msgid "_About"
@@ -419,9 +410,8 @@ msgstr "Selecionar _tudo"
 msgid "Select everything"
 msgstr "Seleciona tudo"
 
-#.
 #. * Window menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:237
 msgid "Create New _Window"
 msgstr "Criar nova _janela"
@@ -438,9 +428,8 @@ msgstr "Fe_char esta janela"
 msgid "Close the current window"
 msgstr "Fecha a janela atual"
 
-#.
 #. * The "Game" menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:251
 msgid "_New Game"
 msgstr "_Novo jogo"
@@ -506,31 +495,31 @@ msgstr "_Terminar jogo"
 msgid "End the current game"
 msgstr "Termina o jogo atual"
 
-#: ../libmateui/mate-app-helper.c:1150
+#: ../libmateui/mate-app-helper.c:1149
 msgid "_Contents"
 msgstr "S_umário"
 
-#: ../libmateui/mate-app-helper.c:1153
+#: ../libmateui/mate-app-helper.c:1152
 msgid "View help for this application"
 msgstr "Mostra a ajuda para este aplicativo"
 
-#: ../libmateui/mate-app-helper.c:2524
+#: ../libmateui/mate-app-helper.c:2523
 msgid "Text Below Icons"
 msgstr "Texto abaixo dos ícones"
 
-#: ../libmateui/mate-app-helper.c:2525
+#: ../libmateui/mate-app-helper.c:2524
 msgid "Priority Text Beside Icons"
 msgstr "Texto prioritário abaixo dos ícones"
 
-#: ../libmateui/mate-app-helper.c:2526
+#: ../libmateui/mate-app-helper.c:2525
 msgid "Icons Only"
 msgstr "Apenas ícones"
 
-#: ../libmateui/mate-app-helper.c:2527
+#: ../libmateui/mate-app-helper.c:2526
 msgid "Text Only"
 msgstr "Apenas texto"
 
-#: ../libmateui/mate-app-helper.c:2588
+#: ../libmateui/mate-app-helper.c:2587
 #, c-format
 msgid "Use Desktop Default (%s)"
 msgstr "Usar o padrão do ambiente (%s)"
@@ -617,9 +606,7 @@ msgstr "Seu proxy HTTP requer que você inicie uma sessão.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Você deve iniciar uma sessão para acessar \"%s\".\n"
-"%s"
+msgstr "Você deve iniciar uma sessão para acessar \"%s\".\n%s"
 
 #: ../libmateui/mate-authentication-manager.c:88
 msgid "Your password will be transmitted unencrypted."
@@ -634,7 +621,8 @@ msgstr "Sua senha será transmitida criptografada."
 msgid "Authentication Required"
 msgstr "Autenticação requerida"
 
-#. Translators: "You must log in to acces user@server.com/share domain MYWINDOWSDOMAIN."
+#. Translators: "You must log in to acces user@server.com/share domain
+#. MYWINDOWSDOMAIN."
 #: ../libmateui/mate-authentication-manager.c:303
 #, c-format
 msgid "You must log in to access %s domain %s\n"
@@ -733,7 +721,7 @@ msgstr "Hora inicial"
 msgid "The initial time"
 msgstr "A hora inicial"
 
-#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:96
+#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:93
 msgid "Date"
 msgstr "Data"
 
@@ -763,7 +751,7 @@ msgid "mate_date_edit_get_date deprecated, use mate_date_edit_get_time"
 msgstr "mate_date_edit_get_datet obsoleta, use mate_date_edit_get_time"
 
 #: ../libmateui/mate-druid-page-standard.c:115
-#: ../libmateui/mate-font-picker.c:147
+#: ../libmateui/mate-font-picker.c:127
 msgid "Title"
 msgstr "Título"
 
@@ -901,11 +889,9 @@ msgstr "A entrada GTK"
 
 #: ../libmateui/mate-file-entry.c:234
 msgid ""
-"Unique identifier for the file entry.  This will be used to save the history "
-"list."
-msgstr ""
-"Identificador único para a entrada de arquivo. Será usado para salvar a "
-"lista do histórico."
+"Unique identifier for the file entry.  This will be used to save the history"
+" list."
+msgstr "Identificador único para a entrada de arquivo. Será usado para salvar a lista do histórico."
 
 #: ../libmateui/mate-file-entry.c:242 ../libmateui/mate-icon-entry.c:178
 msgid "Browse Dialog Title"
@@ -923,9 +909,7 @@ msgstr "Entrada de diretório"
 msgid ""
 "Whether the file entry is being used to enter directory names or complete "
 "filenames."
-msgstr ""
-"Se a entrada de arquivo está sendo usada para digitar nomes de diretórios ou "
-"nomes de arquivos completos."
+msgstr "Se a entrada de arquivo está sendo usada para digitar nomes de diretórios ou nomes de arquivos completos."
 
 #: ../libmateui/mate-file-entry.c:259
 msgid "Modal"
@@ -957,13 +941,10 @@ msgstr "MateEntry"
 
 #: ../libmateui/mate-file-entry.c:285
 msgid ""
-"MateEntry that the file entry uses for entering filenames.  You can use "
-"this property to get the MateEntry if you need to modify or query any of "
-"its parameters."
-msgstr ""
-"MateEntry que a entrada de arquivos usa para inserir nomes de arquivos. "
-"Você pode usar esta propriedade para obter o MateEntry se você precisa "
-"modificar ou verificar qualquer um dos seus parâmetros."
+"MateEntry that the file entry uses for entering filenames.  You can use this"
+" property to get the MateEntry if you need to modify or query any of its "
+"parameters."
+msgstr "MateEntry que a entrada de arquivos usa para inserir nomes de arquivos. Você pode usar esta propriedade para obter o MateEntry se você precisa modificar ou verificar qualquer um dos seus parâmetros."
 
 #: ../libmateui/mate-file-entry.c:295
 msgid "GtkEntry"
@@ -974,10 +955,7 @@ msgid ""
 "GtkEntry that the file entry uses for entering filenames.  You can use this "
 "property to get the GtkEntry if you need to modify or query any of its "
 "parameters."
-msgstr ""
-"GtkEntry usada pela entrada de arquivos para inserir nomes de arquivos. Você "
-"pode usar esta propriedade para obter o MateEntry se você precisa modificar "
-"ou verificar qualquer um dos seus parâmetros."
+msgstr "GtkEntry usada pela entrada de arquivos para inserir nomes de arquivos. Você pode usar esta propriedade para obter o MateEntry se você precisa modificar ou verificar qualquer um dos seus parâmetros."
 
 #: ../libmateui/mate-file-entry.c:306
 msgid "Use GtkFileChooser"
@@ -987,9 +965,7 @@ msgstr "Usar GtkFileChooser"
 msgid ""
 "Whether to use the new GtkFileChooser widget or the GtkFileSelection widget "
 "to select files."
-msgstr ""
-"Usar o novo widget GtkFileChooser ao invés do antigo GtkFileSelection para "
-"selecionar arquivos."
+msgstr "Usar o novo widget GtkFileChooser ao invés do antigo GtkFileSelection para selecionar arquivos."
 
 #: ../libmateui/mate-file-entry.c:316
 msgid "GtkFileChooser Action"
@@ -1019,77 +995,74 @@ msgstr "_Selecionar..."
 msgid "Pop up a file selector to choose a file"
 msgstr "Abrir um seletor de arquivos para escolher um arquivo"
 
-#: ../libmateui/mate-font-picker.c:58
+#: ../libmateui/mate-font-picker.c:60
 msgid "sans 12"
 msgstr "sans 12"
 
-#: ../libmateui/mate-font-picker.c:59
+#: ../libmateui/mate-font-picker.c:61
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 msgstr "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 
-#: ../libmateui/mate-font-picker.c:60
+#: ../libmateui/mate-font-picker.c:62
 msgid "Pick a Font"
 msgstr "Selecionar uma fonte"
 
-#: ../libmateui/mate-font-picker.c:148
+#: ../libmateui/mate-font-picker.c:127
 msgid "The title of the selection dialog box"
 msgstr "O título do diálogo de seleção"
 
-#: ../libmateui/mate-font-picker.c:156
+#: ../libmateui/mate-font-picker.c:129
 msgid "Mode"
 msgstr "Modo"
 
-#: ../libmateui/mate-font-picker.c:157
+#: ../libmateui/mate-font-picker.c:129
 msgid "The mode of operation of the font picker"
 msgstr "O modo de funcionamento do seletor de fontes"
 
-#: ../libmateui/mate-font-picker.c:166
+#: ../libmateui/mate-font-picker.c:131
 msgid "Font name"
 msgstr "Nome da fonte"
 
-#: ../libmateui/mate-font-picker.c:167
+#: ../libmateui/mate-font-picker.c:131
 msgid "Name of the selected font"
 msgstr "Nome da fonte selecionada"
 
-#: ../libmateui/mate-font-picker.c:176 ../libmateui/mate-font-picker.c:972
-msgid "Font"
-msgstr "Fonte"
-
-#: ../libmateui/mate-font-picker.c:177
-msgid "The selected GtkFont"
-msgstr "A GtkFont selecionada"
-
-#: ../libmateui/mate-font-picker.c:184
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text"
 msgstr "Visualizar texto"
 
-#: ../libmateui/mate-font-picker.c:185
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text shown in the dialog"
 msgstr "Visualiza o texto mostrado no diálogo"
 
-#: ../libmateui/mate-font-picker.c:193
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in label"
 msgstr "Usar fonte no rótulo"
 
-#: ../libmateui/mate-font-picker.c:194
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in the label in font info mode"
 msgstr "Usa fonte no rótulo no modo de informações da fonte"
 
-#: ../libmateui/mate-font-picker.c:202
+#. 8 min, 72 max, 14 default
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label"
 msgstr "Tamanho da fonte para o rótulo"
 
-#: ../libmateui/mate-font-picker.c:203
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label in font info mode"
 msgstr "Tamanho da fonte para o rótulo no modo de informações da fonte"
 
-#: ../libmateui/mate-font-picker.c:213
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size"
 msgstr "Mostrar tamanho"
 
-#: ../libmateui/mate-font-picker.c:214
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size in font info mode"
 msgstr "Mostra o tamanho no modo de informações da fonte"
+
+#: ../libmateui/mate-font-picker.c:864
+msgid "Font"
+msgstr "Fonte"
 
 #: ../libmateui/mate-mateconf-ui.c:61
 msgid "MATE MateConf UI Support"
@@ -1103,23 +1076,17 @@ msgstr "_Detalhes"
 #, c-format
 msgid ""
 "The application \"%s\" attempted to change an aspect of your configuration "
-"that your system administrator or operating system vendor does not allow you "
-"to change. Some of the settings you have selected may not take effect, or "
+"that your system administrator or operating system vendor does not allow you"
+" to change. Some of the settings you have selected may not take effect, or "
 "may not be restored next time you use the application."
-msgstr ""
-"O aplicativo \"%s\" tentou alterar um aspecto da sua configuração que o "
-"administrador ou fabricante do sistema não permite que seja alterado. "
-"Algumas configurações que você selecionou podem não fazer efeito, ou serem "
-"restauradas na próxima vez que você usar este aplicativo."
+msgstr "O aplicativo \"%s\" tentou alterar um aspecto da sua configuração que o administrador ou fabricante do sistema não permite que seja alterado. Algumas configurações que você selecionou podem não fazer efeito, ou serem restauradas na próxima vez que você usar este aplicativo."
 
 #: ../libmateui/mate-mateconf-ui.c:178
 #, c-format
 msgid ""
 "An error occurred while loading or saving configuration information for %s. "
 "Some of your configuration settings may not work properly."
-msgstr ""
-"Ocorreu um erro ao carregar ou salvar as configurações para %s. Algumas de "
-"suas configurações podem não funcionar corretamente."
+msgstr "Ocorreu um erro ao carregar ou salvar as configurações para %s. Algumas de suas configurações podem não funcionar corretamente."
 
 #: ../libmateui/mate-href.c:102
 msgid "URL"
@@ -1157,18 +1124,13 @@ msgstr "Este botão abre a URI que ele exibe."
 msgid ""
 "An error has occurred while trying to launch the default web browser.\n"
 "Please check your settings in the 'Preferred Applications' preference tool."
-msgstr ""
-"Ocorreu um erro ao tentar lançar o navegador de web padrão.\n"
-"Favor verificar suas configurações na ferramenta de preferências "
-"\"Aplicativos preferenciais\"."
+msgstr "Ocorreu um erro ao tentar lançar o navegador de web padrão.\nFavor verificar suas configurações na ferramenta de preferências \"Aplicativos preferenciais\"."
 
 #: ../libmateui/mate-icon-entry.c:170
 msgid ""
-"Unique identifier for the icon entry.  This will be used to save the history "
-"list."
-msgstr ""
-"Identificador único para a entrada de ícone. Isto será usado para salvar a "
-"lista do histórico."
+"Unique identifier for the icon entry.  This will be used to save the history"
+" list."
+msgstr "Identificador único para a entrada de ícone. Isto será usado para salvar a lista do histórico."
 
 #: ../libmateui/mate-icon-entry.c:179
 msgid "Title for the Browse icon dialog."
@@ -1194,10 +1156,7 @@ msgstr "Diálogo seletor"
 msgid ""
 "Icon picker dialog.  You can use this property to get the GtkDialog if you "
 "need to modify or query any of its properties."
-msgstr ""
-"Diálogo seletor de ícones. Você pode usar esta propriedade para obter o "
-"GtkDialog se você precisa modificar ou verificar qualquer uma de suas "
-"propriedades."
+msgstr "Diálogo seletor de ícones. Você pode usar esta propriedade para obter o GtkDialog se você precisa modificar ou verificar qualquer uma de suas propriedades."
 
 #: ../libmateui/mate-icon-entry.c:312 ../libmateui/mate-icon-entry.c:996
 msgid "Choose Icon"
@@ -1235,8 +1194,7 @@ msgstr "Caminho do ícone"
 msgid ""
 "Here you should enter the name of the directory where icon images are "
 "located."
-msgstr ""
-"Aqui você deve digitar o nome do diretório onde os ícones estão localizados."
+msgstr "Aqui você deve digitar o nome do diretório onde os ícones estão localizados."
 
 #: ../libmateui/mate-icon-sel.c:293
 #, c-format
@@ -1328,8 +1286,7 @@ msgstr "Visualizar"
 msgid "Whether the pixmap entry should have a preview."
 msgstr "A entrada de pixmap deve ter uma visualização."
 
-#: ../libmateui/mate-pixmap-entry.c:179
-#: ../libmateui/mate-pixmap-entry.c:473
+#: ../libmateui/mate-pixmap-entry.c:179 ../libmateui/mate-pixmap-entry.c:473
 msgid "No Image"
 msgstr "Nenhuma imagem"
 
@@ -1343,33 +1300,32 @@ msgstr "Uma visualização da imagem especificada"
 
 #: ../libmateui/mate-pixmap-entry.c:408
 msgid "Can't find an hbox, using a normal file selection"
-msgstr ""
-"Não é possível encontrar uma hbox, usando uma seleção normal de arquivos"
+msgstr "Não é possível encontrar uma hbox, usando uma seleção normal de arquivos"
 
 #: ../libmateui/mate-pixmap-entry.c:414
 msgid "Preview"
 msgstr "Visualizar"
 
-#: ../libmateui/mate-scores.c:77
+#: ../libmateui/mate-scores.c:74
 msgid "Top Ten"
 msgstr "Dez melhores"
 
-#: ../libmateui/mate-scores.c:90
+#: ../libmateui/mate-scores.c:87
 msgid "User"
 msgstr "Usuário"
 
-#: ../libmateui/mate-scores.c:93
+#: ../libmateui/mate-scores.c:90
 msgid "Score"
 msgstr "Pontuação"
 
 #. TRANSLATORS NOTE: Date format used when showing scores in games.
 #. * Please refer to manpage of strftime(3) for complete reference.
-#.
-#: ../libmateui/mate-scores.c:193
+#. 
+#: ../libmateui/mate-scores.c:182
 msgid "%a %b %d %T %Y"
 msgstr "%a %d %b %Y %T"
 
-#: ../libmateui/mate-scores.c:394
+#: ../libmateui/mate-scores.c:369
 msgid "Sans 14"
 msgstr "Sans 14"
 
@@ -1425,170 +1381,10 @@ msgstr "MONITOR"
 msgid "MATE GUI Library"
 msgstr "Biblioteca MATE GUI"
 
-#: ../libmateui/mate-ui-init.c:232
+#: ../libmateui/mate-ui-init.c:226
 msgid "Could not open link"
 msgstr "Não foi possível abrir o link"
 
 #: ../test-mate/testmate.xml.h:3
 msgid "Exit the test"
 msgstr "Sair do teste"
-
-#~ msgid "%s is a link to something that is not a folder"
-#~ msgstr "%s é um link para algo que não é uma pasta"
-
-#~ msgid "%s is a link without a destination location"
-#~ msgstr "%s é um link sem uma localização de destino"
-
-#~ msgid "%s is not a folder"
-#~ msgstr "%s não é uma pasta"
-
-#~ msgid "Could not monitor '%s': %s"
-#~ msgstr "Não foi possível monitorar \"%s\": %s"
-
-#~ msgid "Could not get info for '%s': %s"
-#~ msgstr "Não foi possível obter informações sobre \"%s\": %s"
-
-#~ msgid "Could not create '%s': %s"
-#~ msgstr "Não foi possível criar \"%s\": %s"
-
-#~ msgid "Network Servers"
-#~ msgstr "Servidores de Rede"
-
-#~ msgid "File System"
-#~ msgstr "Sistema de Arquivos"
-
-#~ msgid "'%s': %s"
-#~ msgstr "\"%s\": %s"
-
-#~ msgid "Bookmark saving failed (%s)"
-#~ msgstr "Falha ao salvar o marcador (%s)"
-
-#~ msgid "Error getting information for '%s'"
-#~ msgstr "Erro ao obter informações sobre \"%s\""
-
-#~ msgid "Could not get information for file '%s': %s"
-#~ msgstr "Não foi possível obter informações sobre o arquivo \"%s\": %s"
-
-#~ msgid "Failed to open file '%s': %s"
-#~ msgstr "Falha em abrir o arquivo \"%s\": %s"
-
-#~ msgid ""
-#~ "Failed to load image '%s': reason not known, probably a corrupt image file"
-#~ msgstr ""
-#~ "Falha em carregar a imagem \"%s\": razão desconhecida, provavelmente um "
-#~ "arquivo de imagem corrompido"
-
-#~ msgid "Multiple segmentation faults occurred; can't display error dialog\n"
-#~ msgstr ""
-#~ "Ocorreram várias falhas de segmentação; impossível exibir diálogo de "
-#~ "erro\n"
-
-#~ msgid ""
-#~ "Segmentation fault!\n"
-#~ "Cannot display crash dialog\n"
-#~ msgstr ""
-#~ "Falha de segmentação!\n"
-#~ "Não foi possível exibir diálogo de travamento\n"
-
-#~ msgid "Usage: mate_segv2 appname signum\n"
-#~ msgstr "Uso: mate_segv2 appname signum\n"
-
-#~ msgid "Debugging %s"
-#~ msgstr "Depurando %s"
-
-#~ msgid ""
-#~ "<b>The application %s has crashed.</b>\n"
-#~ "\n"
-#~ "Please install <b>bug-buddy</b>, the\n"
-#~ "MATE crash report tool, which enables you\n"
-#~ "to send the developers detailed information\n"
-#~ "about the error.\n"
-#~ msgstr ""
-#~ "<b>O aplicativo %s travou.</b>\n"
-#~ "\n"
-#~ "Por favor, instale a <b>Ferramenta de Relatório de Erros</b>do MATE, que "
-#~ "lhe permite enviar informações detalhadas sobre\n"
-#~ "o erro para os desenvolvedores.\n"
-
-#~ msgid "Save password in _keyring"
-#~ msgstr "Salvar senha no _chaveiro"
-
-#~ msgid "Error reading file '%s': %s"
-#~ msgstr "Erro ao abrir o arquivo \"%s\": %s"
-
-#~ msgid "Error rewinding file '%s': %s"
-#~ msgstr "Erro ao voltar no arquivo \"%s\": %s"
-
-#~ msgid "No name"
-#~ msgstr "Sem nome"
-
-#~ msgid "File '%s' is not a regular file or directory."
-#~ msgstr "O arquivo \"%s\" não é um arquivo comum ou um diretório."
-
-#~ msgid "Error cannot find file id '%s'"
-#~ msgstr "Não é possível encontrar o arquivo com identificação \"%s\""
-
-#~ msgid "No filename to save to"
-#~ msgstr "Sem nome de arquivo para salvar"
-
-#~ msgid "Starting %s"
-#~ msgstr "Iniciando %s"
-
-#~ msgid "No URL to launch"
-#~ msgstr "Sem URL para lançar"
-
-#~ msgid "Not a launchable item"
-#~ msgstr "Não é um item lançável"
-
-#~ msgid "No command (Exec) to launch"
-#~ msgstr "Sem comando (Exec) para lançar"
-
-#~ msgid "Bad command (Exec) to launch"
-#~ msgstr "Comando (Exec) inválido para lançar"
-
-#~ msgid "Unknown encoding of: %s"
-#~ msgstr "Codificação desconhecida de: %s"
-
-#~ msgid "Error writing file '%s': %s"
-#~ msgstr "Erro ao gravar o arquivo \"%s\": %s"
-
-#~ msgid ""
-#~ "The MATE Session Manager (process %d) has crashed\n"
-#~ "due to a fatal error (%s).\n"
-#~ "When you close this dialog, all applications will close and your session "
-#~ "will exit.\n"
-#~ "Please save all your files before closing this dialog."
-#~ msgstr ""
-#~ "O Gerenciador de Sessões MATE (processo %d) travou\n"
-#~ "devido a um erro fatal (%s).\n"
-#~ "Ao fechar este diálogo, todos os aplicativos terminarão e você sairá da "
-#~ "sessão.\n"
-#~ "Por favor salve todos seus arquivos antes de fechar este diálogo."
-
-#~ msgid "The Application \"%s\" has quit unexpectedly."
-#~ msgstr "O aplicativo \"%s\" saiu inesperadamente."
-
-#~ msgid "process %d: %s"
-#~ msgstr "processo %d: %s"
-
-#~ msgid ""
-#~ "You can inform the developers of what happened to help them fix it.  Or "
-#~ "you can restart the application right now."
-#~ msgstr ""
-#~ "Você pode informar aos desenvolvedores sobre o que aconteceu para ajudá-"
-#~ "los a corrigir isso. Ou você pode reiniciar o aplicativo agora mesmo."
-
-#~ msgid "_Restart Application"
-#~ msgstr "_Reiniciar o aplicativo"
-
-#~ msgid "_Inform Developers"
-#~ msgstr "_Informar aos Desenvolvedores"
-
-#~ msgid "_Debug"
-#~ msgstr "_Depurar"
-
-#~ msgid "History id"
-#~ msgstr "ID Histórico"
-
-#~ msgid "Icon selector"
-#~ msgstr "Selecionador de Ícones"

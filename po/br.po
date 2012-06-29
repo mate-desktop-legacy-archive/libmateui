@@ -1,22 +1,24 @@
-# Breton translation of the  libmateui package
-# Copyright (C) 2004-2010 The MATE Foundation
-# This file is distributed under the same license as the libmateui package.
-#
-# Thierry Vignaud <tvignaud@mandrakesoft.com>, 2004.
-# Jamy <jamybzh@free.fr>, 2009.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Alan Monfort <alan.monfort@free.fr>, 2010.
-#
+# Jamy <jamybzh@free.fr>, 2009.
+# Thierry Vignaud <tvignaud@mandrakesoft.com>, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateui\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-18 07:29+0000\n"
-"PO-Revision-Date: 2010-07-03 13:18+0000\n"
-"Last-Translator: Alan <Unknown>\n"
-"Language-Team: Brenux <brenux@free.fr>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-22 19:43+0100\n"
+"PO-Revision-Date: 2012-02-22 18:50+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: br\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: ../demos/mdi_demo.c:128
 msgid "Child Item 1"
@@ -34,116 +36,114 @@ msgstr "Elfenn mab 2"
 msgid "Hint for item 2"
 msgstr "Korvigell evit an elfenn 2"
 
-#: ../libmateui/mate-about.c:187
+#: ../libmateui/mate-about.c:199
 msgid "Credits"
 msgstr "Perzhourion"
 
-#: ../libmateui/mate-about.c:219
+#: ../libmateui/mate-about.c:222
 msgid "Written by"
 msgstr "Skrivet gant"
 
-#: ../libmateui/mate-about.c:234
+#: ../libmateui/mate-about.c:235
 msgid "Documented by"
 msgstr "Teuliadur savet gant"
 
-#: ../libmateui/mate-about.c:249
+#: ../libmateui/mate-about.c:248
 msgid "Translated by"
 msgstr "Troet gant"
 
-#: ../libmateui/mate-about.c:312
+#: ../libmateui/mate-about.c:315
 msgid "C_redits"
 msgstr "Pe_rzhourion"
 
-#: ../libmateui/mate-about.c:365
+#: ../libmateui/mate-about.c:367
 msgid "Program name"
 msgstr "Anv ar goulev"
 
-#: ../libmateui/mate-about.c:366
+#: ../libmateui/mate-about.c:368
 msgid "The name of the program"
 msgstr "Anv ar goulev"
 
-#: ../libmateui/mate-about.c:373
+#: ../libmateui/mate-about.c:375
 msgid "Program version"
 msgstr "Handelv ar goulev"
 
-#: ../libmateui/mate-about.c:374
+#: ../libmateui/mate-about.c:376
 msgid "The version of the program"
 msgstr "Handelv ar goulev"
 
-#: ../libmateui/mate-about.c:380
+#: ../libmateui/mate-about.c:382
 msgid "Copyright string"
 msgstr "Hedad Copyright"
 
-#: ../libmateui/mate-about.c:381
+#: ../libmateui/mate-about.c:383
 msgid "Copyright information for the program"
 msgstr "Titouroù Copyright evit ar goulev"
 
-#: ../libmateui/mate-about.c:388
+#: ../libmateui/mate-about.c:390
 msgid "Comments string"
 msgstr "Hedad an askelennoù"
 
-#: ../libmateui/mate-about.c:389
+#: ../libmateui/mate-about.c:391
 msgid "Comments about the program"
 msgstr "Askelennoù diwar-benn ar goulev"
 
-#: ../libmateui/mate-about.c:395
+#: ../libmateui/mate-about.c:397
 msgid "Authors"
 msgstr "Aozerion"
 
-#: ../libmateui/mate-about.c:396
+#: ../libmateui/mate-about.c:398
 msgid "List of authors of the programs"
 msgstr "Roll aozerion ar goulevioù"
 
-#: ../libmateui/mate-about.c:398
+#: ../libmateui/mate-about.c:400
 msgid "Author entry"
 msgstr "Maezienn enankañ an aozer"
 
-#: ../libmateui/mate-about.c:399
+#: ../libmateui/mate-about.c:401
 msgid "A single author entry"
 msgstr "Ur vaezienn enankañ evit un aozer hepken"
 
-#: ../libmateui/mate-about.c:406
+#: ../libmateui/mate-about.c:408
 msgid "Documenters"
 msgstr "Paotred an teuliadurioù"
 
-#: ../libmateui/mate-about.c:407
+#: ../libmateui/mate-about.c:409
 msgid "List of people documenting the program"
 msgstr "Listenn an dud o deus savet teuliadur ar goulev"
 
-#: ../libmateui/mate-about.c:409
+#: ../libmateui/mate-about.c:411
 msgid "Documenter entry"
 msgstr "Maezienn enankañ paotr an teuliadur"
 
-#: ../libmateui/mate-about.c:410
+#: ../libmateui/mate-about.c:412
 msgid "A single documenter entry"
 msgstr "Ur vaezienn enankañ eeun eus paotr an teuliadur"
 
-#: ../libmateui/mate-about.c:418
+#: ../libmateui/mate-about.c:420
 msgid "Translator credits"
 msgstr "Trugarez d'an droourien"
 
-#: ../libmateui/mate-about.c:419
+#: ../libmateui/mate-about.c:421
 msgid ""
 "Credits to the translators. This string should be marked as translatable"
-msgstr ""
-"Trugarez d'an droourien. Ret eo bezañ merket e-giz troiñ ar chadenn-mañ"
+msgstr "Trugarez d'an droourien. Ret eo bezañ merket e-giz troiñ ar chadenn-mañ"
 
-#: ../libmateui/mate-about.c:426
-#: ../libmateui/mate-druid-page-standard.c:123
+#: ../libmateui/mate-about.c:428 ../libmateui/mate-druid-page-standard.c:123
 msgid "Logo"
 msgstr "Logo"
 
-#: ../libmateui/mate-about.c:427
+#: ../libmateui/mate-about.c:429
 msgid "A logo for the about box"
 msgstr "Ul logo evit ar voest Diwar-Benn"
 
-#: ../libmateui/mate-about.c:506
+#: ../libmateui/mate-about.c:503
 #, c-format
 msgid "About %s"
 msgstr "Diwar-benn %s"
 
 #. Some standard menus
-#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:551
+#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:553
 #: ../test-mate/testmate.xml.h:5
 msgid "_File"
 msgstr "_Restr"
@@ -152,7 +152,7 @@ msgstr "_Restr"
 msgid "_File/"
 msgstr "_Restr/"
 
-#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:554
+#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:556
 msgid "_Edit"
 msgstr "K_emmañ"
 
@@ -160,7 +160,7 @@ msgstr "K_emmañ"
 msgid "_Edit/"
 msgstr "K_emmañ/"
 
-#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:557
+#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:559
 msgid "_View"
 msgstr "_Gwelout"
 
@@ -168,7 +168,7 @@ msgstr "_Gwelout"
 msgid "_View/"
 msgstr "_Gwelout/"
 
-#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:560
+#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:562
 msgid "_Settings"
 msgstr "_Arventennoù"
 
@@ -177,7 +177,7 @@ msgid "_Settings/"
 msgstr "_Arventennoù/"
 
 #. If you have more then one New type, use this tree
-#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:326
+#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:328
 msgid "_New"
 msgstr "_Nevez"
 
@@ -185,7 +185,7 @@ msgstr "_Nevez"
 msgid "_New/"
 msgstr "_Nevez/"
 
-#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:563
+#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:565
 msgid "Fi_les"
 msgstr "_Restroù"
 
@@ -193,15 +193,15 @@ msgstr "_Restroù"
 msgid "Fi_les/"
 msgstr "_Restroù/"
 
-#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:566
+#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:568
 msgid "_Windows"
 msgstr "_Prenestroù"
 
-#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:572
+#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:574
 msgid "_Game"
 msgstr "_C'hoari"
 
-#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:569
+#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:571
 #: ../test-mate/testmate.xml.h:6
 msgid "_Help"
 msgstr "_Skoazell"
@@ -282,7 +282,6 @@ msgstr "_Kuitaat"
 msgid "Quit the application"
 msgstr "Kuitaat an arload"
 
-#. 
 #. * The "Edit" menu
 #. 
 #. Cut
@@ -376,7 +375,6 @@ msgstr "_Perzhioù"
 msgid "Modify the file's properties"
 msgstr "Kemmañ perzhioù ar restr"
 
-#. 
 #. * The Settings menu
 #. 
 #. Settings
@@ -409,7 +407,6 @@ msgstr "Diuz an _Holl"
 msgid "Select everything"
 msgstr "Diuzañ pep tra"
 
-#. 
 #. * Window menu
 #. 
 #: ../libmateui/mate-app-helper.c:237
@@ -428,7 +425,6 @@ msgstr "Serriñ ar _Prenestr-mañ"
 msgid "Close the current window"
 msgstr "Serriñ ar prenestr bremanel"
 
-#. 
 #. * The "Game" menu
 #. 
 #: ../libmateui/mate-app-helper.c:251
@@ -496,31 +492,31 @@ msgstr "_Paouez ar c'hoari"
 msgid "End the current game"
 msgstr "Paouez ar c'hoari a-vremañ"
 
-#: ../libmateui/mate-app-helper.c:1150
+#: ../libmateui/mate-app-helper.c:1149
 msgid "_Contents"
 msgstr "Endal_c'hadoù"
 
-#: ../libmateui/mate-app-helper.c:1153
+#: ../libmateui/mate-app-helper.c:1152
 msgid "View help for this application"
 msgstr "Gwelout skoazell an arload-mañ"
 
-#: ../libmateui/mate-app-helper.c:2524
+#: ../libmateui/mate-app-helper.c:2523
 msgid "Text Below Icons"
 msgstr "Testenn dindan an arlunioù"
 
-#: ../libmateui/mate-app-helper.c:2525
+#: ../libmateui/mate-app-helper.c:2524
 msgid "Priority Text Beside Icons"
 msgstr "Tevetegezh d'an destenn e-kichen an arlunioù"
 
-#: ../libmateui/mate-app-helper.c:2526
+#: ../libmateui/mate-app-helper.c:2525
 msgid "Icons Only"
 msgstr "Arlunioù hepken"
 
-#: ../libmateui/mate-app-helper.c:2527
+#: ../libmateui/mate-app-helper.c:2526
 msgid "Text Only"
 msgstr "Skrid hepken"
 
-#: ../libmateui/mate-app-helper.c:2588
+#: ../libmateui/mate-app-helper.c:2587
 #, c-format
 msgid "Use Desktop Default (%s)"
 msgstr "Implijout ar burev dre ziouer (%s)"
@@ -600,17 +596,14 @@ msgstr "Live oberiantiz an arveriad azgoulennet."
 #: ../libmateui/mate-authentication-manager.c:84
 #, c-format
 msgid "Your HTTP Proxy requires you to log in.\n"
-msgstr ""
-"Ret eo deoc'h bezañ kennasket a-raok ober gant an dafariad proksi HTTP.\n"
+msgstr "Ret eo deoc'h bezañ kennasket a-raok ober gant an dafariad proksi HTTP.\n"
 
 #: ../libmateui/mate-authentication-manager.c:85
 #, c-format
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Ret eo deoc'h bezañ kennasket evit mont e  \"%s\".\n"
-"%s"
+msgstr "Ret eo deoc'h bezañ kennasket evit mont e  \"%s\".\n%s"
 
 #: ../libmateui/mate-authentication-manager.c:88
 msgid "Your password will be transmitted unencrypted."
@@ -625,7 +618,8 @@ msgstr "Kaset e vo ho ker-tremen dre ur mod enrineget."
 msgid "Authentication Required"
 msgstr "Azgoulennet eo an dilesa"
 
-#. Translators: "You must log in to acces user@server.com/share domain MYWINDOWSDOMAIN."
+#. Translators: "You must log in to acces user@server.com/share domain
+#. MYWINDOWSDOMAIN."
 #: ../libmateui/mate-authentication-manager.c:303
 #, c-format
 msgid "You must log in to access %s domain %s\n"
@@ -724,7 +718,7 @@ msgstr "Eur deraouiñ"
 msgid "The initial time"
 msgstr "An eur deraouiñ"
 
-#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:96
+#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:93
 msgid "Date"
 msgstr "Deiziad"
 
@@ -754,7 +748,7 @@ msgid "mate_date_edit_get_date deprecated, use mate_date_edit_get_time"
 msgstr "mate_date_edit_get_date dispredet, arverañ mate_date_edit_get_time"
 
 #: ../libmateui/mate-druid-page-standard.c:115
-#: ../libmateui/mate-font-picker.c:147
+#: ../libmateui/mate-font-picker.c:127
 msgid "Title"
 msgstr "Titl"
 
@@ -892,11 +886,9 @@ msgstr "Enankad GTK"
 
 #: ../libmateui/mate-file-entry.c:234
 msgid ""
-"Unique identifier for the file entry.  This will be used to save the history "
-"list."
-msgstr ""
-"Naoudi nemetañ evit maezienn enankañ ar restroù.  Arveret e vo a-benn "
-"enrollañ roll ar roll istor."
+"Unique identifier for the file entry.  This will be used to save the history"
+" list."
+msgstr "Naoudi nemetañ evit maezienn enankañ ar restroù.  Arveret e vo a-benn enrollañ roll ar roll istor."
 
 #: ../libmateui/mate-file-entry.c:242 ../libmateui/mate-icon-entry.c:178
 msgid "Browse Dialog Title"
@@ -914,9 +906,7 @@ msgstr "Enankad ar c'havlec'hiad"
 msgid ""
 "Whether the file entry is being used to enter directory names or complete "
 "filenames."
-msgstr ""
-"Menegiñ a ra hag ez eo arveret maezienn enankañ ar restr a-benn biziata "
-"anvioù kavlec'hioù pe anvioù restr klok."
+msgstr "Menegiñ a ra hag ez eo arveret maezienn enankañ ar restr a-benn biziata anvioù kavlec'hioù pe anvioù restr klok."
 
 #: ../libmateui/mate-file-entry.c:259
 msgid "Modal"
@@ -924,8 +914,7 @@ msgstr "Modek"
 
 #: ../libmateui/mate-file-entry.c:260
 msgid "Whether the Browse file window should be modal."
-msgstr ""
-"Menegiñ a ra hag ez eo modek ar prenestr da furchal e-touez ar restroù."
+msgstr "Menegiñ a ra hag ez eo modek ar prenestr da furchal e-touez ar restroù."
 
 #: ../libmateui/mate-file-entry.c:267 ../libmateui/mate-icon-entry.c:194
 msgid "Filename"
@@ -949,13 +938,10 @@ msgstr "MateEntry"
 
 #: ../libmateui/mate-file-entry.c:285
 msgid ""
-"MateEntry that the file entry uses for entering filenames.  You can use "
-"this property to get the MateEntry if you need to modify or query any of "
-"its parameters."
-msgstr ""
-"MateEntry arveret gant maezienn enankañ ar restr a-benn enankañ anvioù "
-"restroù. Arveret e vez ar perzh-mañ a-benn kaout MateEntry mar bez ezhomm "
-"daskemmañ pe gerc'hat unan eus he ferzhioù."
+"MateEntry that the file entry uses for entering filenames.  You can use this"
+" property to get the MateEntry if you need to modify or query any of its "
+"parameters."
+msgstr "MateEntry arveret gant maezienn enankañ ar restr a-benn enankañ anvioù restroù. Arveret e vez ar perzh-mañ a-benn kaout MateEntry mar bez ezhomm daskemmañ pe gerc'hat unan eus he ferzhioù."
 
 #: ../libmateui/mate-file-entry.c:295
 msgid "GtkEntry"
@@ -966,10 +952,7 @@ msgid ""
 "GtkEntry that the file entry uses for entering filenames.  You can use this "
 "property to get the GtkEntry if you need to modify or query any of its "
 "parameters."
-msgstr ""
-"GtkEntry arveret gant maezienn enankañ ar restr a-benn enankañ anvioù "
-"restroù. Arveret e vez ar perzh-mañ a-benn kaout GTKEntry mar bez ezhomm "
-"daskemmañ pe gerc'hat unan eus he ferzhioù."
+msgstr "GtkEntry arveret gant maezienn enankañ ar restr a-benn enankañ anvioù restroù. Arveret e vez ar perzh-mañ a-benn kaout GTKEntry mar bez ezhomm daskemmañ pe gerc'hat unan eus he ferzhioù."
 
 #: ../libmateui/mate-file-entry.c:306
 msgid "Use GtkFileChooser"
@@ -979,9 +962,7 @@ msgstr "Arverañ GtkFileChooser"
 msgid ""
 "Whether to use the new GtkFileChooser widget or the GtkFileSelection widget "
 "to select files."
-msgstr ""
-"Meneg a ra mar bez arveret widjed GtkFileChooser nevez pe widjed "
-"GtkFileSelection a-benn diuzañ restroù."
+msgstr "Meneg a ra mar bez arveret widjed GtkFileChooser nevez pe widjed GtkFileSelection a-benn diuzañ restroù."
 
 #: ../libmateui/mate-file-entry.c:316
 msgid "GtkFileChooser Action"
@@ -1011,77 +992,74 @@ msgstr "_Furchal..."
 msgid "Pop up a file selector to choose a file"
 msgstr "Skrammañ un diuzer restroù a-benn dibab ur restr"
 
-#: ../libmateui/mate-font-picker.c:58
+#: ../libmateui/mate-font-picker.c:60
 msgid "sans 12"
 msgstr "sans 12"
 
-#: ../libmateui/mate-font-picker.c:59
+#: ../libmateui/mate-font-picker.c:61
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 msgstr "AaBbCHchC'Hc'hDdEeFfGgHhIiJjKkLlMmNnÑñOoPpRrSsTtUuÙùVvWwYyZz"
 
-#: ../libmateui/mate-font-picker.c:60
+#: ../libmateui/mate-font-picker.c:62
 msgid "Pick a Font"
 msgstr "Dibabit un nodrezh"
 
-#: ../libmateui/mate-font-picker.c:148
+#: ../libmateui/mate-font-picker.c:127
 msgid "The title of the selection dialog box"
 msgstr "Titl ar voestad emziviz da ziuzañ"
 
-#: ../libmateui/mate-font-picker.c:156
+#: ../libmateui/mate-font-picker.c:129
 msgid "Mode"
 msgstr "Mod"
 
-#: ../libmateui/mate-font-picker.c:157
+#: ../libmateui/mate-font-picker.c:129
 msgid "The mode of operation of the font picker"
 msgstr "An doare da vont en-dro gant diuzer an nodrezhoù"
 
-#: ../libmateui/mate-font-picker.c:166
+#: ../libmateui/mate-font-picker.c:131
 msgid "Font name"
 msgstr "Anv an nodrezh"
 
-#: ../libmateui/mate-font-picker.c:167
+#: ../libmateui/mate-font-picker.c:131
 msgid "Name of the selected font"
 msgstr "Anv an nodrezh diuzet"
 
-#: ../libmateui/mate-font-picker.c:176 ../libmateui/mate-font-picker.c:972
-msgid "Font"
-msgstr "Nodrezh"
-
-#: ../libmateui/mate-font-picker.c:177
-msgid "The selected GtkFont"
-msgstr "An nodrezh Gtk diuzet"
-
-#: ../libmateui/mate-font-picker.c:184
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text"
 msgstr "Testenn an alberz"
 
-#: ../libmateui/mate-font-picker.c:185
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text shown in the dialog"
 msgstr "Testenn an alberz diskouezet er voestad emziviz"
 
-#: ../libmateui/mate-font-picker.c:193
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in label"
 msgstr "Arverañ un nodrezh er skitellig"
 
-#: ../libmateui/mate-font-picker.c:194
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in the label in font info mode"
 msgstr "Arverañ un nodrezh er skitellig e mod titouriñ a-zivout an nodrezh"
 
-#: ../libmateui/mate-font-picker.c:202
+#. 8 min, 72 max, 14 default
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label"
 msgstr "Ment an nodrezh evit ar skitellig"
 
-#: ../libmateui/mate-font-picker.c:203
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label in font info mode"
 msgstr "Ment an nodrezh evit ar skitellig e mod titouriñ a-zivout an nodrezh"
 
-#: ../libmateui/mate-font-picker.c:213
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size"
 msgstr "Diskouez ar vent"
 
-#: ../libmateui/mate-font-picker.c:214
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size in font info mode"
 msgstr "Diskouez ar vent e mod titouriñ a-zivout an nodrezh"
+
+#: ../libmateui/mate-font-picker.c:864
+msgid "Font"
+msgstr "Nodrezh"
 
 #: ../libmateui/mate-mateconf-ui.c:61
 msgid "MATE MateConf UI Support"
@@ -1095,24 +1073,17 @@ msgstr "_Munudoù"
 #, c-format
 msgid ""
 "The application \"%s\" attempted to change an aspect of your configuration "
-"that your system administrator or operating system vendor does not allow you "
-"to change. Some of the settings you have selected may not take effect, or "
+"that your system administrator or operating system vendor does not allow you"
+" to change. Some of the settings you have selected may not take effect, or "
 "may not be restored next time you use the application."
-msgstr ""
-"Klasket en deus an arload \"%s\" kemmañ ul lodenn eus ho kefluniadur n'oc'h "
-"ket aotreet da gemmañ gant ardead ho reizhiad pe bourchaser ho reizhiad "
-"korvoiñ. Un darn eus an arventennoù diuzet ganeoc'h ne vint ket efedus pe "
-"atoret e vint ar wech a zeu ma vo loc'het an arload."
+msgstr "Klasket en deus an arload \"%s\" kemmañ ul lodenn eus ho kefluniadur n'oc'h ket aotreet da gemmañ gant ardead ho reizhiad pe bourchaser ho reizhiad korvoiñ. Un darn eus an arventennoù diuzet ganeoc'h ne vint ket efedus pe atoret e vint ar wech a zeu ma vo loc'het an arload."
 
 #: ../libmateui/mate-mateconf-ui.c:178
 #, c-format
 msgid ""
 "An error occurred while loading or saving configuration information for %s. "
 "Some of your configuration settings may not work properly."
-msgstr ""
-"Degouezhet ez eus bet ur fazi e-pad ma oa o kargañ pe enrollañ stlennoù ar "
-"c'hefluniadur evit %s. Marteze ned ay ket mat en-dro arventennoù zo eus ho "
-"kefluniadur."
+msgstr "Degouezhet ez eus bet ur fazi e-pad ma oa o kargañ pe enrollañ stlennoù ar c'hefluniadur evit %s. Marteze ned ay ket mat en-dro arventennoù zo eus ho kefluniadur."
 
 #: ../libmateui/mate-href.c:102
 msgid "URL"
@@ -1150,19 +1121,13 @@ msgstr "Kaset e viot gant an afell-mañ betek an URI skrammet ganti."
 msgid ""
 "An error has occurred while trying to launch the default web browser.\n"
 "Please check your settings in the 'Preferred Applications' preference tool."
-msgstr ""
-"Degouezhet ez eus bet ur fazi e-pad ma oa o klask loc'hañ ar merdeer web dre "
-"ziouer.\n"
-"Mar plij, gwiriit hoc'h arventennoù e benveg ar gwellvezioù 'Arloadoù gwell "
-"ganin'."
+msgstr "Degouezhet ez eus bet ur fazi e-pad ma oa o klask loc'hañ ar merdeer web dre ziouer.\nMar plij, gwiriit hoc'h arventennoù e benveg ar gwellvezioù 'Arloadoù gwell ganin'."
 
 #: ../libmateui/mate-icon-entry.c:170
 msgid ""
-"Unique identifier for the icon entry.  This will be used to save the history "
-"list."
-msgstr ""
-"Naoudi nemetañ evit maezienn enankañ an arlunioù.  Arveret e vo a-benn "
-"enrollañ roll ar roll istor."
+"Unique identifier for the icon entry.  This will be used to save the history"
+" list."
+msgstr "Naoudi nemetañ evit maezienn enankañ an arlunioù.  Arveret e vo a-benn enrollañ roll ar roll istor."
 
 #: ../libmateui/mate-icon-entry.c:179
 msgid "Title for the Browse icon dialog."
@@ -1188,9 +1153,7 @@ msgstr "Boestad emziviz an diuzañ"
 msgid ""
 "Icon picker dialog.  You can use this property to get the GtkDialog if you "
 "need to modify or query any of its properties."
-msgstr ""
-"Boestad emziviz da ziuzañ an arlunioù. Arveret e vez ar perzh-mañ a-benn "
-"kaout GTKDialog mar bez ezhomm daskemmañ pe gerc'hat unan eus he ferzhioù."
+msgstr "Boestad emziviz da ziuzañ an arlunioù. Arveret e vez ar perzh-mañ a-benn kaout GTKDialog mar bez ezhomm daskemmañ pe gerc'hat unan eus he ferzhioù."
 
 #: ../libmateui/mate-icon-entry.c:312 ../libmateui/mate-icon-entry.c:996
 msgid "Choose Icon"
@@ -1214,8 +1177,7 @@ msgstr "Tapit an arlun a fell deoc'h, mar plij."
 
 #: ../libmateui/mate-icon-entry.c:1000
 msgid "This button will open a window to let you select an icon."
-msgstr ""
-"Gant an afell-mañ e vo digoret ur prenestr ho laosko da ziuzañ un arlun."
+msgstr "Gant an afell-mañ e vo digoret ur prenestr ho laosko da ziuzañ un arlun."
 
 #: ../libmateui/mate-icon-entry.c:1022
 msgid "Browse"
@@ -1229,15 +1191,12 @@ msgstr "Treug an arlun"
 msgid ""
 "Here you should enter the name of the directory where icon images are "
 "located."
-msgstr ""
-"Amañ ez eo ret deoc'h enankañ anv ar c'havlec'hiad m'emañ skeudennoù an "
-"arlunioù."
+msgstr "Amañ ez eo ret deoc'h enankañ anv ar c'havlec'hiad m'emañ skeudennoù an arlunioù."
 
 #: ../libmateui/mate-icon-sel.c:293
 #, c-format
 msgid "MateIconSelection: '%s' does not exist or is not a directory"
-msgstr ""
-"MateIconSelection : '%s' n'eus ket anezhañ pe n'eo ket ur c'havlec'hiad"
+msgstr "MateIconSelection : '%s' n'eus ket anezhañ pe n'eo ket ur c'havlec'hiad"
 
 #: ../libmateui/mate-icon-sel.c:301
 #, c-format
@@ -1324,8 +1283,7 @@ msgstr "Seveniñ un alberz"
 msgid "Whether the pixmap entry should have a preview."
 msgstr "Menegiñ a ra hag ez eus un alberz gant maezienn enankañ Pixmap."
 
-#: ../libmateui/mate-pixmap-entry.c:179
-#: ../libmateui/mate-pixmap-entry.c:473
+#: ../libmateui/mate-pixmap-entry.c:179 ../libmateui/mate-pixmap-entry.c:473
 msgid "No Image"
 msgstr "Skeudenn ebet"
 
@@ -1345,26 +1303,26 @@ msgstr "N'hall ket kavout hbox en ur ober gant un diuzadur restr reizh"
 msgid "Preview"
 msgstr "Alberz"
 
-#: ../libmateui/mate-scores.c:77
+#: ../libmateui/mate-scores.c:74
 msgid "Top Ten"
 msgstr "Ar re wellañ"
 
-#: ../libmateui/mate-scores.c:90
+#: ../libmateui/mate-scores.c:87
 msgid "User"
 msgstr "Arveriad"
 
-#: ../libmateui/mate-scores.c:93
+#: ../libmateui/mate-scores.c:90
 msgid "Score"
 msgstr "Eriñv"
 
 #. TRANSLATORS NOTE: Date format used when showing scores in games.
 #. * Please refer to manpage of strftime(3) for complete reference.
 #. 
-#: ../libmateui/mate-scores.c:193
+#: ../libmateui/mate-scores.c:182
 msgid "%a %b %d %T %Y"
 msgstr "%a %b %d %T %Y"
 
-#: ../libmateui/mate-scores.c:394
+#: ../libmateui/mate-scores.c:369
 msgid "Sans 14"
 msgstr "Sans 14"
 
@@ -1420,7 +1378,7 @@ msgstr "SKRAMMAÑ"
 msgid "MATE GUI Library"
 msgstr "Levraoueg ketal arveriad MATE"
 
-#: ../libmateui/mate-ui-init.c:232
+#: ../libmateui/mate-ui-init.c:226
 msgid "Could not open link"
 msgstr "N'hall ket digeriñ an ere"
 

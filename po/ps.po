@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-29 12:37+0200\n"
-"PO-Revision-Date: 2009-04-21 18:04-0800\n"
-"Last-Translator: \n"
-"Language-Team: Pashto <pakhtosoft@gmail.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-22 19:43+0100\n"
+"PO-Revision-Date: 2012-02-22 18:46+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Pashto, Pushto\n"
-"X-Poedit-Country: AFGHANISTAN\n"
+"Language: ps\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../demos/mdi_demo.c:128
 msgid "Child Item 1"
@@ -33,115 +33,114 @@ msgstr "وړوکی توکی ۲"
 msgid "Hint for item 2"
 msgstr "د ۲ وړوکي توکي لپاره اشاره"
 
-#: ../libmateui/mate-about.c:187
+#: ../libmateui/mate-about.c:199
 msgid "Credits"
 msgstr "باورونه"
 
-#: ../libmateui/mate-about.c:219
+#: ../libmateui/mate-about.c:222
 msgid "Written by"
 msgstr "ليکوالان"
 
-#: ../libmateui/mate-about.c:234
+#: ../libmateui/mate-about.c:235
 msgid "Documented by"
 msgstr "لاسوندونکي"
 
-#: ../libmateui/mate-about.c:249
+#: ../libmateui/mate-about.c:248
 msgid "Translated by"
 msgstr "ژباړنان"
 
-#: ../libmateui/mate-about.c:312
+#: ../libmateui/mate-about.c:315
 msgid "C_redits"
 msgstr "ب_اورونه"
 
-#: ../libmateui/mate-about.c:365
+#: ../libmateui/mate-about.c:367
 msgid "Program name"
 msgstr "کړنلار نوم"
 
-#: ../libmateui/mate-about.c:366
+#: ../libmateui/mate-about.c:368
 msgid "The name of the program"
 msgstr "د کړنلار نوم"
 
-#: ../libmateui/mate-about.c:373
+#: ../libmateui/mate-about.c:375
 msgid "Program version"
 msgstr "کړنلار نسخه"
 
-#: ../libmateui/mate-about.c:374
+#: ../libmateui/mate-about.c:376
 msgid "The version of the program"
 msgstr "د کړنلار نسخه"
 
-#: ../libmateui/mate-about.c:380
+#: ../libmateui/mate-about.c:382
 msgid "Copyright string"
 msgstr "چاپرښتې مزی"
 
-#: ../libmateui/mate-about.c:381
+#: ../libmateui/mate-about.c:383
 msgid "Copyright information for the program"
 msgstr "د کړنلار لپاره د چاپرښتې خبرتياوې"
 
-#: ../libmateui/mate-about.c:388
+#: ../libmateui/mate-about.c:390
 msgid "Comments string"
 msgstr "څرګندون مزی"
 
-#: ../libmateui/mate-about.c:389
+#: ../libmateui/mate-about.c:391
 msgid "Comments about the program"
 msgstr "د کړنلار په اړه څرګندون"
 
-#: ../libmateui/mate-about.c:395
+#: ../libmateui/mate-about.c:397
 msgid "Authors"
 msgstr "ليکوالان"
 
-#: ../libmateui/mate-about.c:396
+#: ../libmateui/mate-about.c:398
 msgid "List of authors of the programs"
 msgstr "د کړنلارو د ليکوالانو لړ"
 
-#: ../libmateui/mate-about.c:398
+#: ../libmateui/mate-about.c:400
 msgid "Author entry"
 msgstr "ليکوال ننوت"
 
-#: ../libmateui/mate-about.c:399
+#: ../libmateui/mate-about.c:401
 msgid "A single author entry"
 msgstr "يو يوګړی ليکوال ننوت"
 
-#: ../libmateui/mate-about.c:406
+#: ../libmateui/mate-about.c:408
 msgid "Documenters"
 msgstr "لاسوندونکی"
 
-#: ../libmateui/mate-about.c:407
+#: ../libmateui/mate-about.c:409
 msgid "List of people documenting the program"
 msgstr "د هغه وګړو لړ چې کړنلار لاسوندوي"
 
-#: ../libmateui/mate-about.c:409
+#: ../libmateui/mate-about.c:411
 msgid "Documenter entry"
 msgstr "لاسوندونکی ننوت"
 
-#: ../libmateui/mate-about.c:410
+#: ../libmateui/mate-about.c:412
 msgid "A single documenter entry"
 msgstr "يو يوګړی لاسوندونکی ننوت"
 
-#: ../libmateui/mate-about.c:418
+#: ../libmateui/mate-about.c:420
 msgid "Translator credits"
 msgstr "ژباړنانو خبرتياوې"
 
-#: ../libmateui/mate-about.c:419
+#: ../libmateui/mate-about.c:421
 msgid ""
 "Credits to the translators. This string should be marked as translatable"
 msgstr "د ژباړنانو نومونه. دا مزی بايد لکه ژباړل کېدونکی نښه شي"
 
-#: ../libmateui/mate-about.c:426
-#: ../libmateui/mate-druid-page-standard.c:123
+#: ../libmateui/mate-about.c:428 ../libmateui/mate-druid-page-standard.c:123
 msgid "Logo"
 msgstr "نښان"
 
-#: ../libmateui/mate-about.c:427
+#: ../libmateui/mate-about.c:429
 msgid "A logo for the about box"
 msgstr "د په اړه بکس لپاره يو نښان"
 
-#: ../libmateui/mate-about.c:506
+#: ../libmateui/mate-about.c:503
 #, c-format
 msgid "About %s"
 msgstr "په اړه %s د"
 
 #. Some standard menus
-#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:551
+#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:553
 #: ../test-mate/testmate.xml.h:5
 msgid "_File"
 msgstr "دوتنه_"
@@ -150,7 +149,7 @@ msgstr "دوتنه_"
 msgid "_File/"
 msgstr "/دوتنه_"
 
-#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:554
+#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:556
 msgid "_Edit"
 msgstr "سمون_"
 
@@ -158,7 +157,7 @@ msgstr "سمون_"
 msgid "_Edit/"
 msgstr "/سمون_"
 
-#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:557
+#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:559
 msgid "_View"
 msgstr "ليد_"
 
@@ -166,7 +165,7 @@ msgstr "ليد_"
 msgid "_View/"
 msgstr "/ليد_"
 
-#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:560
+#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:562
 msgid "_Settings"
 msgstr "امستنې_"
 
@@ -175,7 +174,7 @@ msgid "_Settings/"
 msgstr "/امستنې_"
 
 #. If you have more then one New type, use this tree
-#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:326
+#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:328
 msgid "_New"
 msgstr "نوی_"
 
@@ -183,7 +182,7 @@ msgstr "نوی_"
 msgid "_New/"
 msgstr "/نوی_"
 
-#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:563
+#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:565
 msgid "Fi_les"
 msgstr "دو_تنې"
 
@@ -191,15 +190,15 @@ msgstr "دو_تنې"
 msgid "Fi_les/"
 msgstr "/دو_تنې"
 
-#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:566
+#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:568
 msgid "_Windows"
 msgstr "کړکۍ_"
 
-#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:572
+#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:574
 msgid "_Game"
 msgstr "لوبې_"
 
-#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:569
+#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:571
 #: ../test-mate/testmate.xml.h:6
 msgid "_Help"
 msgstr "مرسته_"
@@ -280,9 +279,8 @@ msgstr "بندول_"
 msgid "Quit the application"
 msgstr "کاريال بندول"
 
-#.
 #. * The "Edit" menu
-#.
+#. 
 #. Cut
 #: ../libmateui/mate-app-helper.c:158
 msgid "Cu_t"
@@ -374,9 +372,8 @@ msgstr "ځانتياوې_"
 msgid "Modify the file's properties"
 msgstr "د دوتنې ځانتياوې بدلول"
 
-#.
 #. * The Settings menu
-#.
+#. 
 #. Settings
 #: ../libmateui/mate-app-helper.c:214
 msgid "Prefere_nces"
@@ -387,9 +384,9 @@ msgid "Configure the application"
 msgstr "کاريال سازول"
 
 #. 20
-#.
+#. 
 #. * And the "Help" menu
-#.
+#. 
 #. About
 #: ../libmateui/mate-app-helper.c:224 ../test-mate/testmate.xml.h:4
 msgid "_About"
@@ -407,9 +404,8 @@ msgstr "ټول ټاکل_"
 msgid "Select everything"
 msgstr "هرڅه ټاکل"
 
-#.
 #. * Window menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:237
 msgid "Create New _Window"
 msgstr "نوې _کړکۍ جوړول"
@@ -426,9 +422,8 @@ msgstr "دا کړکۍ بندول_"
 msgid "Close the current window"
 msgstr "اوسنۍ کړکۍ بندول"
 
-#.
 #. * The "Game" menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:251
 msgid "_New Game"
 msgstr "نوې لوبه_"
@@ -494,31 +489,31 @@ msgstr "لوبه بندول_"
 msgid "End the current game"
 msgstr "اوسنۍ لوبه بندول"
 
-#: ../libmateui/mate-app-helper.c:1150
+#: ../libmateui/mate-app-helper.c:1149
 msgid "_Contents"
 msgstr "منځپانګې_"
 
-#: ../libmateui/mate-app-helper.c:1153
+#: ../libmateui/mate-app-helper.c:1152
 msgid "View help for this application"
 msgstr "د دې کاريال مرسته ښودل"
 
-#: ../libmateui/mate-app-helper.c:2524
+#: ../libmateui/mate-app-helper.c:2523
 msgid "Text Below Icons"
 msgstr "ليکنه د انځورنونو لاندې"
 
-#: ../libmateui/mate-app-helper.c:2525
+#: ../libmateui/mate-app-helper.c:2524
 msgid "Priority Text Beside Icons"
 msgstr ""
 
-#: ../libmateui/mate-app-helper.c:2526
+#: ../libmateui/mate-app-helper.c:2525
 msgid "Icons Only"
 msgstr "يوازې انځورنونه"
 
-#: ../libmateui/mate-app-helper.c:2527
+#: ../libmateui/mate-app-helper.c:2526
 msgid "Text Only"
 msgstr "يوازې ليکنه"
 
-#: ../libmateui/mate-app-helper.c:2588
+#: ../libmateui/mate-app-helper.c:2587
 #, c-format
 msgid "Use Desktop Default (%s)"
 msgstr "(%s) د سرپاڼې تلواله کارول"
@@ -605,9 +600,7 @@ msgstr ""
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"لاس رسي لپاره بايد تاسې ننوځئ \"%s\" د\n"
-"%s"
+msgstr "لاس رسي لپاره بايد تاسې ننوځئ \"%s\" د\n%s"
 
 #: ../libmateui/mate-authentication-manager.c:88
 msgid "Your password will be transmitted unencrypted."
@@ -622,7 +615,8 @@ msgstr ""
 msgid "Authentication Required"
 msgstr "کرونه اړينه ده"
 
-#. Translators: "You must log in to acces user@server.com/share domain MYWINDOWSDOMAIN."
+#. Translators: "You must log in to acces user@server.com/share domain
+#. MYWINDOWSDOMAIN."
 #: ../libmateui/mate-authentication-manager.c:303
 #, c-format
 msgid "You must log in to access %s domain %s\n"
@@ -721,7 +715,7 @@ msgstr "پېليز مهال"
 msgid "The initial time"
 msgstr "د پېل مهال"
 
-#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:96
+#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:93
 msgid "Date"
 msgstr "نېټه"
 
@@ -751,7 +745,7 @@ msgid "mate_date_edit_get_date deprecated, use mate_date_edit_get_time"
 msgstr ""
 
 #: ../libmateui/mate-druid-page-standard.c:115
-#: ../libmateui/mate-font-picker.c:147
+#: ../libmateui/mate-font-picker.c:127
 msgid "Title"
 msgstr "سرليک"
 
@@ -889,8 +883,8 @@ msgstr "ننوت GTK د"
 
 #: ../libmateui/mate-file-entry.c:234
 msgid ""
-"Unique identifier for the file entry.  This will be used to save the history "
-"list."
+"Unique identifier for the file entry.  This will be used to save the history"
+" list."
 msgstr ""
 
 #: ../libmateui/mate-file-entry.c:242 ../libmateui/mate-icon-entry.c:178
@@ -941,9 +935,9 @@ msgstr "MateEntry"
 
 #: ../libmateui/mate-file-entry.c:285
 msgid ""
-"MateEntry that the file entry uses for entering filenames.  You can use "
-"this property to get the MateEntry if you need to modify or query any of "
-"its parameters."
+"MateEntry that the file entry uses for entering filenames.  You can use this"
+" property to get the MateEntry if you need to modify or query any of its "
+"parameters."
 msgstr ""
 
 #: ../libmateui/mate-file-entry.c:295
@@ -995,77 +989,74 @@ msgstr "...لټول_"
 msgid "Pop up a file selector to choose a file"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:58
+#: ../libmateui/mate-font-picker.c:60
 msgid "sans 12"
 msgstr "sans ۱۲"
 
-#: ../libmateui/mate-font-picker.c:59
+#: ../libmateui/mate-font-picker.c:61
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:60
+#: ../libmateui/mate-font-picker.c:62
 msgid "Pick a Font"
 msgstr "ليکبڼه اوچتول"
 
-#: ../libmateui/mate-font-picker.c:148
+#: ../libmateui/mate-font-picker.c:127
 msgid "The title of the selection dialog box"
 msgstr "د ټاکنې کړکۍ سرليک"
 
-#: ../libmateui/mate-font-picker.c:156
+#: ../libmateui/mate-font-picker.c:129
 msgid "Mode"
 msgstr "اکر"
 
-#: ../libmateui/mate-font-picker.c:157
+#: ../libmateui/mate-font-picker.c:129
 msgid "The mode of operation of the font picker"
 msgstr "د ليکبڼې اوچتوونکي د چلښت اکر"
 
-#: ../libmateui/mate-font-picker.c:166
+#: ../libmateui/mate-font-picker.c:131
 msgid "Font name"
 msgstr "ليکبڼې نوم"
 
-#: ../libmateui/mate-font-picker.c:167
+#: ../libmateui/mate-font-picker.c:131
 msgid "Name of the selected font"
 msgstr "د ټاکل شوې ليکبڼې نوم"
 
-#: ../libmateui/mate-font-picker.c:176 ../libmateui/mate-font-picker.c:972
-msgid "Font"
-msgstr "ليکبڼه"
-
-#: ../libmateui/mate-font-picker.c:177
-msgid "The selected GtkFont"
-msgstr "GtkFont ټاکل شوی"
-
-#: ../libmateui/mate-font-picker.c:184
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text"
 msgstr "ليکنې مخليد"
 
-#: ../libmateui/mate-font-picker.c:185
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text shown in the dialog"
 msgstr "په کړکۍ کښې د ښودل شوې ليکنې مخليد"
 
-#: ../libmateui/mate-font-picker.c:193
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in label"
 msgstr "په نښکه کښې ليکبڼه کارول"
 
-#: ../libmateui/mate-font-picker.c:194
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in the label in font info mode"
 msgstr "په ليکبڼې خبرتياوې اکر کښې په نښکو کښې ليکبڼې کارول"
 
-#: ../libmateui/mate-font-picker.c:202
+#. 8 min, 72 max, 14 default
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label"
 msgstr "د نښکې د ليکبڼې کچ"
 
-#: ../libmateui/mate-font-picker.c:203
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label in font info mode"
 msgstr "په ليکبڼې خبرتياوې اکر کښې د نښکو د ليکبڼې کچ"
 
-#: ../libmateui/mate-font-picker.c:213
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size"
 msgstr "کچ ښودل"
 
-#: ../libmateui/mate-font-picker.c:214
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size in font info mode"
 msgstr "په ليکبڼې خبرتياوې اکر کښې کچ ښودل"
+
+#: ../libmateui/mate-font-picker.c:864
+msgid "Font"
+msgstr "ليکبڼه"
 
 #: ../libmateui/mate-mateconf-ui.c:61
 msgid "MATE MateConf UI Support"
@@ -1079,8 +1070,8 @@ msgstr "خبرتياوې_"
 #, c-format
 msgid ""
 "The application \"%s\" attempted to change an aspect of your configuration "
-"that your system administrator or operating system vendor does not allow you "
-"to change. Some of the settings you have selected may not take effect, or "
+"that your system administrator or operating system vendor does not allow you"
+" to change. Some of the settings you have selected may not take effect, or "
 "may not be restored next time you use the application."
 msgstr ""
 
@@ -1131,8 +1122,8 @@ msgstr ""
 
 #: ../libmateui/mate-icon-entry.c:170
 msgid ""
-"Unique identifier for the icon entry.  This will be used to save the history "
-"list."
+"Unique identifier for the icon entry.  This will be used to save the history"
+" list."
 msgstr ""
 
 #: ../libmateui/mate-icon-entry.c:179
@@ -1289,8 +1280,7 @@ msgstr "مخليد کول"
 msgid "Whether the pixmap entry should have a preview."
 msgstr ""
 
-#: ../libmateui/mate-pixmap-entry.c:179
-#: ../libmateui/mate-pixmap-entry.c:473
+#: ../libmateui/mate-pixmap-entry.c:179 ../libmateui/mate-pixmap-entry.c:473
 msgid "No Image"
 msgstr "هېڅ انځور"
 
@@ -1310,26 +1300,26 @@ msgstr ""
 msgid "Preview"
 msgstr "مخليد"
 
-#: ../libmateui/mate-scores.c:77
+#: ../libmateui/mate-scores.c:74
 msgid "Top Ten"
 msgstr "لس جګ"
 
-#: ../libmateui/mate-scores.c:90
+#: ../libmateui/mate-scores.c:87
 msgid "User"
 msgstr "کارن"
 
-#: ../libmateui/mate-scores.c:93
+#: ../libmateui/mate-scores.c:90
 msgid "Score"
 msgstr "نمبر"
 
 #. TRANSLATORS NOTE: Date format used when showing scores in games.
 #. * Please refer to manpage of strftime(3) for complete reference.
-#.
-#: ../libmateui/mate-scores.c:193
+#. 
+#: ../libmateui/mate-scores.c:182
 msgid "%a %b %d %T %Y"
 msgstr "%a %b %d %T %Y"
 
-#: ../libmateui/mate-scores.c:394
+#: ../libmateui/mate-scores.c:369
 msgid "Sans 14"
 msgstr "Sans ۱۴"
 
@@ -1385,28 +1375,10 @@ msgstr "ښوون"
 msgid "MATE GUI Library"
 msgstr "کتابتون GUI د ګنوم"
 
-#: ../libmateui/mate-ui-init.c:232
+#: ../libmateui/mate-ui-init.c:226
 msgid "Could not open link"
 msgstr "پېوند نه شي پرانيستلی"
 
 #: ../test-mate/testmate.xml.h:3
 msgid "Exit the test"
 msgstr "ازموينه بندول"
-
-#~ msgid "%s is not a folder"
-#~ msgstr "يوه پوښۍ نه ده %s"
-
-#~ msgid "Could not create '%s': %s"
-#~ msgstr "%s :نه شي جوړولی '%s'"
-
-#~ msgid "Network Servers"
-#~ msgstr "جاليز پالنګران"
-
-#~ msgid "File System"
-#~ msgstr "دوتنه غونډال"
-
-#~ msgid "'%s': %s"
-#~ msgstr "'%s': %s"
-
-#~ msgid "Failed to open file '%s': %s"
-#~ msgstr "%s :دوتنې په پرانيستلو کښې پاتې راغی '%s' د"

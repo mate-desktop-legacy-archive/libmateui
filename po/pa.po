@@ -1,22 +1,23 @@
-# translation of libmateui.HEAD.po to Punjabi
-# Copyright (C) 2004 THE libmateui.HEAD'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the libmateui.HEAD package.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Amanpreet Singh Alam <amanlinux@netscape.net>, 2004.
 # A S Alam <aalam@users.sf.net>, 2004, 2005, 2007, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateui.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-11-07 14:34+0100\n"
-"PO-Revision-Date: 2009-03-15 19:08+0000\n"
-"Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <punjab-l10n@list.sf.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-22 19:43+0100\n"
+"PO-Revision-Date: 2012-02-22 18:46+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pa\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../demos/mdi_demo.c:128
 msgid "Child Item 1"
@@ -34,491 +35,487 @@ msgstr "ਚਲਾਇਡ ਆਈਟਮ ੨"
 msgid "Hint for item 2"
 msgstr "ਆਈਟਮ ੨ ਲਈ ਸੰਕੇਤ"
 
-#: ../libmateui/mate-about.c:187
+#: ../libmateui/mate-about.c:199
 msgid "Credits"
 msgstr "ਮਾਣ"
 
-#: ../libmateui/mate-about.c:219
+#: ../libmateui/mate-about.c:222
 msgid "Written by"
 msgstr "ਲਿਖਿਆ"
 
-#: ../libmateui/mate-about.c:234
+#: ../libmateui/mate-about.c:235
 msgid "Documented by"
 msgstr "ਦਸਤਾਵੇਜ਼ੀ"
 
-#: ../libmateui/mate-about.c:249
+#: ../libmateui/mate-about.c:248
 msgid "Translated by"
 msgstr "ਅਨੁਵਾਦ ਕੀਤਾ"
 
-#: ../libmateui/mate-about.c:312
+#: ../libmateui/mate-about.c:315
 msgid "C_redits"
 msgstr "ਮਾਣ(_r)"
 
-#: ../libmateui/mate-about.c:365
+#: ../libmateui/mate-about.c:367
 msgid "Program name"
 msgstr "ਪਰੋਗਰਾਮ ਨਾਂ"
 
-#: ../libmateui/mate-about.c:366
+#: ../libmateui/mate-about.c:368
 msgid "The name of the program"
 msgstr "ਪਰੋਗਰਾਮ ਦਾ ਨਾਂ"
 
-#: ../libmateui/mate-about.c:373
+#: ../libmateui/mate-about.c:375
 msgid "Program version"
 msgstr "ਪਰੋਗਰਾਮ ਵਰਜਨ"
 
-#: ../libmateui/mate-about.c:374
+#: ../libmateui/mate-about.c:376
 msgid "The version of the program"
 msgstr "ਪਰੋਗਰਾਮ ਦਾ ਵਰਜਨ"
 
-#: ../libmateui/mate-about.c:380
+#: ../libmateui/mate-about.c:382
 msgid "Copyright string"
 msgstr "ਹੱਕ ਰਾਖਵੇਂ ਹਨ"
 
-#: ../libmateui/mate-about.c:381
+#: ../libmateui/mate-about.c:383
 msgid "Copyright information for the program"
 msgstr "ਪਰੋਗਰਾਮ ਲਈ ਹੱਕ ਰਾਖਵੇਂ ਹਨ"
 
-#: ../libmateui/mate-about.c:388
+#: ../libmateui/mate-about.c:390
 msgid "Comments string"
 msgstr "ਟਿੱਪਣੀ ਸਤਰ"
 
-#: ../libmateui/mate-about.c:389
+#: ../libmateui/mate-about.c:391
 msgid "Comments about the program"
 msgstr "ਪਰੋਗਰਾਮ ਬਾਰੇ ਟਿੱਪਣੀ"
 
-#: ../libmateui/mate-about.c:395
+#: ../libmateui/mate-about.c:397
 msgid "Authors"
 msgstr "ਲੇਖਕ"
 
-#: ../libmateui/mate-about.c:396
+#: ../libmateui/mate-about.c:398
 msgid "List of authors of the programs"
 msgstr "ਪਰੋਗਰਾਮ ਦੇ ਲੇਖਕਾਂ ਦੀ ਲਿਸਟ"
 
-#: ../libmateui/mate-about.c:398
+#: ../libmateui/mate-about.c:400
 msgid "Author entry"
 msgstr "ਲੇਖਕ ਐਂਟਰੀ"
 
-#: ../libmateui/mate-about.c:399
+#: ../libmateui/mate-about.c:401
 msgid "A single author entry"
 msgstr "ਇੱਕ ਲੇਖਕ ਐਂਟਰੀ"
 
-#: ../libmateui/mate-about.c:406
+#: ../libmateui/mate-about.c:408
 msgid "Documenters"
 msgstr "ਦਸਤਾਵੇਜ਼ੀ"
 
-#: ../libmateui/mate-about.c:407
+#: ../libmateui/mate-about.c:409
 msgid "List of people documenting the program"
 msgstr "ਪਰੋਗਰਾਮ ਦੇ ਦਸਤਾਵੇਜ਼ ਤਿਆਰ ਕਰਨ ਵਾਲਿਆਂ ਦੀ ਲਿਸਟ"
 
-#: ../libmateui/mate-about.c:409
+#: ../libmateui/mate-about.c:411
 msgid "Documenter entry"
 msgstr "ਦਸਤਾਵੇਜ਼ ਐਂਟਰੀ"
 
-#: ../libmateui/mate-about.c:410
+#: ../libmateui/mate-about.c:412
 msgid "A single documenter entry"
 msgstr "ਇੱਕ ਦਸਤਾਵੇਜ਼ੀ ਲਈ ਐਂਟਰੀ"
 
-#: ../libmateui/mate-about.c:418
+#: ../libmateui/mate-about.c:420
 msgid "Translator credits"
 msgstr "ਅਨੁਵਾਦ ਮਾਣ"
 
-#: ../libmateui/mate-about.c:419
-msgid "Credits to the translators. This string should be marked as translatable"
+#: ../libmateui/mate-about.c:421
+msgid ""
+"Credits to the translators. This string should be marked as translatable"
 msgstr "ਭਾਸ਼ਾ ਤਬਦੀਲੀ ਦਾ ਮਾਣ"
 
-#: ../libmateui/mate-about.c:426
-#: ../libmateui/mate-druid-page-standard.c:123
+#: ../libmateui/mate-about.c:428 ../libmateui/mate-druid-page-standard.c:123
 msgid "Logo"
 msgstr "ਲੋਗੋ"
 
-#: ../libmateui/mate-about.c:427
+#: ../libmateui/mate-about.c:429
 msgid "A logo for the about box"
 msgstr "ਇਸ ਬਾਰੇ ਬਕਸੇ ਲਈ ਲੋਗੋ"
 
-#: ../libmateui/mate-about.c:506
+#: ../libmateui/mate-about.c:503
 #, c-format
 msgid "About %s"
 msgstr "%s ਬਾਰੇ"
 
 #. Some standard menus
-#: ../libmateui/mate-app-helper.c:83 ../libmateui/mate-app-helper.h:551
+#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:553
 #: ../test-mate/testmate.xml.h:5
 msgid "_File"
 msgstr "ਫਾਇਲ(_F)"
 
-#: ../libmateui/mate-app-helper.c:84
+#: ../libmateui/mate-app-helper.c:86
 msgid "_File/"
 msgstr "ਫਾਇਲ(_F)/"
 
-#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:554
+#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:556
 msgid "_Edit"
 msgstr "ਸੋਧ(_E)"
 
-#: ../libmateui/mate-app-helper.c:86
+#: ../libmateui/mate-app-helper.c:88
 msgid "_Edit/"
 msgstr "ਸੋਧ(_E)/"
 
-#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:557
+#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:559
 msgid "_View"
 msgstr "ਵੇਖੋ(_V)"
 
-#: ../libmateui/mate-app-helper.c:88
+#: ../libmateui/mate-app-helper.c:90
 msgid "_View/"
 msgstr "ਵੇਖੋ(_V)/"
 
-#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:560
+#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:562
 msgid "_Settings"
 msgstr "ਸੈਟਿੰਗ(_S)"
 
-#: ../libmateui/mate-app-helper.c:90
+#: ../libmateui/mate-app-helper.c:92
 msgid "_Settings/"
 msgstr "ਸੈਟਿੰਗ(_S)/"
 
 #. If you have more then one New type, use this tree
-#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:326
+#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:328
 msgid "_New"
 msgstr "ਨਵਾਂ(_N)"
 
-#: ../libmateui/mate-app-helper.c:92
+#: ../libmateui/mate-app-helper.c:94
 msgid "_New/"
 msgstr "ਨਵਾਂ(_N)/"
 
-#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:563
+#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:565
 msgid "Fi_les"
 msgstr "ਫਾਇਲਾਂ(_l)"
 
-#: ../libmateui/mate-app-helper.c:94
+#: ../libmateui/mate-app-helper.c:96
 msgid "Fi_les/"
 msgstr "ਫਾਇਲਾਂ(_l)/"
 
-#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:566
+#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:568
 msgid "_Windows"
 msgstr "ਵਿੰਡੋਜ਼(_W)"
 
-#: ../libmateui/mate-app-helper.c:96 ../libmateui/mate-app-helper.h:572
+#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:574
 msgid "_Game"
 msgstr "ਖੇਡ(_G)"
 
-#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:569
+#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:571
 #: ../test-mate/testmate.xml.h:6
 msgid "_Help"
 msgstr "ਮੱਦਦ(_H)"
 
-#: ../libmateui/mate-app-helper.c:98
+#: ../libmateui/mate-app-helper.c:100
 msgid "_Windows/"
 msgstr "ਵਿੰਡੋਜ਼(_W)/"
 
 #. Open
-#: ../libmateui/mate-app-helper.c:110
+#: ../libmateui/mate-app-helper.c:112
 msgid "_Open..."
 msgstr "ਖੋਲ੍ਹੋ(_O)..."
 
-#: ../libmateui/mate-app-helper.c:110
+#: ../libmateui/mate-app-helper.c:112
 msgid "Open a file"
 msgstr "ਇੱਕ ਫਾਇਲ ਖੋਲ੍ਹੋ"
 
 #. Save
-#: ../libmateui/mate-app-helper.c:115
+#: ../libmateui/mate-app-helper.c:117
 msgid "_Save"
 msgstr "ਸੰਭਾਲੋ(_S)"
 
-#: ../libmateui/mate-app-helper.c:115
+#: ../libmateui/mate-app-helper.c:117
 msgid "Save the current file"
 msgstr "ਮੌਜੂਦਾ ਫਾਇਲ ਸੰਭਾਲੋ"
 
 #. Save As
-#: ../libmateui/mate-app-helper.c:120
+#: ../libmateui/mate-app-helper.c:122
 msgid "Save _As..."
 msgstr "ਇੰਝ ਸੰਭਾਲੋ(_A)..."
 
-#: ../libmateui/mate-app-helper.c:121
+#: ../libmateui/mate-app-helper.c:123
 msgid "Save the current file with a different name"
 msgstr "ਮੌਜੂਦਾ ਫਾਇਲ ਨੂੰ ਵੱਖਰੇ ਨਾਂ ਨਾਲ ਸੰਭਾਲੋ"
 
 #. Revert
-#: ../libmateui/mate-app-helper.c:126
+#: ../libmateui/mate-app-helper.c:128
 msgid "_Revert"
 msgstr "ਮੁੜ-ਖੋਲ੍ਹੋ(_R)"
 
-#: ../libmateui/mate-app-helper.c:127
+#: ../libmateui/mate-app-helper.c:129
 msgid "Revert to a saved version of the file"
 msgstr "ਫਾਇਲ ਦਾ ਸੰਭਾਲਿਆ ਵਰਜਨ ਮੁਡ਼ ਖੋਲ੍ਹੋ"
 
 #. Print
-#: ../libmateui/mate-app-helper.c:132
+#: ../libmateui/mate-app-helper.c:134
 msgid "_Print..."
 msgstr "ਪਰਿੰਟ(_P)..."
 
-#: ../libmateui/mate-app-helper.c:132
+#: ../libmateui/mate-app-helper.c:134
 msgid "Print the current file"
 msgstr "ਮੌਜੂਦਾ ਫਾਇਲ ਨੂੰ ਪਰਿੰਟ ਕਰੋ"
 
 #. Print Setup
-#: ../libmateui/mate-app-helper.c:137
+#: ../libmateui/mate-app-helper.c:139
 msgid "Print S_etup..."
 msgstr "ਪਰਿੰਟ ਸੈੱਟਅੱਪ(_e)..."
 
-#: ../libmateui/mate-app-helper.c:138
+#: ../libmateui/mate-app-helper.c:140
 msgid "Setup the page settings for your current printer"
 msgstr "ਆਪਣੇ ਪਰਿੰਟਰ ਲਈ ਪੇਜ਼ ਸੈਟਿੰਗ ਸੈੱਟਅੱਪ ਕਰੋ"
 
 #. Close
-#: ../libmateui/mate-app-helper.c:143
+#: ../libmateui/mate-app-helper.c:145
 msgid "_Close"
 msgstr "ਬੰਦ ਕਰੋ(_C)"
 
-#: ../libmateui/mate-app-helper.c:143
+#: ../libmateui/mate-app-helper.c:145
 msgid "Close the current file"
 msgstr "ਮੌਜੂਦਾ ਫਾਇਲ ਨੂੰ ਬੰਦ ਕਰੋ"
 
 #. Exit
-#: ../libmateui/mate-app-helper.c:148
+#: ../libmateui/mate-app-helper.c:150
 msgid "_Quit"
 msgstr "ਬਾਹਰ(_Q)"
 
-#: ../libmateui/mate-app-helper.c:148
+#: ../libmateui/mate-app-helper.c:150
 msgid "Quit the application"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਬੰਦ ਕਰੋ"
 
-#.
 #. * The "Edit" menu
-#.
+#. 
 #. Cut
-#: ../libmateui/mate-app-helper.c:156
+#: ../libmateui/mate-app-helper.c:158
 msgid "Cu_t"
 msgstr "ਕੱਟੋ(_t)"
 
-#: ../libmateui/mate-app-helper.c:156
+#: ../libmateui/mate-app-helper.c:158
 msgid "Cut the selection"
 msgstr "ਚੁਣੇ ਨੂੰ ਕੱਟੋ"
 
 #. 10
 #. Copy
-#: ../libmateui/mate-app-helper.c:162
+#: ../libmateui/mate-app-helper.c:164
 msgid "_Copy"
 msgstr "ਕਾਪੀ ਕਰੋ(_C)"
 
-#: ../libmateui/mate-app-helper.c:162
+#: ../libmateui/mate-app-helper.c:164
 msgid "Copy the selection"
 msgstr "ਚੁਣੇ ਦੀ ਕਾਪੀ ਕਰੋ"
 
 #. Paste
-#: ../libmateui/mate-app-helper.c:167
+#: ../libmateui/mate-app-helper.c:169
 msgid "_Paste"
 msgstr "ਚੇਪੋ(_P)"
 
-#: ../libmateui/mate-app-helper.c:167
+#: ../libmateui/mate-app-helper.c:169
 msgid "Paste the clipboard"
 msgstr "ਕਲਿਪਬੋਰਡ ਚੇਪੋ"
 
 #. Clear
-#: ../libmateui/mate-app-helper.c:172
+#: ../libmateui/mate-app-helper.c:174
 msgid "C_lear"
 msgstr "ਸਾਫ਼ ਕਰੋ(_l)"
 
-#: ../libmateui/mate-app-helper.c:172
+#: ../libmateui/mate-app-helper.c:174
 msgid "Clear the selection"
 msgstr "ਚੁਣੇ ਨੂੰ ਸਾਫ਼ ਕਰੋ"
 
 #. Undo
-#: ../libmateui/mate-app-helper.c:177
+#: ../libmateui/mate-app-helper.c:179
 msgid "_Undo"
 msgstr "ਵਾਪਿਸ(_U)"
 
-#: ../libmateui/mate-app-helper.c:177
+#: ../libmateui/mate-app-helper.c:179
 msgid "Undo the last action"
 msgstr "ਆਖਰੀ ਕਾਰਵਾਈ ਮੁਡ਼ ਕਰੋ"
 
 #. Redo
-#: ../libmateui/mate-app-helper.c:182
+#: ../libmateui/mate-app-helper.c:184
 msgid "_Redo"
 msgstr "ਪਰਤਾਉ(_R)"
 
-#: ../libmateui/mate-app-helper.c:182
+#: ../libmateui/mate-app-helper.c:184
 msgid "Redo the undone action"
 msgstr "ਆਖਰੀ ਕਾਰਵਾਈ ਮੁਡ਼ ਫੇਰ ਕਰੋ"
 
 #. Find
-#: ../libmateui/mate-app-helper.c:187
+#: ../libmateui/mate-app-helper.c:189
 msgid "_Find..."
 msgstr "ਖੋਜ(_F)..."
 
-#: ../libmateui/mate-app-helper.c:187
+#: ../libmateui/mate-app-helper.c:189
 msgid "Search for a string"
 msgstr "ਸਤਰ ਲਈ ਖੋਜ"
 
 #. Find Again
-#: ../libmateui/mate-app-helper.c:192
+#: ../libmateui/mate-app-helper.c:194
 msgid "Find Ne_xt"
 msgstr "ਅੱਗੇ ਖੋਜੋ(_x)"
 
-#: ../libmateui/mate-app-helper.c:193
+#: ../libmateui/mate-app-helper.c:195
 msgid "Search again for the same string"
 msgstr "ਉਸੇ ਸਤਰ ਲਈ ਮੁਡ਼ ਖੋਜ ਕਰੋ"
 
 #. Replace
-#: ../libmateui/mate-app-helper.c:198
+#: ../libmateui/mate-app-helper.c:200
 msgid "R_eplace..."
 msgstr "ਬਦਲੋ(_e)..."
 
-#: ../libmateui/mate-app-helper.c:198
+#: ../libmateui/mate-app-helper.c:200
 msgid "Replace a string"
 msgstr "ਇੱਕ ਸਤਰ ਬਦਲੋ"
 
 #. Properties
-#: ../libmateui/mate-app-helper.c:203
+#: ../libmateui/mate-app-helper.c:205
 msgid "_Properties"
 msgstr "ਵਿਸ਼ੇਸ਼ਤਾ(_P)"
 
-#: ../libmateui/mate-app-helper.c:204
+#: ../libmateui/mate-app-helper.c:206
 msgid "Modify the file's properties"
 msgstr "ਫਾਇਲ ਦੀਆ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸੋਧ"
 
-#.
 #. * The Settings menu
-#.
+#. 
 #. Settings
-#: ../libmateui/mate-app-helper.c:212
+#: ../libmateui/mate-app-helper.c:214
 msgid "Prefere_nces"
 msgstr "ਮੇਰੀ ਪਸੰਦ(_n)"
 
-#: ../libmateui/mate-app-helper.c:213
+#: ../libmateui/mate-app-helper.c:215
 msgid "Configure the application"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਸੰਰਚਨਾ"
 
 #. 20
-#.
+#. 
 #. * And the "Help" menu
-#.
+#. 
 #. About
-#: ../libmateui/mate-app-helper.c:222 ../test-mate/testmate.xml.h:4
+#: ../libmateui/mate-app-helper.c:224 ../test-mate/testmate.xml.h:4
 msgid "_About"
 msgstr "ਇਸ ਬਾਰੇ(_A)"
 
-#: ../libmateui/mate-app-helper.c:223 ../test-mate/testmate.xml.h:1
+#: ../libmateui/mate-app-helper.c:225 ../test-mate/testmate.xml.h:1
 msgid "About this application"
 msgstr "ਇਸ ਐਪਲੀਕੇਸ਼ਨ ਬਾਰੇ"
 
-#: ../libmateui/mate-app-helper.c:226
+#: ../libmateui/mate-app-helper.c:228
 msgid "Select _All"
 msgstr "ਸਭ ਚੁਣੋ(_A)"
 
-#: ../libmateui/mate-app-helper.c:227
+#: ../libmateui/mate-app-helper.c:229
 msgid "Select everything"
 msgstr "ਹਰੇਕ ਚੁਣੋ"
 
-#.
 #. * Window menu
-#.
-#: ../libmateui/mate-app-helper.c:235
+#. 
+#: ../libmateui/mate-app-helper.c:237
 msgid "Create New _Window"
 msgstr "ਨਵੀਂ ਵਿੰਡੋ ਬਣਾਓ(_W)"
 
-#: ../libmateui/mate-app-helper.c:236
+#: ../libmateui/mate-app-helper.c:238
 msgid "Create a new window"
 msgstr "ਇੱਕ ਨਵੀਂ ਵਿੰਡੋ ਬਣਾਓ"
 
-#: ../libmateui/mate-app-helper.c:240
+#: ../libmateui/mate-app-helper.c:242
 msgid "_Close This Window"
 msgstr "ਇਹ ਵਿੰਡੋ ਬੰਦ ਕਰੋ(_C)"
 
-#: ../libmateui/mate-app-helper.c:241 ../test-mate/testmate.xml.h:2
+#: ../libmateui/mate-app-helper.c:243 ../test-mate/testmate.xml.h:2
 msgid "Close the current window"
 msgstr "ਮੌਜੂਦਾ ਵਿੰਡੋ ਬੰਦ ਕਰੋ"
 
-#.
 #. * The "Game" menu
-#.
-#: ../libmateui/mate-app-helper.c:249
+#. 
+#: ../libmateui/mate-app-helper.c:251
 msgid "_New Game"
 msgstr "ਨਵੀਂ ਖੇਡ(_N)"
 
-#: ../libmateui/mate-app-helper.c:250
+#: ../libmateui/mate-app-helper.c:252
 msgid "Start a new game"
 msgstr "ਨਵੀਂ ਖੇਡ ਸ਼ੁਰੂ ਕਰੋ"
 
-#: ../libmateui/mate-app-helper.c:254
+#: ../libmateui/mate-app-helper.c:256
 msgid "_Pause Game"
 msgstr "ਖੇਡ ਵਿਰਾਮ(_P)"
 
-#: ../libmateui/mate-app-helper.c:255
+#: ../libmateui/mate-app-helper.c:257
 msgid "Pause the game"
 msgstr "ਖੇਡ ਨੂੰ ਵਿਰਾਮ"
 
-#: ../libmateui/mate-app-helper.c:259
+#: ../libmateui/mate-app-helper.c:261
 msgid "_Restart Game"
 msgstr "ਖੇਡ ਮੁਡ਼ ਸ਼ੁਰੂ ਕਰੋ(_R)"
 
-#: ../libmateui/mate-app-helper.c:260
+#: ../libmateui/mate-app-helper.c:262
 msgid "Restart the game"
 msgstr "ਖੇਡ ਨੂੰ ਮੁਡ਼ ਸ਼ੁਰੂ ਕਰੋ"
 
-#: ../libmateui/mate-app-helper.c:264
+#: ../libmateui/mate-app-helper.c:266
 msgid "_Undo Move"
 msgstr "ਚਾਲ ਵਾਪਸ(_U)"
 
-#: ../libmateui/mate-app-helper.c:265
+#: ../libmateui/mate-app-helper.c:267
 msgid "Undo the last move"
 msgstr "ਆਖਰੀ ਚਾਲ ਵਾਪਿਸ ਲਵੋ"
 
-#: ../libmateui/mate-app-helper.c:269
+#: ../libmateui/mate-app-helper.c:271
 msgid "_Redo Move"
 msgstr "ਚਾਲ ਪਰਤਾਓ(_R)"
 
-#: ../libmateui/mate-app-helper.c:270
+#: ../libmateui/mate-app-helper.c:272
 msgid "Redo the undone move"
 msgstr "ਪਹਿਲਾਂ ਚਾਲ ਮੁਡ਼ ਕਰੋ"
 
-#: ../libmateui/mate-app-helper.c:274
+#: ../libmateui/mate-app-helper.c:276
 msgid "_Hint"
 msgstr "ਇਸ਼ਾਰਾ(_H)"
 
-#: ../libmateui/mate-app-helper.c:275
+#: ../libmateui/mate-app-helper.c:277
 msgid "Get a hint for your next move"
 msgstr "ਅਗਲੀ ਚਾਲ ਲਈ ਇਸ਼ਾਰਾ"
 
 #. 30
-#: ../libmateui/mate-app-helper.c:280
+#: ../libmateui/mate-app-helper.c:282
 msgid "_Scores..."
 msgstr "ਸਕੋਰ(_S)..."
 
-#: ../libmateui/mate-app-helper.c:281
+#: ../libmateui/mate-app-helper.c:283
 msgid "View the scores"
 msgstr "ਸਕੋਰ ਵੇਖੋ"
 
-#: ../libmateui/mate-app-helper.c:285
+#: ../libmateui/mate-app-helper.c:287
 msgid "_End Game"
 msgstr "ਖੇਡ ਖਤਮ(_E)"
 
-#: ../libmateui/mate-app-helper.c:286
+#: ../libmateui/mate-app-helper.c:288
 msgid "End the current game"
 msgstr "ਮੌਜੂਦਾ ਖੇਡ ਖਤਮ ਕਰੋ"
 
-#: ../libmateui/mate-app-helper.c:1148
+#: ../libmateui/mate-app-helper.c:1149
 msgid "_Contents"
 msgstr "ਸਮੱਗਰੀ(_C)"
 
-#: ../libmateui/mate-app-helper.c:1151
+#: ../libmateui/mate-app-helper.c:1152
 msgid "View help for this application"
 msgstr "ਇਸ ਐਪਲੀਕੇਸ਼ਨ ਲਈ ਮੱਦਦ ਵੇਖੋ"
 
-#: ../libmateui/mate-app-helper.c:2522
+#: ../libmateui/mate-app-helper.c:2523
 msgid "Text Below Icons"
 msgstr "ਆਈਕਾਨ ਹੇਠ ਸ਼ਬਦ"
 
-#: ../libmateui/mate-app-helper.c:2523
+#: ../libmateui/mate-app-helper.c:2524
 msgid "Priority Text Beside Icons"
 msgstr "ਖਾਸ ਆਈਕਾਨ ਨਾਲ ਸ਼ਬਦ"
 
-#: ../libmateui/mate-app-helper.c:2524
+#: ../libmateui/mate-app-helper.c:2525
 msgid "Icons Only"
 msgstr "ਆਈਕਾਨ ਹੀ"
 
-#: ../libmateui/mate-app-helper.c:2525
+#: ../libmateui/mate-app-helper.c:2526
 msgid "Text Only"
 msgstr "ਸ਼ਬਦ ਹੀ"
 
-#: ../libmateui/mate-app-helper.c:2586
+#: ../libmateui/mate-app-helper.c:2587
 #, c-format
 msgid "Use Desktop Default (%s)"
 msgstr "ਡਿਫਾਲਟ ਡੈਸਕਟਾਪ (%s) ਵਰਤੋਂ"
@@ -595,40 +592,39 @@ msgstr "ਪਰਸਪਰ ਸਰਗਰਮੀ"
 msgid "Level of user activity required."
 msgstr "ਯੂਜ਼ਰ ਦੀ ਲੋਡ਼ੀਦੀ ਕਾਰਵਾਈ ਦਾ ਪੱਧਰ"
 
-#: ../libmateui/mate-authentication-manager.c:82
+#: ../libmateui/mate-authentication-manager.c:84
 #, c-format
 msgid "Your HTTP Proxy requires you to log in.\n"
 msgstr "ਤੁਹਾਡਾ HTTP ਪਰਾਕਸੀ, ਜੋ ਕਿ ਲਾਗਇਨ ਲਈ ਲੋਡ਼ੀਦਾ ਹੈ।\n"
 
-#: ../libmateui/mate-authentication-manager.c:83
+#: ../libmateui/mate-authentication-manager.c:85
 #, c-format
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"ਤੁਹਾਨੂੰ \"%s\" ਵਰਤਣ ਲਈ ਲਾਗਇਨ ਕਰਨਾ ਪਵੇਗਾ\n"
-"%s"
+msgstr "ਤੁਹਾਨੂੰ \"%s\" ਵਰਤਣ ਲਈ ਲਾਗਇਨ ਕਰਨਾ ਪਵੇਗਾ\n%s"
 
-#: ../libmateui/mate-authentication-manager.c:86
+#: ../libmateui/mate-authentication-manager.c:88
 msgid "Your password will be transmitted unencrypted."
 msgstr "ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਬਿਨ-ਇੰਕ੍ਰਿਪਸ਼ਨ ਹੀ ਭੇਜਿਆ ਜਾਵੇਗਾ।"
 
-#: ../libmateui/mate-authentication-manager.c:87
+#: ../libmateui/mate-authentication-manager.c:89
 msgid "Your password will be transmitted encrypted."
 msgstr "ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਇੰਕ੍ਰਿਪਟ ਕਰਕੇ ਭੇਜਿਆ ਜਾਵੇਗਾ।"
 
-#: ../libmateui/mate-authentication-manager.c:90
-#: ../libmateui/mate-authentication-manager.c:309
+#: ../libmateui/mate-authentication-manager.c:92
+#: ../libmateui/mate-authentication-manager.c:311
 msgid "Authentication Required"
 msgstr "ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਦੀ"
 
-#. Translators: "You must log in to acces user@server.com/share domain MYWINDOWSDOMAIN."
-#: ../libmateui/mate-authentication-manager.c:301
+#. Translators: "You must log in to acces user@server.com/share domain
+#. MYWINDOWSDOMAIN."
+#: ../libmateui/mate-authentication-manager.c:303
 #, c-format
 msgid "You must log in to access %s domain %s\n"
 msgstr "ਤੁਹਾਨੂੰ ਡੋਮੇਨ %2$s %1$s ਵਰਤਣ ਲਈ ਲਾਗਇਨ ਦੀ ਲੋਡ਼ ਹੈ\n"
 
-#: ../libmateui/mate-authentication-manager.c:303
+#: ../libmateui/mate-authentication-manager.c:305
 #, c-format
 msgid "You must log in to access %s\n"
 msgstr "ਤੁਹਾਨੂੰ %s ਵਰਤਣ ਲਈ ਲਾਗਇਨ ਦੀ ਲੋਡ਼ ਹੈ\n"
@@ -681,77 +677,77 @@ msgstr "ਰੰਗ ਦੇਣ ਲਈ ਡਾਈਲਾਗ ਖੋਲ੍ਹੋ"
 msgid "Pick a color"
 msgstr "ਇੱਕ ਰੰਗ ਚੁਣੋ"
 
-#: ../libmateui/mate-dateedit.c:495 ../libmateui/mate-dateedit.c:802
+#: ../libmateui/mate-dateedit.c:497 ../libmateui/mate-dateedit.c:804
 msgid "Time"
 msgstr "ਸਮਾਂ"
 
-#: ../libmateui/mate-dateedit.c:496
+#: ../libmateui/mate-dateedit.c:498
 msgid "The time currently selected"
 msgstr "ਮੌਜੂਦਾ ਚੁਣਿਆ ਸਮਾਂ"
 
-#: ../libmateui/mate-dateedit.c:508
+#: ../libmateui/mate-dateedit.c:510
 msgid "DateEdit Flags"
 msgstr "ਤਾਰੀਖ-ਸੋਧ ਨਿਸ਼ਾਨ"
 
-#: ../libmateui/mate-dateedit.c:509
+#: ../libmateui/mate-dateedit.c:511
 msgid "Flags for how DateEdit looks"
 msgstr "ਨਿਸ਼ਾਨ ਕਿ ਤਾਰੀਖ-ਸੋਧ ਕਿਸ ਤਰਾਂ ਦਿੱਸੇਗਾ"
 
-#: ../libmateui/mate-dateedit.c:518
+#: ../libmateui/mate-dateedit.c:520
 msgid "Lower Hour"
 msgstr "ਹੇਠਲਾ ਘੰਟਾ"
 
-#: ../libmateui/mate-dateedit.c:519
+#: ../libmateui/mate-dateedit.c:521
 msgid "Lower hour in the time popup selector"
 msgstr "ਸਮਾਂ ਚੋਣਕਾਰ ਵਿੱਚ ਹੇਠਲਾ ਘੰਟਾ"
 
-#: ../libmateui/mate-dateedit.c:529
+#: ../libmateui/mate-dateedit.c:531
 msgid "Upper Hour"
 msgstr "ਉਤਲਾ ਘੰਟਾ"
 
-#: ../libmateui/mate-dateedit.c:530
+#: ../libmateui/mate-dateedit.c:532
 msgid "Upper hour in the time popup selector"
 msgstr "ਸਮਾਂ ਚੋਣਕਾਰ ਵਿੱਚੋਂ ਉਤਲਾ ਘੰਟਾ"
 
-#: ../libmateui/mate-dateedit.c:540
+#: ../libmateui/mate-dateedit.c:542
 msgid "Initial Time"
 msgstr "ਮੁੱਢਲਾ ਸਮਾਂ"
 
-#: ../libmateui/mate-dateedit.c:541
+#: ../libmateui/mate-dateedit.c:543
 msgid "The initial time"
 msgstr "ਮੁੱਢਲਾ ਸਮਾਂ"
 
-#: ../libmateui/mate-dateedit.c:765 ../libmateui/mate-scores.c:96
+#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:93
 msgid "Date"
 msgstr "ਤਾਰੀਖ"
 
-#: ../libmateui/mate-dateedit.c:778
+#: ../libmateui/mate-dateedit.c:780
 msgid "Select Date"
 msgstr "ਤਾਰੀਖ ਚੁਣੋ"
 
-#: ../libmateui/mate-dateedit.c:778
+#: ../libmateui/mate-dateedit.c:780
 msgid "Select the date from a calendar"
 msgstr "ਕੈਲੰਡਰ ਵਿਚੋਂ ਤਾਰੀਖ ਚੁਣੋ"
 
 #. Calendar label, only shown if the date editor has a time field
-#: ../libmateui/mate-dateedit.c:789
+#: ../libmateui/mate-dateedit.c:791
 msgid "Calendar"
 msgstr "ਕੈਲੰਡਰ"
 
-#: ../libmateui/mate-dateedit.c:810
+#: ../libmateui/mate-dateedit.c:812
 msgid "Select Time"
 msgstr "ਸਮਾਂ ਚੁਣੋ"
 
-#: ../libmateui/mate-dateedit.c:810
+#: ../libmateui/mate-dateedit.c:812
 msgid "Select the time from a list"
 msgstr "ਇੱਕ ਲਿਸਟ 'ਚੋਂ ਸਮਾਂ ਚੁਣੋ"
 
-#: ../libmateui/mate-dateedit.c:1029
+#: ../libmateui/mate-dateedit.c:1031
 msgid "mate_date_edit_get_date deprecated, use mate_date_edit_get_time"
 msgstr "mate_date_edit_get_date ਬਰਤਰਫ਼ ਕੀਤਾ ਗਿਆ, mate_date_edit_get_time ਵਰਤੋਂ"
 
 #: ../libmateui/mate-druid-page-standard.c:115
-#: ../libmateui/mate-font-picker.c:147
+#: ../libmateui/mate-font-picker.c:127
 msgid "Title"
 msgstr "ਟਾਇਟਲ"
 
@@ -874,204 +870,195 @@ msgstr "ਮੱਦਦ ਵੇਖੋ"
 msgid "Show the 'Help' button"
 msgstr "'ਮੱਦਦ' ਬਟਨ ਵੇਖਾਓ"
 
-#: ../libmateui/mate-entry.c:190 ../libmateui/mate-entry.c:191
-#: ../libmateui/mate-file-entry.c:231 ../libmateui/mate-icon-entry.c:166
+#: ../libmateui/mate-entry.c:192 ../libmateui/mate-entry.c:193
+#: ../libmateui/mate-file-entry.c:233 ../libmateui/mate-icon-entry.c:169
 msgid "History ID"
 msgstr "ਅਤੀਤ ID"
 
-#: ../libmateui/mate-entry.c:197
+#: ../libmateui/mate-entry.c:199
 msgid "GTK entry"
 msgstr "GTK ਐਂਟਰੀ"
 
-#: ../libmateui/mate-entry.c:198
+#: ../libmateui/mate-entry.c:200
 msgid "The GTK entry"
 msgstr "GTK ਐਂਟਰੀ"
 
-#: ../libmateui/mate-file-entry.c:232
+#: ../libmateui/mate-file-entry.c:234
 msgid ""
-"Unique identifier for the file entry.  This will be used to save the history "
-"list."
+"Unique identifier for the file entry.  This will be used to save the history"
+" list."
 msgstr "੧ਫਾਇਲ ਐਂਟਰੀ ਲਈ ਵੱਖਰਾ ਸ਼ੰਨਾਖਤੀ ਹੈ। ਇਹ ਅਤੀਤ ਸੂਚੀ ਵਿੱਚ ਸੰਭਾਲਣ ਲਈ ਵਰਤਿਆ ਜਾਵੇਗਾ।"
 
-#: ../libmateui/mate-file-entry.c:240 ../libmateui/mate-icon-entry.c:175
+#: ../libmateui/mate-file-entry.c:242 ../libmateui/mate-icon-entry.c:178
 msgid "Browse Dialog Title"
 msgstr "ਬਰਾਊਜ਼ ਡਾਈਲਾਗ ਟਾਈਟਲ"
 
-#: ../libmateui/mate-file-entry.c:241
+#: ../libmateui/mate-file-entry.c:243
 msgid "Title for the Browse file dialog."
 msgstr "ਫਾਇਲ ਡਾਈਲਾਗ ਬਰਾਊਜ਼ਰ ਲਈ ਟਾਈਟਲ"
 
-#: ../libmateui/mate-file-entry.c:248
+#: ../libmateui/mate-file-entry.c:250
 msgid "Directory Entry"
 msgstr "ਡਾਇਰੈਕਟਰੀ ਐਂਟਰੀ"
 
-#: ../libmateui/mate-file-entry.c:249
+#: ../libmateui/mate-file-entry.c:251
 msgid ""
 "Whether the file entry is being used to enter directory names or complete "
 "filenames."
 msgstr "ਕੀ ਫਾਇਲ ਐਂਟਰੀ, ਡਾਇਰੈਕਟਰੀ ਨਾਂ ਦੇਣ ਲਈ ਵਰਤਿਆ ਜਾਵੇਗਾ ਜਾਂ ਪੂਰਾ ਫਾਇਲ ਨਾਂ ਦੇਣ ਲਈ।"
 
-#: ../libmateui/mate-file-entry.c:257
+#: ../libmateui/mate-file-entry.c:259
 msgid "Modal"
 msgstr "ਮਾਡਲ"
 
-#: ../libmateui/mate-file-entry.c:258
+#: ../libmateui/mate-file-entry.c:260
 msgid "Whether the Browse file window should be modal."
 msgstr "ਕੀ ਫਾਇਲ ਵਿੰਡੋ ਬਰਾਊਜ਼ਰ ਮਾਡਲ ਹੋਵੇ।"
 
-#: ../libmateui/mate-file-entry.c:265 ../libmateui/mate-icon-entry.c:191
+#: ../libmateui/mate-file-entry.c:267 ../libmateui/mate-icon-entry.c:194
 msgid "Filename"
 msgstr "ਫਾਇਲ ਨਾਂ"
 
-#: ../libmateui/mate-file-entry.c:266
+#: ../libmateui/mate-file-entry.c:268
 msgid "Filename that should be displayed in the file entry."
 msgstr "ਫਾਇਲ ਨਾਂ, ਜੋ ਕਿ ਫਾਇਲ ਐਂਟਰੀ ਵਿੱਚ ਦਿੱਸੇਗਾ।"
 
-#: ../libmateui/mate-file-entry.c:274
+#: ../libmateui/mate-file-entry.c:276
 msgid "Default Path"
 msgstr "ਡਿਫਾਲਟ ਮਾਰਗ"
 
-#: ../libmateui/mate-file-entry.c:275
+#: ../libmateui/mate-file-entry.c:277
 msgid "Default path for the Browse file window."
 msgstr "ਡਿਫਾਲਟ ਮਾਰਗ, ਜੋ ਕਿ ਫਾਇਲ ਵਿੰਡੋ ਬਰਾਊਜ਼ ਲਈ ਵਰਤਿਆ ਜਾਵੇ।"
 
-#: ../libmateui/mate-file-entry.c:282
+#: ../libmateui/mate-file-entry.c:284
 msgid "MateEntry"
 msgstr "ਗਨੋਮ ਐਂਟਰੀ"
 
-#: ../libmateui/mate-file-entry.c:283
+#: ../libmateui/mate-file-entry.c:285
 msgid ""
-"MateEntry that the file entry uses for entering filenames.  You can use "
-"this property to get the MateEntry if you need to modify or query any of "
-"its parameters."
-msgstr ""
-"ਗਨੋਮ-ਐਂਟਰੀ, ਜੋ ਕਿ ਫਾਇਲ-ਐਂਟਰੀ ਫਾਇਲ-ਨਾਂ ਭਰਨ ਲਈ ਵਰਤਦਾ ਹੈ। ਤੁਸੀ ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ ਗਨੋਮ-ਐਂਟਰੀ ਨੂੰ "
-"ਵੇਖਣ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ, ਜੇਕਰ ਤੁਸੀ ਕੋਈ ਪੈਰਾਮੀਟਰ ਨੂੰ ਸੁਧਾਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।"
+"MateEntry that the file entry uses for entering filenames.  You can use this"
+" property to get the MateEntry if you need to modify or query any of its "
+"parameters."
+msgstr "ਗਨੋਮ-ਐਂਟਰੀ, ਜੋ ਕਿ ਫਾਇਲ-ਐਂਟਰੀ ਫਾਇਲ-ਨਾਂ ਭਰਨ ਲਈ ਵਰਤਦਾ ਹੈ। ਤੁਸੀ ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ ਗਨੋਮ-ਐਂਟਰੀ ਨੂੰ ਵੇਖਣ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ, ਜੇਕਰ ਤੁਸੀ ਕੋਈ ਪੈਰਾਮੀਟਰ ਨੂੰ ਸੁਧਾਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।"
 
-#: ../libmateui/mate-file-entry.c:293
+#: ../libmateui/mate-file-entry.c:295
 msgid "GtkEntry"
 msgstr "GtkEntry"
 
-#: ../libmateui/mate-file-entry.c:294
+#: ../libmateui/mate-file-entry.c:296
 msgid ""
 "GtkEntry that the file entry uses for entering filenames.  You can use this "
 "property to get the GtkEntry if you need to modify or query any of its "
 "parameters."
-msgstr ""
-"GtkEntry ਜੋ ਕਿ ਫਾਇਲ-ਐਂਟਰੀ ਫਾਇਲ-ਨਾਂ ਭਰਨ ਲਈ ਵਰਤਦਾ ਹੈ। ਤੁਸੀ ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ GtkEntry ਨੂੰ "
-"ਵੇਖਣ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ, ਜੇਕਰ ਤੁਸੀ ਕੋਈ ਪੈਰਾਮੀਟਰ ਨੂੰ ਸੁਧਾਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।"
+msgstr "GtkEntry ਜੋ ਕਿ ਫਾਇਲ-ਐਂਟਰੀ ਫਾਇਲ-ਨਾਂ ਭਰਨ ਲਈ ਵਰਤਦਾ ਹੈ। ਤੁਸੀ ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ GtkEntry ਨੂੰ ਵੇਖਣ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ, ਜੇਕਰ ਤੁਸੀ ਕੋਈ ਪੈਰਾਮੀਟਰ ਨੂੰ ਸੁਧਾਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।"
 
-#: ../libmateui/mate-file-entry.c:304
+#: ../libmateui/mate-file-entry.c:306
 msgid "Use GtkFileChooser"
 msgstr "GtkFileChooser ਵਰਤੋਂ"
 
-#: ../libmateui/mate-file-entry.c:305
+#: ../libmateui/mate-file-entry.c:307
 msgid ""
 "Whether to use the new GtkFileChooser widget or the GtkFileSelection widget "
 "to select files."
-msgstr ""
-"ਕੀ ਚੁਣੀਆਂ ਫਾਇਲਾਂ ਲਈ ਨਵਾਂ GtkFileChooser ਵਿਦਗਿਟ ਜਾਂ GtkFileSelection ਵਿਦਗਿਟ ਵਰਤਣਾ "
-"ਹੈ।"
+msgstr "ਕੀ ਚੁਣੀਆਂ ਫਾਇਲਾਂ ਲਈ ਨਵਾਂ GtkFileChooser ਵਿਦਗਿਟ ਜਾਂ GtkFileSelection ਵਿਦਗਿਟ ਵਰਤਣਾ ਹੈ।"
 
-#: ../libmateui/mate-file-entry.c:314
+#: ../libmateui/mate-file-entry.c:316
 msgid "GtkFileChooser Action"
 msgstr "GtkFileChooser ਕਾਰਵਾਈ"
 
-#: ../libmateui/mate-file-entry.c:315
+#: ../libmateui/mate-file-entry.c:317
 msgid "The type of operation that the file selector is performing."
 msgstr "ਫੋਂਟ ਚੋਣਕਾਰ ਰਾਹੀਂ ਕੀਤੀ ਜਾ ਰਹੀ ਕਾਰਵਾਈ ਦੀ ਕਿਸਮ ਹੈ।"
 
-#: ../libmateui/mate-file-entry.c:650 ../libmateui/mate-file-entry.c:687
+#: ../libmateui/mate-file-entry.c:652 ../libmateui/mate-file-entry.c:689
 msgid "Select file"
 msgstr "ਫਾਇਲ ਚੁਣੋ"
 
-#: ../libmateui/mate-file-entry.c:812
+#: ../libmateui/mate-file-entry.c:814
 msgid "Path"
 msgstr "ਮਾਰਗ"
 
-#: ../libmateui/mate-file-entry.c:812
+#: ../libmateui/mate-file-entry.c:814
 msgid "Path to file"
 msgstr "ਫਾਇਲ ਲਈ ਮਾਰਗ"
 
-#: ../libmateui/mate-file-entry.c:841
+#: ../libmateui/mate-file-entry.c:843
 msgid "_Browse..."
 msgstr "ਝਲਕ(_B)..."
 
-#: ../libmateui/mate-file-entry.c:842
+#: ../libmateui/mate-file-entry.c:844
 msgid "Pop up a file selector to choose a file"
 msgstr "ਫਾਇਲ ਚੁਣਨ ਲਈ ਫਾਇਲ ਚੋਣਕਾਰ ਖੋਲ੍ਹੋ"
 
-#: ../libmateui/mate-font-picker.c:58
+#: ../libmateui/mate-font-picker.c:60
 msgid "sans 12"
 msgstr "sans 12"
 
-#: ../libmateui/mate-font-picker.c:59
+#: ../libmateui/mate-font-picker.c:61
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 msgstr "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 
-#: ../libmateui/mate-font-picker.c:60
+#: ../libmateui/mate-font-picker.c:62
 msgid "Pick a Font"
 msgstr "ਫੋਂਟ ਚੁਣੋ"
 
-#: ../libmateui/mate-font-picker.c:148
+#: ../libmateui/mate-font-picker.c:127
 msgid "The title of the selection dialog box"
 msgstr "ਚੋਣਕਾਰ ਡਾਈਲਾਗ ਬਾਕਸ ਦਾ ਟਾਈਟਲ"
 
-#: ../libmateui/mate-font-picker.c:156
+#: ../libmateui/mate-font-picker.c:129
 msgid "Mode"
 msgstr "ਮੋਡ"
 
-#: ../libmateui/mate-font-picker.c:157
+#: ../libmateui/mate-font-picker.c:129
 msgid "The mode of operation of the font picker"
 msgstr "ਇਸ ਫੋਂਟ ਚੋਣਕਾਰ ਦੀ ਕਾਰਵਾਈ ਦਾ ਮੋਡ"
 
-#: ../libmateui/mate-font-picker.c:166
+#: ../libmateui/mate-font-picker.c:131
 msgid "Font name"
 msgstr "ਫੋਂਟ ਨਾਂ"
 
-#: ../libmateui/mate-font-picker.c:167
+#: ../libmateui/mate-font-picker.c:131
 msgid "Name of the selected font"
 msgstr "ਚੁਣੇ ਫੋਂਟ ਦਾ ਨਾਂ"
 
-#: ../libmateui/mate-font-picker.c:176 ../libmateui/mate-font-picker.c:972
-msgid "Font"
-msgstr "ਫੋਂਟ"
-
-#: ../libmateui/mate-font-picker.c:177
-msgid "The selected GtkFont"
-msgstr "ਚੁਣੇ GtkFont"
-
-#: ../libmateui/mate-font-picker.c:184
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text"
 msgstr "ਟੈਕਸਟ ਝਲਕ"
 
-#: ../libmateui/mate-font-picker.c:185
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text shown in the dialog"
 msgstr "ਡਾਈਲਾਗ ਵਿੱਚ ਸ਼ਬਦਾਂ ਦੀ ਝਲਕ"
 
-#: ../libmateui/mate-font-picker.c:193
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in label"
 msgstr "ਲੇਬਲ ਵਿੱਚ ਫੋਂਟ ਵਰਤੋਂ"
 
-#: ../libmateui/mate-font-picker.c:194
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in the label in font info mode"
 msgstr "ਫੋਂਟ ਜਾਣਕਾਰੀ ਮੋਡ ਵਿੱਚ ਲੇਬਲ ਵਿੱਚ ਫੋਂਟ ਵਰਤੋਂ"
 
-#: ../libmateui/mate-font-picker.c:202
+#. 8 min, 72 max, 14 default
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label"
 msgstr "ਲੇਬਲ ਲਈ ਫੋਂਟ ਅਕਾਰ"
 
-#: ../libmateui/mate-font-picker.c:203
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label in font info mode"
 msgstr "ਫੋਂਟ ਜਾਣਕਾਰੀ ਮੋਡ ਵਿੱਚ ਲੇਬਲ ਲਈ ਫੋਂਟ ਅਕਾਰ"
 
-#: ../libmateui/mate-font-picker.c:213
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size"
 msgstr "ਆਕਾਰ ਵੇਖੋ"
 
-#: ../libmateui/mate-font-picker.c:214
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size in font info mode"
 msgstr "ਫੋਂਟ ਜਾਣਕਾਰੀ ਮੋਡ ਵਿੱਚ ਅਕਾਰ ਵੇਖਾਓ"
+
+#: ../libmateui/mate-font-picker.c:864
+msgid "Font"
+msgstr "ਫੋਂਟ"
 
 #: ../libmateui/mate-mateconf-ui.c:61
 msgid "MATE MateConf UI Support"
@@ -1085,22 +1072,17 @@ msgstr "ਵੇਰਵਾ(_D)"
 #, c-format
 msgid ""
 "The application \"%s\" attempted to change an aspect of your configuration "
-"that your system administrator or operating system vendor does not allow you "
-"to change. Some of the settings you have selected may not take effect, or "
+"that your system administrator or operating system vendor does not allow you"
+" to change. Some of the settings you have selected may not take effect, or "
 "may not be restored next time you use the application."
-msgstr ""
-"ਐਪਲੀਕੇਸ਼ਨ \"%s\" ਨੇ ਤੁਹਾਡੀ ਉਸ ਸੰਰਚਨਾ ਨੂੰ ਤਬਦੀਲ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ ਕੀਤੀ ਹੈ, ਜਿਸ ਨੂੰ ਤੁਹਾਡਾ ਸਿਸਟਮ "
-"ਪਰਸ਼ਾਸ਼ਕ ਜਾਂ ਓਪਰੇਟੀਇੰਗ ਸਿਸਟਮ ਦਾ ਵੇਂਡਰ ਤਬਦੀਲ ਕਰਨ ਦੀ ਇਜ਼ਾਜਤ ਨਹੀਂ ਦਿੰਦਾ ਹੈ। ਕੁਝ ਸੈਟਿੰਗ, ਜੋ "
-"ਤੁਸੀਂ ਕੀਤੇ ਹਨ, ਉਹ ਪ੍ਰਭਾਵੀ ਨਹੀਂ ਹੋਣਗੇ ਜਾਂ ਅਗਲੀ ਵਾਰ ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਣ 'ਤੇ ਲੋਡ ਨਹੀਂ ਹੋਣਗੇ।"
+msgstr "ਐਪਲੀਕੇਸ਼ਨ \"%s\" ਨੇ ਤੁਹਾਡੀ ਉਸ ਸੰਰਚਨਾ ਨੂੰ ਤਬਦੀਲ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ ਕੀਤੀ ਹੈ, ਜਿਸ ਨੂੰ ਤੁਹਾਡਾ ਸਿਸਟਮ ਪਰਸ਼ਾਸ਼ਕ ਜਾਂ ਓਪਰੇਟੀਇੰਗ ਸਿਸਟਮ ਦਾ ਵੇਂਡਰ ਤਬਦੀਲ ਕਰਨ ਦੀ ਇਜ਼ਾਜਤ ਨਹੀਂ ਦਿੰਦਾ ਹੈ। ਕੁਝ ਸੈਟਿੰਗ, ਜੋ ਤੁਸੀਂ ਕੀਤੇ ਹਨ, ਉਹ ਪ੍ਰਭਾਵੀ ਨਹੀਂ ਹੋਣਗੇ ਜਾਂ ਅਗਲੀ ਵਾਰ ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਣ 'ਤੇ ਲੋਡ ਨਹੀਂ ਹੋਣਗੇ।"
 
 #: ../libmateui/mate-mateconf-ui.c:178
 #, c-format
 msgid ""
 "An error occurred while loading or saving configuration information for %s. "
 "Some of your configuration settings may not work properly."
-msgstr ""
-"%s ਲਈ ਸੰਰਚਨਾ ਜਾਣਕਾਰੀ ਲੋਡ ਕਰਨ ਜਾਂ ਸੰਭਾਲਣ ਵਿੱਚ ਗਲਤੀ ਹੈ। ਕੁਝ ਸੰਰਚਨਾ ਸੈਟਿੰਗ ਠੀਕ ਕੰਮ ਨਹੀਂ "
-"ਕਰੇਗੀ।"
+msgstr "%s ਲਈ ਸੰਰਚਨਾ ਜਾਣਕਾਰੀ ਲੋਡ ਕਰਨ ਜਾਂ ਸੰਭਾਲਣ ਵਿੱਚ ਗਲਤੀ ਹੈ। ਕੁਝ ਸੰਰਚਨਾ ਸੈਟਿੰਗ ਠੀਕ ਕੰਮ ਨਹੀਂ ਕਰੇਗੀ।"
 
 #: ../libmateui/mate-href.c:102
 msgid "URL"
@@ -1138,77 +1120,73 @@ msgstr "ਇਹ ਬਟਨ ਉਥੇ ਲੈ ਜਾਵੇਗਾ, ਜਿੱਥੇ �
 msgid ""
 "An error has occurred while trying to launch the default web browser.\n"
 "Please check your settings in the 'Preferred Applications' preference tool."
-msgstr ""
-"ਮੂਲ ਵੈਬ-ਬਰਾਊਜ਼ਰ ਨੂੰ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਗਲਤੀ ਹੈ।\n"
-"'ਪਸੰਦੀਦਾ ਐਪਲੀਕੇਸ਼ਨ' ਵਿੱਚ ਆਪਣੀ ਸੈਟਿੰਗ ਨੂੰ ਵੇਖੋ ਜੀ।"
+msgstr "ਮੂਲ ਵੈਬ-ਬਰਾਊਜ਼ਰ ਨੂੰ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਗਲਤੀ ਹੈ।\n'ਪਸੰਦੀਦਾ ਐਪਲੀਕੇਸ਼ਨ' ਵਿੱਚ ਆਪਣੀ ਸੈਟਿੰਗ ਨੂੰ ਵੇਖੋ ਜੀ।"
 
-#: ../libmateui/mate-icon-entry.c:167
+#: ../libmateui/mate-icon-entry.c:170
 msgid ""
-"Unique identifier for the icon entry.  This will be used to save the history "
-"list."
+"Unique identifier for the icon entry.  This will be used to save the history"
+" list."
 msgstr "ਆਈਕਾਨ ਐਂਟਰੀ ਲਈ ਵੱਖਰਾ ਸ਼ੰਨਖਾਤੀ। ਇਹ ਅਤੀਤ ਸੂਚੀ ਵਿੱਚ ਸੰਭਾਲਣ ਲਈ ਵਰਤਿਆ ਜਾਵੇਗਾ।"
 
-#: ../libmateui/mate-icon-entry.c:176
+#: ../libmateui/mate-icon-entry.c:179
 msgid "Title for the Browse icon dialog."
 msgstr "ਆਈਕਾਨ ਡਾਈਲਾਗ ਝਲਕ ਦਾ ਟਾਈਟਲ"
 
-#: ../libmateui/mate-icon-entry.c:183
+#: ../libmateui/mate-icon-entry.c:186
 msgid "Pixmap Directory"
 msgstr "ਪਿਕਸਮੈਪ ਡਾਇਰੈਕਟਰੀ"
 
-#: ../libmateui/mate-icon-entry.c:184
+#: ../libmateui/mate-icon-entry.c:187
 msgid "Directory that will be searched for icons."
 msgstr "ਡਾਇਰੈਕਟਰੀ, ਜੋ ਕਿ ਆਈਕਾਨ ਖੋਜ ਲਈ ਵਰਤੀ ਜਾਵੇਗੀ।"
 
-#: ../libmateui/mate-icon-entry.c:192
+#: ../libmateui/mate-icon-entry.c:195
 msgid "Filename that should be displayed in the icon entry."
 msgstr "ਫਾਇਲ ਨਾਂ, ਜੋ ਕਿ ਆਈਕਾਨ ਐਂਟਰੀ ਵਿੱਚ ਦਿੱਸੇਗਾ।"
 
-#: ../libmateui/mate-icon-entry.c:200
+#: ../libmateui/mate-icon-entry.c:203
 msgid "Picker dialog"
 msgstr "ਚੋਣ ਡਾਈਲਾਗ"
 
-#: ../libmateui/mate-icon-entry.c:201
+#: ../libmateui/mate-icon-entry.c:204
 msgid ""
 "Icon picker dialog.  You can use this property to get the GtkDialog if you "
 "need to modify or query any of its properties."
-msgstr ""
-"ਆਈਕਾਨ ਚੋਣਕਾਰ ਡਾਈਲਾਗ ਹੈ। ਇਹ ਵਿਸ਼ੇਸਤਾ ਨਾਲ ਤੁਸੀ GtkDialog ਖੋਲ੍ਹ ਸਕਦੇ ਹੋ, ਜੇਕਰ ਤੁਹਾਨੂੰ ਇਸ ਦੀ "
-"ਕੋਈ ਵਿਸ਼ੇਸਤਾ ਤਬਦੀਲ ਕਰਨ ਦੀ ਲੋਡ਼ ਹੈ।"
+msgstr "ਆਈਕਾਨ ਚੋਣਕਾਰ ਡਾਈਲਾਗ ਹੈ। ਇਹ ਵਿਸ਼ੇਸਤਾ ਨਾਲ ਤੁਸੀ GtkDialog ਖੋਲ੍ਹ ਸਕਦੇ ਹੋ, ਜੇਕਰ ਤੁਹਾਨੂੰ ਇਸ ਦੀ ਕੋਈ ਵਿਸ਼ੇਸਤਾ ਤਬਦੀਲ ਕਰਨ ਦੀ ਲੋਡ਼ ਹੈ।"
 
-#: ../libmateui/mate-icon-entry.c:309 ../libmateui/mate-icon-entry.c:993
+#: ../libmateui/mate-icon-entry.c:312 ../libmateui/mate-icon-entry.c:996
 msgid "Choose Icon"
 msgstr "ਆਈਕਾਨ ਚੁਣੋ"
 
-#: ../libmateui/mate-icon-entry.c:763
+#: ../libmateui/mate-icon-entry.c:766
 msgid "Icon selection dialog"
 msgstr "ਆਈਕਾਨ ਚੋਣਕਾਰ ਡਾਈਲਾਗ"
 
-#: ../libmateui/mate-icon-entry.c:764
+#: ../libmateui/mate-icon-entry.c:767
 msgid "This dialog box lets you select an icon."
 msgstr "ਇਹ ਡਾਈਲਾਗ ਤੁਹਾਨੂੰ ਆਈਕਾਨ ਚੁਣ ਦਾ ਮੌਕਾ ਦੇ ਰਿਹਾ ਹੈ।"
 
-#: ../libmateui/mate-icon-entry.c:770 ../libmateui/mate-icon-entry.c:996
+#: ../libmateui/mate-icon-entry.c:773 ../libmateui/mate-icon-entry.c:999
 msgid "Icon Selector"
 msgstr "ਆਈਕਾਨ ਚੋਣਕਾਰ"
 
-#: ../libmateui/mate-icon-entry.c:771
+#: ../libmateui/mate-icon-entry.c:774
 msgid "Please pick the icon you want."
 msgstr "ਆਈਕਾਨ, ਜੋ ਤੁਸੀ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਚੁਣੋ ਜੀ।"
 
-#: ../libmateui/mate-icon-entry.c:997
+#: ../libmateui/mate-icon-entry.c:1000
 msgid "This button will open a window to let you select an icon."
 msgstr "ਇਹ ਬਟਨ ਇੱਕ ਵਿੰਡੋ ਖੋਲ੍ਹੇਗਾ ਤਾਂਕਿ ਤੁਸੀ ਆਈਕਾਨ ਚੁਣ ਸਕੋ।"
 
-#: ../libmateui/mate-icon-entry.c:1019
+#: ../libmateui/mate-icon-entry.c:1022
 msgid "Browse"
 msgstr "ਝਲਕ"
 
-#: ../libmateui/mate-icon-entry.c:1022
+#: ../libmateui/mate-icon-entry.c:1025
 msgid "Icon path"
 msgstr "ਆਈਕਾਨ ਮਾਰਗ"
 
-#: ../libmateui/mate-icon-entry.c:1023
+#: ../libmateui/mate-icon-entry.c:1026
 msgid ""
 "Here you should enter the name of the directory where icon images are "
 "located."
@@ -1296,55 +1274,54 @@ msgstr "ਲਾਗਆਉਟ ਹੋਣ ਤੱਕ ਪਾਸਵਰਡ ਨੂੰ ਯ�
 msgid "_Remember forever"
 msgstr "ਹਮੇਸ਼ਾ ਯਾਦ ਰੱਖੋ(_R)"
 
-#: ../libmateui/mate-pixmap-entry.c:101
+#: ../libmateui/mate-pixmap-entry.c:104
 msgid "Do Preview"
 msgstr "ਝਲਕ ਵੇਖੋ"
 
-#: ../libmateui/mate-pixmap-entry.c:102
+#: ../libmateui/mate-pixmap-entry.c:105
 msgid "Whether the pixmap entry should have a preview."
 msgstr "ਕੀ ਪੈਕਸਮੈਪ ਦੇ ਐਂਟਰੀ ਦੀ ਝਲਕ ਉਪਲੱਬਧ ਹੋਵੇ।"
 
-#: ../libmateui/mate-pixmap-entry.c:176
-#: ../libmateui/mate-pixmap-entry.c:470
+#: ../libmateui/mate-pixmap-entry.c:179 ../libmateui/mate-pixmap-entry.c:473
 msgid "No Image"
 msgstr "ਕੋਈ ਚਿੱਤਰ ਨਹੀਂ ਹੈ"
 
-#: ../libmateui/mate-pixmap-entry.c:193
+#: ../libmateui/mate-pixmap-entry.c:196
 msgid "Image Preview"
 msgstr "ਚਿੱਤਰ ਝਲਕ"
 
-#: ../libmateui/mate-pixmap-entry.c:194
+#: ../libmateui/mate-pixmap-entry.c:197
 msgid "A preview of the image currently specified"
 msgstr "ਇਸ ਵੇਲੇ ਦਿੱਤੇ ਚਿੱਤਰ ਦੀ ਝਲਕ"
 
-#: ../libmateui/mate-pixmap-entry.c:405
+#: ../libmateui/mate-pixmap-entry.c:408
 msgid "Can't find an hbox, using a normal file selection"
 msgstr "ਆਮ ਫਾਇਲ ਚੋਣ ਨਾਲ hbox ਨਹੀ ਲੱਭਾ ਹੈ"
 
-#: ../libmateui/mate-pixmap-entry.c:411
+#: ../libmateui/mate-pixmap-entry.c:414
 msgid "Preview"
 msgstr "ਝਲਕ"
 
-#: ../libmateui/mate-scores.c:77
+#: ../libmateui/mate-scores.c:74
 msgid "Top Ten"
 msgstr "ਪਹਿਲੇ ਦਸ"
 
-#: ../libmateui/mate-scores.c:90
+#: ../libmateui/mate-scores.c:87
 msgid "User"
 msgstr "ਯੂਜ਼ਰ"
 
-#: ../libmateui/mate-scores.c:93
+#: ../libmateui/mate-scores.c:90
 msgid "Score"
 msgstr "ਸਕੋਰ"
 
 #. TRANSLATORS NOTE: Date format used when showing scores in games.
 #. * Please refer to manpage of strftime(3) for complete reference.
-#.
-#: ../libmateui/mate-scores.c:193
+#. 
+#: ../libmateui/mate-scores.c:182
 msgid "%a %b %d %T %Y"
 msgstr "%a %d %b %T %Y"
 
-#: ../libmateui/mate-scores.c:394
+#: ../libmateui/mate-scores.c:369
 msgid "Sans 14"
 msgstr "Sans 14"
 
@@ -1400,74 +1377,10 @@ msgstr "ਡਿਸਪਲੇਅ"
 msgid "MATE GUI Library"
 msgstr "ਗਨੋਮ GUI ਲਾਇਬਰੇਰੀ"
 
-#: ../libmateui/mate-ui-init.c:232
+#: ../libmateui/mate-ui-init.c:226
 msgid "Could not open link"
 msgstr "ਲਿੰਕ ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ"
 
 #: ../test-mate/testmate.xml.h:3
 msgid "Exit the test"
 msgstr "ਟੈਸਟ ਬੰਦ ਕਰੋ"
-
-#~ msgid "%s is a link to something that is not a folder"
-#~ msgstr "%s ਲਿੰਕ ਹੈ, ਜੋ ਕਿ ਫੋਲਡਰ ਨਹੀਂ ਹੋ ਸਕਦਾ ਹੈ"
-
-#~ msgid "%s is a link without a destination location"
-#~ msgstr "%s ਇੱਕ ਲਿੰਕ ਹੈ, ਜਿਸ ਵਿੱਚ ਕੋਈ ਟਿਕਾਣਾ ਨਹੀਂ ਹੈ"
-
-#~ msgid "%s is not a folder"
-#~ msgstr "%s ਇੱਕ ਫੋਲਡਰ ਨਹੀਂ ਹੈ"
-
-#~ msgid "Network Servers"
-#~ msgstr "ਨੈੱਟਵਰਕ ਸਰਵਰ"
-
-#~ msgid "File System"
-#~ msgstr "ਫਾਇਲ ਸਿਸਟਮ"
-
-#~ msgid "Bookmark saving failed (%s)"
-#~ msgstr "ਬੁੱਕਮਾਰਕ ਨੂੰ ਸੰਭਾਲਣ ਵਿੱਚ ਗਲਤੀ (%s)"
-
-#~ msgid "Error getting information for '%s'"
-#~ msgstr "'%s' ਤੋਂ ਜਾਣਕਾਰੀ ਲੈਣ ਦੌਰਾਨ ਗਲਤੀ"
-
-#~ msgid "Could not get information for file '%s': %s"
-#~ msgstr "ਫਾਇਲ '%s' ਤੋਂ ਜਾਣਾਕਾਰੀ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ ਹੈ: %s"
-
-#~ msgid "Failed to open file '%s': %s"
-#~ msgstr "ਫਾਇਲ '%s' ਖੋਲ੍ਹਣ ਵਿੱਚ ਅਸਫਲ: %s"
-
-#~ msgid ""
-#~ "Failed to load image '%s': reason not known, probably a corrupt image file"
-#~ msgstr ""
-#~ "ਚਿੱਤਰ '%s' ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ: ਕਾਰਨ ਜਾਣਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ ਹੈ, ਸੰਭਵ ਤੌਰ ਤੇ ਫਾਇਲ ਨਿਕਾਰਾ "
-#~ "ਹੈ"
-
-#~ msgid "Multiple segmentation faults occurred; can't display error dialog\n"
-#~ msgstr "ਬਹੁ ਸਿਗਮਿਨਟੇਸ਼ਨ ਤਰੁੱਟੀ ਆਈ ਹੈ; ਗਲਤੀ ਡਾਈਲਾਗ ਨਹੀਂ ਵੇਖਾ ਸਕਦਾ ਹੈ\n"
-
-#~ msgid ""
-#~ "Segmentation fault!\n"
-#~ "Cannot display crash dialog\n"
-#~ msgstr ""
-#~ "ਸਿਗਮਿਨਟੇਸ਼ਨ ਤਰੁੱਟੀਪੂਰਨ ਹੈ!\n"
-#~ "ਨਸ਼ਟ ਡਾਈਲਾਗ ਨਹੀਂ ਵੇਖਿਆ ਜਾ ਸਕਦਾ ਹੈ\n"
-
-#~ msgid "Usage: mate_segv2 appname signum\n"
-#~ msgstr "ਵਰਤੋਂ: mate_segv2 appname signum\n"
-
-#~ msgid "Debugging %s"
-#~ msgstr "%s ਡੀਬੱਗਿੰਗ"
-
-#~ msgid ""
-#~ "<b>The application %s has crashed.</b>\n"
-#~ "\n"
-#~ "Please install <b>bug-buddy</b>, the\n"
-#~ "MATE crash report tool, which enables you\n"
-#~ "to send the developers detailed information\n"
-#~ "about the error.\n"
-#~ msgstr ""
-#~ "<b>ਕਾਰਜ %s ਨਸ਼ਟ ਹੋ ਗਿਆ ਹੈ।</b>\n"
-#~ "\n"
-#~ "<b>ਬੱਗ-ਬੱਡੀ</b>, ਜੋ ਕਿ ਗਨੋਮ ਨਸ਼ਟ ਹੋਣ\n"
-#~ "ਰਿਪੋਰਟ ਦਿੰਦਾ ਹੈ, ਇੰਸਟਾਲ ਕਰੋ, ਜੋ ਕਿ ਤੁਹਾਨੂੰ\n"
-#~ "ਗਲਤੀ ਬਾਰੇ ਡੀਵੈਲਪਰਾਂ ਨੂੰ ਵੇਰਵੇ ਸਮੇਤ ਜਾਣਕਾਰੀ\n"
-#~ "ਦਿੰਦਾ ਹੈ।\n"

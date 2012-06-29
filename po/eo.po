@@ -1,26 +1,24 @@
-# translation of libmateui.po to Esperanto
-# This file is distributed under the same license as the libmateui package.
-# Copyright (C) 2003 Free Software Foundation, Inc.
-#
-# Joël BRICH <joel.brich@laposte.net>, 2003
-# Joop EGGEN <joop_eggen@yahoo.de>, 2006
-# Guillaume SAVATON <llumeao@gmail.com>, 2006
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Guillaume SAVATON <llumeao@gmail.com>, 2006.
+# Joël BRICH <joel.brich@laposte.net>, 2003.
+# Joop EGGEN <joop_eggen@yahoo.de>, 2006.
 # Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateui 2.3.3\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=libmateui&component=general\n"
-"POT-Creation-Date: 2010-04-18 07:29+0000\n"
-"PO-Revision-Date: 2010-07-10 12:53+0200\n"
-"Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
-"Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-22 19:43+0100\n"
+"PO-Revision-Date: 2012-02-22 18:48+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Esperanto (http://www.transifex.com/projects/p/MATE/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-06-05 09:52+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"Language: eo\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../demos/mdi_demo.c:128
@@ -39,116 +37,114 @@ msgstr "Idoero 2"
 msgid "Hint for item 2"
 msgstr "Helpindiko por ero 2"
 
-#: ../libmateui/mate-about.c:187
+#: ../libmateui/mate-about.c:199
 msgid "Credits"
 msgstr "Dankoj"
 
-#: ../libmateui/mate-about.c:219
+#: ../libmateui/mate-about.c:222
 msgid "Written by"
 msgstr "Skribite de"
 
-#: ../libmateui/mate-about.c:234
+#: ../libmateui/mate-about.c:235
 msgid "Documented by"
 msgstr "Dokumentite de"
 
-#: ../libmateui/mate-about.c:249
+#: ../libmateui/mate-about.c:248
 msgid "Translated by"
 msgstr "Tradukite de"
 
-#: ../libmateui/mate-about.c:312
+#: ../libmateui/mate-about.c:315
 msgid "C_redits"
 msgstr "_Dankoj"
 
-#: ../libmateui/mate-about.c:365
+#: ../libmateui/mate-about.c:367
 msgid "Program name"
 msgstr "Programnomo"
 
-#: ../libmateui/mate-about.c:366
+#: ../libmateui/mate-about.c:368
 msgid "The name of the program"
 msgstr "La nomo de la programo"
 
-#: ../libmateui/mate-about.c:373
+#: ../libmateui/mate-about.c:375
 msgid "Program version"
 msgstr "Programversio"
 
-#: ../libmateui/mate-about.c:374
+#: ../libmateui/mate-about.c:376
 msgid "The version of the program"
 msgstr "La versio de la programo"
 
-#: ../libmateui/mate-about.c:380
+#: ../libmateui/mate-about.c:382
 msgid "Copyright string"
 msgstr "Kopirajta teksto"
 
-#: ../libmateui/mate-about.c:381
+#: ../libmateui/mate-about.c:383
 msgid "Copyright information for the program"
 msgstr "Kopirajta informo pri la programo"
 
-#: ../libmateui/mate-about.c:388
+#: ../libmateui/mate-about.c:390
 msgid "Comments string"
 msgstr "Komenta teksto"
 
-#: ../libmateui/mate-about.c:389
+#: ../libmateui/mate-about.c:391
 msgid "Comments about the program"
 msgstr "Komentoj pri la programo"
 
-#: ../libmateui/mate-about.c:395
+#: ../libmateui/mate-about.c:397
 msgid "Authors"
 msgstr "Aŭtoroj"
 
-#: ../libmateui/mate-about.c:396
+#: ../libmateui/mate-about.c:398
 msgid "List of authors of the programs"
 msgstr "Listo de la aŭtoroj de la programoj"
 
-#: ../libmateui/mate-about.c:398
+#: ../libmateui/mate-about.c:400
 msgid "Author entry"
 msgstr "Aŭtorenigilo"
 
-#: ../libmateui/mate-about.c:399
+#: ../libmateui/mate-about.c:401
 msgid "A single author entry"
 msgstr "Ununura aŭtorenigilo"
 
-#: ../libmateui/mate-about.c:406
+#: ../libmateui/mate-about.c:408
 msgid "Documenters"
 msgstr "Dokumentigantoj"
 
-#: ../libmateui/mate-about.c:407
+#: ../libmateui/mate-about.c:409
 msgid "List of people documenting the program"
 msgstr "Listo de la personoj dokumentigantaj la programon"
 
-#: ../libmateui/mate-about.c:409
+#: ../libmateui/mate-about.c:411
 msgid "Documenter entry"
 msgstr "Dokumentiganto-enigilo"
 
-#: ../libmateui/mate-about.c:410
+#: ../libmateui/mate-about.c:412
 msgid "A single documenter entry"
 msgstr "Ununura dokumentiganto-enigilo"
 
-#: ../libmateui/mate-about.c:418
+#: ../libmateui/mate-about.c:420
 msgid "Translator credits"
 msgstr "Dankoj al tradukantoj"
 
-#: ../libmateui/mate-about.c:419
+#: ../libmateui/mate-about.c:421
 msgid ""
 "Credits to the translators. This string should be marked as translatable"
-msgstr ""
-"Dankoj al tradukantoj. Tiu literĉeno devus esti markita kiel tradukebla"
+msgstr "Dankoj al tradukantoj. Tiu literĉeno devus esti markita kiel tradukebla"
 
-#: ../libmateui/mate-about.c:426
-#: ../libmateui/mate-druid-page-standard.c:123
+#: ../libmateui/mate-about.c:428 ../libmateui/mate-druid-page-standard.c:123
 msgid "Logo"
 msgstr "Insigno"
 
-#: ../libmateui/mate-about.c:427
+#: ../libmateui/mate-about.c:429
 msgid "A logo for the about box"
 msgstr "Insigno por la Pri-dialogfenestro"
 
-#: ../libmateui/mate-about.c:506
+#: ../libmateui/mate-about.c:503
 #, c-format
 msgid "About %s"
 msgstr "Pri %s"
 
 #. Some standard menus
-#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:551
+#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:553
 #: ../test-mate/testmate.xml.h:5
 msgid "_File"
 msgstr "_Dosiero"
@@ -157,7 +153,7 @@ msgstr "_Dosiero"
 msgid "_File/"
 msgstr "_Dosiero/"
 
-#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:554
+#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:556
 msgid "_Edit"
 msgstr "R_edakti"
 
@@ -165,7 +161,7 @@ msgstr "R_edakti"
 msgid "_Edit/"
 msgstr "_Redakti/"
 
-#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:557
+#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:559
 msgid "_View"
 msgstr "_Vido"
 
@@ -173,7 +169,7 @@ msgstr "_Vido"
 msgid "_View/"
 msgstr "_Vidi/"
 
-#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:560
+#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:562
 msgid "_Settings"
 msgstr "_Agordoj"
 
@@ -182,7 +178,7 @@ msgid "_Settings/"
 msgstr "_Agordoj/"
 
 #. If you have more then one New type, use this tree
-#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:326
+#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:328
 msgid "_New"
 msgstr "_Nova"
 
@@ -190,7 +186,7 @@ msgstr "_Nova"
 msgid "_New/"
 msgstr "_Nova/"
 
-#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:563
+#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:565
 msgid "Fi_les"
 msgstr "_Dosieroj"
 
@@ -198,15 +194,15 @@ msgstr "_Dosieroj"
 msgid "Fi_les/"
 msgstr "_Dosieroj/"
 
-#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:566
+#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:568
 msgid "_Windows"
 msgstr "_Fenestroj"
 
-#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:572
+#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:574
 msgid "_Game"
 msgstr "_Ludo"
 
-#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:569
+#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:571
 #: ../test-mate/testmate.xml.h:6
 msgid "_Help"
 msgstr "_Helpo"
@@ -287,9 +283,8 @@ msgstr "_Ĉesi"
 msgid "Quit the application"
 msgstr "Fermi la aplikaĵon"
 
-#.
 #. * The "Edit" menu
-#.
+#. 
 #. Cut
 #: ../libmateui/mate-app-helper.c:158
 msgid "Cu_t"
@@ -381,9 +376,8 @@ msgstr "_Atributoj"
 msgid "Modify the file's properties"
 msgstr "Modifi la dosieratributojn"
 
-#.
 #. * The Settings menu
-#.
+#. 
 #. Settings
 #: ../libmateui/mate-app-helper.c:214
 msgid "Prefere_nces"
@@ -394,9 +388,9 @@ msgid "Configure the application"
 msgstr "Agordi la aplikaĵon"
 
 #. 20
-#.
+#. 
 #. * And the "Help" menu
-#.
+#. 
 #. About
 #: ../libmateui/mate-app-helper.c:224 ../test-mate/testmate.xml.h:4
 msgid "_About"
@@ -414,9 +408,8 @@ msgstr "Elekti ĉi_on"
 msgid "Select everything"
 msgstr "Elekti ĉion"
 
-#.
 #. * Window menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:237
 msgid "Create New _Window"
 msgstr "_Krei novan fenestron"
@@ -433,9 +426,8 @@ msgstr "_Fermi tiun fenestron"
 msgid "Close the current window"
 msgstr "Fermi la aktualan fenestron"
 
-#.
 #. * The "Game" menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:251
 msgid "_New Game"
 msgstr "_Nova ludo"
@@ -501,31 +493,31 @@ msgstr "_Fini ludon"
 msgid "End the current game"
 msgstr "Fini la aktualan ludon"
 
-#: ../libmateui/mate-app-helper.c:1150
+#: ../libmateui/mate-app-helper.c:1149
 msgid "_Contents"
 msgstr "_Enhavoj"
 
-#: ../libmateui/mate-app-helper.c:1153
+#: ../libmateui/mate-app-helper.c:1152
 msgid "View help for this application"
 msgstr "Montri helpon pri ĉ tiu aplikaĵo"
 
-#: ../libmateui/mate-app-helper.c:2524
+#: ../libmateui/mate-app-helper.c:2523
 msgid "Text Below Icons"
 msgstr "Teksto sub la piktogramoj"
 
-#: ../libmateui/mate-app-helper.c:2525
+#: ../libmateui/mate-app-helper.c:2524
 msgid "Priority Text Beside Icons"
 msgstr "Prioritata teksto apud piktogramoj"
 
-#: ../libmateui/mate-app-helper.c:2526
+#: ../libmateui/mate-app-helper.c:2525
 msgid "Icons Only"
 msgstr "Nur piktogramoj"
 
-#: ../libmateui/mate-app-helper.c:2527
+#: ../libmateui/mate-app-helper.c:2526
 msgid "Text Only"
 msgstr "Nur teksto"
 
-#: ../libmateui/mate-app-helper.c:2588
+#: ../libmateui/mate-app-helper.c:2587
 #, c-format
 msgid "Use Desktop Default (%s)"
 msgstr "Uzu defaŭltan valoron de tabulo (%s)"
@@ -612,9 +604,7 @@ msgstr "Via HTTP-prokurilo postulas, ke vi ensalutas.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Vi devas ensaluti por atingi \"%s\".\n"
-"%s"
+msgstr "Vi devas ensaluti por atingi \"%s\".\n%s"
 
 #: ../libmateui/mate-authentication-manager.c:88
 msgid "Your password will be transmitted unencrypted."
@@ -629,7 +619,8 @@ msgstr "Via pasvorto sendiĝos ĉifrite."
 msgid "Authentication Required"
 msgstr "Aŭtentigo bezonata"
 
-#. Translators: "You must log in to acces user@server.com/share domain MYWINDOWSDOMAIN."
+#. Translators: "You must log in to acces user@server.com/share domain
+#. MYWINDOWSDOMAIN."
 #: ../libmateui/mate-authentication-manager.c:303
 #, c-format
 msgid "You must log in to access %s domain %s\n"
@@ -728,7 +719,7 @@ msgstr "Komenca tempo"
 msgid "The initial time"
 msgstr "La komenca tempo"
 
-#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:96
+#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:93
 msgid "Date"
 msgstr "Dato"
 
@@ -758,7 +749,7 @@ msgid "mate_date_edit_get_date deprecated, use mate_date_edit_get_time"
 msgstr "mate_date_edit_get_date evitindas, uzu mate_date_edit_get_time"
 
 #: ../libmateui/mate-druid-page-standard.c:115
-#: ../libmateui/mate-font-picker.c:147
+#: ../libmateui/mate-font-picker.c:127
 msgid "Title"
 msgstr "Titolo"
 
@@ -896,11 +887,9 @@ msgstr "La GTK-enigilo"
 
 #: ../libmateui/mate-file-entry.c:234
 msgid ""
-"Unique identifier for the file entry.  This will be used to save the history "
-"list."
-msgstr ""
-"Ununura identigilo por la dosiero-enigilo. Ĝi estos uzata por konservi la "
-"historiliston."
+"Unique identifier for the file entry.  This will be used to save the history"
+" list."
+msgstr "Ununura identigilo por la dosiero-enigilo. Ĝi estos uzata por konservi la historiliston."
 
 #: ../libmateui/mate-file-entry.c:242 ../libmateui/mate-icon-entry.c:178
 msgid "Browse Dialog Title"
@@ -918,9 +907,7 @@ msgstr "Dosierujo-enigilo"
 msgid ""
 "Whether the file entry is being used to enter directory names or complete "
 "filenames."
-msgstr ""
-"Ĉu la dosierenigilo dosieroj estas uzata por enigi nomojn de dosierujoj aŭ "
-"kompletajn dosiernomoj."
+msgstr "Ĉu la dosierenigilo dosieroj estas uzata por enigi nomojn de dosierujoj aŭ kompletajn dosiernomoj."
 
 #: ../libmateui/mate-file-entry.c:259
 msgid "Modal"
@@ -952,13 +939,10 @@ msgstr "MateEntry"
 
 #: ../libmateui/mate-file-entry.c:285
 msgid ""
-"MateEntry that the file entry uses for entering filenames.  You can use "
-"this property to get the MateEntry if you need to modify or query any of "
-"its parameters."
-msgstr ""
-"MateEntry uzita de la dosiero-enigilo por enigi dosiernomojn. Vi povas uzi "
-"tiun atributon por ricevi la MateEntry se vi bezonas ŝanĝi aŭ demandi iun "
-"el ĝiaj atributojn."
+"MateEntry that the file entry uses for entering filenames.  You can use this"
+" property to get the MateEntry if you need to modify or query any of its "
+"parameters."
+msgstr "MateEntry uzita de la dosiero-enigilo por enigi dosiernomojn. Vi povas uzi tiun atributon por ricevi la MateEntry se vi bezonas ŝanĝi aŭ demandi iun el ĝiaj atributojn."
 
 #: ../libmateui/mate-file-entry.c:295
 msgid "GtkEntry"
@@ -969,10 +953,7 @@ msgid ""
 "GtkEntry that the file entry uses for entering filenames.  You can use this "
 "property to get the GtkEntry if you need to modify or query any of its "
 "parameters."
-msgstr ""
-"GtkEntry uzita de la dosiero-enigilo por enigi dosiernomojn. Vi povas uzi "
-"tiun atributon por ricevi la GtkEntry se vi bezonas ŝanĝi aŭ demandi iun el "
-"ĝiaj atributojn."
+msgstr "GtkEntry uzita de la dosiero-enigilo por enigi dosiernomojn. Vi povas uzi tiun atributon por ricevi la GtkEntry se vi bezonas ŝanĝi aŭ demandi iun el ĝiaj atributojn."
 
 #: ../libmateui/mate-file-entry.c:306
 msgid "Use GtkFileChooser"
@@ -982,9 +963,7 @@ msgstr "Uzi GtkFileChooser"
 msgid ""
 "Whether to use the new GtkFileChooser widget or the GtkFileSelection widget "
 "to select files."
-msgstr ""
-"Ĉu uzi la novan komponanton GtkFileChooser aŭ la komponanton "
-"GtkFileSelection por elekti dosierojn."
+msgstr "Ĉu uzi la novan komponanton GtkFileChooser aŭ la komponanton GtkFileSelection por elekti dosierojn."
 
 #: ../libmateui/mate-file-entry.c:316
 msgid "GtkFileChooser Action"
@@ -1014,77 +993,74 @@ msgstr "_Foliumi..."
 msgid "Pop up a file selector to choose a file"
 msgstr "Ekaperi dosierelektilon por elekti dosieron"
 
-#: ../libmateui/mate-font-picker.c:58
+#: ../libmateui/mate-font-picker.c:60
 msgid "sans 12"
 msgstr "sans 12"
 
-#: ../libmateui/mate-font-picker.c:59
+#: ../libmateui/mate-font-picker.c:61
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 msgstr "AaBbCcĈĉDdEeFfGgĜĝHhĤĥIiJjĴĵKkLlMmNnOoPpRrSsŜŝTtUuŬŭVvZz"
 
-#: ../libmateui/mate-font-picker.c:60
+#: ../libmateui/mate-font-picker.c:62
 msgid "Pick a Font"
 msgstr "Elektu tiparon"
 
-#: ../libmateui/mate-font-picker.c:148
+#: ../libmateui/mate-font-picker.c:127
 msgid "The title of the selection dialog box"
 msgstr "La titolo de la elektila dialogfenestro"
 
-#: ../libmateui/mate-font-picker.c:156
+#: ../libmateui/mate-font-picker.c:129
 msgid "Mode"
 msgstr "Reĝimo"
 
-#: ../libmateui/mate-font-picker.c:157
+#: ../libmateui/mate-font-picker.c:129
 msgid "The mode of operation of the font picker"
 msgstr "La operacia reĝimo de la tiparelektilo"
 
-#: ../libmateui/mate-font-picker.c:166
+#: ../libmateui/mate-font-picker.c:131
 msgid "Font name"
 msgstr "Tiparonomo"
 
-#: ../libmateui/mate-font-picker.c:167
+#: ../libmateui/mate-font-picker.c:131
 msgid "Name of the selected font"
 msgstr "Nomo de la elektita tiparo"
 
-#: ../libmateui/mate-font-picker.c:176 ../libmateui/mate-font-picker.c:972
-msgid "Font"
-msgstr "Tiparo"
-
-#: ../libmateui/mate-font-picker.c:177
-msgid "The selected GtkFont"
-msgstr "La elektita GtkFont"
-
-#: ../libmateui/mate-font-picker.c:184
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text"
 msgstr "Antaŭrigardi tekston"
 
-#: ../libmateui/mate-font-picker.c:185
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text shown in the dialog"
 msgstr "Antaŭrigardi tekston montritan en la dialogfenestro"
 
-#: ../libmateui/mate-font-picker.c:193
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in label"
 msgstr "Uzi tiparon en etikedo"
 
-#: ../libmateui/mate-font-picker.c:194
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in the label in font info mode"
 msgstr "Uzi tiparon en la etikedo ĉe tipar-informo-reĝimo"
 
-#: ../libmateui/mate-font-picker.c:202
+#. 8 min, 72 max, 14 default
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label"
 msgstr "Tiparogrando por la etikedo"
 
-#: ../libmateui/mate-font-picker.c:203
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label in font info mode"
 msgstr "Tiparogrando por la etikedo ĉe tiparinformoreĝimo"
 
-#: ../libmateui/mate-font-picker.c:213
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size"
 msgstr "Montri grandon"
 
-#: ../libmateui/mate-font-picker.c:214
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size in font info mode"
 msgstr "Montri grandon ĉe tiparinformoreĝimo"
+
+#: ../libmateui/mate-font-picker.c:864
+msgid "Font"
+msgstr "Tiparo"
 
 #: ../libmateui/mate-mateconf-ui.c:61
 msgid "MATE MateConf UI Support"
@@ -1098,23 +1074,17 @@ msgstr "_Detaloj"
 #, c-format
 msgid ""
 "The application \"%s\" attempted to change an aspect of your configuration "
-"that your system administrator or operating system vendor does not allow you "
-"to change. Some of the settings you have selected may not take effect, or "
+"that your system administrator or operating system vendor does not allow you"
+" to change. Some of the settings you have selected may not take effect, or "
 "may not be restored next time you use the application."
-msgstr ""
-"La aplikaĵo \"%s\" provis modifi parton de via agordaro, kion via "
-"administranto aŭ mastrumosistema vendisto ne permesis modifi. Iuj el viaj "
-"elektitaj agordoj eble ne efikos aŭ ne povos restariĝi je la sekva fojo, "
-"kiam vi uzos la aplikaĵon."
+msgstr "La aplikaĵo \"%s\" provis modifi parton de via agordaro, kion via administranto aŭ mastrumosistema vendisto ne permesis modifi. Iuj el viaj elektitaj agordoj eble ne efikos aŭ ne povos restariĝi je la sekva fojo, kiam vi uzos la aplikaĵon."
 
 #: ../libmateui/mate-mateconf-ui.c:178
 #, c-format
 msgid ""
 "An error occurred while loading or saving configuration information for %s. "
 "Some of your configuration settings may not work properly."
-msgstr ""
-"Eraro okazis ŝargante aŭ registrante la agordinformojn de %s.Parto de viaj "
-"agordoj probable ne efikos."
+msgstr "Eraro okazis ŝargante aŭ registrante la agordinformojn de %s.Parto de viaj agordoj probable ne efikos."
 
 #: ../libmateui/mate-href.c:102
 msgid "URL"
@@ -1152,17 +1122,13 @@ msgstr "Tiu butono eblas aliron al la montrita URI."
 msgid ""
 "An error has occurred while trying to launch the default web browser.\n"
 "Please check your settings in the 'Preferred Applications' preference tool."
-msgstr ""
-"Eraro okazis dum la lanĉoprovo de la defaŭlta TTT-retumilo.\n"
-"Bonvolu kontroli vian agordaron en la 'preferataj aplikaĵoj' agordilo."
+msgstr "Eraro okazis dum la lanĉoprovo de la defaŭlta TTT-retumilo.\nBonvolu kontroli vian agordaron en la 'preferataj aplikaĵoj' agordilo."
 
 #: ../libmateui/mate-icon-entry.c:170
 msgid ""
-"Unique identifier for the icon entry.  This will be used to save the history "
-"list."
-msgstr ""
-"Ununura identigilo por la piktogramo-enigilo. Tiu estos uzita por konservi "
-"la historiliston."
+"Unique identifier for the icon entry.  This will be used to save the history"
+" list."
+msgstr "Ununura identigilo por la piktogramo-enigilo. Tiu estos uzita por konservi la historiliston."
 
 #: ../libmateui/mate-icon-entry.c:179
 msgid "Title for the Browse icon dialog."
@@ -1188,9 +1154,7 @@ msgstr "Elektila dialogfenestro"
 msgid ""
 "Icon picker dialog.  You can use this property to get the GtkDialog if you "
 "need to modify or query any of its properties."
-msgstr ""
-"Piktogramelektila dialogfenestro. Vi povas uzi tiun atributon por havi la "
-"GtkDialog-on se vi bezonas ŝanĝi aŭ demandi ĝiajn atributojn."
+msgstr "Piktogramelektila dialogfenestro. Vi povas uzi tiun atributon por havi la GtkDialog-on se vi bezonas ŝanĝi aŭ demandi ĝiajn atributojn."
 
 #: ../libmateui/mate-icon-entry.c:312 ../libmateui/mate-icon-entry.c:996
 msgid "Choose Icon"
@@ -1228,8 +1192,7 @@ msgstr "Pado al piktogramoj"
 msgid ""
 "Here you should enter the name of the directory where icon images are "
 "located."
-msgstr ""
-"Ĉi tie, vi devus enigi la nomon de la dosierujo, kie estas la piktogramoj."
+msgstr "Ĉi tie, vi devus enigi la nomon de la dosierujo, kie estas la piktogramoj."
 
 #: ../libmateui/mate-icon-sel.c:293
 #, c-format
@@ -1321,8 +1284,7 @@ msgstr "Antaŭrigardi"
 msgid "Whether the pixmap entry should have a preview."
 msgstr "Ĉu la piktogramo-enigilo devus havi antaŭrigardon."
 
-#: ../libmateui/mate-pixmap-entry.c:179
-#: ../libmateui/mate-pixmap-entry.c:473
+#: ../libmateui/mate-pixmap-entry.c:179 ../libmateui/mate-pixmap-entry.c:473
 msgid "No Image"
 msgstr "Sen bildo"
 
@@ -1342,26 +1304,26 @@ msgstr "Ne trovis hbox-on, uzante normalan dosierelektilon"
 msgid "Preview"
 msgstr "Antaŭrigardo"
 
-#: ../libmateui/mate-scores.c:77
+#: ../libmateui/mate-scores.c:74
 msgid "Top Ten"
 msgstr "Supraj dek"
 
-#: ../libmateui/mate-scores.c:90
+#: ../libmateui/mate-scores.c:87
 msgid "User"
 msgstr "Uzanto"
 
-#: ../libmateui/mate-scores.c:93
+#: ../libmateui/mate-scores.c:90
 msgid "Score"
 msgstr "Poentoj"
 
 #. TRANSLATORS NOTE: Date format used when showing scores in games.
 #. * Please refer to manpage of strftime(3) for complete reference.
-#.
-#: ../libmateui/mate-scores.c:193
+#. 
+#: ../libmateui/mate-scores.c:182
 msgid "%a %b %d %T %Y"
 msgstr "%a %b %d %T %Y"
 
-#: ../libmateui/mate-scores.c:394
+#: ../libmateui/mate-scores.c:369
 msgid "Sans 14"
 msgstr "Sans 14"
 
@@ -1417,7 +1379,7 @@ msgstr "VIDIGILO"
 msgid "MATE GUI Library"
 msgstr "Grafika interfaca biblioteko de MATE"
 
-#: ../libmateui/mate-ui-init.c:232
+#: ../libmateui/mate-ui-init.c:226
 msgid "Could not open link"
 msgstr "Ne povis malfermi ligilon"
 

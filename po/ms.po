@@ -1,1738 +1,1386 @@
-# Malay Translation of libmateui base on MateLib Malay Translation (khai)
-# Copyright (C) 2001,2002 Free Software Foundation, Inc.
-# Khairulanuar Abd Majid <khairul@my.enemy.org, 2001.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Hasbullah bin Pit <sebol@ikhlas.com>, 2002.
+# Khairulanuar Abd Majid <khairul@my.enemy.org, 2001.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-libs 1.2.14\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-01-26 15:43+0100\n"
-"PO-Revision-Date: 2004-08-11 02:00+0730\n"
-"Last-Translator: Hasbullah Bin Pit <sebol@my-penguin.org>\n"
-"Language-Team: Malay <gabai-penyumbang@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-22 19:43+0100\n"
+"PO-Revision-Date: 2012-02-22 18:50+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ms\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
-#: demos/mdi_demo.c:128
+#: ../demos/mdi_demo.c:128
 msgid "Child Item 1"
 msgstr "Anak Item 1"
 
-#: demos/mdi_demo.c:129
+#: ../demos/mdi_demo.c:129
 msgid "Hint for item 1"
 msgstr "Petua item 1"
 
-#: demos/mdi_demo.c:131
+#: ../demos/mdi_demo.c:131
 msgid "Child Item 2"
 msgstr "Anak Item 2"
 
-#: demos/mdi_demo.c:132
+#: ../demos/mdi_demo.c:132
 msgid "Hint for item 2"
 msgstr "Petua item 2"
 
-#: file-chooser/gtkfilesystemmatevfs.c:820
-#, c-format
-msgid "%s is a link to something that is not a folder"
-msgstr ""
-
-#: file-chooser/gtkfilesystemmatevfs.c:831
-#, c-format
-msgid "%s is a link without a destination location"
-msgstr ""
-
-#: file-chooser/gtkfilesystemmatevfs.c:946
-#, c-format
-msgid "%s is not a folder"
-msgstr "%s adalah bukan folder"
-
-# libmateui/mate-app-helper.c:88
-#: file-chooser/gtkfilesystemmatevfs.c:1194
-#, fuzzy
-msgid "File System"
-msgstr "Sistemfail"
-
-#: file-chooser/gtkfilesystemmatevfs.c:1952
-#, c-format
-msgid "Bookmark saving failed (%s)"
-msgstr "Penyimpanan tandabuku gagal (%s)"
-
-#: file-chooser/sucky-desktop-item.c:217 file-chooser/sucky-desktop-item.c:605
-#, fuzzy, c-format
-msgid "Error reading file '%s': %s"
-msgstr "Gagal membuka fail '%s': %s"
-
-#: file-chooser/sucky-desktop-item.c:285
-#, fuzzy, c-format
-msgid "Error rewinding file '%s': %s"
-msgstr "Gagal membuka fail '%s': %s"
-
-# test-mate/testmate.c:807
-#: file-chooser/sucky-desktop-item.c:384
-#: file-chooser/sucky-desktop-item.c:3702
-#, fuzzy
-msgid "No name"
-msgstr "Nama Font"
-
-#: file-chooser/sucky-desktop-item.c:620
-#, c-format
-msgid "File '%s' is not a regular file or directory."
-msgstr ""
-
-#: file-chooser/sucky-desktop-item.c:796
-#, c-format
-msgid "Error cannot find file id '%s'"
-msgstr ""
-
-#: file-chooser/sucky-desktop-item.c:842
-#, c-format
-msgid "No filename to save to"
-msgstr ""
-
-#: file-chooser/sucky-desktop-item.c:1797
-#, fuzzy, c-format
-msgid "Starting %s"
-msgstr "_Tetapan"
-
-#: file-chooser/sucky-desktop-item.c:2036
-#, c-format
-msgid "No URL to launch"
-msgstr ""
-
-#: file-chooser/sucky-desktop-item.c:2046
-#, c-format
-msgid "Not a launchable item"
-msgstr ""
-
-#: file-chooser/sucky-desktop-item.c:2056
-#, c-format
-msgid "No command (Exec) to launch"
-msgstr ""
-
-#: file-chooser/sucky-desktop-item.c:2069
-#, c-format
-msgid "Bad command (Exec) to launch"
-msgstr ""
-
-#: file-chooser/sucky-desktop-item.c:3759
-#, c-format
-msgid "Unknown encoding of: %s"
-msgstr ""
-
-#: file-chooser/sucky-desktop-item.c:3990
-#, fuzzy, c-format
-msgid "Error writing file '%s': %s"
-msgstr "Gagal membuka fail '%s': %s"
-
-#: file-chooser/testfilechooser.c:178
-#, c-format
-msgid "Could not get information for file '%s': %s"
-msgstr "Tak dapat peroleh maklumat bagi fail '%s': %s"
-
-#: file-chooser/testfilechooser.c:191
-#, c-format
-msgid "Failed to open file '%s': %s"
-msgstr "Gagal membuka fail '%s': %s"
-
-#: file-chooser/testfilechooser.c:230
-#, c-format
-msgid ""
-"Failed to load image '%s': reason not known, probably a corrupt image file"
-msgstr ""
-"Gagal memuatkan imej  '%s': sebab tidak diketahui, mungkin fail imej rosak"
-
-#: libmateui/mate-about.c:199
+#: ../libmateui/mate-about.c:199
 msgid "Credits"
 msgstr "Kredit"
 
-#: libmateui/mate-about.c:231
+#: ../libmateui/mate-about.c:222
 msgid "Written by"
 msgstr "Ditulis oleh"
 
-# libmateui/mate-dentry-edit.c:374
-#: libmateui/mate-about.c:246
+#: ../libmateui/mate-about.c:235
 msgid "Documented by"
 msgstr "Dokumentasi oleh"
 
-#: libmateui/mate-about.c:261
+#: ../libmateui/mate-about.c:248
 msgid "Translated by"
 msgstr "Terjemahan oleh"
 
-#: libmateui/mate-about.c:324
+#: ../libmateui/mate-about.c:315
 msgid "C_redits"
 msgstr "K_redit"
 
-# libmateui/mate-app-util.c:687
-#: libmateui/mate-about.c:379
+#: ../libmateui/mate-about.c:367
 msgid "Program name"
 msgstr "Nama program"
 
-# libmateui/mate-app-helper.c:160
-#: libmateui/mate-about.c:380
+#: ../libmateui/mate-about.c:368
 msgid "The name of the program"
 msgstr "Nama program itu"
 
-# libmateui/mate-app-util.c:687
-#: libmateui/mate-about.c:387
+#: ../libmateui/mate-about.c:375
 msgid "Program version"
 msgstr "Versi program"
 
-# libmateui/mate-app-helper.c:160
-#: libmateui/mate-about.c:388
+#: ../libmateui/mate-about.c:376
 msgid "The version of the program"
 msgstr "Versi program itu"
 
-#: libmateui/mate-about.c:394
+#: ../libmateui/mate-about.c:382
 msgid "Copyright string"
 msgstr "Hakcipta rentetan"
 
-#: libmateui/mate-about.c:395
+#: ../libmateui/mate-about.c:383
 msgid "Copyright information for the program"
 msgstr "Maklumat hakcipta program"
 
-# libmateui/mate-dentry-edit.c:389
-#: libmateui/mate-about.c:402
+#: ../libmateui/mate-about.c:390
 msgid "Comments string"
 msgstr "Rentetan komen"
 
-# libmateui/mate-app-helper.c:160
-#: libmateui/mate-about.c:403
+#: ../libmateui/mate-about.c:391
 msgid "Comments about the program"
 msgstr "Komen perihal program"
 
-#: libmateui/mate-about.c:409
+#: ../libmateui/mate-about.c:397
 msgid "Authors"
 msgstr "Penulis"
 
-#: libmateui/mate-about.c:410
+#: ../libmateui/mate-about.c:398
 msgid "List of authors of the programs"
 msgstr "Senarai penulis program"
 
-#: libmateui/mate-about.c:412
+#: ../libmateui/mate-about.c:400
 msgid "Author entry"
 msgstr "Kemasukan Penulis"
 
-#: libmateui/mate-about.c:413
+#: ../libmateui/mate-about.c:401
 msgid "A single author entry"
 msgstr "Kemasukan penulis tunggal"
 
-# libmateui/mate-dentry-edit.c:374
-#: libmateui/mate-about.c:420
+#: ../libmateui/mate-about.c:408
 msgid "Documenters"
 msgstr "Juru dokumentasi"
 
-#: libmateui/mate-about.c:421
+#: ../libmateui/mate-about.c:409
 msgid "List of people documenting the program"
 msgstr "Senarai penyumbang dokumentasi program"
 
-# libmateui/mate-dentry-edit.c:374
-#: libmateui/mate-about.c:423
+#: ../libmateui/mate-about.c:411
 msgid "Documenter entry"
 msgstr "Kemasukan Juru dokumentasi"
 
-#: libmateui/mate-about.c:424
+#: ../libmateui/mate-about.c:412
 msgid "A single documenter entry"
 msgstr "Kemasukan juru dokumentasi tunggal"
 
-#: libmateui/mate-about.c:432
+#: ../libmateui/mate-about.c:420
 msgid "Translator credits"
 msgstr "Kredit penterjemah"
 
-#: libmateui/mate-about.c:433
+#: ../libmateui/mate-about.c:421
 msgid ""
 "Credits to the translators. This string should be marked as translatable"
-msgstr ""
-"Kredit kepada penterjemah. Rentetan ini akan ditanda sebagai boleh diterjemah"
+msgstr "Kredit kepada penterjemah. Rentetan ini akan ditanda sebagai boleh diterjemah"
 
-#: libmateui/mate-about.c:440 libmateui/mate-druid-page-standard.c:129
+#: ../libmateui/mate-about.c:428 ../libmateui/mate-druid-page-standard.c:123
 msgid "Logo"
 msgstr "Logo"
 
-#: libmateui/mate-about.c:441
+#: ../libmateui/mate-about.c:429
 msgid "A logo for the about box"
 msgstr "Logo pada kekotak perihal"
 
-#: libmateui/mate-about.c:520
+#: ../libmateui/mate-about.c:503
 #, c-format
 msgid "About %s"
 msgstr "Perihal %s"
 
 #. Some standard menus
-#: libmateui/mate-app-helper.c:82 libmateui/mate-app-helper.h:551
+#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:553
+#: ../test-mate/testmate.xml.h:5
 msgid "_File"
 msgstr "_Fail"
 
-#: libmateui/mate-app-helper.c:83
+#: ../libmateui/mate-app-helper.c:86
 msgid "_File/"
 msgstr "_Fail/"
 
-#: libmateui/mate-app-helper.c:84 libmateui/mate-app-helper.h:554
+#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:556
 msgid "_Edit"
 msgstr "_Edit"
 
-#: libmateui/mate-app-helper.c:85
+#: ../libmateui/mate-app-helper.c:88
 msgid "_Edit/"
 msgstr "_Edit/"
 
-#: libmateui/mate-app-helper.c:86 libmateui/mate-app-helper.h:557
+#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:559
 msgid "_View"
 msgstr "_Lihat"
 
-#: libmateui/mate-app-helper.c:87
+#: ../libmateui/mate-app-helper.c:90
 msgid "_View/"
 msgstr "_Lihat/"
 
-#: libmateui/mate-app-helper.c:88 libmateui/mate-app-helper.h:560
+#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:562
 msgid "_Settings"
 msgstr "_Tetapan"
 
-#: libmateui/mate-app-helper.c:89
+#: ../libmateui/mate-app-helper.c:92
 msgid "_Settings/"
 msgstr "_Tetapan/"
 
 #. If you have more then one New type, use this tree
-#: libmateui/mate-app-helper.c:90 libmateui/mate-app-helper.h:326
+#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:328
 msgid "_New"
 msgstr "Ba_ru"
 
-#: libmateui/mate-app-helper.c:91
+#: ../libmateui/mate-app-helper.c:94
 msgid "_New/"
 msgstr "Ba_ru/"
 
-# libmateui/mate-app-helper.c:88
-#: libmateui/mate-app-helper.c:92 libmateui/mate-app-helper.h:563
+#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:565
 msgid "Fi_les"
 msgstr "Fai_l"
 
-# libmateui/mate-app-helper.c:89
-#: libmateui/mate-app-helper.c:93
+#: ../libmateui/mate-app-helper.c:96
 msgid "Fi_les/"
 msgstr "Fai_l/"
 
-# libmateui/mate-app-helper.c:90
-#: libmateui/mate-app-helper.c:94 libmateui/mate-app-helper.h:566
+#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:568
 msgid "_Windows"
 msgstr "Tet_ingkap"
 
-# libmateui/mate-app-helper.c:91
-#: libmateui/mate-app-helper.c:95 libmateui/mate-app-helper.h:572
+#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:574
 msgid "_Game"
 msgstr "_Permainan"
 
-# libmateui/mate-app-helper.c:92
-#: libmateui/mate-app-helper.c:96 libmateui/mate-app-helper.h:569
+#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:571
+#: ../test-mate/testmate.xml.h:6
 msgid "_Help"
 msgstr "_Bantuan"
 
-# libmateui/mate-app-helper.c:93
-#: libmateui/mate-app-helper.c:97
+#: ../libmateui/mate-app-helper.c:100
 msgid "_Windows/"
 msgstr "Tet_ingkap/"
 
-# libmateui/mate-app-helper.c:122
 #. Open
-#: libmateui/mate-app-helper.c:109
+#: ../libmateui/mate-app-helper.c:112
 msgid "_Open..."
 msgstr "_Buka..."
 
-# libmateui/mate-app-helper.c:122
-#: libmateui/mate-app-helper.c:109
+#: ../libmateui/mate-app-helper.c:112
 msgid "Open a file"
 msgstr "Buka fail"
 
-# libmateui/mate-app-helper.c:127
 #. Save
-#: libmateui/mate-app-helper.c:114
+#: ../libmateui/mate-app-helper.c:117
 msgid "_Save"
 msgstr "_Simpan"
 
-# libmateui/mate-app-helper.c:127
-#: libmateui/mate-app-helper.c:114
+#: ../libmateui/mate-app-helper.c:117
 msgid "Save the current file"
 msgstr "Simpan fail ini"
 
-# libmateui/mate-app-helper.c:132
 #. Save As
-#: libmateui/mate-app-helper.c:119
+#: ../libmateui/mate-app-helper.c:122
 msgid "Save _As..."
 msgstr "Simpan Seb_agai..."
 
-# libmateui/mate-app-helper.c:133
-#: libmateui/mate-app-helper.c:120
+#: ../libmateui/mate-app-helper.c:123
 msgid "Save the current file with a different name"
 msgstr "Simpan fail ini dengan nama lain"
 
-# libmateui/mate-app-helper.c:138
 #. Revert
-#: libmateui/mate-app-helper.c:125
+#: ../libmateui/mate-app-helper.c:128
 msgid "_Revert"
 msgstr "_Berbalik"
 
-# libmateui/mate-app-helper.c:139
-#: libmateui/mate-app-helper.c:126
+#: ../libmateui/mate-app-helper.c:129
 msgid "Revert to a saved version of the file"
 msgstr "Berbalik ke fail yang telah disimpan"
 
-# libmateui/mate-app-helper.c:144
 #. Print
-#: libmateui/mate-app-helper.c:131
+#: ../libmateui/mate-app-helper.c:134
 msgid "_Print..."
 msgstr "_Cetak..."
 
-# libmateui/mate-app-helper.c:144
-#: libmateui/mate-app-helper.c:131
+#: ../libmateui/mate-app-helper.c:134
 msgid "Print the current file"
 msgstr "Cetak fail ini"
 
-# libmateui/mate-app-helper.c:149
 #. Print Setup
-#: libmateui/mate-app-helper.c:136
+#: ../libmateui/mate-app-helper.c:139
 msgid "Print S_etup..."
 msgstr "T_etapan Cetakan..."
 
-# libmateui/mate-app-helper.c:150
-#: libmateui/mate-app-helper.c:137
+#: ../libmateui/mate-app-helper.c:140
 msgid "Setup the page settings for your current printer"
 msgstr "Tetapkan cetakan mukasurat pencetak"
 
-# libmateui/mate-app-helper.c:155
 #. Close
-#: libmateui/mate-app-helper.c:142
+#: ../libmateui/mate-app-helper.c:145
 msgid "_Close"
 msgstr "_Tutup"
 
-# libmateui/mate-app-helper.c:155
-#: libmateui/mate-app-helper.c:142
+#: ../libmateui/mate-app-helper.c:145
 msgid "Close the current file"
 msgstr "Tutup fail semasa"
 
-# libmateui/mate-app-helper.c:168
 #. Exit
-#: libmateui/mate-app-helper.c:147
+#: ../libmateui/mate-app-helper.c:150
 msgid "_Quit"
 msgstr "_Keluar"
 
-# libmateui/mate-app-helper.c:235
-#: libmateui/mate-app-helper.c:147
+#: ../libmateui/mate-app-helper.c:150
 msgid "Quit the application"
 msgstr "Keluar aplikasi ini"
 
-# libmateui/mate-app-helper.c:168
-#.
 #. * The "Edit" menu
-#.
+#. 
 #. Cut
-#: libmateui/mate-app-helper.c:155
+#: ../libmateui/mate-app-helper.c:158
 msgid "Cu_t"
 msgstr "_Potong"
 
-# libmateui/mate-app-helper.c:168
-#: libmateui/mate-app-helper.c:155
+#: ../libmateui/mate-app-helper.c:158
 msgid "Cut the selection"
 msgstr "Potong pilihan"
 
-# libmateui/mate-app-helper.c:174 libmateui/mate-popup-help.c:60
 #. 10
 #. Copy
-#: libmateui/mate-app-helper.c:161
+#: ../libmateui/mate-app-helper.c:164
 msgid "_Copy"
 msgstr "_Salin"
 
-# libmateui/mate-app-helper.c:174
-#: libmateui/mate-app-helper.c:161
+#: ../libmateui/mate-app-helper.c:164
 msgid "Copy the selection"
 msgstr "Salin pilihan"
 
-# libmateui/mate-app-helper.c:179 libmateui/mate-popup-help.c:62
 #. Paste
-#: libmateui/mate-app-helper.c:166
+#: ../libmateui/mate-app-helper.c:169
 msgid "_Paste"
 msgstr "_Tepek"
 
-# libmateui/mate-app-helper.c:179
-#: libmateui/mate-app-helper.c:166
+#: ../libmateui/mate-app-helper.c:169
 msgid "Paste the clipboard"
 msgstr "Tepek dari papanklip"
 
-# libmateui/mate-app-helper.c:184
 #. Clear
-#: libmateui/mate-app-helper.c:171
+#: ../libmateui/mate-app-helper.c:174
 msgid "C_lear"
 msgstr "_Kosongkan"
 
-# libmateui/mate-app-helper.c:184
-#: libmateui/mate-app-helper.c:171
+#: ../libmateui/mate-app-helper.c:174
 msgid "Clear the selection"
 msgstr "Kosongkan pilihan"
 
-# libmateui/mate-app-helper.c:189
 #. Undo
-#: libmateui/mate-app-helper.c:176
+#: ../libmateui/mate-app-helper.c:179
 msgid "_Undo"
 msgstr "_Nyah acara"
 
-# libmateui/mate-app-helper.c:189
-#: libmateui/mate-app-helper.c:176
+#: ../libmateui/mate-app-helper.c:179
 msgid "Undo the last action"
 msgstr "Nyah acara aksi terakhir"
 
-# libmateui/mate-app-helper.c:194
 #. Redo
-#: libmateui/mate-app-helper.c:181
+#: ../libmateui/mate-app-helper.c:184
 msgid "_Redo"
 msgstr "_Ulang acara"
 
-# libmateui/mate-app-helper.c:194
-#: libmateui/mate-app-helper.c:181
+#: ../libmateui/mate-app-helper.c:184
 msgid "Redo the undone action"
 msgstr "Ulang acara aksi dinyahcara"
 
-# libmateui/mate-app-helper.c:199
 #. Find
-#: libmateui/mate-app-helper.c:186
+#: ../libmateui/mate-app-helper.c:189
 msgid "_Find..."
 msgstr "_Cari..."
 
-# libmateui/mate-app-helper.c:199
-#: libmateui/mate-app-helper.c:186
+#: ../libmateui/mate-app-helper.c:189
 msgid "Search for a string"
 msgstr "Cari perkataan"
 
 #. Find Again
-#: libmateui/mate-app-helper.c:191
+#: ../libmateui/mate-app-helper.c:194
 msgid "Find Ne_xt"
 msgstr "Cari _lagi"
 
-# libmateui/mate-app-helper.c:205
-#: libmateui/mate-app-helper.c:192
+#: ../libmateui/mate-app-helper.c:195
 msgid "Search again for the same string"
 msgstr "Cari lagi rentetan yang sama"
 
-# libmateui/mate-app-helper.c:210
 #. Replace
-#: libmateui/mate-app-helper.c:197
+#: ../libmateui/mate-app-helper.c:200
 msgid "R_eplace..."
 msgstr "_Ganti..."
 
-# libmateui/mate-app-helper.c:210
-#: libmateui/mate-app-helper.c:197
+#: ../libmateui/mate-app-helper.c:200
 msgid "Replace a string"
 msgstr "Ganti perkataan"
 
-# libmateui/mate-app-helper.c:215
 #. Properties
-#: libmateui/mate-app-helper.c:202
+#: ../libmateui/mate-app-helper.c:205
 msgid "_Properties"
 msgstr "_Ciri-ciri"
 
-# libmateui/mate-app-helper.c:216
-#: libmateui/mate-app-helper.c:203
+#: ../libmateui/mate-app-helper.c:206
 msgid "Modify the file's properties"
 msgstr "Ubahsuai ciri-ciri fail"
 
-# libmateui/mate-app-helper.c:224
-#.
 #. * The Settings menu
-#.
+#. 
 #. Settings
-#: libmateui/mate-app-helper.c:211
+#: ../libmateui/mate-app-helper.c:214
 msgid "Prefere_nces"
 msgstr "Ke_utamaan"
 
-# libmateui/mate-app-helper.c:225
-#: libmateui/mate-app-helper.c:212
+#: ../libmateui/mate-app-helper.c:215
 msgid "Configure the application"
 msgstr "Konfigurasikan aplikasi"
 
 #. 20
-#.
+#. 
 #. * And the "Help" menu
-#.
+#. 
 #. About
-#: libmateui/mate-app-helper.c:221
+#: ../libmateui/mate-app-helper.c:224 ../test-mate/testmate.xml.h:4
 msgid "_About"
 msgstr "_Perihal"
 
-# libmateui/mate-app-helper.c:235
-#: libmateui/mate-app-helper.c:222
+#: ../libmateui/mate-app-helper.c:225 ../test-mate/testmate.xml.h:1
 msgid "About this application"
 msgstr "Perihal aplikasi ini"
 
-# libmateui/mate-app-helper.c:238
-#: libmateui/mate-app-helper.c:225
+#: ../libmateui/mate-app-helper.c:228
 msgid "Select _All"
 msgstr "Pilih _Semua"
 
-# libmateui/mate-app-helper.c:239
-#: libmateui/mate-app-helper.c:226
+#: ../libmateui/mate-app-helper.c:229
 msgid "Select everything"
 msgstr "Pilih semuanya"
 
-# libmateui/mate-app-helper.c:247
-#.
 #. * Window menu
-#.
-#: libmateui/mate-app-helper.c:234
+#. 
+#: ../libmateui/mate-app-helper.c:237
 msgid "Create New _Window"
 msgstr "Bina _Tetingkap Baru"
 
-# libmateui/mate-app-helper.c:248
-#: libmateui/mate-app-helper.c:235
+#: ../libmateui/mate-app-helper.c:238
 msgid "Create a new window"
 msgstr "Bina Tetingkap Baru"
 
-# libmateui/mate-app-helper.c:252
-#: libmateui/mate-app-helper.c:239
+#: ../libmateui/mate-app-helper.c:242
 msgid "_Close This Window"
 msgstr "_Tutup Tetingkap Ini"
 
-# libmateui/mate-app-helper.c:253
-#: libmateui/mate-app-helper.c:240
+#: ../libmateui/mate-app-helper.c:243 ../test-mate/testmate.xml.h:2
 msgid "Close the current window"
 msgstr "Tutup tetingkap ini"
 
-# libmateui/mate-app-helper.c:261
-#.
 #. * The "Game" menu
-#.
-#: libmateui/mate-app-helper.c:248
-#, fuzzy
+#. 
+#: ../libmateui/mate-app-helper.c:251
 msgid "_New Game"
-msgstr "Permainan _Baru"
+msgstr ""
 
-# libmateui/mate-app-helper.c:262
-#: libmateui/mate-app-helper.c:249
+#: ../libmateui/mate-app-helper.c:252
 msgid "Start a new game"
 msgstr "Mulakan permainan baru"
 
-# libmateui/mate-app-helper.c:266
-#: libmateui/mate-app-helper.c:253
-#, fuzzy
+#: ../libmateui/mate-app-helper.c:256
 msgid "_Pause Game"
-msgstr "_kaku permainan"
+msgstr ""
 
-# libmateui/mate-app-helper.c:267
-#: libmateui/mate-app-helper.c:254
+#: ../libmateui/mate-app-helper.c:257
 msgid "Pause the game"
 msgstr "Kaku permainan"
 
-# libmateui/mate-app-helper.c:271
-#: libmateui/mate-app-helper.c:258
-#, fuzzy
+#: ../libmateui/mate-app-helper.c:261
 msgid "_Restart Game"
-msgstr "_Ulanghidup permainan"
+msgstr ""
 
-# libmateui/mate-app-helper.c:272
-#: libmateui/mate-app-helper.c:259
+#: ../libmateui/mate-app-helper.c:262
 msgid "Restart the game"
 msgstr "Mulakan semula permainan"
 
-# libmateui/mate-app-helper.c:276
-#: libmateui/mate-app-helper.c:263
-#, fuzzy
+#: ../libmateui/mate-app-helper.c:266
 msgid "_Undo Move"
-msgstr "_Nyah acara pindah"
+msgstr ""
 
-# libmateui/mate-app-helper.c:277
-#: libmateui/mate-app-helper.c:264
+#: ../libmateui/mate-app-helper.c:267
 msgid "Undo the last move"
 msgstr "Nyah acara pindahan terakhir"
 
-# libmateui/mate-app-helper.c:281
-#: libmateui/mate-app-helper.c:268
-#, fuzzy
+#: ../libmateui/mate-app-helper.c:271
 msgid "_Redo Move"
-msgstr "_Ulang acara pindahan"
+msgstr ""
 
-# libmateui/mate-app-helper.c:282
-#: libmateui/mate-app-helper.c:269
+#: ../libmateui/mate-app-helper.c:272
 msgid "Redo the undone move"
 msgstr "Ulang acara pindahan yang belum siap"
 
-# libmateui/mate-app-helper.c:286
-#: libmateui/mate-app-helper.c:273
+#: ../libmateui/mate-app-helper.c:276
 msgid "_Hint"
 msgstr "_Bayangan"
 
-# libmateui/mate-app-helper.c:287
-#: libmateui/mate-app-helper.c:274
+#: ../libmateui/mate-app-helper.c:277
 msgid "Get a hint for your next move"
 msgstr "Dapatkan bayangan bagi pergerakan seterusnya"
 
-# libmateui/mate-app-helper.c:292
 #. 30
-#: libmateui/mate-app-helper.c:279
+#: ../libmateui/mate-app-helper.c:282
 msgid "_Scores..."
 msgstr "_Mata..."
 
-# libmateui/mate-app-helper.c:293
-#: libmateui/mate-app-helper.c:280
+#: ../libmateui/mate-app-helper.c:283
 msgid "View the scores"
 msgstr "Lihat mata"
 
-# libmateui/mate-app-helper.c:297
-#: libmateui/mate-app-helper.c:284
-#, fuzzy
+#: ../libmateui/mate-app-helper.c:287
 msgid "_End Game"
-msgstr "_Tamat permainan"
+msgstr ""
 
-# libmateui/mate-app-helper.c:298
-#: libmateui/mate-app-helper.c:285
+#: ../libmateui/mate-app-helper.c:288
 msgid "End the current game"
 msgstr "Tamatkan permainan ini"
 
-#: libmateui/mate-app-helper.c:1147
+#: ../libmateui/mate-app-helper.c:1149
 msgid "_Contents"
 msgstr "_Kandungan"
 
-# libmateui/mate-app-helper.c:235
-#: libmateui/mate-app-helper.c:1150
+#: ../libmateui/mate-app-helper.c:1152
 msgid "View help for this application"
 msgstr "Lihat bantuan bagi aplikasi ini"
 
-#: libmateui/mate-app-helper.c:2587
+#: ../libmateui/mate-app-helper.c:2523
 msgid "Text Below Icons"
 msgstr "Teks di Bawah Ikon"
 
-#: libmateui/mate-app-helper.c:2588
+#: ../libmateui/mate-app-helper.c:2524
 msgid "Priority Text Beside Icons"
 msgstr "Teks Prioriti di Sebelah Ikon"
 
-#: libmateui/mate-app-helper.c:2589
+#: ../libmateui/mate-app-helper.c:2525
 msgid "Icons Only"
 msgstr "Ikon Sahaja"
 
-# libmateui/mate-stock.c:844
-#: libmateui/mate-app-helper.c:2590
+#: ../libmateui/mate-app-helper.c:2526
 msgid "Text Only"
 msgstr "Teks Sahaja"
 
-#: libmateui/mate-app-helper.c:2651
+#: ../libmateui/mate-app-helper.c:2587
 #, c-format
 msgid "Use Desktop Default (%s)"
 msgstr "Guna Default Desktop (%s)"
 
-# libmateui/mate-app-util.c:93
-#: libmateui/mate-app-util.c:98
+#: ../libmateui/mate-app-util.c:98
 msgid " (press return)"
 msgstr " (tekan kekunci return)"
 
-# libmateui/mate-app-util.c:136
-#: libmateui/mate-app-util.c:140
+#: ../libmateui/mate-app-util.c:140
 msgid "ERROR: "
 msgstr "RALAT: "
 
-# libmateui/mate-app-util.c:173
-#: libmateui/mate-app-util.c:177
+#: ../libmateui/mate-app-util.c:177
 msgid "Warning: "
 msgstr "Amaran: "
 
-# libmateui/mate-app-util.c:310
-#: libmateui/mate-app-util.c:315
+#: ../libmateui/mate-app-util.c:315
 msgid "y"
 msgstr "y"
 
-# libmateui/mate-app-util.c:311
-#: libmateui/mate-app-util.c:316
+#: ../libmateui/mate-app-util.c:316
 msgid "yes"
 msgstr "ya"
 
-# libmateui/mate-app-util.c:314
-#: libmateui/mate-app-util.c:319
+#: ../libmateui/mate-app-util.c:319
 msgid "n"
 msgstr "t"
 
-# libmateui/mate-app-util.c:315
-#: libmateui/mate-app-util.c:320
+#: ../libmateui/mate-app-util.c:320
 msgid "no"
 msgstr "tidak"
 
-# libmateui/mate-app-util.c:354
-#: libmateui/mate-app-util.c:355
+#: ../libmateui/mate-app-util.c:355
 msgid " (yes or no)"
 msgstr " (ya atau tidak)"
 
-# libmateui/mate-app-util.c:355
-#: libmateui/mate-app-util.c:356
+#: ../libmateui/mate-app-util.c:356
 msgid "  - OK? (yes or no)"
 msgstr " - OK? (ya atau tidak)"
 
-# libmateui/mate-app-util.c:687
-#: libmateui/mate-app-util.c:684
+#: ../libmateui/mate-app-util.c:684
 msgid "Progress"
 msgstr "Progres"
 
-#: libmateui/mate-app.c:153
+#: ../libmateui/mate-app.c:153
 msgid "App ID"
 msgstr "ID App"
 
-#: libmateui/mate-app.c:154
+#: ../libmateui/mate-app.c:154
 msgid "The application ID string"
 msgstr "Rentetan ID aplikasi"
 
-# libmateui/mate-app-util.c:687
-#: libmateui/mate-appbar.c:747
+#: ../libmateui/mate-appbar.c:743
 msgid "Has Progress"
 msgstr "mempunyai Progres"
 
-# libmateui/mate-app-helper.c:248
-#: libmateui/mate-appbar.c:748
+#: ../libmateui/mate-appbar.c:744
 msgid "Create a progress widget."
 msgstr "Cipta widget progres"
 
-#: libmateui/mate-appbar.c:755
+#: ../libmateui/mate-appbar.c:751
 msgid "Has Status"
 msgstr "Mempunyai Status"
 
-# libmateui/mate-app-helper.c:248
-#: libmateui/mate-appbar.c:756
+#: ../libmateui/mate-appbar.c:752
 msgid "Create a status widget."
 msgstr "Cipta widget status"
 
-#: libmateui/mate-appbar.c:763
+#: ../libmateui/mate-appbar.c:759
 msgid "Interactivity"
 msgstr "Keinteraktifan"
 
-#: libmateui/mate-appbar.c:764
+#: ../libmateui/mate-appbar.c:760
 msgid "Level of user activity required."
 msgstr "Tahap aktiviti pengguna diperlukan"
 
-#: libmateui/mate-authentication-manager.c:70
+#: ../libmateui/mate-authentication-manager.c:84
 #, c-format
 msgid "Your HTTP Proxy requires you to log in.\n"
 msgstr "Proksi HTTP anda memerlukan anda untuk log masuk.\n"
 
-#: libmateui/mate-authentication-manager.c:71
+#: ../libmateui/mate-authentication-manager.c:85
 #, c-format
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Anda mesti log masuk untuk mengakses \"%s\".\n"
-"\n"
-"%s"
+msgstr "Anda mesti log masuk untuk mengakses \"%s\".\n\n%s"
 
-#: libmateui/mate-authentication-manager.c:74
+#: ../libmateui/mate-authentication-manager.c:88
 msgid "Your password will be transmitted unencrypted."
 msgstr "Katalaluan anda akan dihantar tanpa pengenkripsian."
 
-#: libmateui/mate-authentication-manager.c:75
+#: ../libmateui/mate-authentication-manager.c:89
 msgid "Your password will be transmitted encrypted."
 msgstr "Katalaluan anda akan dihantar dengan pengenkripsian."
 
-#: libmateui/mate-authentication-manager.c:78
-#: libmateui/mate-authentication-manager.c:296
+#: ../libmateui/mate-authentication-manager.c:92
+#: ../libmateui/mate-authentication-manager.c:311
 msgid "Authentication Required"
 msgstr "Authentikasi Diperlukan"
 
-#: libmateui/mate-authentication-manager.c:288
-#, fuzzy, c-format
+#. Translators: "You must log in to acces user@server.com/share domain
+#. MYWINDOWSDOMAIN."
+#: ../libmateui/mate-authentication-manager.c:303
+#, c-format
 msgid "You must log in to access %s domain %s\n"
-msgstr "Anda mesti log masuk untuk mengakses domain %s\n"
+msgstr ""
 
-#: libmateui/mate-authentication-manager.c:290
+#: ../libmateui/mate-authentication-manager.c:305
 #, c-format
 msgid "You must log in to access %s\n"
 msgstr "Anda mesti log masuk untuk mengakses %s\n"
 
-# libmateui/mate-client.c:835
-#: libmateui/mate-client.c:900 libmateui/mate-client.c:914
+#: ../libmateui/mate-client.c:1000 ../libmateui/mate-client.c:1034
 msgid "Specify session management ID"
 msgstr "Tentukan ID pengurusan sesi"
 
-# libmateui/mate-client.c:835 libgnorba/goad-browser.c:27
-#: libmateui/mate-client.c:900 libmateui/mate-client.c:914
+#: ../libmateui/mate-client.c:1000 ../libmateui/mate-client.c:1034
 msgid "ID"
 msgstr "ID"
 
-# libmateui/mate-client.c:837
-#: libmateui/mate-client.c:903 libmateui/mate-client.c:918
+#: ../libmateui/mate-client.c:1003 ../libmateui/mate-client.c:1037
 msgid "Specify prefix of saved configuration"
 msgstr "Nyatakan prefiks konfigurasi yang disimpan"
 
-# libmateui/mate-client.c:837
-#: libmateui/mate-client.c:903 libmateui/mate-client.c:918
+#: ../libmateui/mate-client.c:1003 ../libmateui/mate-client.c:1037
 msgid "PREFIX"
 msgstr "PREFIKS"
 
-# libmateui/mate-client.c:839
-#: libmateui/mate-client.c:906 libmateui/mate-client.c:922
+#: ../libmateui/mate-client.c:1006 ../libmateui/mate-client.c:1040
 msgid "Disable connection to session manager"
 msgstr "Matikan hubungan kepada pengurus sesi"
 
-# libmateui/mate-client.c:968
-#: libmateui/mate-client.c:1030 libmateui/mate-client.c:1043
+#: ../libmateui/mate-client.c:1014
+msgid "Session management:"
+msgstr ""
+
+#: ../libmateui/mate-client.c:1015
+msgid "Show session management options"
+msgstr ""
+
+#: ../libmateui/mate-client.c:1046
 msgid "Session management"
 msgstr "Pengurusan sessi"
 
-# libmateui/mate-client.c:968
-#: libmateui/mate-client.c:1031
-#, fuzzy
-msgid "Show session management options"
-msgstr "Pengurusan sessi"
-
-# libmateui/mate-client.c:2348
-#: libmateui/mate-client.c:2580
+#: ../libmateui/mate-client.c:2580
 msgid "Cancel Logout"
 msgstr "Batal Logkeluar"
 
-#: libmateui/mate-color-picker.c:414
+#: ../libmateui/mate-color-picker.c:404
 msgid "Received invalid color data\n"
 msgstr "Menerima data warna tidak sah\n"
 
-#: libmateui/mate-color-picker.c:465
+#: ../libmateui/mate-color-picker.c:458
 msgid "Open a dialog to specify the color"
 msgstr "Buka dialog untuk menyatakan warna"
 
-# libmateui/mate-color-picker.c:313
-#: libmateui/mate-color-picker.c:487
+#: ../libmateui/mate-color-picker.c:480
 msgid "Pick a color"
 msgstr "Pilih satu warna"
 
-#: libmateui/mate-dateedit.c:491 libmateui/mate-dateedit.c:788
+#: ../libmateui/mate-dateedit.c:497 ../libmateui/mate-dateedit.c:804
 msgid "Time"
 msgstr "Masa"
 
-# libmateui/mate-app-helper.c:127
-#: libmateui/mate-dateedit.c:492
+#: ../libmateui/mate-dateedit.c:498
 msgid "The time currently selected"
 msgstr "Masa yang kini dipilih"
 
-#: libmateui/mate-dateedit.c:504
+#: ../libmateui/mate-dateedit.c:510
 msgid "DateEdit Flags"
 msgstr "Flag DataEdit"
 
-#: libmateui/mate-dateedit.c:505
+#: ../libmateui/mate-dateedit.c:511
 msgid "Flags for how DateEdit looks"
 msgstr "Flag bagaimana DataEdit dilihat"
 
-#: libmateui/mate-dateedit.c:514
+#: ../libmateui/mate-dateedit.c:520
 msgid "Lower Hour"
 msgstr "Jam Rendah"
 
-#: libmateui/mate-dateedit.c:515
+#: ../libmateui/mate-dateedit.c:521
 msgid "Lower hour in the time popup selector"
 msgstr "Jam rendah pada pemilih popup masa"
 
-#: libmateui/mate-dateedit.c:525
+#: ../libmateui/mate-dateedit.c:531
 msgid "Upper Hour"
 msgstr "Jam Tinggi"
 
-#: libmateui/mate-dateedit.c:526
+#: ../libmateui/mate-dateedit.c:532
 msgid "Upper hour in the time popup selector"
 msgstr "Jam tinggi pada pemilih popup masa"
 
-#: libmateui/mate-dateedit.c:536
+#: ../libmateui/mate-dateedit.c:542
 msgid "Initial Time"
 msgstr "Masa Permulaan"
 
-#: libmateui/mate-dateedit.c:537
+#: ../libmateui/mate-dateedit.c:543
 msgid "The initial time"
 msgstr "Masa ketika permulaan"
 
-# libmateui/mate-scores.c:105
-#: libmateui/mate-dateedit.c:751 libmateui/mate-scores.c:97
+#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:93
 msgid "Date"
 msgstr "Tarikh"
 
-# libmateui/mate-file-entry.c:152
-#: libmateui/mate-dateedit.c:764
+#: ../libmateui/mate-dateedit.c:780
 msgid "Select Date"
 msgstr "Pilih Tarikh"
 
-#: libmateui/mate-dateedit.c:764
+#: ../libmateui/mate-dateedit.c:780
 msgid "Select the date from a calendar"
 msgstr "Pilih tarikh dari kalendar"
 
-# libmateui/mate-dateedit.c:459
 #. Calendar label, only shown if the date editor has a time field
-#: libmateui/mate-dateedit.c:775
+#: ../libmateui/mate-dateedit.c:791
 msgid "Calendar"
 msgstr "Kalendar"
 
-# libmateui/mate-file-entry.c:152
-#: libmateui/mate-dateedit.c:796
+#: ../libmateui/mate-dateedit.c:812
 msgid "Select Time"
 msgstr "Pilih Masa"
 
-#: libmateui/mate-dateedit.c:796
+#: ../libmateui/mate-dateedit.c:812
 msgid "Select the time from a list"
 msgstr "Pilih masa dari senarai"
 
-#: libmateui/mate-dateedit.c:1015
+#: ../libmateui/mate-dateedit.c:1031
 msgid "mate_date_edit_get_date deprecated, use mate_date_edit_get_time"
 msgstr "mate_date_edit_get_date dianaktirikan, guna mate_date_edit_get_time"
 
-# libmateui/mate-app-helper.c:95 libmateui/stock_demo.c:184
-#: libmateui/mate-druid-page-standard.c:121
-#: libmateui/mate-font-picker.c:155
+#: ../libmateui/mate-druid-page-standard.c:115
+#: ../libmateui/mate-font-picker.c:127
 msgid "Title"
 msgstr "Tajuk"
 
-#: libmateui/mate-druid-page-standard.c:122
+#: ../libmateui/mate-druid-page-standard.c:116
 msgid "Title of the druid"
 msgstr "Tajuk druid"
 
-# libmateui/mate-pixmap-entry.c:106 libmateui/mate-pixmap-entry.c:387
-#: libmateui/mate-druid-page-standard.c:130
+#: ../libmateui/mate-druid-page-standard.c:124
 msgid "Logo image"
 msgstr "Imej logo"
 
-#: libmateui/mate-druid-page-standard.c:137
+#: ../libmateui/mate-druid-page-standard.c:131
 msgid "Top Watermark"
 msgstr "Watermark atas"
 
-#: libmateui/mate-druid-page-standard.c:138
+#: ../libmateui/mate-druid-page-standard.c:132
 msgid "Watermark image for the top"
 msgstr "Imej watermark untuk atas"
 
-#: libmateui/mate-druid-page-standard.c:145
+#: ../libmateui/mate-druid-page-standard.c:139
 msgid "Title Foreground"
 msgstr "Tajuk Latar depan"
 
-#: libmateui/mate-druid-page-standard.c:146
+#: ../libmateui/mate-druid-page-standard.c:140
 msgid "Foreground color of the title"
 msgstr "Warna latar depan tajuk"
 
-#: libmateui/mate-druid-page-standard.c:153
+#: ../libmateui/mate-druid-page-standard.c:147
 msgid "Title Foreground Color"
 msgstr "Warna Latar Depan Tajuk"
 
-#: libmateui/mate-druid-page-standard.c:154
+#: ../libmateui/mate-druid-page-standard.c:148
 msgid "Foreground color of the title as a GdkColor"
 msgstr "Warna latar depan tajuk sebagai GdkColor"
 
-#: libmateui/mate-druid-page-standard.c:161
+#: ../libmateui/mate-druid-page-standard.c:155
 msgid "Title Foreground color set"
 msgstr "Tetapan warna Latar depan Tajuk"
 
-#: libmateui/mate-druid-page-standard.c:162
+#: ../libmateui/mate-druid-page-standard.c:156
 msgid "Foreground color of the title is set"
 msgstr "Warna Latar depan Tajuk ditetapkan"
 
-#: libmateui/mate-druid-page-standard.c:169
-#: libmateui/mate-druid-page-standard.c:177
+#: ../libmateui/mate-druid-page-standard.c:163
+#: ../libmateui/mate-druid-page-standard.c:171
 msgid "Background Color"
 msgstr "Warna Latar Belakang"
 
-#: libmateui/mate-druid-page-standard.c:170
+#: ../libmateui/mate-druid-page-standard.c:164
 msgid "Background color"
 msgstr "Warna Latar Belakang"
 
-#: libmateui/mate-druid-page-standard.c:178
+#: ../libmateui/mate-druid-page-standard.c:172
 msgid "Background color as a GdkColor"
 msgstr "Warna Latar Belakang sebagai GdkColor"
 
-#: libmateui/mate-druid-page-standard.c:185
+#: ../libmateui/mate-druid-page-standard.c:179
 msgid "Background color set"
 msgstr "Tetapan warna latar belakang"
 
-#: libmateui/mate-druid-page-standard.c:186
+#: ../libmateui/mate-druid-page-standard.c:180
 msgid "Background color is set"
 msgstr "Warna latar belakang ditetapkan"
 
-#: libmateui/mate-druid-page-standard.c:193
-#: libmateui/mate-druid-page-standard.c:201
+#: ../libmateui/mate-druid-page-standard.c:187
+#: ../libmateui/mate-druid-page-standard.c:195
 msgid "Contents Background Color"
 msgstr "Warna  Latar Belakang Kandungan"
 
-#: libmateui/mate-druid-page-standard.c:194
+#: ../libmateui/mate-druid-page-standard.c:188
 msgid "Contents Background color"
 msgstr "Warna Latar Belakang Kandungan"
 
-#: libmateui/mate-druid-page-standard.c:202
+#: ../libmateui/mate-druid-page-standard.c:196
 msgid "Contents Background color as a GdkColor"
 msgstr "Warna Latar Belakang Kandungan sebagai GdkColor"
 
-#: libmateui/mate-druid-page-standard.c:209
+#: ../libmateui/mate-druid-page-standard.c:203
 msgid "Contents Background color set"
 msgstr "Tetapan warna latar belakang kandungan"
 
-#: libmateui/mate-druid-page-standard.c:210
+#: ../libmateui/mate-druid-page-standard.c:204
 msgid "Contents Background color is set"
 msgstr "Warna latar belakang kandungan telah ditetapkan"
 
-#: libmateui/mate-druid-page-standard.c:216
-#: libmateui/mate-druid-page-standard.c:224
+#: ../libmateui/mate-druid-page-standard.c:210
+#: ../libmateui/mate-druid-page-standard.c:218
 msgid "Logo Background Color"
 msgstr "Warna Logo Latar Belakang"
 
-#: libmateui/mate-druid-page-standard.c:217
+#: ../libmateui/mate-druid-page-standard.c:211
 msgid "Logo Background color"
 msgstr "Warna Logo Latar Belakang"
 
-#: libmateui/mate-druid-page-standard.c:225
+#: ../libmateui/mate-druid-page-standard.c:219
 msgid "Logo Background color as a GdkColor"
 msgstr "Warna Logo Latar Belakang sebagai GdkColor"
 
-#: libmateui/mate-druid-page-standard.c:232
+#: ../libmateui/mate-druid-page-standard.c:226
 msgid "Logo Background color set"
 msgstr "Tetapan Warna Logo Latar Belakang"
 
-#: libmateui/mate-druid-page-standard.c:233
+#: ../libmateui/mate-druid-page-standard.c:227
 msgid "Logo Background color is set"
 msgstr "Warna Logo Latar Belakang ditetapkan"
 
-# libmateui/mate-druid.c:136
-#: libmateui/mate-druid.c:154
+#: ../libmateui/mate-druid.c:153
 msgid "Show Finish"
 msgstr "Papar Tamat"
 
-#: libmateui/mate-druid.c:155
+#: ../libmateui/mate-druid.c:154
 msgid "Show the 'Finish' button instead of the 'Next' button"
 msgstr "Papar butang 'Tamat' selaian Butang 'Seterusnya'"
 
-# libmateui/mate-app-helper.c:109 libmateui/mate-stock.c:843
-# libmateui/stock_demo.c:290
-#: libmateui/mate-druid.c:162
+#: ../libmateui/mate-druid.c:161
 msgid "Show Help"
 msgstr "Papar Bantuan"
 
-#: libmateui/mate-druid.c:163
+#: ../libmateui/mate-druid.c:162
 msgid "Show the 'Help' button"
 msgstr "Papar Butang 'Bantuan'"
 
-#: libmateui/mate-entry.c:193 libmateui/mate-entry.c:194
-msgid "History id"
-msgstr "Id Sejarah"
-
-#: libmateui/mate-entry.c:200
-msgid "GTK entry"
-msgstr "Kemasukan GTK"
-
-#: libmateui/mate-entry.c:201
-msgid "The GTK entry"
-msgstr "Kemasukan GTK"
-
-#: libmateui/mate-file-entry.c:236 libmateui/mate-icon-entry.c:179
+#: ../libmateui/mate-entry.c:192 ../libmateui/mate-entry.c:193
+#: ../libmateui/mate-file-entry.c:233 ../libmateui/mate-icon-entry.c:169
 msgid "History ID"
 msgstr "ID Sejarah"
 
-#: libmateui/mate-file-entry.c:237
-msgid ""
-"Unique identifier for the file entry.  This will be used to save the history "
-"list."
-msgstr ""
-"Pengcam unik bagi kemasukan fail. Ianya kan digunakan untuk menyimpan "
-"senarai sejarah"
+#: ../libmateui/mate-entry.c:199
+msgid "GTK entry"
+msgstr "Kemasukan GTK"
 
-#: libmateui/mate-file-entry.c:245 libmateui/mate-icon-entry.c:188
+#: ../libmateui/mate-entry.c:200
+msgid "The GTK entry"
+msgstr "Kemasukan GTK"
+
+#: ../libmateui/mate-file-entry.c:234
+msgid ""
+"Unique identifier for the file entry.  This will be used to save the history"
+" list."
+msgstr "Pengcam unik bagi kemasukan fail. Ianya kan digunakan untuk menyimpan senarai sejarah"
+
+#: ../libmateui/mate-file-entry.c:242 ../libmateui/mate-icon-entry.c:178
 msgid "Browse Dialog Title"
 msgstr "Tajuk bagi Dialog Pelihat"
 
-#: libmateui/mate-file-entry.c:246
+#: ../libmateui/mate-file-entry.c:243
 msgid "Title for the Browse file dialog."
 msgstr "Tajuk bagi Dialog Pelihat Fail."
 
-#: libmateui/mate-file-entry.c:253
+#: ../libmateui/mate-file-entry.c:250
 msgid "Directory Entry"
 msgstr "Kemasukan Direktori"
 
-#: libmateui/mate-file-entry.c:254
+#: ../libmateui/mate-file-entry.c:251
 msgid ""
 "Whether the file entry is being used to enter directory names or complete "
 "filenames."
-msgstr ""
-"Samada kemasukan fail digunakan untuk memasukkan nama direktori atau "
-"namafail penuh"
+msgstr "Samada kemasukan fail digunakan untuk memasukkan nama direktori atau namafail penuh"
 
-#: libmateui/mate-file-entry.c:262
+#: ../libmateui/mate-file-entry.c:259
 msgid "Modal"
 msgstr "Modal"
 
-#: libmateui/mate-file-entry.c:263
+#: ../libmateui/mate-file-entry.c:260
 msgid "Whether the Browse file window should be modal."
 msgstr "Samada tetingkap Pelihat fail sepatutnya modal."
 
-#: libmateui/mate-file-entry.c:270 libmateui/mate-icon-entry.c:204
+#: ../libmateui/mate-file-entry.c:267 ../libmateui/mate-icon-entry.c:194
 msgid "Filename"
 msgstr "Namafail"
 
-#: libmateui/mate-file-entry.c:271
+#: ../libmateui/mate-file-entry.c:268
 msgid "Filename that should be displayed in the file entry."
 msgstr "Namafail yang patut dipaparkan dalam kemasukan fail."
 
-#: libmateui/mate-file-entry.c:279
+#: ../libmateui/mate-file-entry.c:276
 msgid "Default Path"
 msgstr "Path Default"
 
-#: libmateui/mate-file-entry.c:280
+#: ../libmateui/mate-file-entry.c:277
 msgid "Default path for the Browse file window."
 msgstr "Path default bagi tetingkap pelihat fail."
 
-#: libmateui/mate-file-entry.c:287
+#: ../libmateui/mate-file-entry.c:284
 msgid "MateEntry"
 msgstr "KemasukanMate"
 
-#: libmateui/mate-file-entry.c:288
+#: ../libmateui/mate-file-entry.c:285
 msgid ""
-"MateEntry that the file entry uses for entering filenames.  You can use "
-"this property to get the MateEntry if you need to modify or query any of "
-"its parameters."
-msgstr ""
-"KemasukanMate yang kemasukan fail gunakan untuk memasukkan namafail. Anda "
-"boleh guna ciri-ciri ini untuk mendapatkan KemasukanMate jika anda ingin "
-"meubahsuai atau kueri parameternya."
+"MateEntry that the file entry uses for entering filenames.  You can use this"
+" property to get the MateEntry if you need to modify or query any of its "
+"parameters."
+msgstr "KemasukanMate yang kemasukan fail gunakan untuk memasukkan namafail. Anda boleh guna ciri-ciri ini untuk mendapatkan KemasukanMate jika anda ingin meubahsuai atau kueri parameternya."
 
-#: libmateui/mate-file-entry.c:298
+#: ../libmateui/mate-file-entry.c:295
 msgid "GtkEntry"
 msgstr "KemasukanGtk"
 
-#: libmateui/mate-file-entry.c:299
+#: ../libmateui/mate-file-entry.c:296
 msgid ""
 "GtkEntry that the file entry uses for entering filenames.  You can use this "
 "property to get the GtkEntry if you need to modify or query any of its "
 "parameters."
-msgstr ""
-"KemasukanGtk yang kemasukan fail gunakan untuk memasukkan namafail. Anda "
-"boleh gunakan ciri-ciri ini untuk mendapatkan KemasukanGtk jika anda ingin "
-"mengubahsuai atau kueri sebarang parameternya."
+msgstr "KemasukanGtk yang kemasukan fail gunakan untuk memasukkan namafail. Anda boleh gunakan ciri-ciri ini untuk mendapatkan KemasukanGtk jika anda ingin mengubahsuai atau kueri sebarang parameternya."
 
-#: libmateui/mate-file-entry.c:309
+#: ../libmateui/mate-file-entry.c:306
 msgid "Use GtkFileChooser"
 msgstr "Guna GtkFileChooser"
 
-#: libmateui/mate-file-entry.c:310
+#: ../libmateui/mate-file-entry.c:307
 msgid ""
 "Whether to use the new GtkFileChooser widget or the GtkFileSelection widget "
 "to select files."
-msgstr ""
-"Samada menggunakan wiget GtkFileChooser baru atau wiget GtkFileSelection "
-"untuk memilih fail."
+msgstr "Samada menggunakan wiget GtkFileChooser baru atau wiget GtkFileSelection untuk memilih fail."
 
-#: libmateui/mate-file-entry.c:319
-#, fuzzy
+#: ../libmateui/mate-file-entry.c:316
 msgid "GtkFileChooser Action"
-msgstr "Guna GtkFileChooser"
+msgstr ""
 
-#: libmateui/mate-file-entry.c:320
-#, fuzzy
+#: ../libmateui/mate-file-entry.c:317
 msgid "The type of operation that the file selector is performing."
-msgstr "Mod operasi pemilih font"
+msgstr ""
 
-# libmateui/mate-file-entry.c:152
-#: libmateui/mate-file-entry.c:642 libmateui/mate-file-entry.c:676
+#: ../libmateui/mate-file-entry.c:652 ../libmateui/mate-file-entry.c:689
 msgid "Select file"
 msgstr "Pilih fail"
 
-# libmateui/mate-app-helper.c:179 libmateui/mate-popup-help.c:62
-#: libmateui/mate-file-entry.c:802
+#: ../libmateui/mate-file-entry.c:814
 msgid "Path"
 msgstr "Path"
 
-# libmateui/mate-app-helper.c:127
-#: libmateui/mate-file-entry.c:802
+#: ../libmateui/mate-file-entry.c:814
 msgid "Path to file"
 msgstr "Path ke fail"
 
-# libmateui/mate-file-entry.c:282 libmateui/mate-spell.c:619
-# libmateui/mate-spell.c:636 libmateui/mate-spell.c:653
-#: libmateui/mate-file-entry.c:829
+#: ../libmateui/mate-file-entry.c:843
 msgid "_Browse..."
 msgstr "_Lungsur..."
 
-#: libmateui/mate-file-entry.c:830
+#: ../libmateui/mate-file-entry.c:844
 msgid "Pop up a file selector to choose a file"
 msgstr "Popupkan pemilih fail untuk memilih fail"
 
-#: libmateui/mate-font-picker.c:66
+#: ../libmateui/mate-font-picker.c:60
 msgid "sans 12"
 msgstr "sans 12"
 
-#: libmateui/mate-font-picker.c:67
+#: ../libmateui/mate-font-picker.c:61
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 msgstr "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 
-# libmateui/mate-font-picker.c:161
-#: libmateui/mate-font-picker.c:68
+#: ../libmateui/mate-font-picker.c:62
 msgid "Pick a Font"
 msgstr "Pilih satu Font"
 
-#: libmateui/mate-font-picker.c:156
+#: ../libmateui/mate-font-picker.c:127
 msgid "The title of the selection dialog box"
 msgstr "Tajuk kekotak dialog pilihan"
 
-#: libmateui/mate-font-picker.c:164
+#: ../libmateui/mate-font-picker.c:129
 msgid "Mode"
 msgstr "Mod"
 
-#: libmateui/mate-font-picker.c:165
+#: ../libmateui/mate-font-picker.c:129
 msgid "The mode of operation of the font picker"
 msgstr "Mod operasi pemilih font"
 
-# test-mate/testmate.c:807
-#: libmateui/mate-font-picker.c:174
+#: ../libmateui/mate-font-picker.c:131
 msgid "Font name"
 msgstr "Nama Font"
 
-# libmateui/mate-app-helper.c:174
-#: libmateui/mate-font-picker.c:175
+#: ../libmateui/mate-font-picker.c:131
 msgid "Name of the selected font"
 msgstr "Nama font dipilih"
 
-# libmateui/mate-font-picker.c:710 libmateui/mate-stock.c:848
-#: libmateui/mate-font-picker.c:184 libmateui/mate-font-picker.c:979
-msgid "Font"
-msgstr "Font"
-
-#: libmateui/mate-font-picker.c:185
-msgid "The selected GtkFont"
-msgstr "GtkFont dipilih"
-
-# libmateui/mate-icon-entry.c:280 libmateui/mate-pixmap-entry.c:278
-#: libmateui/mate-font-picker.c:192
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text"
 msgstr "Prebiu teks"
 
-#: libmateui/mate-font-picker.c:193
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text shown in the dialog"
 msgstr "Prebiu teks yang dipaparkan pada dialog"
 
-#: libmateui/mate-font-picker.c:201
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in label"
 msgstr "Guna font pada label"
 
-#: libmateui/mate-font-picker.c:202
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in the label in font info mode"
 msgstr "Menggunakan font pada label mod maklumat"
 
-#: libmateui/mate-font-picker.c:210
+#. 8 min, 72 max, 14 default
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label"
 msgstr "Saiz font label"
 
-#: libmateui/mate-font-picker.c:211
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label in font info mode"
 msgstr "Saiz font label pada mod maklumat font"
 
-# test-mate/testmate.c:824
-#: libmateui/mate-font-picker.c:221
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size"
 msgstr "Papar saiz"
 
-#: libmateui/mate-font-picker.c:222
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size in font info mode"
 msgstr "Papar saiz mod maklumat font"
 
-# libmateui/mate-init.c:298
-#: libmateui/mate-mateconf-ui.c:61
+#: ../libmateui/mate-font-picker.c:864
+msgid "Font"
+msgstr "Font"
+
+#: ../libmateui/mate-mateconf-ui.c:61
 msgid "MATE MateConf UI Support"
 msgstr "Sokongan GUI MateConf MATE"
 
-#: libmateui/mate-mateconf-ui.c:96
+#: ../libmateui/mate-mateconf-ui.c:96
 msgid "_Details"
 msgstr "_Perincian"
 
-#: libmateui/mate-mateconf-ui.c:171
+#: ../libmateui/mate-mateconf-ui.c:171
 #, c-format
 msgid ""
 "The application \"%s\" attempted to change an aspect of your configuration "
-"that your system administrator or operating system vendor does not allow you "
-"to change. Some of the settings you have selected may not take effect, or "
+"that your system administrator or operating system vendor does not allow you"
+" to change. Some of the settings you have selected may not take effect, or "
 "may not be restored next time you use the application."
-msgstr ""
-"Aplikasi  \"%s\" cuba untuk menukar aspek konfigurasi yang pentadbir sistem "
-"atau vendor sistem pengoperasian tidak izinkan anda untuk mengubahnya. "
-"Setengah tetapan yang anda pilih tak akan berkesan, atau mungkin tak boleh "
-"dipulihkan bila anda menggunakan aplikasi itu."
+msgstr "Aplikasi  \"%s\" cuba untuk menukar aspek konfigurasi yang pentadbir sistem atau vendor sistem pengoperasian tidak izinkan anda untuk mengubahnya. Setengah tetapan yang anda pilih tak akan berkesan, atau mungkin tak boleh dipulihkan bila anda menggunakan aplikasi itu."
 
-#: libmateui/mate-mateconf-ui.c:178
+#: ../libmateui/mate-mateconf-ui.c:178
 #, c-format
 msgid ""
 "An error occurred while loading or saving configuration information for %s. "
 "Some of your configuration settings may not work properly."
-msgstr ""
-"Ralat berlaku bila memuatkan atau menyimpan maklumat konfigurasi %s. "
-"Setengah tetapan konfigurasi mugnkin tak berkerja dengan betul"
+msgstr "Ralat berlaku bila memuatkan atau menyimpan maklumat konfigurasi %s. Setengah tetapan konfigurasi mugnkin tak berkerja dengan betul"
 
-# libmateui/mate-calculator.c:1080
-#: libmateui/mate-href.c:123
+#: ../libmateui/mate-href.c:102
 msgid "URL"
 msgstr "URL"
 
-#: libmateui/mate-href.c:124
+#: ../libmateui/mate-href.c:103
 msgid "The URL that MateHRef activates"
 msgstr "URL yang diaktifkan oleh MateHRef"
 
-# libmateui/mate-stock.c:844
-#: libmateui/mate-href.c:131
+#: ../libmateui/mate-href.c:110
 msgid "Text"
 msgstr "Teks"
 
-#: libmateui/mate-href.c:132
+#: ../libmateui/mate-href.c:111
 msgid "The text on the button"
 msgstr "Teks pada butang"
 
-#: libmateui/mate-href.c:133
+#: ../libmateui/mate-href.c:112
 msgid "End World Hunger"
 msgstr "Berakhirnya kebuluran dunia"
 
-# libmateui/mate-color-picker.c:313
-#: libmateui/mate-href.c:139
+#: ../libmateui/mate-href.c:118
 msgid "Link color"
 msgstr "Warna pautan"
 
-#: libmateui/mate-href.c:140
+#: ../libmateui/mate-href.c:119
 msgid "Color used to draw the link"
 msgstr "Warna digunakan untuk melukis pautan"
 
-#: libmateui/mate-href.c:171
+#: ../libmateui/mate-href.c:150
 msgid "This button will take you to the URI that it displays."
 msgstr "Butang ini akan membawa anda ke URI yang dipaparkan."
 
-#: libmateui/mate-href.c:394
-#, fuzzy
+#: ../libmateui/mate-href.c:386
 msgid ""
 "An error has occurred while trying to launch the default web browser.\n"
 "Please check your settings in the 'Preferred Applications' preference tool."
 msgstr ""
-"Ralat berlaku bila mencuba untuk melancarkan pelungsur web default.\n"
-"Sila periksa tetapan pada 'Aplikasi Digemari' di radas keutamaan."
 
-#: libmateui/mate-icon-entry.c:180
+#: ../libmateui/mate-icon-entry.c:170
 msgid ""
-"Unique identifier for the icon entry.  This will be used to save the history "
-"list."
-msgstr ""
-"Pengcam unik bagi kemasukan ikon. Ianya akan digunakan untuk menyimpan "
-"senarai sejarah."
+"Unique identifier for the icon entry.  This will be used to save the history"
+" list."
+msgstr "Pengcam unik bagi kemasukan ikon. Ianya akan digunakan untuk menyimpan senarai sejarah."
 
-#: libmateui/mate-icon-entry.c:189
+#: ../libmateui/mate-icon-entry.c:179
 msgid "Title for the Browse icon dialog."
 msgstr "Tajuk bagi dialog Pelihat Ikon"
 
-#: libmateui/mate-icon-entry.c:196
+#: ../libmateui/mate-icon-entry.c:186
 msgid "Pixmap Directory"
 msgstr "Direktori Pixmap"
 
-#: libmateui/mate-icon-entry.c:197
+#: ../libmateui/mate-icon-entry.c:187
 msgid "Directory that will be searched for icons."
 msgstr "Direktori dimana ikon akan dicari"
 
-#: libmateui/mate-icon-entry.c:205
+#: ../libmateui/mate-icon-entry.c:195
 msgid "Filename that should be displayed in the icon entry."
 msgstr "Namafail yang patut dipaparkan pada kemasukan ikon."
 
-# libmateui/mate-color-picker.c:313
-#: libmateui/mate-icon-entry.c:213
+#: ../libmateui/mate-icon-entry.c:203
 msgid "Picker dialog"
 msgstr "Dialog Pemilih"
 
-#: libmateui/mate-icon-entry.c:214
+#: ../libmateui/mate-icon-entry.c:204
 msgid ""
 "Icon picker dialog.  You can use this property to get the GtkDialog if you "
 "need to modify or query any of its properties."
+msgstr "Dialog pelihat ikon. Anda boleh gunakan ciri-ciri ini untuk kendapatkan GtkDialoj jika and aingin mengubahsuai atau kueri sebarang ciri-cirinya."
+
+#: ../libmateui/mate-icon-entry.c:312 ../libmateui/mate-icon-entry.c:996
+msgid "Choose Icon"
 msgstr ""
-"Dialog pelihat ikon. Anda boleh gunakan ciri-ciri ini untuk kendapatkan "
-"GtkDialoj jika and aingin mengubahsuai atau kueri sebarang ciri-cirinya."
 
-# libmateui/mate-icon-entry.c:111 libmateui/mate-icon-entry.c:556
-#: libmateui/mate-icon-entry.c:322 libmateui/mate-icon-entry.c:988
-msgid "No Icon"
-msgstr "Tiada Ikon"
-
-#: libmateui/mate-icon-entry.c:758
+#: ../libmateui/mate-icon-entry.c:766
 msgid "Icon selection dialog"
 msgstr "Dialog pemilih ikon"
 
-#: libmateui/mate-icon-entry.c:759
+#: ../libmateui/mate-icon-entry.c:767
 msgid "This dialog box lets you select an icon."
 msgstr "Kekotak dialog ini membolehkan anda memilih ikon."
 
-#: libmateui/mate-icon-entry.c:765
-msgid "Icon selector"
-msgstr "Pemilih ikon"
-
-#: libmateui/mate-icon-entry.c:766
-msgid "Please pick the icon you want."
-msgstr "Sila pilih ikon yang anda mahu."
-
-#: libmateui/mate-icon-entry.c:991
+#: ../libmateui/mate-icon-entry.c:773 ../libmateui/mate-icon-entry.c:999
 msgid "Icon Selector"
 msgstr "Pemilih Ikon"
 
-#: libmateui/mate-icon-entry.c:992
+#: ../libmateui/mate-icon-entry.c:774
+msgid "Please pick the icon you want."
+msgstr "Sila pilih ikon yang anda mahu."
+
+#: ../libmateui/mate-icon-entry.c:1000
 msgid "This button will open a window to let you select an icon."
 msgstr "Butang ini akan membuka tetingkap supaya membolehkan and memilih ikon"
 
-# libmateui/mate-file-entry.c:282 libmateui/mate-spell.c:619
-# libmateui/mate-spell.c:636 libmateui/mate-spell.c:653
-#: libmateui/mate-icon-entry.c:1012
+#: ../libmateui/mate-icon-entry.c:1022
 msgid "Browse"
 msgstr "Lungsur"
 
-#: libmateui/mate-icon-entry.c:1015
+#: ../libmateui/mate-icon-entry.c:1025
 msgid "Icon path"
 msgstr "Path ikon"
 
-#: libmateui/mate-icon-entry.c:1016
+#: ../libmateui/mate-icon-entry.c:1026
 msgid ""
 "Here you should enter the name of the directory where icon images are "
 "located."
-msgstr ""
-"Di sini anda patut masukkan nama direktori dimana imej ikon diletakkan."
+msgstr "Di sini anda patut masukkan nama direktori dimana imej ikon diletakkan."
 
-#: libmateui/mate-icon-sel.c:293
+#: ../libmateui/mate-icon-sel.c:293
 #, c-format
 msgid "MateIconSelection: '%s' does not exist or is not a directory"
 msgstr "MateIconSelection: %s tak wujud atau ianya direktori"
 
-#: libmateui/mate-icon-sel.c:301
+#: ../libmateui/mate-icon-sel.c:301
 #, c-format
 msgid "MateIconSelection: couldn't open directory '%s'"
 msgstr "MateIconSelection: tak dapat membuka direktori '%s'"
 
-# libmateui/mate-icon-sel.c:348
-#: libmateui/mate-icon-sel.c:405
+#: ../libmateui/mate-icon-sel.c:405
 msgid "Loading Icons..."
 msgstr "Muatkan Ikon..."
 
-# libmateui/mate-messagebox.c:111 libmateui/mate-messagebox.c:244
-#: libmateui/mate-messagebox.c:109
+#: ../libmateui/mate-messagebox.c:107
 msgid "Information"
 msgstr "Maklumat"
 
-# libmateui/mate-messagebox.c:120 libmateui/mate-messagebox.c:253
-#: libmateui/mate-messagebox.c:114
+#: ../libmateui/mate-messagebox.c:112
 msgid "Warning"
 msgstr "Amaran"
 
-# libmateui/mate-messagebox.c:129 libmateui/mate-messagebox.c:262
-#: libmateui/mate-messagebox.c:120
+#: ../libmateui/mate-messagebox.c:118
 msgid "Error"
 msgstr "Ralat"
 
-# libmateui/mate-messagebox.c:138 libmateui/mate-messagebox.c:271
-#: libmateui/mate-messagebox.c:126
+#: ../libmateui/mate-messagebox.c:124
 msgid "Question"
 msgstr "Soalan"
 
-# libmateui/mate-messagebox.c:147 libmateui/mate-messagebox.c:280
-#: libmateui/mate-messagebox.c:131
+#: ../libmateui/mate-messagebox.c:129
 msgid "Message"
 msgstr "Mesej"
 
-#: libmateui/mate-password-dialog.c:269
+#: ../libmateui/mate-password-dialog.c:196
 msgid "_Username:"
 msgstr "_Namapengguna:"
 
-#: libmateui/mate-password-dialog.c:271
+#: ../libmateui/mate-password-dialog.c:199
 msgid "_Domain:"
 msgstr "_Domain:"
 
-#: libmateui/mate-password-dialog.c:273
+#: ../libmateui/mate-password-dialog.c:202
 msgid "_Password:"
 msgstr "_Katalaluan:"
 
-#: libmateui/mate-password-dialog.c:346
+#: ../libmateui/mate-password-dialog.c:205
+msgid "_New password:"
+msgstr ""
+
+#: ../libmateui/mate-password-dialog.c:206
+msgid "Con_firm password:"
+msgstr ""
+
+#: ../libmateui/mate-password-dialog.c:209
+msgid "Password quality:"
+msgstr ""
+
+#: ../libmateui/mate-password-dialog.c:324
 msgid "Co_nnect"
 msgstr ""
 
-#: libmateui/mate-password-dialog.c:368
+#: ../libmateui/mate-password-dialog.c:357
 msgid "Connect _anonymously"
 msgstr "Sambung secara anonymous"
 
-#: libmateui/mate-password-dialog.c:373
-#, fuzzy
+#: ../libmateui/mate-password-dialog.c:362
 msgid "Connect as u_ser:"
-msgstr "Sambung sebagai _pengguna:"
+msgstr ""
 
-#: libmateui/mate-password-dialog.c:471
-#, fuzzy
-msgid "_Remember password for this session"
-msgstr "Ingat katalaluan bagi sesi ini"
+#: ../libmateui/mate-password-dialog.c:424
+msgid "_Forget password immediately"
+msgstr ""
 
-#: libmateui/mate-password-dialog.c:473
-#, fuzzy
-msgid "Save password in _keyring"
-msgstr "Simpan katalaluan pada keyring"
+#: ../libmateui/mate-password-dialog.c:430
+msgid "_Remember password until you logout"
+msgstr ""
 
-# libmateui/mate-icon-entry.c:280 libmateui/mate-pixmap-entry.c:278
-#: libmateui/mate-pixmap-entry.c:114
+#: ../libmateui/mate-password-dialog.c:436
+msgid "_Remember forever"
+msgstr ""
+
+#: ../libmateui/mate-pixmap-entry.c:104
 msgid "Do Preview"
 msgstr "lakukan Prebiu"
 
-#: libmateui/mate-pixmap-entry.c:115
+#: ../libmateui/mate-pixmap-entry.c:105
 msgid "Whether the pixmap entry should have a preview."
 msgstr "Samada kemasukan pixmap patut ada prebiu."
 
-# libmateui/mate-pixmap-entry.c:106 libmateui/mate-pixmap-entry.c:387
-#: libmateui/mate-pixmap-entry.c:189 libmateui/mate-pixmap-entry.c:481
+#: ../libmateui/mate-pixmap-entry.c:179 ../libmateui/mate-pixmap-entry.c:473
 msgid "No Image"
 msgstr "Tiada Imej"
 
-# libmateui/mate-icon-entry.c:280 libmateui/mate-pixmap-entry.c:278
-#: libmateui/mate-pixmap-entry.c:206
+#: ../libmateui/mate-pixmap-entry.c:196
 msgid "Image Preview"
 msgstr "Prebiu Imej"
 
-# libmateui/mate-app-helper.c:127
-#: libmateui/mate-pixmap-entry.c:207
+#: ../libmateui/mate-pixmap-entry.c:197
 msgid "A preview of the image currently specified"
 msgstr "Prebiu imej yang kini dinyatakan"
 
-# libmateui/mate-icon-entry.c:274 libmateui/mate-pixmap-entry.c:272
-#: libmateui/mate-pixmap-entry.c:416
+#: ../libmateui/mate-pixmap-entry.c:408
 msgid "Can't find an hbox, using a normal file selection"
 msgstr "Tidak dapat mencari hbox, gunakan pilihan fail biasa"
 
-# libmateui/mate-icon-entry.c:280 libmateui/mate-pixmap-entry.c:278
-#: libmateui/mate-pixmap-entry.c:422
+#: ../libmateui/mate-pixmap-entry.c:414
 msgid "Preview"
 msgstr "Prebiu"
 
-# libmateui/mate-scores.c:88
-#: libmateui/mate-scores.c:78
+#: ../libmateui/mate-scores.c:74
 msgid "Top Ten"
 msgstr "10 Teratas"
 
-# libmateui/mate-scores.c:99
-#: libmateui/mate-scores.c:91
+#: ../libmateui/mate-scores.c:87
 msgid "User"
 msgstr "Pengguna"
 
-# libmateui/mate-scores.c:102
-#: libmateui/mate-scores.c:94
+#: ../libmateui/mate-scores.c:90
 msgid "Score"
 msgstr "Mata"
 
-# libmateui/mate-scores.c:130
 #. TRANSLATORS NOTE: Date format used when showing scores in games.
 #. * Please refer to manpage of strftime(3) for complete reference.
-#.
-#: libmateui/mate-scores.c:194
+#. 
+#: ../libmateui/mate-scores.c:182
 msgid "%a %b %d %T %Y"
 msgstr "%a %T %d %b %Y"
 
-#: libmateui/mate-scores.c:395
+#: ../libmateui/mate-scores.c:369
 msgid "Sans 14"
 msgstr "Sans 14"
 
-# libmateui/mate-stock.c:829
-#: libmateui/mate-stock-icons.c:139
+#: ../libmateui/mate-stock-icons.c:139
 msgid "Table Borders"
 msgstr "Sisi Jadual"
 
-# libmateui/mate-stock.c:830
-#: libmateui/mate-stock-icons.c:140
+#: ../libmateui/mate-stock-icons.c:140
 msgid "Table Fill"
 msgstr "Warna isi Jadual"
 
-# libmateui/mate-stock.c:831
-#: libmateui/mate-stock-icons.c:141
+#: ../libmateui/mate-stock-icons.c:141
 msgid "Bulleted List"
 msgstr "Senarai Bulet"
 
-# libmateui/mate-stock.c:832
-#: libmateui/mate-stock-icons.c:142
+#: ../libmateui/mate-stock-icons.c:142
 msgid "Numbered List"
 msgstr "Senarai Bernombor"
 
-# libmateui/mate-stock.c:833
-#: libmateui/mate-stock-icons.c:143
+#: ../libmateui/mate-stock-icons.c:143
 msgid "Indent"
 msgstr "Inden"
 
-# libmateui/mate-stock.c:834
-#: libmateui/mate-stock-icons.c:144
+#: ../libmateui/mate-stock-icons.c:144
 msgid "Un-Indent"
 msgstr "Nyah-inden"
 
-#: libmateui/mate-stock-icons.c:145
+#: ../libmateui/mate-stock-icons.c:145
 msgid "About"
 msgstr "Perihal"
 
-#: libmateui/mate-ui-init.c:125 libmateui/mate-ui-init.c:134
+#: ../libmateui/mate-ui-init.c:134 ../libmateui/mate-ui-init.c:160
 msgid "Disable Crash Dialog"
 msgstr "Matikan Dialog Musnah"
 
-# libmateui/mate-init.c:165
-#: libmateui/mate-ui-init.c:127
-msgid "X display to use"
-msgstr "Antaramuka X yang hendak diguna"
+#: ../libmateui/mate-ui-init.c:143
+msgid "MATE GUI Library:"
+msgstr ""
 
-# libmateui/mate-init.c:165
-#: libmateui/mate-ui-init.c:127
-msgid "DISPLAY"
-msgstr "PAPARAN"
-
-# libmateui/mate-init.c:298
-#: libmateui/mate-ui-init.c:145 libmateui/mate-ui-init.c:158
-msgid "MATE GUI Library"
-msgstr "Pustaka GUI MATE"
-
-#: libmateui/mate-ui-init.c:146
+#: ../libmateui/mate-ui-init.c:144
 msgid "Show MATE GUI options"
 msgstr ""
 
-# libmateui/mate-init.c:642
-#. dialog display isn't working out
-#: libmateui/mate-ui-init.c:759
-#, c-format
-msgid "Multiple segmentation faults occurred; can't display error dialog\n"
-msgstr "Beberapa ralat segmentasi berlaku; tidak dapat paparkan dialog ralat\n"
+#: ../libmateui/mate-ui-init.c:162
+msgid "X display to use"
+msgstr "Antaramuka X yang hendak diguna"
 
-# libmateui/mate-init.c:642
-#. Eeeek! Can't show dialog
-#: libmateui/mate-ui-init.c:773
-#, c-format
-msgid ""
-"Segmentation fault!\n"
-"Cannot display crash dialog\n"
+#: ../libmateui/mate-ui-init.c:162
+msgid "DISPLAY"
+msgstr "PAPARAN"
+
+#: ../libmateui/mate-ui-init.c:167
+msgid "MATE GUI Library"
+msgstr "Pustaka GUI MATE"
+
+#: ../libmateui/mate-ui-init.c:226
+msgid "Could not open link"
 msgstr ""
-"Alamak! Ralat segmentasi! \n"
-"tidak dapat paparkan dialog jahanam\n"
 
-# libmateui/mate_segv.c:62
-#: libmateui/mate_segv.c:101
-#, c-format
-msgid ""
-"The MATE Session Manager (process %d) has crashed\n"
-"due to a fatal error (%s).\n"
-"When you close this dialog, all applications will close and your session "
-"will exit.\n"
-"Please save all your files before closing this dialog."
+#: ../test-mate/testmate.xml.h:3
+msgid "Exit the test"
 msgstr ""
-"Pengurus sesi MATE (proses %d) telah musnah berikutan\n"
-"ralat yang tidak dapat diselesaikan (%s).\n"
-"Semua aplikasi akan ditutup dan sesi akan tamat setelah dialog ini ditutup.\n"
-"Sila simpan semua fail sebelum anda tutup dialog ini."
-
-#: libmateui/mate_segv.c:112
-#, c-format
-msgid "The Application \"%s\" has quit unexpectedly."
-msgstr "Aplikasi \"%s\" telah keluar tanpa diduga."
-
-#: libmateui/mate_segv.c:117
-#, c-format
-msgid "process %d: %s"
-msgstr "proses %d: %s"
-
-#: libmateui/mate_segv.c:118 libmateui/mate_segv.c:123
-msgid ""
-"You can inform the developers of what happened to help them fix it.  Or you "
-"can restart the application right now."
-msgstr ""
-"Anda boleh memmaklum pemaju atas apa yg berlaku untuk membantu mereka "
-"membaikinya Atau anda boleh ulanghidupkan aplikasi sekarang."
-
-# libmateui/mate_segv.c:80
-#: libmateui/mate_segv.c:137
-msgid "Usage: mate_segv2 appname signum\n"
-msgstr "Penggunaan: mate_segv appname signum\n"
-
-# libmateui/mate-app-helper.c:235
-#: libmateui/mate_segv.c:154
-msgid "_Restart Application"
-msgstr "_Ulanghidup Aplikasi"
-
-#: libmateui/mate_segv.c:166
-msgid "_Inform Developers"
-msgstr "_Maklum Pemaju"
-
-# libmateui/mate_segv.c:104
-#: libmateui/mate_segv.c:177
-msgid "_Debug"
-msgstr "_Nyahpepijat"
-
-# libmateui/mate-app-helper.c:160
-#~ msgid "Exit the test"
-#~ msgstr "Keluar ujian"

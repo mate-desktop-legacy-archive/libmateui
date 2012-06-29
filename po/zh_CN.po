@@ -1,22 +1,25 @@
-# libmateui translation for zh_CN
-# Copyright 1999-2009 Free Software Foundation, Inc.
-# Wang Li <charlesw1234@163.com>, 2001
-# Sun Gl0n <mate_int_l10n@ireland.sun.com>, 2002
-# Funda Wang <fundawang@gmail.com>, 2003, 2007, 2008
-# Ni Hui <shuizhuyuanluo@126.com>, 2009
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Funda Wang <fundawang@gmail.com>, 2003, 2007, 2008.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+# Sun Gl0n <mate_int_l10n@ireland.sun.com>, 2002.
+# Wang Li <charlesw1234@163.com>, 2001.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateui\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=libmateui&component=general\n"
-"POT-Creation-Date: 2009-07-15 11:30+0000\n"
-"PO-Revision-Date: 2009-07-26 22:12+0800\n"
-"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-22 19:43+0100\n"
+"PO-Revision-Date: 2012-02-22 18:47+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../demos/mdi_demo.c:128
 msgid "Child Item 1"
@@ -34,115 +37,114 @@ msgstr "子项目 2"
 msgid "Hint for item 2"
 msgstr "项目 2 的提示"
 
-#: ../libmateui/mate-about.c:187
+#: ../libmateui/mate-about.c:199
 msgid "Credits"
 msgstr "致谢"
 
-#: ../libmateui/mate-about.c:219
+#: ../libmateui/mate-about.c:222
 msgid "Written by"
 msgstr "作者"
 
-#: ../libmateui/mate-about.c:234
+#: ../libmateui/mate-about.c:235
 msgid "Documented by"
 msgstr "文档"
 
-#: ../libmateui/mate-about.c:249
+#: ../libmateui/mate-about.c:248
 msgid "Translated by"
 msgstr "翻译"
 
-#: ../libmateui/mate-about.c:312
+#: ../libmateui/mate-about.c:315
 msgid "C_redits"
 msgstr "致谢(_R)"
 
-#: ../libmateui/mate-about.c:365
+#: ../libmateui/mate-about.c:367
 msgid "Program name"
 msgstr "程序名"
 
-#: ../libmateui/mate-about.c:366
+#: ../libmateui/mate-about.c:368
 msgid "The name of the program"
 msgstr "程序的名字"
 
-#: ../libmateui/mate-about.c:373
+#: ../libmateui/mate-about.c:375
 msgid "Program version"
 msgstr "程序版本"
 
-#: ../libmateui/mate-about.c:374
+#: ../libmateui/mate-about.c:376
 msgid "The version of the program"
 msgstr "程序的版本"
 
-#: ../libmateui/mate-about.c:380
+#: ../libmateui/mate-about.c:382
 msgid "Copyright string"
 msgstr "版权字符串"
 
-#: ../libmateui/mate-about.c:381
+#: ../libmateui/mate-about.c:383
 msgid "Copyright information for the program"
 msgstr "关于程序的版权信息"
 
-#: ../libmateui/mate-about.c:388
+#: ../libmateui/mate-about.c:390
 msgid "Comments string"
 msgstr "注释字符串"
 
-#: ../libmateui/mate-about.c:389
+#: ../libmateui/mate-about.c:391
 msgid "Comments about the program"
 msgstr "关于程序的注释"
 
-#: ../libmateui/mate-about.c:395
+#: ../libmateui/mate-about.c:397
 msgid "Authors"
 msgstr "作者"
 
-#: ../libmateui/mate-about.c:396
+#: ../libmateui/mate-about.c:398
 msgid "List of authors of the programs"
 msgstr "程序作者的列表"
 
-#: ../libmateui/mate-about.c:398
+#: ../libmateui/mate-about.c:400
 msgid "Author entry"
 msgstr "作者项"
 
-#: ../libmateui/mate-about.c:399
+#: ../libmateui/mate-about.c:401
 msgid "A single author entry"
 msgstr "单个作者项"
 
-#: ../libmateui/mate-about.c:406
+#: ../libmateui/mate-about.c:408
 msgid "Documenters"
 msgstr "文档编写者"
 
-#: ../libmateui/mate-about.c:407
+#: ../libmateui/mate-about.c:409
 msgid "List of people documenting the program"
 msgstr "程序文档的编写者列表"
 
-#: ../libmateui/mate-about.c:409
+#: ../libmateui/mate-about.c:411
 msgid "Documenter entry"
 msgstr "文档编写者项"
 
-#: ../libmateui/mate-about.c:410
+#: ../libmateui/mate-about.c:412
 msgid "A single documenter entry"
 msgstr "单个文档编写者项"
 
-#: ../libmateui/mate-about.c:418
+#: ../libmateui/mate-about.c:420
 msgid "Translator credits"
 msgstr "翻译者致谢"
 
-#: ../libmateui/mate-about.c:419
+#: ../libmateui/mate-about.c:421
 msgid ""
 "Credits to the translators. This string should be marked as translatable"
 msgstr "译者的姓名。这个字符串应标为可以翻译"
 
-#: ../libmateui/mate-about.c:426
-#: ../libmateui/mate-druid-page-standard.c:123
+#: ../libmateui/mate-about.c:428 ../libmateui/mate-druid-page-standard.c:123
 msgid "Logo"
 msgstr "徽标"
 
-#: ../libmateui/mate-about.c:427
+#: ../libmateui/mate-about.c:429
 msgid "A logo for the about box"
 msgstr "用于关于对话框的徽标"
 
-#: ../libmateui/mate-about.c:506
+#: ../libmateui/mate-about.c:503
 #, c-format
 msgid "About %s"
 msgstr "关于 %s"
 
 #. Some standard menus
-#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:551
+#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:553
 #: ../test-mate/testmate.xml.h:5
 msgid "_File"
 msgstr "文件(_F)"
@@ -151,7 +153,7 @@ msgstr "文件(_F)"
 msgid "_File/"
 msgstr "文件(_F)/"
 
-#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:554
+#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:556
 msgid "_Edit"
 msgstr "编辑(_E)"
 
@@ -159,7 +161,7 @@ msgstr "编辑(_E)"
 msgid "_Edit/"
 msgstr "编辑(_E)/"
 
-#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:557
+#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:559
 msgid "_View"
 msgstr "查看(_V)"
 
@@ -167,7 +169,7 @@ msgstr "查看(_V)"
 msgid "_View/"
 msgstr "查看(_V)/"
 
-#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:560
+#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:562
 msgid "_Settings"
 msgstr "设置(_S)"
 
@@ -176,7 +178,7 @@ msgid "_Settings/"
 msgstr "设置(_S)/"
 
 #. If you have more then one New type, use this tree
-#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:326
+#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:328
 msgid "_New"
 msgstr "新建(_N)"
 
@@ -184,7 +186,7 @@ msgstr "新建(_N)"
 msgid "_New/"
 msgstr "新建(_N)/"
 
-#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:563
+#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:565
 msgid "Fi_les"
 msgstr "文件(_L)"
 
@@ -192,15 +194,15 @@ msgstr "文件(_L)"
 msgid "Fi_les/"
 msgstr "文件(_L)/"
 
-#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:566
+#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:568
 msgid "_Windows"
 msgstr "窗口(_W)"
 
-#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:572
+#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:574
 msgid "_Game"
 msgstr "游戏(_G)"
 
-#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:569
+#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:571
 #: ../test-mate/testmate.xml.h:6
 msgid "_Help"
 msgstr "帮助(_H)"
@@ -281,9 +283,8 @@ msgstr "退出(_Q)"
 msgid "Quit the application"
 msgstr "退出应用程序"
 
-#.
 #. * The "Edit" menu
-#.
+#. 
 #. Cut
 #: ../libmateui/mate-app-helper.c:158
 msgid "Cu_t"
@@ -375,9 +376,8 @@ msgstr "属性(_P)"
 msgid "Modify the file's properties"
 msgstr "修改文件属性"
 
-#.
 #. * The Settings menu
-#.
+#. 
 #. Settings
 #: ../libmateui/mate-app-helper.c:214
 msgid "Prefere_nces"
@@ -388,9 +388,9 @@ msgid "Configure the application"
 msgstr "配置应用程序"
 
 #. 20
-#.
+#. 
 #. * And the "Help" menu
-#.
+#. 
 #. About
 #: ../libmateui/mate-app-helper.c:224 ../test-mate/testmate.xml.h:4
 msgid "_About"
@@ -408,9 +408,8 @@ msgstr "全部选中(_A)"
 msgid "Select everything"
 msgstr "全部选中"
 
-#.
 #. * Window menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:237
 msgid "Create New _Window"
 msgstr "创建新窗口(_W)"
@@ -427,9 +426,8 @@ msgstr "关闭此窗口(_C)"
 msgid "Close the current window"
 msgstr "关闭当前窗口"
 
-#.
 #. * The "Game" menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:251
 msgid "_New Game"
 msgstr "新游戏(_N)"
@@ -495,31 +493,31 @@ msgstr "结束游戏(_E)"
 msgid "End the current game"
 msgstr "结束当前游戏"
 
-#: ../libmateui/mate-app-helper.c:1150
+#: ../libmateui/mate-app-helper.c:1149
 msgid "_Contents"
 msgstr "目录(_C)"
 
-#: ../libmateui/mate-app-helper.c:1153
+#: ../libmateui/mate-app-helper.c:1152
 msgid "View help for this application"
 msgstr "查看此应用程序的帮助"
 
-#: ../libmateui/mate-app-helper.c:2524
+#: ../libmateui/mate-app-helper.c:2523
 msgid "Text Below Icons"
 msgstr "文字在图标之下"
 
-#: ../libmateui/mate-app-helper.c:2525
+#: ../libmateui/mate-app-helper.c:2524
 msgid "Priority Text Beside Icons"
 msgstr "优先的文字在图标旁"
 
-#: ../libmateui/mate-app-helper.c:2526
+#: ../libmateui/mate-app-helper.c:2525
 msgid "Icons Only"
 msgstr "仅有图标"
 
-#: ../libmateui/mate-app-helper.c:2527
+#: ../libmateui/mate-app-helper.c:2526
 msgid "Text Only"
 msgstr "仅有文字"
 
-#: ../libmateui/mate-app-helper.c:2588
+#: ../libmateui/mate-app-helper.c:2587
 #, c-format
 msgid "Use Desktop Default (%s)"
 msgstr "使用桌面默认值(%s)"
@@ -606,9 +604,7 @@ msgstr "您的 HTTP 代理需要您登录。\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"您必须登录才能访问“%s”。\n"
-"%s"
+msgstr "您必须登录才能访问“%s”。\n%s"
 
 #: ../libmateui/mate-authentication-manager.c:88
 msgid "Your password will be transmitted unencrypted."
@@ -623,7 +619,8 @@ msgstr "您的密码将加密传送。"
 msgid "Authentication Required"
 msgstr "需要身份认证"
 
-#. Translators: "You must log in to acces user@server.com/share domain MYWINDOWSDOMAIN."
+#. Translators: "You must log in to acces user@server.com/share domain
+#. MYWINDOWSDOMAIN."
 #: ../libmateui/mate-authentication-manager.c:303
 #, c-format
 msgid "You must log in to access %s domain %s\n"
@@ -698,7 +695,6 @@ msgstr "日期编辑标志"
 msgid "Flags for how DateEdit looks"
 msgstr "关于日期编辑外观的标志"
 
-# lower hour: low boundary for the time-range display popup.
 #: ../libmateui/mate-dateedit.c:520
 msgid "Lower Hour"
 msgstr "下限时间"
@@ -707,7 +703,6 @@ msgstr "下限时间"
 msgid "Lower hour in the time popup selector"
 msgstr "时间弹出选择器中的下限时间"
 
-# upper hour: upper boundary for the time-range display popup.
 #: ../libmateui/mate-dateedit.c:531
 msgid "Upper Hour"
 msgstr "上限时间"
@@ -724,7 +719,7 @@ msgstr "初始时间"
 msgid "The initial time"
 msgstr "初始的时间"
 
-#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:96
+#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:93
 msgid "Date"
 msgstr "日期"
 
@@ -754,12 +749,10 @@ msgid "mate_date_edit_get_date deprecated, use mate_date_edit_get_time"
 msgstr "mate_date_edit_get_date 已过时，使用 mate_date_edit_get_time"
 
 #: ../libmateui/mate-druid-page-standard.c:115
-#: ../libmateui/mate-font-picker.c:147
+#: ../libmateui/mate-font-picker.c:127
 msgid "Title"
 msgstr "标题"
 
-# The MATE druid is a system for assisting the user with installing a service.
-# It is roughly equivalent in functionality to the "Wizards" in Windows.
 #: ../libmateui/mate-druid-page-standard.c:116
 msgid "Title of the druid"
 msgstr "Druid 的标题"
@@ -776,7 +769,6 @@ msgstr "顶层水印"
 msgid "Watermark image for the top"
 msgstr "顶层水印图像"
 
-# it may be same as "Title Foreground Color"?
 #: ../libmateui/mate-druid-page-standard.c:139
 msgid "Title Foreground"
 msgstr "标题前景色"
@@ -895,8 +887,8 @@ msgstr "GTK 项"
 
 #: ../libmateui/mate-file-entry.c:234
 msgid ""
-"Unique identifier for the file entry.  This will be used to save the history "
-"list."
+"Unique identifier for the file entry.  This will be used to save the history"
+" list."
 msgstr "文件项的唯一标识符。它用于保存历史列表。"
 
 #: ../libmateui/mate-file-entry.c:242 ../libmateui/mate-icon-entry.c:178
@@ -947,12 +939,10 @@ msgstr "MateEntry"
 
 #: ../libmateui/mate-file-entry.c:285
 msgid ""
-"MateEntry that the file entry uses for entering filenames.  You can use "
-"this property to get the MateEntry if you need to modify or query any of "
-"its parameters."
-msgstr ""
-"文件项用来输入文件名的 MateEntry。如果您需要修改或查询 MateEntry 的任何参"
-"数，可以使用此属性来获得 MateEntry。"
+"MateEntry that the file entry uses for entering filenames.  You can use this"
+" property to get the MateEntry if you need to modify or query any of its "
+"parameters."
+msgstr "文件项用来输入文件名的 MateEntry。如果您需要修改或查询 MateEntry 的任何参数，可以使用此属性来获得 MateEntry。"
 
 #: ../libmateui/mate-file-entry.c:295
 msgid "GtkEntry"
@@ -963,9 +953,7 @@ msgid ""
 "GtkEntry that the file entry uses for entering filenames.  You can use this "
 "property to get the GtkEntry if you need to modify or query any of its "
 "parameters."
-msgstr ""
-"文件项用来输入文件名的 GtkEntry。如果您需要修改或查询 GtkEntry 的任何参数，可"
-"以使用此属性来获得 GtkEntry。"
+msgstr "文件项用来输入文件名的 GtkEntry。如果您需要修改或查询 GtkEntry 的任何参数，可以使用此属性来获得 GtkEntry。"
 
 #: ../libmateui/mate-file-entry.c:306
 msgid "Use GtkFileChooser"
@@ -975,8 +963,7 @@ msgstr "使用 GtkFileChooser"
 msgid ""
 "Whether to use the new GtkFileChooser widget or the GtkFileSelection widget "
 "to select files."
-msgstr ""
-"是使用新的 GtkFileChooser 部件，还是使用 GtkFileSelection 部件来选择文件。"
+msgstr "是使用新的 GtkFileChooser 部件，还是使用 GtkFileSelection 部件来选择文件。"
 
 #: ../libmateui/mate-file-entry.c:316
 msgid "GtkFileChooser Action"
@@ -1006,77 +993,74 @@ msgstr "浏览(_B)..."
 msgid "Pop up a file selector to choose a file"
 msgstr "弹出用于选择文件的文件选择器"
 
-#: ../libmateui/mate-font-picker.c:58
+#: ../libmateui/mate-font-picker.c:60
 msgid "sans 12"
 msgstr "sans 12"
 
-#: ../libmateui/mate-font-picker.c:59
+#: ../libmateui/mate-font-picker.c:61
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 msgstr "MATE 字体测试"
 
-#: ../libmateui/mate-font-picker.c:60
+#: ../libmateui/mate-font-picker.c:62
 msgid "Pick a Font"
 msgstr "选取字体"
 
-#: ../libmateui/mate-font-picker.c:148
+#: ../libmateui/mate-font-picker.c:127
 msgid "The title of the selection dialog box"
 msgstr "选择对话框的标题"
 
-#: ../libmateui/mate-font-picker.c:156
+#: ../libmateui/mate-font-picker.c:129
 msgid "Mode"
 msgstr "模式"
 
-#: ../libmateui/mate-font-picker.c:157
+#: ../libmateui/mate-font-picker.c:129
 msgid "The mode of operation of the font picker"
 msgstr "字符选择操作的模式"
 
-#: ../libmateui/mate-font-picker.c:166
+#: ../libmateui/mate-font-picker.c:131
 msgid "Font name"
 msgstr "字体名"
 
-#: ../libmateui/mate-font-picker.c:167
+#: ../libmateui/mate-font-picker.c:131
 msgid "Name of the selected font"
 msgstr "选定字体的名称"
 
-#: ../libmateui/mate-font-picker.c:176 ../libmateui/mate-font-picker.c:972
-msgid "Font"
-msgstr "字体"
-
-#: ../libmateui/mate-font-picker.c:177
-msgid "The selected GtkFont"
-msgstr "选定的 GtkFont"
-
-#: ../libmateui/mate-font-picker.c:184
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text"
 msgstr "预览文本"
 
-#: ../libmateui/mate-font-picker.c:185
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text shown in the dialog"
 msgstr "显示在对话框中的预览文本"
 
-#: ../libmateui/mate-font-picker.c:193
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in label"
 msgstr "使用标签中的字体"
 
-#: ../libmateui/mate-font-picker.c:194
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in the label in font info mode"
 msgstr "使用字体信息模式中标签所用的字体"
 
-#: ../libmateui/mate-font-picker.c:202
+#. 8 min, 72 max, 14 default
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label"
 msgstr "标签字体大小"
 
-#: ../libmateui/mate-font-picker.c:203
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label in font info mode"
 msgstr "字体信息模式中标签所用的字体大小"
 
-#: ../libmateui/mate-font-picker.c:213
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size"
 msgstr "显示大小"
 
-#: ../libmateui/mate-font-picker.c:214
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size in font info mode"
 msgstr "显示字体信息模式中的大小"
+
+#: ../libmateui/mate-font-picker.c:864
+msgid "Font"
+msgstr "字体"
 
 #: ../libmateui/mate-mateconf-ui.c:61
 msgid "MATE MateConf UI Support"
@@ -1090,21 +1074,17 @@ msgstr "细节(_D)"
 #, c-format
 msgid ""
 "The application \"%s\" attempted to change an aspect of your configuration "
-"that your system administrator or operating system vendor does not allow you "
-"to change. Some of the settings you have selected may not take effect, or "
+"that your system administrator or operating system vendor does not allow you"
+" to change. Some of the settings you have selected may not take effect, or "
 "may not be restored next time you use the application."
-msgstr ""
-"应用程序“%s”试图更改您的一部分配置，而系统管理员或操作系统厂商不允许您更改这"
-"部分配置。您所选择的一部分设置可能不会生效，或者在您下次使用该应用程序时不会"
-"恢复到您所更改后的配置。"
+msgstr "应用程序“%s”试图更改您的一部分配置，而系统管理员或操作系统厂商不允许您更改这部分配置。您所选择的一部分设置可能不会生效，或者在您下次使用该应用程序时不会恢复到您所更改后的配置。"
 
 #: ../libmateui/mate-mateconf-ui.c:178
 #, c-format
 msgid ""
 "An error occurred while loading or saving configuration information for %s. "
 "Some of your configuration settings may not work properly."
-msgstr ""
-"在为 %s 装入或保存配置信息时发生错误。您的某些配置设置可能无法正常工作。"
+msgstr "在为 %s 装入或保存配置信息时发生错误。您的某些配置设置可能无法正常工作。"
 
 #: ../libmateui/mate-href.c:102
 msgid "URL"
@@ -1122,7 +1102,6 @@ msgstr "文本"
 msgid "The text on the button"
 msgstr "按钮上的文本"
 
-# That's the default text on the button
 #: ../libmateui/mate-href.c:112
 msgid "End World Hunger"
 msgstr "终结这世界上的饥饿"
@@ -1143,14 +1122,12 @@ msgstr "此按钮将把您定向到它显示的 URI。"
 msgid ""
 "An error has occurred while trying to launch the default web browser.\n"
 "Please check your settings in the 'Preferred Applications' preference tool."
-msgstr ""
-"试图打开默认网络浏览器时出错。\n"
-"请检查“首选应用程序”中的设置是否正确。"
+msgstr "试图打开默认网络浏览器时出错。\n请检查“首选应用程序”中的设置是否正确。"
 
 #: ../libmateui/mate-icon-entry.c:170
 msgid ""
-"Unique identifier for the icon entry.  This will be used to save the history "
-"list."
+"Unique identifier for the icon entry.  This will be used to save the history"
+" list."
 msgstr "图标项的唯一标识符。它用于保存历史列表。"
 
 #: ../libmateui/mate-icon-entry.c:179
@@ -1177,9 +1154,7 @@ msgstr "选取器对话框"
 msgid ""
 "Icon picker dialog.  You can use this property to get the GtkDialog if you "
 "need to modify or query any of its properties."
-msgstr ""
-"图标选取器对话框。如果您需要修改或查询 GtkDialog 的任何参数，可以使用此属性来"
-"获得 GtkDialog。"
+msgstr "图标选取器对话框。如果您需要修改或查询 GtkDialog 的任何参数，可以使用此属性来获得 GtkDialog。"
 
 #: ../libmateui/mate-icon-entry.c:312 ../libmateui/mate-icon-entry.c:996
 msgid "Choose Icon"
@@ -1309,8 +1284,7 @@ msgstr "执行预览"
 msgid "Whether the pixmap entry should have a preview."
 msgstr "像素图项是否有预览。"
 
-#: ../libmateui/mate-pixmap-entry.c:179
-#: ../libmateui/mate-pixmap-entry.c:473
+#: ../libmateui/mate-pixmap-entry.c:179 ../libmateui/mate-pixmap-entry.c:473
 msgid "No Image"
 msgstr "无图像"
 
@@ -1330,56 +1304,49 @@ msgstr "无法找到 hbox，使用普通文件选择"
 msgid "Preview"
 msgstr "预览"
 
-#: ../libmateui/mate-scores.c:77
+#: ../libmateui/mate-scores.c:74
 msgid "Top Ten"
 msgstr "前十名"
 
-#: ../libmateui/mate-scores.c:90
+#: ../libmateui/mate-scores.c:87
 msgid "User"
 msgstr "用户名"
 
-#: ../libmateui/mate-scores.c:93
+#: ../libmateui/mate-scores.c:90
 msgid "Score"
 msgstr "排行榜"
 
 #. TRANSLATORS NOTE: Date format used when showing scores in games.
 #. * Please refer to manpage of strftime(3) for complete reference.
-#.
-#: ../libmateui/mate-scores.c:193
+#. 
+#: ../libmateui/mate-scores.c:182
 msgid "%a %b %d %T %Y"
 msgstr "%Y-%m-%d(%A) %T"
 
-#: ../libmateui/mate-scores.c:394
+#: ../libmateui/mate-scores.c:369
 msgid "Sans 14"
 msgstr "Sans 14"
 
-# icon name
 #: ../libmateui/mate-stock-icons.c:139
 msgid "Table Borders"
 msgstr "桌面边缘"
 
-# icon name
 #: ../libmateui/mate-stock-icons.c:140
 msgid "Table Fill"
 msgstr "填充表格"
 
-# icon name
 #: ../libmateui/mate-stock-icons.c:141
 msgid "Bulleted List"
 msgstr "符号列表"
 
-# icon name
 #: ../libmateui/mate-stock-icons.c:142
 msgid "Numbered List"
 msgstr "编号列表"
 
-# icon name
 #: ../libmateui/mate-stock-icons.c:143
 msgid "Indent"
 msgstr "文本缩进"
 
-# icon name
-# match along with "Indent" translation?
 #: ../libmateui/mate-stock-icons.c:144
 msgid "Un-Indent"
 msgstr "不缩进文本"
@@ -1412,7 +1379,7 @@ msgstr "显示"
 msgid "MATE GUI Library"
 msgstr "MATE GUI 库"
 
-#: ../libmateui/mate-ui-init.c:232
+#: ../libmateui/mate-ui-init.c:226
 msgid "Could not open link"
 msgstr "无法打开链接"
 

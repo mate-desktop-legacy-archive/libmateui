@@ -1,22 +1,22 @@
-# Kazakh translation for libmateui
-# Copyright (C) 2010 HZ
-# This file is distributed under the same license as the libmateui package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateui master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libmateui&component=general\n"
-"POT-Creation-Date: 2010-07-11 07:42+0000\n"
-"PO-Revision-Date: 2010-08-23 22:46+0600\n"
-"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
-"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-22 19:43+0100\n"
+"PO-Revision-Date: 2012-02-22 18:51+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: kk\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"X-Poedit-Language: Kazakh\n"
-"X-Poedit-Country: KAZAKHSTAN\n"
 
 #: ../demos/mdi_demo.c:128
 msgid "Child Item 1"
@@ -34,115 +34,114 @@ msgstr ""
 msgid "Hint for item 2"
 msgstr ""
 
-#: ../libmateui/mate-about.c:187
+#: ../libmateui/mate-about.c:199
 msgid "Credits"
 msgstr "Жасағандар"
 
-#: ../libmateui/mate-about.c:219
+#: ../libmateui/mate-about.c:222
 msgid "Written by"
 msgstr "Жазған"
 
-#: ../libmateui/mate-about.c:234
+#: ../libmateui/mate-about.c:235
 msgid "Documented by"
 msgstr "Құжаттаманы жазған"
 
-#: ../libmateui/mate-about.c:249
+#: ../libmateui/mate-about.c:248
 msgid "Translated by"
 msgstr "Аударған"
 
-#: ../libmateui/mate-about.c:312
+#: ../libmateui/mate-about.c:315
 msgid "C_redits"
 msgstr "Ж_асағандар"
 
-#: ../libmateui/mate-about.c:365
+#: ../libmateui/mate-about.c:367
 msgid "Program name"
 msgstr "Бағдарлама аты"
 
-#: ../libmateui/mate-about.c:366
+#: ../libmateui/mate-about.c:368
 msgid "The name of the program"
 msgstr "Бағдарламаның аты"
 
-#: ../libmateui/mate-about.c:373
+#: ../libmateui/mate-about.c:375
 msgid "Program version"
 msgstr "Бағдарлама нұсқасы"
 
-#: ../libmateui/mate-about.c:374
+#: ../libmateui/mate-about.c:376
 msgid "The version of the program"
 msgstr "Бағдарламаның нұсқасы"
 
-#: ../libmateui/mate-about.c:380
+#: ../libmateui/mate-about.c:382
 msgid "Copyright string"
 msgstr ""
 
-#: ../libmateui/mate-about.c:381
+#: ../libmateui/mate-about.c:383
 msgid "Copyright information for the program"
 msgstr ""
 
-#: ../libmateui/mate-about.c:388
+#: ../libmateui/mate-about.c:390
 msgid "Comments string"
 msgstr ""
 
-#: ../libmateui/mate-about.c:389
+#: ../libmateui/mate-about.c:391
 msgid "Comments about the program"
 msgstr ""
 
-#: ../libmateui/mate-about.c:395
+#: ../libmateui/mate-about.c:397
 msgid "Authors"
 msgstr "Авторлары"
 
-#: ../libmateui/mate-about.c:396
+#: ../libmateui/mate-about.c:398
 msgid "List of authors of the programs"
 msgstr "Бағдарлама авторларының тізімі"
 
-#: ../libmateui/mate-about.c:398
+#: ../libmateui/mate-about.c:400
 msgid "Author entry"
 msgstr ""
 
-#: ../libmateui/mate-about.c:399
+#: ../libmateui/mate-about.c:401
 msgid "A single author entry"
 msgstr ""
 
-#: ../libmateui/mate-about.c:406
+#: ../libmateui/mate-about.c:408
 msgid "Documenters"
 msgstr ""
 
-#: ../libmateui/mate-about.c:407
+#: ../libmateui/mate-about.c:409
 msgid "List of people documenting the program"
 msgstr ""
 
-#: ../libmateui/mate-about.c:409
+#: ../libmateui/mate-about.c:411
 msgid "Documenter entry"
 msgstr ""
 
-#: ../libmateui/mate-about.c:410
+#: ../libmateui/mate-about.c:412
 msgid "A single documenter entry"
 msgstr ""
 
-#: ../libmateui/mate-about.c:418
+#: ../libmateui/mate-about.c:420
 msgid "Translator credits"
 msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010"
 
-#: ../libmateui/mate-about.c:419
-msgid "Credits to the translators. This string should be marked as translatable"
+#: ../libmateui/mate-about.c:421
+msgid ""
+"Credits to the translators. This string should be marked as translatable"
 msgstr ""
 
-#: ../libmateui/mate-about.c:426
-#: ../libmateui/mate-druid-page-standard.c:123
+#: ../libmateui/mate-about.c:428 ../libmateui/mate-druid-page-standard.c:123
 msgid "Logo"
 msgstr "Лого"
 
-#: ../libmateui/mate-about.c:427
+#: ../libmateui/mate-about.c:429
 msgid "A logo for the about box"
 msgstr ""
 
-#: ../libmateui/mate-about.c:506
+#: ../libmateui/mate-about.c:503
 #, c-format
 msgid "About %s"
 msgstr "%s туралы"
 
 #. Some standard menus
-#: ../libmateui/mate-app-helper.c:85
-#: ../libmateui/mate-app-helper.h:551
+#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:553
 #: ../test-mate/testmate.xml.h:5
 msgid "_File"
 msgstr "_Файл"
@@ -151,8 +150,7 @@ msgstr "_Файл"
 msgid "_File/"
 msgstr "_Файл/"
 
-#: ../libmateui/mate-app-helper.c:87
-#: ../libmateui/mate-app-helper.h:554
+#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:556
 msgid "_Edit"
 msgstr "Тү_зету"
 
@@ -160,8 +158,7 @@ msgstr "Тү_зету"
 msgid "_Edit/"
 msgstr "Тү_зету/"
 
-#: ../libmateui/mate-app-helper.c:89
-#: ../libmateui/mate-app-helper.h:557
+#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:559
 msgid "_View"
 msgstr "_Түрі"
 
@@ -169,8 +166,7 @@ msgstr "_Түрі"
 msgid "_View/"
 msgstr "_Түрі/"
 
-#: ../libmateui/mate-app-helper.c:91
-#: ../libmateui/mate-app-helper.h:560
+#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:562
 msgid "_Settings"
 msgstr "Ба_птаулар"
 
@@ -179,8 +175,7 @@ msgid "_Settings/"
 msgstr "Ба_птаулар/"
 
 #. If you have more then one New type, use this tree
-#: ../libmateui/mate-app-helper.c:93
-#: ../libmateui/mate-app-helper.h:326
+#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:328
 msgid "_New"
 msgstr "Ж_аңа"
 
@@ -188,8 +183,7 @@ msgstr "Ж_аңа"
 msgid "_New/"
 msgstr "Ж_аңа/"
 
-#: ../libmateui/mate-app-helper.c:95
-#: ../libmateui/mate-app-helper.h:563
+#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:565
 msgid "Fi_les"
 msgstr "Файл_дар"
 
@@ -197,18 +191,15 @@ msgstr "Файл_дар"
 msgid "Fi_les/"
 msgstr "Файл_дар/"
 
-#: ../libmateui/mate-app-helper.c:97
-#: ../libmateui/mate-app-helper.h:566
+#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:568
 msgid "_Windows"
 msgstr "_Терезелер"
 
-#: ../libmateui/mate-app-helper.c:98
-#: ../libmateui/mate-app-helper.h:572
+#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:574
 msgid "_Game"
 msgstr "О_йын"
 
-#: ../libmateui/mate-app-helper.c:99
-#: ../libmateui/mate-app-helper.h:569
+#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:571
 #: ../test-mate/testmate.xml.h:6
 msgid "_Help"
 msgstr "_Көмек"
@@ -289,9 +280,8 @@ msgstr "_Шығу"
 msgid "Quit the application"
 msgstr ""
 
-#.
 #. * The "Edit" menu
-#.
+#. 
 #. Cut
 #: ../libmateui/mate-app-helper.c:158
 msgid "Cu_t"
@@ -383,9 +373,8 @@ msgstr "Қас_иеттері"
 msgid "Modify the file's properties"
 msgstr ""
 
-#.
 #. * The Settings menu
-#.
+#. 
 #. Settings
 #: ../libmateui/mate-app-helper.c:214
 msgid "Prefere_nces"
@@ -396,17 +385,15 @@ msgid "Configure the application"
 msgstr ""
 
 #. 20
-#.
+#. 
 #. * And the "Help" menu
-#.
+#. 
 #. About
-#: ../libmateui/mate-app-helper.c:224
-#: ../test-mate/testmate.xml.h:4
+#: ../libmateui/mate-app-helper.c:224 ../test-mate/testmate.xml.h:4
 msgid "_About"
 msgstr "О_сы туралы"
 
-#: ../libmateui/mate-app-helper.c:225
-#: ../test-mate/testmate.xml.h:1
+#: ../libmateui/mate-app-helper.c:225 ../test-mate/testmate.xml.h:1
 msgid "About this application"
 msgstr ""
 
@@ -418,9 +405,8 @@ msgstr "Б_арлығын таңдау"
 msgid "Select everything"
 msgstr ""
 
-#.
 #. * Window menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:237
 msgid "Create New _Window"
 msgstr ""
@@ -433,14 +419,12 @@ msgstr ""
 msgid "_Close This Window"
 msgstr "Бұ_л терезені жабу"
 
-#: ../libmateui/mate-app-helper.c:243
-#: ../test-mate/testmate.xml.h:2
+#: ../libmateui/mate-app-helper.c:243 ../test-mate/testmate.xml.h:2
 msgid "Close the current window"
 msgstr ""
 
-#.
 #. * The "Game" menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:251
 msgid "_New Game"
 msgstr "Ж_аңа ойын"
@@ -482,9 +466,8 @@ msgid "Redo the undone move"
 msgstr ""
 
 #: ../libmateui/mate-app-helper.c:276
-#, fuzzy
 msgid "_Hint"
-msgstr "Ережелер туралы"
+msgstr ""
 
 #: ../libmateui/mate-app-helper.c:277
 msgid "Get a hint for your next move"
@@ -507,31 +490,31 @@ msgstr ""
 msgid "End the current game"
 msgstr ""
 
-#: ../libmateui/mate-app-helper.c:1150
+#: ../libmateui/mate-app-helper.c:1149
 msgid "_Contents"
 msgstr "Құра_масы"
 
-#: ../libmateui/mate-app-helper.c:1153
+#: ../libmateui/mate-app-helper.c:1152
 msgid "View help for this application"
 msgstr ""
 
-#: ../libmateui/mate-app-helper.c:2524
+#: ../libmateui/mate-app-helper.c:2523
 msgid "Text Below Icons"
 msgstr ""
 
-#: ../libmateui/mate-app-helper.c:2525
+#: ../libmateui/mate-app-helper.c:2524
 msgid "Priority Text Beside Icons"
 msgstr ""
 
-#: ../libmateui/mate-app-helper.c:2526
+#: ../libmateui/mate-app-helper.c:2525
 msgid "Icons Only"
 msgstr "Тек таңбашалар"
 
-#: ../libmateui/mate-app-helper.c:2527
+#: ../libmateui/mate-app-helper.c:2526
 msgid "Text Only"
 msgstr "Тек мәтін"
 
-#: ../libmateui/mate-app-helper.c:2588
+#: ../libmateui/mate-app-helper.c:2587
 #, c-format
 msgid "Use Desktop Default (%s)"
 msgstr ""
@@ -633,7 +616,8 @@ msgstr ""
 msgid "Authentication Required"
 msgstr "Аутентификация керек"
 
-#. Translators: "You must log in to acces user@server.com/share domain MYWINDOWSDOMAIN."
+#. Translators: "You must log in to acces user@server.com/share domain
+#. MYWINDOWSDOMAIN."
 #: ../libmateui/mate-authentication-manager.c:303
 #, c-format
 msgid "You must log in to access %s domain %s\n"
@@ -644,28 +628,23 @@ msgstr ""
 msgid "You must log in to access %s\n"
 msgstr ""
 
-#: ../libmateui/mate-client.c:1000
-#: ../libmateui/mate-client.c:1034
+#: ../libmateui/mate-client.c:1000 ../libmateui/mate-client.c:1034
 msgid "Specify session management ID"
 msgstr "Сессия менеджментінің ID-і"
 
-#: ../libmateui/mate-client.c:1000
-#: ../libmateui/mate-client.c:1034
+#: ../libmateui/mate-client.c:1000 ../libmateui/mate-client.c:1034
 msgid "ID"
 msgstr "ID"
 
-#: ../libmateui/mate-client.c:1003
-#: ../libmateui/mate-client.c:1037
+#: ../libmateui/mate-client.c:1003 ../libmateui/mate-client.c:1037
 msgid "Specify prefix of saved configuration"
 msgstr ""
 
-#: ../libmateui/mate-client.c:1003
-#: ../libmateui/mate-client.c:1037
+#: ../libmateui/mate-client.c:1003 ../libmateui/mate-client.c:1037
 msgid "PREFIX"
 msgstr "PREFIX"
 
-#: ../libmateui/mate-client.c:1006
-#: ../libmateui/mate-client.c:1040
+#: ../libmateui/mate-client.c:1006 ../libmateui/mate-client.c:1040
 msgid "Disable connection to session manager"
 msgstr "Сессиялар менеджеріне байланыстарды сөндіру"
 
@@ -697,8 +676,7 @@ msgstr "Түсті таңдау үшін сұхбат терезесін ашу"
 msgid "Pick a color"
 msgstr "Түсті таңдаңыз"
 
-#: ../libmateui/mate-dateedit.c:497
-#: ../libmateui/mate-dateedit.c:804
+#: ../libmateui/mate-dateedit.c:497 ../libmateui/mate-dateedit.c:804
 msgid "Time"
 msgstr "Уақыт"
 
@@ -738,8 +716,7 @@ msgstr ""
 msgid "The initial time"
 msgstr ""
 
-#: ../libmateui/mate-dateedit.c:767
-#: ../libmateui/mate-scores.c:96
+#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:93
 msgid "Date"
 msgstr "Күн"
 
@@ -769,7 +746,7 @@ msgid "mate_date_edit_get_date deprecated, use mate_date_edit_get_time"
 msgstr ""
 
 #: ../libmateui/mate-druid-page-standard.c:115
-#: ../libmateui/mate-font-picker.c:147
+#: ../libmateui/mate-font-picker.c:127
 msgid "Title"
 msgstr "Атауы"
 
@@ -892,10 +869,8 @@ msgstr "Көмекті көрсету"
 msgid "Show the 'Help' button"
 msgstr ""
 
-#: ../libmateui/mate-entry.c:192
-#: ../libmateui/mate-entry.c:193
-#: ../libmateui/mate-file-entry.c:233
-#: ../libmateui/mate-icon-entry.c:169
+#: ../libmateui/mate-entry.c:192 ../libmateui/mate-entry.c:193
+#: ../libmateui/mate-file-entry.c:233 ../libmateui/mate-icon-entry.c:169
 msgid "History ID"
 msgstr ""
 
@@ -908,11 +883,12 @@ msgid "The GTK entry"
 msgstr ""
 
 #: ../libmateui/mate-file-entry.c:234
-msgid "Unique identifier for the file entry.  This will be used to save the history list."
+msgid ""
+"Unique identifier for the file entry.  This will be used to save the history"
+" list."
 msgstr ""
 
-#: ../libmateui/mate-file-entry.c:242
-#: ../libmateui/mate-icon-entry.c:178
+#: ../libmateui/mate-file-entry.c:242 ../libmateui/mate-icon-entry.c:178
 msgid "Browse Dialog Title"
 msgstr ""
 
@@ -925,7 +901,9 @@ msgid "Directory Entry"
 msgstr ""
 
 #: ../libmateui/mate-file-entry.c:251
-msgid "Whether the file entry is being used to enter directory names or complete filenames."
+msgid ""
+"Whether the file entry is being used to enter directory names or complete "
+"filenames."
 msgstr ""
 
 #: ../libmateui/mate-file-entry.c:259
@@ -936,8 +914,7 @@ msgstr ""
 msgid "Whether the Browse file window should be modal."
 msgstr ""
 
-#: ../libmateui/mate-file-entry.c:267
-#: ../libmateui/mate-icon-entry.c:194
+#: ../libmateui/mate-file-entry.c:267 ../libmateui/mate-icon-entry.c:194
 msgid "Filename"
 msgstr "Файл аты"
 
@@ -958,7 +935,10 @@ msgid "MateEntry"
 msgstr ""
 
 #: ../libmateui/mate-file-entry.c:285
-msgid "MateEntry that the file entry uses for entering filenames.  You can use this property to get the MateEntry if you need to modify or query any of its parameters."
+msgid ""
+"MateEntry that the file entry uses for entering filenames.  You can use this"
+" property to get the MateEntry if you need to modify or query any of its "
+"parameters."
 msgstr ""
 
 #: ../libmateui/mate-file-entry.c:295
@@ -966,7 +946,10 @@ msgid "GtkEntry"
 msgstr ""
 
 #: ../libmateui/mate-file-entry.c:296
-msgid "GtkEntry that the file entry uses for entering filenames.  You can use this property to get the GtkEntry if you need to modify or query any of its parameters."
+msgid ""
+"GtkEntry that the file entry uses for entering filenames.  You can use this "
+"property to get the GtkEntry if you need to modify or query any of its "
+"parameters."
 msgstr ""
 
 #: ../libmateui/mate-file-entry.c:306
@@ -974,7 +957,9 @@ msgid "Use GtkFileChooser"
 msgstr ""
 
 #: ../libmateui/mate-file-entry.c:307
-msgid "Whether to use the new GtkFileChooser widget or the GtkFileSelection widget to select files."
+msgid ""
+"Whether to use the new GtkFileChooser widget or the GtkFileSelection widget "
+"to select files."
 msgstr ""
 
 #: ../libmateui/mate-file-entry.c:316
@@ -985,8 +970,7 @@ msgstr ""
 msgid "The type of operation that the file selector is performing."
 msgstr ""
 
-#: ../libmateui/mate-file-entry.c:652
-#: ../libmateui/mate-file-entry.c:689
+#: ../libmateui/mate-file-entry.c:652 ../libmateui/mate-file-entry.c:689
 msgid "Select file"
 msgstr "Файлды таңдаңыз"
 
@@ -1006,78 +990,74 @@ msgstr "Қара_п шығу..."
 msgid "Pop up a file selector to choose a file"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:58
+#: ../libmateui/mate-font-picker.c:60
 msgid "sans 12"
 msgstr "sans 12"
 
-#: ../libmateui/mate-font-picker.c:59
+#: ../libmateui/mate-font-picker.c:61
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:60
+#: ../libmateui/mate-font-picker.c:62
 msgid "Pick a Font"
 msgstr "Қаріпті таңдаңыз"
 
-#: ../libmateui/mate-font-picker.c:148
+#: ../libmateui/mate-font-picker.c:127
 msgid "The title of the selection dialog box"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:156
+#: ../libmateui/mate-font-picker.c:129
 msgid "Mode"
 msgstr "Режимі"
 
-#: ../libmateui/mate-font-picker.c:157
+#: ../libmateui/mate-font-picker.c:129
 msgid "The mode of operation of the font picker"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:166
+#: ../libmateui/mate-font-picker.c:131
 msgid "Font name"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:167
+#: ../libmateui/mate-font-picker.c:131
 msgid "Name of the selected font"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:176
-#: ../libmateui/mate-font-picker.c:972
-msgid "Font"
-msgstr "Қаріп"
-
-#: ../libmateui/mate-font-picker.c:177
-msgid "The selected GtkFont"
-msgstr ""
-
-#: ../libmateui/mate-font-picker.c:184
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:185
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text shown in the dialog"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:193
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in label"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:194
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in the label in font info mode"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:202
+#. 8 min, 72 max, 14 default
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:203
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label in font info mode"
 msgstr ""
 
-#: ../libmateui/mate-font-picker.c:213
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size"
 msgstr "Өлшемін көрсету"
 
-#: ../libmateui/mate-font-picker.c:214
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size in font info mode"
 msgstr ""
+
+#: ../libmateui/mate-font-picker.c:864
+msgid "Font"
+msgstr "Қаріп"
 
 #: ../libmateui/mate-mateconf-ui.c:61
 msgid "MATE MateConf UI Support"
@@ -1089,12 +1069,18 @@ msgstr "Көбір_ек"
 
 #: ../libmateui/mate-mateconf-ui.c:171
 #, c-format
-msgid "The application \"%s\" attempted to change an aspect of your configuration that your system administrator or operating system vendor does not allow you to change. Some of the settings you have selected may not take effect, or may not be restored next time you use the application."
+msgid ""
+"The application \"%s\" attempted to change an aspect of your configuration "
+"that your system administrator or operating system vendor does not allow you"
+" to change. Some of the settings you have selected may not take effect, or "
+"may not be restored next time you use the application."
 msgstr ""
 
 #: ../libmateui/mate-mateconf-ui.c:178
 #, c-format
-msgid "An error occurred while loading or saving configuration information for %s. Some of your configuration settings may not work properly."
+msgid ""
+"An error occurred while loading or saving configuration information for %s. "
+"Some of your configuration settings may not work properly."
 msgstr ""
 
 #: ../libmateui/mate-href.c:102
@@ -1136,7 +1122,9 @@ msgid ""
 msgstr ""
 
 #: ../libmateui/mate-icon-entry.c:170
-msgid "Unique identifier for the icon entry.  This will be used to save the history list."
+msgid ""
+"Unique identifier for the icon entry.  This will be used to save the history"
+" list."
 msgstr ""
 
 #: ../libmateui/mate-icon-entry.c:179
@@ -1160,11 +1148,12 @@ msgid "Picker dialog"
 msgstr ""
 
 #: ../libmateui/mate-icon-entry.c:204
-msgid "Icon picker dialog.  You can use this property to get the GtkDialog if you need to modify or query any of its properties."
+msgid ""
+"Icon picker dialog.  You can use this property to get the GtkDialog if you "
+"need to modify or query any of its properties."
 msgstr ""
 
-#: ../libmateui/mate-icon-entry.c:312
-#: ../libmateui/mate-icon-entry.c:996
+#: ../libmateui/mate-icon-entry.c:312 ../libmateui/mate-icon-entry.c:996
 msgid "Choose Icon"
 msgstr ""
 
@@ -1176,8 +1165,7 @@ msgstr ""
 msgid "This dialog box lets you select an icon."
 msgstr ""
 
-#: ../libmateui/mate-icon-entry.c:773
-#: ../libmateui/mate-icon-entry.c:999
+#: ../libmateui/mate-icon-entry.c:773 ../libmateui/mate-icon-entry.c:999
 msgid "Icon Selector"
 msgstr ""
 
@@ -1198,7 +1186,9 @@ msgid "Icon path"
 msgstr ""
 
 #: ../libmateui/mate-icon-entry.c:1026
-msgid "Here you should enter the name of the directory where icon images are located."
+msgid ""
+"Here you should enter the name of the directory where icon images are "
+"located."
 msgstr ""
 
 #: ../libmateui/mate-icon-sel.c:293
@@ -1291,8 +1281,7 @@ msgstr ""
 msgid "Whether the pixmap entry should have a preview."
 msgstr ""
 
-#: ../libmateui/mate-pixmap-entry.c:179
-#: ../libmateui/mate-pixmap-entry.c:473
+#: ../libmateui/mate-pixmap-entry.c:179 ../libmateui/mate-pixmap-entry.c:473
 msgid "No Image"
 msgstr ""
 
@@ -1312,26 +1301,26 @@ msgstr ""
 msgid "Preview"
 msgstr "Алдын-ала қарау"
 
-#: ../libmateui/mate-scores.c:77
+#: ../libmateui/mate-scores.c:74
 msgid "Top Ten"
 msgstr ""
 
-#: ../libmateui/mate-scores.c:90
+#: ../libmateui/mate-scores.c:87
 msgid "User"
 msgstr "Пайдаланушы"
 
-#: ../libmateui/mate-scores.c:93
+#: ../libmateui/mate-scores.c:90
 msgid "Score"
 msgstr "Нәтиже"
 
 #. TRANSLATORS NOTE: Date format used when showing scores in games.
 #. * Please refer to manpage of strftime(3) for complete reference.
-#.
-#: ../libmateui/mate-scores.c:193
+#. 
+#: ../libmateui/mate-scores.c:182
 msgid "%a %b %d %T %Y"
 msgstr ""
 
-#: ../libmateui/mate-scores.c:394
+#: ../libmateui/mate-scores.c:369
 msgid "Sans 14"
 msgstr ""
 
@@ -1363,8 +1352,7 @@ msgstr ""
 msgid "About"
 msgstr "Осы туралы"
 
-#: ../libmateui/mate-ui-init.c:134
-#: ../libmateui/mate-ui-init.c:160
+#: ../libmateui/mate-ui-init.c:134 ../libmateui/mate-ui-init.c:160
 msgid "Disable Crash Dialog"
 msgstr ""
 
@@ -1388,11 +1376,10 @@ msgstr "DISPLAY"
 msgid "MATE GUI Library"
 msgstr ""
 
-#: ../libmateui/mate-ui-init.c:232
+#: ../libmateui/mate-ui-init.c:226
 msgid "Could not open link"
 msgstr ""
 
 #: ../test-mate/testmate.xml.h:3
 msgid "Exit the test"
 msgstr ""
-

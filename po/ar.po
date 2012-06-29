@@ -1,31 +1,27 @@
-# translation of libmateui.HEAD.ar.po to Arabic
-# translation of libmateui.HEAD.ar.po to
-# Copyright (C) 2002 THE libmateui.HEAD.ar'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the libmateui.po package.
-#
-#
-# Arafat Medini <lumina@silverpen.de>, 2002,2003.
-# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
-#  <lumina@silverpen.de>, 2004.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Arafat Medini <lumina@silverpen.de>, 2002, 2003.
 # Ayman Hourieh <aymanh@gmail.com>, 2004.
-# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008.
 # Djihed Afifi <djihed@gmail.com>, 2006.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008.
+#  <lumina@silverpen.de>, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmateui.HEAD.ar\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=libmateui&component=general\n"
-"POT-Creation-Date: 2009-03-16 22:23+0000\n"
-"PO-Revision-Date: 2008-01-26 17:51+0200\n"
-"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
-"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-22 19:43+0100\n"
+"PO-Revision-Date: 2012-02-22 18:49+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/MATE/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Poedit-Language: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5\n"
 
 #: ../demos/mdi_demo.c:128
 msgid "Child Item 1"
@@ -43,115 +39,114 @@ msgstr "العنصر الابن 2"
 msgid "Hint for item 2"
 msgstr "تلميحة للعنصر 2"
 
-#: ../libmateui/mate-about.c:187
+#: ../libmateui/mate-about.c:199
 msgid "Credits"
 msgstr "شكْر"
 
-#: ../libmateui/mate-about.c:219
+#: ../libmateui/mate-about.c:222
 msgid "Written by"
 msgstr "كَتَبَهُ"
 
-#: ../libmateui/mate-about.c:234
+#: ../libmateui/mate-about.c:235
 msgid "Documented by"
 msgstr "وَثّقهُ"
 
-#: ../libmateui/mate-about.c:249
+#: ../libmateui/mate-about.c:248
 msgid "Translated by"
 msgstr "تَرجَمَهُ"
 
-#: ../libmateui/mate-about.c:312
+#: ../libmateui/mate-about.c:315
 msgid "C_redits"
 msgstr "_شكْر"
 
-#: ../libmateui/mate-about.c:365
+#: ../libmateui/mate-about.c:367
 msgid "Program name"
 msgstr "اسم البرنامج"
 
-#: ../libmateui/mate-about.c:366
+#: ../libmateui/mate-about.c:368
 msgid "The name of the program"
 msgstr "اسم البرنامج"
 
-#: ../libmateui/mate-about.c:373
+#: ../libmateui/mate-about.c:375
 msgid "Program version"
 msgstr "إصدارة البرنامج"
 
-#: ../libmateui/mate-about.c:374
+#: ../libmateui/mate-about.c:376
 msgid "The version of the program"
 msgstr "إصدارة البرنامج"
 
-#: ../libmateui/mate-about.c:380
+#: ../libmateui/mate-about.c:382
 msgid "Copyright string"
 msgstr "نصّ حقوق النشر"
 
-#: ../libmateui/mate-about.c:381
+#: ../libmateui/mate-about.c:383
 msgid "Copyright information for the program"
 msgstr "معلومات حقوق النشر للبرنامج"
 
-#: ../libmateui/mate-about.c:388
+#: ../libmateui/mate-about.c:390
 msgid "Comments string"
 msgstr "نصّ التعليقات"
 
-#: ../libmateui/mate-about.c:389
+#: ../libmateui/mate-about.c:391
 msgid "Comments about the program"
 msgstr "تعليقات عن البرنامج"
 
-#: ../libmateui/mate-about.c:395
+#: ../libmateui/mate-about.c:397
 msgid "Authors"
 msgstr "المؤلّفون"
 
-#: ../libmateui/mate-about.c:396
+#: ../libmateui/mate-about.c:398
 msgid "List of authors of the programs"
 msgstr "قائمة مؤلّفي البرنامج"
 
-#: ../libmateui/mate-about.c:398
+#: ../libmateui/mate-about.c:400
 msgid "Author entry"
 msgstr "خانة المؤلّف"
 
-#: ../libmateui/mate-about.c:399
+#: ../libmateui/mate-about.c:401
 msgid "A single author entry"
 msgstr "خانة مفردة للمؤلّف"
 
-#: ../libmateui/mate-about.c:406
+#: ../libmateui/mate-about.c:408
 msgid "Documenters"
 msgstr "المُوَثِّقون"
 
-#: ../libmateui/mate-about.c:407
+#: ../libmateui/mate-about.c:409
 msgid "List of people documenting the program"
 msgstr "قائمة مُوثِّقي البرنامج"
 
-#: ../libmateui/mate-about.c:409
+#: ../libmateui/mate-about.c:411
 msgid "Documenter entry"
 msgstr "خانة المُوثِّق"
 
-#: ../libmateui/mate-about.c:410
+#: ../libmateui/mate-about.c:412
 msgid "A single documenter entry"
 msgstr "خانة مفردة للموثّق"
 
-#: ../libmateui/mate-about.c:418
+#: ../libmateui/mate-about.c:420
 msgid "Translator credits"
 msgstr "شكْر للمترجمين"
 
-#: ../libmateui/mate-about.c:419
+#: ../libmateui/mate-about.c:421
 msgid ""
 "Credits to the translators. This string should be marked as translatable"
 msgstr "شكْر للمترجمين. يجب تعليم هذا النصّ على أنه قابل للترجمة"
 
-#: ../libmateui/mate-about.c:426
-#: ../libmateui/mate-druid-page-standard.c:123
+#: ../libmateui/mate-about.c:428 ../libmateui/mate-druid-page-standard.c:123
 msgid "Logo"
 msgstr "الشعار"
 
-#: ../libmateui/mate-about.c:427
+#: ../libmateui/mate-about.c:429
 msgid "A logo for the about box"
 msgstr "شعار لصندوق \"عنْ\""
 
-#: ../libmateui/mate-about.c:506
+#: ../libmateui/mate-about.c:503
 #, c-format
 msgid "About %s"
 msgstr "عنْ %s"
 
 #. Some standard menus
-#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:551
+#: ../libmateui/mate-app-helper.c:85 ../libmateui/mate-app-helper.h:553
 #: ../test-mate/testmate.xml.h:5
 msgid "_File"
 msgstr "_ملف"
@@ -160,7 +155,7 @@ msgstr "_ملف"
 msgid "_File/"
 msgstr "_ملف/"
 
-#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:554
+#: ../libmateui/mate-app-helper.c:87 ../libmateui/mate-app-helper.h:556
 msgid "_Edit"
 msgstr "_حرّر"
 
@@ -168,7 +163,7 @@ msgstr "_حرّر"
 msgid "_Edit/"
 msgstr "_تحرير/"
 
-#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:557
+#: ../libmateui/mate-app-helper.c:89 ../libmateui/mate-app-helper.h:559
 msgid "_View"
 msgstr "ا_عرض"
 
@@ -176,7 +171,7 @@ msgstr "ا_عرض"
 msgid "_View/"
 msgstr "_عرض/"
 
-#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:560
+#: ../libmateui/mate-app-helper.c:91 ../libmateui/mate-app-helper.h:562
 msgid "_Settings"
 msgstr "الإ_عدادات"
 
@@ -185,7 +180,7 @@ msgid "_Settings/"
 msgstr "الإ_عدادات/"
 
 #. If you have more then one New type, use this tree
-#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:326
+#: ../libmateui/mate-app-helper.c:93 ../libmateui/mate-app-helper.h:328
 msgid "_New"
 msgstr "_جديد"
 
@@ -193,7 +188,7 @@ msgstr "_جديد"
 msgid "_New/"
 msgstr "_جديد/"
 
-#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:563
+#: ../libmateui/mate-app-helper.c:95 ../libmateui/mate-app-helper.h:565
 msgid "Fi_les"
 msgstr "م_لفات"
 
@@ -201,15 +196,15 @@ msgstr "م_لفات"
 msgid "Fi_les/"
 msgstr "م_لفات/"
 
-#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:566
+#: ../libmateui/mate-app-helper.c:97 ../libmateui/mate-app-helper.h:568
 msgid "_Windows"
 msgstr "_نوافذ"
 
-#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:572
+#: ../libmateui/mate-app-helper.c:98 ../libmateui/mate-app-helper.h:574
 msgid "_Game"
 msgstr "_لعبة"
 
-#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:569
+#: ../libmateui/mate-app-helper.c:99 ../libmateui/mate-app-helper.h:571
 #: ../test-mate/testmate.xml.h:6
 msgid "_Help"
 msgstr "_مساعدة"
@@ -290,9 +285,8 @@ msgstr "أ_نهِ"
 msgid "Quit the application"
 msgstr "أنهِ التطبيق"
 
-#.
 #. * The "Edit" menu
-#.
+#. 
 #. Cut
 #: ../libmateui/mate-app-helper.c:158
 msgid "Cu_t"
@@ -384,9 +378,8 @@ msgstr "_خصائص"
 msgid "Modify the file's properties"
 msgstr "عدّل خصائص الملف"
 
-#.
 #. * The Settings menu
-#.
+#. 
 #. Settings
 #: ../libmateui/mate-app-helper.c:214
 msgid "Prefere_nces"
@@ -397,9 +390,9 @@ msgid "Configure the application"
 msgstr "اضبط خيارات التطبيق"
 
 #. 20
-#.
+#. 
 #. * And the "Help" menu
-#.
+#. 
 #. About
 #: ../libmateui/mate-app-helper.c:224 ../test-mate/testmate.xml.h:4
 msgid "_About"
@@ -417,9 +410,8 @@ msgstr "اختر ال_كلّ"
 msgid "Select everything"
 msgstr "اختر كلّ شيء"
 
-#.
 #. * Window menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:237
 msgid "Create New _Window"
 msgstr "ا_نشئ نافذة جديدة"
@@ -436,9 +428,8 @@ msgstr "ا_غلق هذه النافذة"
 msgid "Close the current window"
 msgstr "اغلق النافذة الحالية"
 
-#.
 #. * The "Game" menu
-#.
+#. 
 #: ../libmateui/mate-app-helper.c:251
 msgid "_New Game"
 msgstr "_لعبة جديدة"
@@ -504,31 +495,31 @@ msgstr "أ_نهِ اللعبة"
 msgid "End the current game"
 msgstr "أنهِ اللعبة الحالية"
 
-#: ../libmateui/mate-app-helper.c:1150
+#: ../libmateui/mate-app-helper.c:1149
 msgid "_Contents"
 msgstr "ال_محتويات"
 
-#: ../libmateui/mate-app-helper.c:1153
+#: ../libmateui/mate-app-helper.c:1152
 msgid "View help for this application"
 msgstr "اعرض مساعدة هذا التطبيق"
 
-#: ../libmateui/mate-app-helper.c:2524
+#: ../libmateui/mate-app-helper.c:2523
 msgid "Text Below Icons"
 msgstr "النصّ تحت الأيقونات"
 
-#: ../libmateui/mate-app-helper.c:2525
+#: ../libmateui/mate-app-helper.c:2524
 msgid "Priority Text Beside Icons"
 msgstr "الأولوية للنصوص بجانب الأيقونات"
 
-#: ../libmateui/mate-app-helper.c:2526
+#: ../libmateui/mate-app-helper.c:2525
 msgid "Icons Only"
 msgstr "أيقونات فقط"
 
-#: ../libmateui/mate-app-helper.c:2527
+#: ../libmateui/mate-app-helper.c:2526
 msgid "Text Only"
 msgstr "نص فقط"
 
-#: ../libmateui/mate-app-helper.c:2588
+#: ../libmateui/mate-app-helper.c:2587
 #, c-format
 msgid "Use Desktop Default (%s)"
 msgstr "استخدم مبدئي سطح المكتب (%s)"
@@ -615,9 +606,7 @@ msgstr "وسيط HTTP يتطلب منك الولوج.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"يجب أن تلج لتنفذ إلى \"%s\".\n"
-"%s"
+msgstr "يجب أن تلج لتنفذ إلى \"%s\".\n%s"
 
 #: ../libmateui/mate-authentication-manager.c:88
 msgid "Your password will be transmitted unencrypted."
@@ -632,7 +621,8 @@ msgstr "سترسل كلمة سرّك معمّاة."
 msgid "Authentication Required"
 msgstr "الاستيثاق مطلوب"
 
-#. Translators: "You must log in to acces user@server.com/share domain MYWINDOWSDOMAIN."
+#. Translators: "You must log in to acces user@server.com/share domain
+#. MYWINDOWSDOMAIN."
 #: ../libmateui/mate-authentication-manager.c:303
 #, c-format
 msgid "You must log in to access %s domain %s\n"
@@ -731,7 +721,7 @@ msgstr "وقت أولي"
 msgid "The initial time"
 msgstr "الوقت الأوّلي"
 
-#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:96
+#: ../libmateui/mate-dateedit.c:767 ../libmateui/mate-scores.c:93
 msgid "Date"
 msgstr "التاريخ"
 
@@ -761,7 +751,7 @@ msgid "mate_date_edit_get_date deprecated, use mate_date_edit_get_time"
 msgstr "دالة mate_date_edit_get_date ملغاة، استخدم mate_date_edit_get_time"
 
 #: ../libmateui/mate-druid-page-standard.c:115
-#: ../libmateui/mate-font-picker.c:147
+#: ../libmateui/mate-font-picker.c:127
 msgid "Title"
 msgstr "العنوان"
 
@@ -899,8 +889,8 @@ msgstr "خانة GTK"
 
 #: ../libmateui/mate-file-entry.c:234
 msgid ""
-"Unique identifier for the file entry.  This will be used to save the history "
-"list."
+"Unique identifier for the file entry.  This will be used to save the history"
+" list."
 msgstr "معرّف فريد لخانة الملفات.  سيستخدم لحفظ قائمة التاريخ."
 
 #: ../libmateui/mate-file-entry.c:242 ../libmateui/mate-icon-entry.c:178
@@ -919,8 +909,7 @@ msgstr "خانة الدلائل"
 msgid ""
 "Whether the file entry is being used to enter directory names or complete "
 "filenames."
-msgstr ""
-"ما إذا كانت خانة الملفات ستستخدم لإدخال أسماء الدلائل أو أسماء كاملة للملفات."
+msgstr "ما إذا كانت خانة الملفات ستستخدم لإدخال أسماء الدلائل أو أسماء كاملة للملفات."
 
 #: ../libmateui/mate-file-entry.c:259
 msgid "Modal"
@@ -952,12 +941,10 @@ msgstr "خانة جنوم"
 
 #: ../libmateui/mate-file-entry.c:285
 msgid ""
-"MateEntry that the file entry uses for entering filenames.  You can use "
-"this property to get the MateEntry if you need to modify or query any of "
-"its parameters."
-msgstr ""
-"خانة جنوم التي تستخدمها خانة الملفات لإدخال أسماء الملفات. يمكنك استخدام هذه "
-"الخاصيّة للحصول على MateEntry إذا أردت تعديل أو الاستعلام عن أيّ من معاملاتها."
+"MateEntry that the file entry uses for entering filenames.  You can use this"
+" property to get the MateEntry if you need to modify or query any of its "
+"parameters."
+msgstr "خانة جنوم التي تستخدمها خانة الملفات لإدخال أسماء الملفات. يمكنك استخدام هذه الخاصيّة للحصول على MateEntry إذا أردت تعديل أو الاستعلام عن أيّ من معاملاتها."
 
 #: ../libmateui/mate-file-entry.c:295
 msgid "GtkEntry"
@@ -968,10 +955,7 @@ msgid ""
 "GtkEntry that the file entry uses for entering filenames.  You can use this "
 "property to get the GtkEntry if you need to modify or query any of its "
 "parameters."
-msgstr ""
-"خانة Gtk هي التي تستخدمها خانة الملفات لإدخال أسماء الملفات. يمكنك استخدام "
-"هذه الخاصية للحصول على GtkEntry إذا أردت تعديل أو الاستعلام عن أي من "
-"معاملاتها."
+msgstr "خانة Gtk هي التي تستخدمها خانة الملفات لإدخال أسماء الملفات. يمكنك استخدام هذه الخاصية للحصول على GtkEntry إذا أردت تعديل أو الاستعلام عن أي من معاملاتها."
 
 #: ../libmateui/mate-file-entry.c:306
 msgid "Use GtkFileChooser"
@@ -981,9 +965,7 @@ msgstr "استخدم GtkFileChooser"
 msgid ""
 "Whether to use the new GtkFileChooser widget or the GtkFileSelection widget "
 "to select files."
-msgstr ""
-"فيما إذا ستستخدم ودجة GtkFileChooser أو ودجة GtkFileSelection لانتقاء "
-"الملفات."
+msgstr "فيما إذا ستستخدم ودجة GtkFileChooser أو ودجة GtkFileSelection لانتقاء الملفات."
 
 #: ../libmateui/mate-file-entry.c:316
 msgid "GtkFileChooser Action"
@@ -1013,77 +995,74 @@ msgstr "_تصفّح..."
 msgid "Pop up a file selector to choose a file"
 msgstr "اعرض منتقي ملفات لاختيار ملف"
 
-#: ../libmateui/mate-font-picker.c:58
+#: ../libmateui/mate-font-picker.c:60
 msgid "sans 12"
 msgstr "sans 12"
 
-#: ../libmateui/mate-font-picker.c:59
+#: ../libmateui/mate-font-picker.c:61
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
 msgstr "أَبْجَدْ هَوّزْ حُطِّي كَلَمُنْ سَعْفَصْ قَرَشَتْ ثَخْذٌ ضَظْغٌ"
 
-#: ../libmateui/mate-font-picker.c:60
+#: ../libmateui/mate-font-picker.c:62
 msgid "Pick a Font"
 msgstr "اختر خطًا"
 
-#: ../libmateui/mate-font-picker.c:148
+#: ../libmateui/mate-font-picker.c:127
 msgid "The title of the selection dialog box"
 msgstr "عنوان صندوق حوار الانتقاء"
 
-#: ../libmateui/mate-font-picker.c:156
+#: ../libmateui/mate-font-picker.c:129
 msgid "Mode"
 msgstr "نمط"
 
-#: ../libmateui/mate-font-picker.c:157
+#: ../libmateui/mate-font-picker.c:129
 msgid "The mode of operation of the font picker"
 msgstr "نمط عملية منتقي الخطوط"
 
-#: ../libmateui/mate-font-picker.c:166
+#: ../libmateui/mate-font-picker.c:131
 msgid "Font name"
 msgstr "اسم الخطّ"
 
-#: ../libmateui/mate-font-picker.c:167
+#: ../libmateui/mate-font-picker.c:131
 msgid "Name of the selected font"
 msgstr "اسم الخطّ المختار"
 
-#: ../libmateui/mate-font-picker.c:176 ../libmateui/mate-font-picker.c:972
-msgid "Font"
-msgstr "خطّ"
-
-#: ../libmateui/mate-font-picker.c:177
-msgid "The selected GtkFont"
-msgstr "خطّ Gtk المختار"
-
-#: ../libmateui/mate-font-picker.c:184
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text"
 msgstr "نصّ المعاينة"
 
-#: ../libmateui/mate-font-picker.c:185
+#: ../libmateui/mate-font-picker.c:133
 msgid "Preview text shown in the dialog"
 msgstr "نصّ المعاينة المعروض في مربّع الحوار"
 
-#: ../libmateui/mate-font-picker.c:193
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in label"
 msgstr "استخدم الخطّ في العنوان"
 
-#: ../libmateui/mate-font-picker.c:194
+#: ../libmateui/mate-font-picker.c:135
 msgid "Use font in the label in font info mode"
 msgstr "استخدم الخطّ للعنوان في نمط معلومات الخطوط"
 
-#: ../libmateui/mate-font-picker.c:202
+#. 8 min, 72 max, 14 default
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label"
 msgstr "حجم الخطّ للعنوان"
 
-#: ../libmateui/mate-font-picker.c:203
+#: ../libmateui/mate-font-picker.c:137
 msgid "Font size for label in font info mode"
 msgstr "حجم الخطّ للعنوان في نمط معلومات الخطوط"
 
-#: ../libmateui/mate-font-picker.c:213
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size"
 msgstr "أظهر الحجم"
 
-#: ../libmateui/mate-font-picker.c:214
+#: ../libmateui/mate-font-picker.c:139
 msgid "Show size in font info mode"
 msgstr "أظهر الحجم في نمط معلومات الخطوط"
+
+#: ../libmateui/mate-font-picker.c:864
+msgid "Font"
+msgstr "خطّ"
 
 #: ../libmateui/mate-mateconf-ui.c:61
 msgid "MATE MateConf UI Support"
@@ -1097,22 +1076,17 @@ msgstr "ال_تفاصيل"
 #, c-format
 msgid ""
 "The application \"%s\" attempted to change an aspect of your configuration "
-"that your system administrator or operating system vendor does not allow you "
-"to change. Some of the settings you have selected may not take effect, or "
+"that your system administrator or operating system vendor does not allow you"
+" to change. Some of the settings you have selected may not take effect, or "
 "may not be restored next time you use the application."
-msgstr ""
-"حاول التطبيق \"%s\" تغيير جزء من إعداداتك التي لا يسمح لك مدير النظام أو "
-"صانع نظام التشغيل بتغييرها. بعض التغييرات التي اخترتها لن يسري مفعولها أو لن "
-"يمكن استرجاعها في المرة القادمة التي تستخدم فيها التطبيق."
+msgstr "حاول التطبيق \"%s\" تغيير جزء من إعداداتك التي لا يسمح لك مدير النظام أو صانع نظام التشغيل بتغييرها. بعض التغييرات التي اخترتها لن يسري مفعولها أو لن يمكن استرجاعها في المرة القادمة التي تستخدم فيها التطبيق."
 
 #: ../libmateui/mate-mateconf-ui.c:178
 #, c-format
 msgid ""
 "An error occurred while loading or saving configuration information for %s. "
 "Some of your configuration settings may not work properly."
-msgstr ""
-"حدث خطأ أثناء تحميل أو حفظ معلومات الإعدادات لـ %s. قد لا تعمل بعض إعداداتك "
-"بشكل سليم."
+msgstr "حدث خطأ أثناء تحميل أو حفظ معلومات الإعدادات لـ %s. قد لا تعمل بعض إعداداتك بشكل سليم."
 
 #: ../libmateui/mate-href.c:102
 msgid "URL"
@@ -1150,14 +1124,12 @@ msgstr "سيأخذك هذا الزرّ إلى العنوان الذي يعرضه
 msgid ""
 "An error has occurred while trying to launch the default web browser.\n"
 "Please check your settings in the 'Preferred Applications' preference tool."
-msgstr ""
-"حدث خطأ أثناء محاولة تشغيل المتصفح المبدئي.\n"
-"الرجاء التأكد من الإعدادات في أداة التفضيلات 'التطبيقات المفضلة'."
+msgstr "حدث خطأ أثناء محاولة تشغيل المتصفح المبدئي.\nالرجاء التأكد من الإعدادات في أداة التفضيلات 'التطبيقات المفضلة'."
 
 #: ../libmateui/mate-icon-entry.c:170
 msgid ""
-"Unique identifier for the icon entry.  This will be used to save the history "
-"list."
+"Unique identifier for the icon entry.  This will be used to save the history"
+" list."
 msgstr "معرّف وحيد لخانة الأيقونات. سيتم استخدامه لحفظ قائمة التاريخ."
 
 #: ../libmateui/mate-icon-entry.c:179
@@ -1184,9 +1156,7 @@ msgstr "حوار المنتقي"
 msgid ""
 "Icon picker dialog.  You can use this property to get the GtkDialog if you "
 "need to modify or query any of its properties."
-msgstr ""
-"حوار منتقي الأيقونات. يمكنك استخدام هذه الخاصية للحصول على GtkDialog إذا "
-"أردت تعديل أو الاستعلام عن أيّ من خواصّها."
+msgstr "حوار منتقي الأيقونات. يمكنك استخدام هذه الخاصية للحصول على GtkDialog إذا أردت تعديل أو الاستعلام عن أيّ من خواصّها."
 
 #: ../libmateui/mate-icon-entry.c:312 ../libmateui/mate-icon-entry.c:996
 msgid "Choose Icon"
@@ -1316,8 +1286,7 @@ msgstr "عاين"
 msgid "Whether the pixmap entry should have a preview."
 msgstr "ما إذا سيكون لخانة البيكسماب لمحة."
 
-#: ../libmateui/mate-pixmap-entry.c:179
-#: ../libmateui/mate-pixmap-entry.c:473
+#: ../libmateui/mate-pixmap-entry.c:179 ../libmateui/mate-pixmap-entry.c:473
 msgid "No Image"
 msgstr "لا صورة"
 
@@ -1337,26 +1306,26 @@ msgstr "لم أجد hbox، سأستخدم انتقاء الملفات العاد
 msgid "Preview"
 msgstr "معاينة"
 
-#: ../libmateui/mate-scores.c:77
+#: ../libmateui/mate-scores.c:74
 msgid "Top Ten"
 msgstr "العشرة الأوائل"
 
-#: ../libmateui/mate-scores.c:90
+#: ../libmateui/mate-scores.c:87
 msgid "User"
 msgstr "المستخدم"
 
-#: ../libmateui/mate-scores.c:93
+#: ../libmateui/mate-scores.c:90
 msgid "Score"
 msgstr "النتيجة"
 
 #. TRANSLATORS NOTE: Date format used when showing scores in games.
 #. * Please refer to manpage of strftime(3) for complete reference.
-#.
-#: ../libmateui/mate-scores.c:193
+#. 
+#: ../libmateui/mate-scores.c:182
 msgid "%a %b %d %T %Y"
 msgstr "%A %d %B %Y %l:%m:%S"
 
-#: ../libmateui/mate-scores.c:394
+#: ../libmateui/mate-scores.c:369
 msgid "Sans 14"
 msgstr "Sans 14"
 
@@ -1412,53 +1381,10 @@ msgstr "معراض"
 msgid "MATE GUI Library"
 msgstr "مكتبة واجهة المستخدم الرسوميّة لجنوم"
 
-#: ../libmateui/mate-ui-init.c:232
+#: ../libmateui/mate-ui-init.c:226
 msgid "Could not open link"
 msgstr "تعذّر فتح الوصلة"
 
 #: ../test-mate/testmate.xml.h:3
 msgid "Exit the test"
 msgstr "اخرج من التجربة"
-
-#~ msgid "%s is a link to something that is not a folder"
-#~ msgstr "‏%s وصلة لشيء ليس مجلّدا"
-
-#~ msgid "%s is a link without a destination location"
-#~ msgstr "‏%s وصلة بدون وِجهة"
-
-#~ msgid "%s is not a folder"
-#~ msgstr "‏%s ليس مجلّدا"
-
-#~ msgid "Could not monitor '%s': %s"
-#~ msgstr "تعذّر مراقبة '%s': %s"
-
-#~ msgid "Could not get info for '%s': %s"
-#~ msgstr "تعذّر جلب معلومات '%s': %s"
-
-#~ msgid "Could not create '%s': %s"
-#~ msgstr "تعذّر إنشاء '%s': %s"
-
-#~ msgid "Network Servers"
-#~ msgstr "خواديم الشبكة"
-
-#~ msgid "File System"
-#~ msgstr "نظام الملفات"
-
-#~ msgid "'%s': %s"
-#~ msgstr "'%s': %s"
-
-#~ msgid "Bookmark saving failed (%s)"
-#~ msgstr "فشل حفظ العلامة (%s)"
-
-#~ msgid "Error getting information for '%s'"
-#~ msgstr "خطأ أثناء جلب معلومات '%s'"
-
-#~ msgid "Could not get information for file '%s': %s"
-#~ msgstr "تعذّر جلب معلومات الملف '%s': %s"
-
-#~ msgid "Failed to open file '%s': %s"
-#~ msgstr "فشل فتح الملف '%s': %s"
-
-#~ msgid ""
-#~ "Failed to load image '%s': reason not known, probably a corrupt image file"
-#~ msgstr "فشل تحميل الصّورة '%s': السبب مجهول، قد يكون ملف الصّورة تالفًا"
