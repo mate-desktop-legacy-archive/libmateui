@@ -1,3 +1,131 @@
+commit a1bdde5c33224250b116b5475e5de5391a8bc7d1
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Jun 29 12:23:38 2012 +0200
+
+    sync translations with transifex
+
+ po/af.po          |  759 ++++++--------
+ po/am.po          | 1032 ++++++++-----------
+ po/ar.po          |  306 +++---
+ po/as.po          |  730 ++++++--------
+ po/ast.po         |  557 +++++------
+ po/az.po          | 1030 ++++++++-----------
+ po/be.po          |  874 ++++++----------
+ po/bg.po          |  560 +++++------
+ po/bn.po          |  320 +++---
+ po/bn_IN.po       |  752 ++++++--------
+ po/br.po          |  272 +++--
+ po/bs.po          | 1032 ++++++++-----------
+ po/ca.po          |  903 ++++++-----------
+ po/ca@valencia.po |  289 +++---
+ po/crh.po         |  283 +++---
+ po/cs.po          |  741 ++++++--------
+ po/cy.po          |  439 +++-----
+ po/da.po          |  499 +++-------
+ po/de.po          |  869 ++++++----------
+ po/dz.po          |  886 +++++++----------
+ po/el.po          | 1437 +++++++--------------------
+ po/en_CA.po       |  697 ++++++-------
+ po/en_GB.po       |  843 ++++++----------
+ po/eo.po          |  274 +++--
+ po/es.po          |  328 +++---
+ po/et.po          |  509 +++++++---
+ po/eu.po          |  751 ++++++--------
+ po/fa.po          | 1033 ++++++++-----------
+ po/fi.po          |  856 ++++++----------
+ po/fr.po          |  766 ++++++--------
+ po/fur.po         |  751 ++++++--------
+ po/ga.po          |  696 ++++++-------
+ po/gl.po          |  290 +++---
+ po/gu.po          |  556 +++--------
+ po/he.po          |  839 ++++++----------
+ po/hi.po          |  847 +++++-----------
+ po/hr.po          |  604 +++++------
+ po/hu.po          |  671 ++++++-------
+ po/hy.po          |  842 +++++++---------
+ po/id.po          |  281 +++---
+ po/is.po          | 1063 ++++++++------------
+ po/it.po          |  610 +++++-------
+ po/ka.po          |  694 ++++++-------
+ po/kk.po          |  309 +++---
+ po/kn.po          |  261 +++--
+ po/ko.po          |  762 ++++++--------
+ po/ku.po          |  906 +++++++----------
+ po/li.po          | 1064 ++++++++------------
+ po/lt.po          |  319 +++---
+ po/lv.po          |  556 +++++------
+ po/mai.po         |  555 +++++------
+ po/mg.po          |  844 +++++++---------
+ po/mi.po          |  924 ++++++++---------
+ po/mk.po          |  765 ++++++--------
+ po/ml.po          |  745 ++++++--------
+ po/mn.po          |  740 ++++++--------
+ po/mr.po          |  987 ++++++------------
+ po/ms.po          | 1194 ++++++++--------------
+ po/nb.po          |  737 ++++++--------
+ po/nds.po         |  303 +++---
+ po/ne.po          |  697 ++++++-------
+ po/nl.po          |  901 ++++++-----------
+ po/nn.po          |  730 ++++++--------
+ po/nso.po         | 1058 ++++++++------------
+ po/oc.po          |  718 ++++++--------
+ po/or.po          |  256 +++--
+ po/pa.po          |  599 +++++------
+ po/pl.po          |  753 ++++++--------
+ po/ps.po          |  230 ++---
+ po/pt.po          | 1085 ++++++++------------
+ po/pt_BR.po       |  448 +++------
+ po/ro.po          |  676 ++++++-------
+ po/ru.po          |  749 ++++++--------
+ po/rw.po          | 1846 ++++++++++++----------------------
+ po/si.po          |  757 ++++++--------
+ po/sk.po          |  740 ++++++--------
+ po/sl.po          | 2857 ++++++++++++++++++++++++++---------------------------
+ po/sq.po          |  652 +++++-------
+ po/sr.po          |  736 +++++---------
+ po/sr@latin.po    |  736 +++++---------
+ po/sv.po          |  796 +++++++--------
+ po/ta.po          |  668 ++++++-------
+ po/te.po          |  255 +++--
+ po/th.po          |  944 +++++++-----------
+ po/tk.po          |  964 ++++++++----------
+ po/tr.po          |  705 +++++--------
+ po/tt.po          |  925 ++++++++---------
+ po/ug.po          |  269 +++--
+ po/uk.po          |  775 ++++++---------
+ po/vi.po          |  861 +++++++---------
+ po/wa.po          | 1036 ++++++++-----------
+ po/xh.po          | 1040 ++++++++-----------
+ po/yi.po          |  938 ++++++++----------
+ po/zh_CN.po       |  263 +++--
+ po/zh_HK.po       |  586 +++++------
+ po/zh_TW.po       |  602 +++++------
+ po/zu.po          | 1033 ++++++++-----------
+ 97 files changed, 28914 insertions(+), 42312 deletions(-)
+
+commit 964271980b449f0d364d9df45c224b91b87208e2
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Jun 29 12:23:07 2012 +0200
+
+    add po gnome copyrights file
+
+ po/gnome-copyrights.txt | 1250 +++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1250 insertions(+)
+
+commit 85909b06456c547520e1df81f61642df80d4feaf
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Feb 22 19:56:46 2012 +0100
+
+    update for 1.2
+
+ ChangeLog           |  636 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ MAINTAINERS         |    7 -
+ README              |    4 +-
+ autogen.sh          |    4 +-
+ configure.in        |    6 +-
+ distro/ubuntu/build |   30 ---
+ 6 files changed, 644 insertions(+), 43 deletions(-)
+
 commit c2d4f1f3deef5839aba8c627627b3194ab7a22e3
 Author: Perberos <perberos@gmail.com>
 Date:   Thu Jan 26 10:33:09 2012 -0300
@@ -5,7 +133,7 @@ Date:   Thu Jan 26 10:33:09 2012 -0300
     changing pkgbuild source method
 
  distro/archlinux/PKGBUILD |   10 +++++-----
- 1 files changed, 5 insertions(+), 5 deletions(-)
+ 1 file changed, 5 insertions(+), 5 deletions(-)
 
 commit 2aca9ee98e87ea60c5e17dc3a963c3fce3bafb56
 Merge: dd822fb 9ab556f
@@ -27,7 +155,7 @@ Date:   Wed Jan 18 18:25:24 2012 +0100
 
  configure.in          |    4 ++++
  libmateui/Makefile.am |    3 ++-
- 2 files changed, 6 insertions(+), 1 deletions(-)
+ 2 files changed, 6 insertions(+), 1 deletion(-)
 
 commit 25834f43b8d7666fc07737fd9a2f4ba43d148a35
 Author: Benjamin Valentin <benpicco@zedat.fu-berlin.de>
@@ -37,7 +165,7 @@ Date:   Wed Jan 18 18:22:18 2012 +0100
     	from http://git.gnome.org/browse/libgnomeui/commit/?id=10f7a34ba581b6bea24829631d400de664b8c5d5
 
  configure.in |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit 7bb51ed0d0d8e89c4dda023e7dfe59609c6c755b
 Author: Benjamin Valentin <benpicco@zedat.fu-berlin.de>
@@ -47,7 +175,7 @@ Date:   Wed Jan 18 18:21:20 2012 +0100
     	from http://git.gnome.org/browse/libgnomeui/commit/?id=6757092e9ce4b090ba038880818ffda187c13800
 
  libmateui/mate-thumbnail.h |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit dd822fbc4885bf2f1a9fca3cdc5e2881bd40e015
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -90,7 +218,7 @@ Date:   Thu Dec 15 18:46:52 2011 -0200
     <_< >_> *puf*
 
  libmateui/mate-ui-init.c |    4 ++--
- 1 files changed, 2 insertions(+), 2 deletions(-)
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
 commit 9fe4476359840b6cac3e4a2f4cef511c5a3908ef
 Author: steve <steve@laptop.(none)>
@@ -634,4 +762,4 @@ Date:   Thu Dec 1 21:28:58 2011 -0300
  test-mate/testmate.h                               |   20 +
  test-mate/testmate.xml                             |   33 +
  test-mate/testmategdkpixbuf.c                      |  102 +
- 478 files changed, 321712 insertions(+), 0 deletions(-)
+ 478 files changed, 321712 insertions(+)

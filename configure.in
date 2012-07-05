@@ -9,7 +9,7 @@ AC_PREREQ(2.54)
 # set LIBMATEUI_BINARY_AGE and LIBMATEUI_INTERFACE_AGE to 0.
 #
 m4_define([libmateui_major_version], [1])
-m4_define([libmateui_minor_version], [2])
+m4_define([libmateui_minor_version], [4])
 m4_define([libmateui_micro_version], [0])
 m4_define([libmateui_interface_age], [4])
 # If you need a modifier for the version number.
