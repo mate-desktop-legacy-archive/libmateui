@@ -55,7 +55,6 @@ static MateUIInfo tmptree[] = {
 };
 
 static const mateuiinfo_map_t mate_uiinfo_mapping[] = {
-    { "ABOUT_ITEM", MATEUIINFO_MENU_ABOUT_ITEM(NULL, NULL) },
     { "CLEAR_ITEM", MATEUIINFO_MENU_CLEAR_ITEM(NULL, NULL) },
     { "CLOSE_ITEM", MATEUIINFO_MENU_CLOSE_ITEM(NULL, NULL) },
     { "CLOSE_WINDOW_ITEM", MATEUIINFO_MENU_CLOSE_WINDOW_ITEM(NULL,NULL) },
@@ -626,16 +625,6 @@ entry_find_internal_child(GladeXML *xml, GtkWidget *parent,
 }
 
 static GtkWidget *
-file_entry_find_internal_child(GladeXML *xml, GtkWidget *parent,
-			      const gchar *childname)
-{
-    if (!strcmp (childname, "entry"))
-	return mate_file_entry_gtk_entry (MATE_FILE_ENTRY (parent));
-
-    return NULL;
-}
-
-static GtkWidget *
 propertybox_find_internal_child(GladeXML *xml, GtkWidget *parent,
 				const gchar *childname)
 {
@@ -678,13 +667,6 @@ app_enable_layout_config (GladeXML *xml, GtkWidget *w,
 }
 
 static void
-pixmap_entry_set_preview (GladeXML *xml, GtkWidget *w,
-			  const char *name, const char *value)
-{
-    mate_pixmap_entry_set_preview (MATE_PIXMAP_ENTRY (w), BOOL (value));
-}
-
-static void
 icon_list_set_selection_mode (GladeXML *xml, GtkWidget *w,
 			      const char *name, const char *value)
 {
@@ -699,29 +681,6 @@ entry_set_max_saved (GladeXML *xml, GtkWidget *w,
 		     const char *name, const char *value)
 {
     mate_entry_set_max_saved (MATE_ENTRY (w), INT (value));
-}
-
-static void
-file_entry_set_max_saved (GladeXML *xml, GtkWidget *w,
-			  const char *name, const char *value)
-{
-    entry_set_max_saved (xml, 
-			 mate_file_entry_mate_entry (MATE_FILE_ENTRY (w)),
-			 name, value);
-}
-
-static void
-file_entry_set_use_filechooser (GladeXML *xml, GtkWidget *w,
-			  const char *name, const char *value)
-{
-    g_object_set (G_OBJECT (w), "use_filechooser", BOOL (value), NULL);
-}
-
-static void
-icon_entry_set_max_saved (GladeXML *xml, GtkWidget *w,
-			  const char *name, const char *value)
-{
-    mate_icon_entry_set_max_saved (MATE_ICON_ENTRY (w), INT (value));
 }
 
 static void
@@ -767,66 +726,6 @@ dialog_set_hide_on_close (GladeXML *xml, GtkWidget *w,
 }
 
 static void
-about_set_authors (GladeXML *xml, GtkWidget *w,
-		   const char *name, const char *value)
-{
-    char **authors;
-    GValueArray *authors_array;
-    int i;
-
-    authors = g_strsplit (value, "\n", 0);
-    authors_array = g_value_array_new (0);
-	
-    for (i = 0; authors[i] != NULL; i++) {
-	GValue value = { 0 };
-		g_value_init (&value, G_TYPE_STRING);
-	g_value_set_static_string (&value, authors[i]);
-	authors_array = g_value_array_append (authors_array, &value);
-    }
-
-    g_object_set (G_OBJECT (w), "authors", authors_array, NULL);
-
-    g_value_array_free (authors_array);
-
-    g_strfreev (authors);
-}
-
-static void
-about_set_translator_credits (GladeXML *xml, GtkWidget *w,
-			      const char *name, const char *value)
-{
-    /* only set this if the translator actually translated the string. */
-    if (strcmp(value, "translator_credits") != 0) {
-	g_object_set (G_OBJECT (w), "translator_credits", value, NULL);
-    }
-}
-
-static void
-about_set_documentors (GladeXML *xml, GtkWidget *w,
-		       const char *name, const char *value)
-{
-    char **documentors;
-    GValueArray *documentors_array;
-    int i;
-
-    documentors = g_strsplit (value, "\n", 0);
-    documentors_array = g_value_array_new (0);
-	
-    for (i = 0; documentors[i] != NULL; i++) {
-	GValue value = { 0 };
-		g_value_init (&value, G_TYPE_STRING);
-	g_value_set_static_string (&value, documentors[i]);
-	documentors_array = g_value_array_append (documentors_array, &value);
-    }
-
-    g_object_set (G_OBJECT (w), "documenters", documentors_array, NULL);
-
-    g_value_array_free (documentors_array);
-
-    g_strfreev (documentors);
-}
-
-static void
 pixmap_set_filename (GladeXML *xml, GtkWidget *w,
 		     const char *name, const char *value)
 {
@@ -846,7 +745,6 @@ glade_module_register_widgets (void)
     glade_require ("matecomponent");
 
     glade_register_custom_prop (MATE_TYPE_APP, "enable_layout_config", app_enable_layout_config);
-    glade_register_custom_prop (MATE_TYPE_PIXMAP_ENTRY, "preview", pixmap_entry_set_preview);
     glade_register_custom_prop (MATE_TYPE_ICON_LIST, "selection_mode", icon_list_set_selection_mode);
     glade_register_custom_prop (MATE_TYPE_ICON_LIST, "icon_width", custom_noop);
     glade_register_custom_prop (MATE_TYPE_ICON_LIST, "row_spacing", icon_list_set_row_spacing);
@@ -858,9 +756,6 @@ glade_module_register_widgets (void)
     glade_register_custom_prop (MATE_TYPE_DIALOG, "hide_on_close", dialog_set_hide_on_close);
     glade_register_custom_prop (MATE_TYPE_MESSAGE_BOX, "message", custom_noop);
     glade_register_custom_prop (MATE_TYPE_MESSAGE_BOX, "message_box_type", custom_noop);
-    glade_register_custom_prop (MATE_TYPE_ABOUT, "authors", about_set_authors);
-    glade_register_custom_prop (MATE_TYPE_ABOUT, "translator_credits", about_set_translator_credits);
-    glade_register_custom_prop (MATE_TYPE_ABOUT, "documenters", about_set_documentors);
     glade_register_custom_prop (MATE_TYPE_DRUID_PAGE_EDGE, "title", druid_page_edge_set_title);
     glade_register_custom_prop (MATE_TYPE_DRUID_PAGE_EDGE, "text", druid_page_edge_set_text);
     glade_register_custom_prop (MATE_TYPE_DRUID_PAGE_EDGE, "title_color", druid_page_edge_set_title_color);
@@ -876,11 +771,7 @@ glade_module_register_widgets (void)
     glade_register_custom_prop (GTK_TYPE_MENU_ITEM, "stock_item", custom_noop);
     glade_register_custom_prop (MATE_TYPE_PIXMAP, "filename", pixmap_set_filename);
     glade_register_custom_prop (MATE_TYPE_ENTRY, "max_saved", entry_set_max_saved);
-    glade_register_custom_prop (MATE_TYPE_FILE_ENTRY, "max_saved", file_entry_set_max_saved);
-    glade_register_custom_prop (MATE_TYPE_FILE_ENTRY, "use_filechooser", file_entry_set_use_filechooser);
-    glade_register_custom_prop (MATE_TYPE_ICON_ENTRY, "max_saved", icon_entry_set_max_saved);
 
-    glade_register_widget (MATE_TYPE_ABOUT, NULL, NULL, NULL);
     glade_register_widget (MATE_TYPE_APP, app_build, app_build_children,
 			   app_find_internal_child);
     glade_register_widget (MATE_TYPE_APPBAR, glade_standard_build_widget,
@@ -901,11 +792,7 @@ glade_module_register_widgets (void)
 			   glade_standard_build_children, druidpagestandard_find_internal_child);
     glade_register_widget (MATE_TYPE_ENTRY, glade_standard_build_widget,
 			   glade_standard_build_children, entry_find_internal_child);
-    glade_register_widget (MATE_TYPE_FILE_ENTRY, glade_standard_build_widget,
-			   glade_standard_build_children, file_entry_find_internal_child);
     glade_register_widget (MATE_TYPE_HREF, glade_standard_build_widget,
-			   NULL, NULL);
-    glade_register_widget (MATE_TYPE_ICON_ENTRY, glade_standard_build_widget,
 			   NULL, NULL);
     glade_register_widget (MATE_TYPE_ICON_LIST, icon_list_new,
 			   NULL, NULL);
@@ -913,8 +800,6 @@ glade_module_register_widgets (void)
 			   NULL, NULL);
     glade_register_widget (MATE_TYPE_MESSAGE_BOX, message_box_new,
 			   glade_standard_build_children, dialog_find_internal_child);
-    glade_register_widget (MATE_TYPE_PIXMAP_ENTRY, glade_standard_build_widget,
-			   NULL, NULL);
     glade_register_widget (MATE_TYPE_PROPERTY_BOX, glade_standard_build_widget,
 			   glade_standard_build_children, propertybox_find_internal_child);
     glade_register_widget (MATE_TYPE_SCORES, glade_standard_build_widget,

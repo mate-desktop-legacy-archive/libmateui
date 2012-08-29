@@ -1,16 +1,28 @@
-libmateui 2.24.4
+libmateui 1.5.0
+
+* dropped mate-vfs dependency
+* dropped unused stuff:
+    - mate-about.c
+    - mate-authentication-manager.c
+    - mate-file-entry.c
+    - mate-icon-entry.c
+    - mate-icon-lookup.c
+    - mate-pixmap-entry.c
+    - mate-about-logo.png
+
+libgnomeui 2.24.4
 
 * New and updated translations
   (ca, br, eo, et, in, ja, kk, or, pt_BR, sh, ug)
 
-libmateui 2.24.3
+libgnomeui 2.24.3
 
 * Enable silent build using AM_SILENT_RULES (Christian Persch)
 * Fix the build with ATK_DISABLE_SINGLE_INCLUDES (Christian Persch)
 * Updated translations
   (bn, cy, en@shaw, et, gl, lt, nds)
 
-libmateui 2.24.2
+libgnomeui 2.24.2
 
 Amanpreet Singh Alam (1):
       updating for Mate Punjabi Translation by A S Alam
@@ -70,36 +82,36 @@ Zabeeh Khan (1):
 krishnababu k (1):
       Updated Telugu Translation
 
-libmateui 2.24.1
+libgnomeui 2.24.1
 
 * Make it work with deprecations enabled in glib/gtk+
 * Fix leaks (Matthias Clasen, Christian Persch)
 * Updated translations
   (ar, ast, bg, hi, it, la, lv, ko, or, pt_BR, uz, zh_HK, zh_TW)
 
-libmateui 2.24.0
+libgnomeui 2.24.0
 
 * Updated translations
   (af, ar, es, hu, it, kn, mai, or, pt, pt_BR, ro, sr, ta, te)
 
-libmateui 2.23.90
+libgnomeui 2.23.90
 
 * Fix gtk+ includes for the new order (Felix Riemann)
 * Use GType and friends instead of deprecated ones (Christian Persch)
 * Don't leak GChecksums in the thumbnailer (Felix Riemann)
 * Various cleanups (Tim Janik, Cosimo Cecchi)
 
-libmateui 2.23.4
+libgnomeui 2.23.4
 
 * Remove the filechooser backends (#538025)
 
-libmateui 2.23.3
+libgnomeui 2.23.3
 
 * Fix a crash in the gio file choose backend when a display name doesn't exist
   (Bastien Nocera)
 * Fix a crash in the gio file choose backend when a path is NULL (Jan Arne
   Petersen)
-* Stop pretending libmateui depends on libjpeg (Tor)
+* Stop pretending libgnomeui depends on libjpeg (Tor)
 * Properly initialize gettext in the gio file chooser backend (Andrew
   Zabolotny)
 * Improve bookmarks in the gio file chooser backend (Carlos Garnacho)
@@ -110,7 +122,7 @@ libmateui 2.23.3
   - ar (Khaled Hosny)
   - mn (Badral Sanligiin)
 
-libmateui 2.22.1
+libgnomeui 2.22.1
 
 * Cleanups (Kjartan)
 * Use Gio for thumbnailing (David Zeuthen)
@@ -124,16 +136,16 @@ libmateui 2.22.1
   - hu (Gabor Kelemen)
   - sq (Laurent Dhima)
 
-libmateui 2.22.0.1
+libgnomeui 2.22.0.1
 
 * Fix another hang in the file chooser.
 
-libmateui 2.22.0
+libgnomeui 2.22.0
 
 * Fix hang in the file chooser backend.
 * Updated translation.
 
-libmateui 2.21.93
+libgnomeui 2.21.93
 
 * Remove some dead code
 * Fix a crash in the gio file chooser backend
@@ -145,21 +157,21 @@ libmateui 2.21.93
 * Try to mount remote locations when getting the file info
   fails with a "Not mounted" error
 
-libmateui 2.21.92
+libgnomeui 2.21.92
 
 * More gio work in the filechooser
 
-libmateui 2.21.91
+libgnomeui 2.21.91
 
 * Works with gio 2.15.5.
 
-libmateui 2.21.90
+libgnomeui 2.21.90
 
 * Win32 fixes (Tor)
 * Portability fixes (Christian)
 * Cleanups (Kjartan)
 *
-libmateui 2.21.5
+libgnomeui 2.21.5
 
 * Gio based GtkFileSystem implementation (#509262)
 * Remove MD5 code, and use GChecksum (#501866)
@@ -177,7 +189,7 @@ libmateui 2.21.5
 * Translation updates
 
 
-libmateui 2.20.0
+libgnomeui 2.20.0
 
 * Create tar.bz2 in dist (Christian Persch)
 * Updated translations:
@@ -192,7 +204,7 @@ libmateui 2.20.0
   - Malayalam (Ani Peter)
   - Portugese (Duarte Loreto)
 
-libmateui 2.19.1
+libgnomeui 2.19.1
 
 * Fix crash in thumbnailing code (#452907, Felix Riemann)
 * Use xdg-user-dirs to get Destkop directory shortcut (#459854, Luca Ferretti)
@@ -201,7 +213,7 @@ libmateui 2.19.1
 * Deprecate MateDruid (#429178, Matthew Barnes)
 * Use Requires.private for nonpublic requirements (#396255; J.H.M. Dassen (Ray))
 
-libmateui 2.19.0
+libgnomeui 2.19.0
 
 What's new since 2.18.0
 
@@ -227,7 +239,7 @@ What's new since 2.18.0
   - es: Jorge Gonzalez
   - he: Yair Hershkovitz
 
-libmateui 2.18.0
+libgnomeui 2.18.0
 
 * Lots of code cleanups
 * Build fixes (Loïc Minier)
@@ -249,7 +261,7 @@ libmateui 2.18.0
   - Simplified Chinese (Funda Wang)
   - Tamil (I Felix)
 
-libmateui 2.17.92
+libgnomeui 2.17.92
 
 * Dist MAINTAINERS (Kjartan)
 * Updated translations:
@@ -261,7 +273,7 @@ libmateui 2.17.92
   - Leonardo Ferreira Fontenelle (pt_BR)
   - Nguyễn Thái Ngọc Duy (vi)
 
-libmateui 2.17.91
+libgnomeui 2.17.91
 
 * Revert the single tilde patch since it didn't work
 * Don't eat memory like mad when thumbnailing animated
@@ -278,7 +290,7 @@ libmateui 2.17.91
   - Duarte Loreto (pt)
   - Theppitak Karoonboonyanan (th)
 
-libmateui 2.17.90
+libgnomeui 2.17.90
 
 * Fix mate-file-entry in a modal dialog (Christophe Fergeau)
 * Fix leaks (Kjartan, Chris, Jens Granseuer)
@@ -288,7 +300,7 @@ libmateui 2.17.90
 * Change remember checkbuttons to radiobuttons in the password dialog
   (Fernando Herrera, Christian Persch, Hiroyuki Ikezoe)
 
-libmateui 2.17.2
+libgnomeui 2.17.2
 -----------------
 
 * Make tilde go to $HOME in the file chooser (Yevgen Muntyan)
@@ -297,7 +309,7 @@ libmateui 2.17.2
   dialog. (Fernando Herrera, Christian Persch, Hiroyuki Ikezoe)
 * Fix mate-file-entry when packed in a modal window (Christophe Fergeau)
 
-libmateui 2.17.1
+libgnomeui 2.17.1
 -----------------
 
 * Fix hostname URI handling in the filechooser (Christian Neumair)
@@ -318,7 +330,7 @@ libmateui 2.17.1
   - Daniel Nylander (sv)
   - Theppitak Karoonboonyanan (th)
 
-libmateui 2.17.0
+libgnomeui 2.17.0
 -----------------
 
 * Small cleanups all over the place (Kjartan)
@@ -333,12 +345,12 @@ libmateui 2.17.0
   - Ilkka Tuohela (fi)
   - Yair Hershkovitz (he)
 
-libmateui 2.16.2
+libgnomeui 2.16.2
 -----------------
 
 * Build fixes (Christian Marillat and others)
 
-libmateui 2.16.1
+libgnomeui 2.16.1
 -----------------
 
 * Make network browsing work in the file chooser (Jan de Groot)
@@ -347,7 +359,7 @@ libmateui 2.16.1
 * API doc fixes (Matthew Barnes)
 * Handle bug-buddy aborting better in mate_segv (Matthew)
 
-libmateui 2.16.0
+libgnomeui 2.16.0
 ------------------
 
 * Lots of fixes for the async file chooser (Federico, Kris)
@@ -357,18 +369,18 @@ libmateui 2.16.0
 * Cleanups etc (Kris, Kjartan)
 * Updated and new translations
 
-libmateui 2.15.91
+libgnomeui 2.15.91
 ------------------
 
 * Fixes to MateIconList (Matthias Clasen and Li Yuan)
 * Removed unused function (Kjartan Maraas)
 
-libmateui 2.15.90
+libgnomeui 2.15.90
 ------------------
 
 * Remove crash dialog
 
-libmateui 2.15.2
+libgnomeui 2.15.2
 -----------------
 
 * Add missing XUngrabServer() call in mate-ui-init.c
@@ -376,24 +388,24 @@ libmateui 2.15.2
 * Set about dialog hooks (Christian Persch)
 * Loads of new and updated translations.
 
-libmateui 2.15.1
+libgnomeui 2.15.1
 -----------------
 
 * Merge the async branch of the file chooser (Kris)
 * Other things
 
-libmateui 2.13.3
+libgnomeui 2.13.3
 -----------------
 
 * Don't scale up small images when creating thumbnails (Lucas Rocha)
 * Fix critical warning and crash in thumbnailer (Alex Larsson)
 
-libmateui 2.13.2
+libgnomeui 2.13.2
 -----------------
 
 * Sync GOption code with latest libmate (Christian)
 
-libmateui 2.13.1
+libgnomeui 2.13.1
 -----------------
 
 * Fix mime type problem with the thumbnailer (Bastien)
@@ -403,7 +415,7 @@ libmateui 2.13.1
 * Warning fixes (Kjartan)
 * Leak fixes in the GOption code (Christian Perch)
 
-libmateui 2.13.0
+libgnomeui 2.13.0
 -----------------
 
 * Support the icon theme name spec (Dobey)
@@ -438,7 +450,7 @@ libmateui 2.13.0
 	* Albert Fazlí (tt)
 	* Funda Wang (zh_CN)
 
-libmateui 2.12.0
+libgnomeui 2.12.0
 -----------------
 
 What's new since 2.11.4
@@ -453,7 +465,7 @@ Updated translations:
 	- Basque, Galician, Indonesian, Korean, Kurkish,
 	  Russian, Turkish.
 
-libmateui 2.11.4
+libgnomeui 2.11.4
 -----------------
 
 What's new since 2.11.3
@@ -465,7 +477,7 @@ Bug fixes:
 Translations:
 	- Estonian, French, Vietnamese
 
-libmateui 2.11.3
+libgnomeui 2.11.3
 -----------------
 
 What's new since 2.11.2
@@ -474,7 +486,7 @@ Bug fixes:
 	- Don't crash on trash:/// bookmarks (Matthias)
 	- Fix build in mate-ui-init.h
 
-libmateui 2.11.2
+libgnomeui 2.11.2
 -----------------
 
 What's new since 2.11.1
@@ -491,7 +503,7 @@ Bug fixes:
 Translations:
 	- Everyone :-)
 
-libmateui 2.11.1
+libgnomeui 2.11.1
 -----------------
 
 What's new since 2.10.x
@@ -514,7 +526,7 @@ Bug fixes:
 	- Make it possible to select a folder in the file entry
 	  in the icon entry. (Christian Neumair)
 	- Make sure to use UTF-8 locales in the file chooser
-	  for apps that don't use libmateui directly such as
+	  for apps that don't use libgnomeui directly such as
 	  Firefox (Frederic Crozat)
 	- HIGify the password dialog (Michael Terry)
 	- HIGify the games menu entries (Dennis Cranston)
@@ -528,7 +540,7 @@ Translations:
 	  Dutch (nl), Kinyarwanda (rw), Slovak (sk),
 	  Thai (th), Simplified Chinese (zh_CN), Traditional Chinese (zh_TW)
 
-libmateui 2.10.0
+libgnomeui 2.10.0
 -----------------
 
 What's new since 2.9.2
@@ -536,7 +548,7 @@ What's new since 2.9.2
 * Translations:
 	- Updated Russian (ru), Lithuanian (lt), Indonesian (id)
 
-libmateui 2.9.2
+libgnomeui 2.9.2
 ----------------
 
 What's new since 2.9.1
@@ -553,7 +565,7 @@ What's new since 2.9.1
 	  Norwegian bokmål (no/nb), Persian (fa), Thai (th),
 	  Welsh (cy),
 
-libmateui 2.9.1
+libgnomeui 2.9.1
 ----------------
 
 What's new since 2.8.1
@@ -571,7 +583,7 @@ What's new since 2.8.1
 	- Updated translations (bg cy, de, en_CA, es, fr, it, ko, nso, rw, zu)
 
 
-libmateui 2.8.1
+libgnomeui 2.8.1
 ----------------
 
 What's new since 2.8.0
@@ -580,7 +592,7 @@ What's new since 2.8.0
 	- Removed prototypes for removed functions mate_entry_construct and
 	  mate_href_construct (J.H.M. Dassen (Ray))
 
-libmateui 2.8.0
+libgnomeui 2.8.0
 ----------------
 
 What's new since 2.7.2
@@ -606,7 +618,7 @@ What's new since 2.7.2
 					sq, sr, sv, tr, uk, wa, zh_CN,
 					zh_TW)
 
-libmateui 2.7.2
+libgnomeui 2.7.2
 ----------------
 
 What's new since 2.7.1
@@ -621,7 +633,7 @@ What's new since 2.7.1
 * Translations:
 	- Various updated translations (ne)
 
-libmateui 2.7.1
+libgnomeui 2.7.1
 ----------------
 
 What's new since 2.6.1
@@ -642,7 +654,7 @@ What's new since 2.6.1
 	- Various updated translations (bg, no, es, zh_CN, sk, sq, cs,
 					en_CA, en_GB, ko)
 
-libmateui 2.6.1 "Magmoor"
+libgnomeui 2.6.1 "Magmoor"
 --------------------------
 
 What's new since 2.6.0
@@ -663,7 +675,7 @@ What's new since 2.6.0
 	- Added Afrikaans translation (Zuza Software Foundation)
 	- Various updated translations (ca, et, eu, he, hu, id, is, nn, wa)
 
-libmateui 2.6.0 "Zeb"
+libgnomeui 2.6.0 "Zeb"
 ----------------------
 
 What's new since 2.4

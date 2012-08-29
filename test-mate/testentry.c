@@ -26,16 +26,6 @@ main (gint argc, gchar **argv)
 	gtk_container_add (GTK_CONTAINER (frame), entry);
 	gtk_box_pack_start (GTK_BOX (vbox), frame, TRUE, TRUE, 0);
 
-	entry = mate_file_entry_new ("test-file-entry-history", "Select a file");
-	frame = gtk_frame_new ("File Entry");
-	gtk_container_add (GTK_CONTAINER (frame), entry);
-	gtk_box_pack_start (GTK_BOX (vbox), frame, TRUE, TRUE, 0);
-
-	entry = mate_pixmap_entry_new ("test-pixmap-entry-history", "Select a file", TRUE);
-	frame = gtk_frame_new ("Pixmap Entry");
-	gtk_container_add (GTK_CONTAINER (frame), entry);
-	gtk_box_pack_start (GTK_BOX (vbox), frame, TRUE, TRUE, 0);
-
 	gtk_container_add (GTK_CONTAINER (window), vbox);
 	gtk_widget_show_all (window);
 

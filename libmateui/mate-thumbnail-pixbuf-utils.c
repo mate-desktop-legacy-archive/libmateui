@@ -28,7 +28,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <glib.h>
-#include <libmatevfs/mate-vfs-ops.h>
 #include "mate-thumbnail.h"
 
 #define LOAD_BUFFER_SIZE 65536

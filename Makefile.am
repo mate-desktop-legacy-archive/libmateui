@@ -1,4 +1,4 @@
-SUBDIRS = libmateui glade images demos test-mate doc po
+SUBDIRS = libmateui glade demos test-mate doc po
 
 EXTRA_DIST = \
 	COPYING.LIB		\

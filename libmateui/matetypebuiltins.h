@@ -49,12 +49,6 @@ GType mate_font_picker_mode_get_type (void);
 #define MATE_TYPE_ICON_LIST_MODE mate_icon_list_mode_get_type()
 GType mate_icon_list_mode_get_type (void);
 
-/* --- mate-icon-lookup.h --- */
-#define MATE_TYPE_ICON_LOOKUP_FLAGS mate_icon_lookup_flags_get_type()
-GType mate_icon_lookup_flags_get_type (void);
-#define MATE_TYPE_ICON_LOOKUP_RESULT_FLAGS mate_icon_lookup_result_flags_get_type()
-GType mate_icon_lookup_result_flags_get_type (void);
-
 /* --- mate-mdi.h --- */
 #define MATE_TYPE_MDI_MODE mate_mdi_mode_get_type()
 GType mate_mdi_mode_get_type (void);

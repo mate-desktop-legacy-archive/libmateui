@@ -15,7 +15,6 @@ zip $ZIP -@ <<EOF
 bin/libmateui-2-$current_minus_age.dll
 lib/gtk-2.0/@GTK_BINARY_VERSION@/filesystems/libgio.dll
 lib/libglade/2.0/libmate.dll
-share/pixmaps/mate-about-logo.png
 EOF
 
 if [ -f share/locale/de/LC_MESSAGES/libmateui-2.0.mo ]; then

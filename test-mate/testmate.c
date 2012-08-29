@@ -273,159 +273,6 @@ create_entry(void)
 	gtk_widget_show(app->app);
 }
 
-/*
- * FileEntry
- */
-
-static void
-file_entry_update_files(GtkWidget *w, MateFileEntry *fentry)
-{
-	char *p;
-	char *pp;
-
-	GtkLabel *l1 = g_object_get_data(G_OBJECT(w),"l1");
-	GtkLabel *l2 = g_object_get_data(G_OBJECT(w),"l2");
-
-	p = mate_file_entry_get_full_path(fentry,FALSE);
-	pp = g_strconcat("File name: ",p,NULL);
-	gtk_label_set_text(l1,pp);
-	g_free(pp);
-	g_free(p);
-
-	p = mate_file_entry_get_full_path(fentry,TRUE);
-	pp = g_strconcat("File name(if exists only): ",p,NULL);
-	gtk_label_set_text(l2,pp);
-	g_free(pp);
-	g_free(p);
-}
-
-static void
-file_entry_modal_toggle(GtkWidget *w, MateFileEntry *fentry)
-{
-	mate_file_entry_set_modal(fentry,GTK_TOGGLE_BUTTON(w)->active);
-}
-
-static void
-file_entry_directory_toggle(GtkWidget *w, MateFileEntry *fentry)
-{
-	mate_file_entry_set_directory_entry (fentry,GTK_TOGGLE_BUTTON(w)->active);
-}
-
-static void
-create_file_entry(void)
-{
-	TestMateApp *app;
-	GtkWidget *entry;
-	GtkWidget *l1,*l2;
-	GtkWidget *but;
-	GtkWidget *box;
-
-	app = create_newwin(TRUE,"testMATE","File Entry");
-
-	box = gtk_vbox_new(FALSE,5);
-	entry = mate_file_entry_new("Foo","Bar");
-	gtk_box_pack_start(GTK_BOX(box),entry,FALSE,FALSE,0);
-
-	l1 = gtk_label_new("File name: ");
-	gtk_box_pack_start(GTK_BOX(box),l1,FALSE,FALSE,0);
-
-	l2 = gtk_label_new("File name(if exists only): ");
-	gtk_box_pack_start(GTK_BOX(box),l2,FALSE,FALSE,0);
-
-	but = gtk_button_new_with_label("Update file labels");
-	g_object_set_data(G_OBJECT(but),"l1",l1);
-	g_object_set_data(G_OBJECT(but),"l2",l2);
-	g_signal_connect(but,"clicked",
-			 G_CALLBACK(file_entry_update_files),
-			 entry);
-	gtk_box_pack_start(GTK_BOX(box),but,FALSE,FALSE,0);
-
-	but = gtk_toggle_button_new_with_label("Make browse dialog modal");
-	g_signal_connect(but,"toggled",
-			 G_CALLBACK(file_entry_modal_toggle),
-			 entry);
-	gtk_box_pack_start(GTK_BOX(box),but,FALSE,FALSE,0);
-
-	but = gtk_toggle_button_new_with_label("Directory only picker");
-	g_signal_connect(but,"toggled",
-			 G_CALLBACK(file_entry_directory_toggle),
-			 entry);
-	gtk_box_pack_start(GTK_BOX(box),but,FALSE,FALSE,0);
-
-	matecomponent_window_set_contents (MATECOMPONENT_WINDOW(app->app), box);
-	gtk_widget_show_all(app->app);
-}
-
-/*
- * IconEntry
- */
-static void
-icon_entry_changed (MateIconEntry *entry, GtkLabel *label)
-{
-	char *file = mate_icon_entry_get_filename (entry);
-	g_print ("Entry changed, new icon: %s\n",
-		 file ? file : "Nothing selected");
-	g_free (file);
-}
-static void
-get_icon (GtkWidget *button, MateIconEntry *entry)
-{
-	GtkLabel *label = g_object_get_data (G_OBJECT (button), "label");
-	char *file = mate_icon_entry_get_filename (entry);
-	gtk_label_set_text (label, file ? file : "Nothing selected");
-	g_free (file);
-}
-
-static void
-create_icon_entry(void)
-{
-	TestMateApp *app;
-	GtkWidget *vbox;
-	GtkWidget *button;
-	GtkWidget *label;
-	GtkWidget *entry;
-
-	app = create_newwin (TRUE, "testMATE", "Icon Entry");
-
-	vbox = gtk_vbox_new (FALSE, 5);
-
-	entry = mate_icon_entry_new ("Foo", "Icon");
-	gtk_box_pack_start (GTK_BOX (vbox), entry, TRUE, TRUE, 0);
-
-	button = gtk_button_new_with_label ("Update label below");
-	gtk_box_pack_start (GTK_BOX (vbox), button, FALSE, FALSE, 0);
-
-	label = gtk_label_new ("Nothing selected");
-	gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, FALSE, 0);
-
-	g_signal_connect (entry, "changed",
-			  G_CALLBACK (icon_entry_changed), NULL);
-	g_signal_connect (button, "clicked",
-			  G_CALLBACK (get_icon), entry);
-	g_object_set_data (G_OBJECT (button), "label", label);
-
-	matecomponent_window_set_contents (MATECOMPONENT_WINDOW (app->app), vbox);
-	gtk_widget_show_all (vbox);
-	gtk_widget_show (app->app);
-}
-
-/*
- * PixmapEntry
- */
-static void
-create_pixmap_entry(void)
-{
-	TestMateApp *app;
-	GtkWidget *entry;
-
-	app = create_newwin (TRUE, "testMATE", "Pixmap Entry");
-
-	entry = mate_pixmap_entry_new ("Foo", "Pixmap", TRUE);
-
-	matecomponent_window_set_contents (MATECOMPONENT_WINDOW (app->app), entry);
-	gtk_widget_show (entry);
-	gtk_widget_show (app->app);
-}
 
 #if 0
 /*
@@ -1115,21 +962,6 @@ create_app_helper (GtkWidget *widget, gpointer data)
 	gtk_widget_show (app);
 }
 
-static void
-create_about_box (void)
-{
-	const char *documentors[] = { "Documentor1", "Documentor2", NULL };
-	GtkWidget *about_box = mate_about_new ("Test MATE",
-						VERSION,
-						"(c) 2001 Foo, Inc.\n(c) 2001 Bar, Inc.",
-						"This is the testing mate application about box",
-						authors,
-						documentors,
-						"Translation credits",
-						NULL /* logo pixbuf */);
-	gtk_widget_show (about_box);
-}
-
 int
 main (int argc, char **argv)
 {
@@ -1142,13 +974,9 @@ main (int argc, char **argv)
 		  { "color picker", create_color_picker },
 		  { "date edit", create_date_edit },
 		  { "entry", create_entry },
-		  { "file entry", create_file_entry },
-		  { "pixmap entry", create_pixmap_entry },
-		  { "icon entry", create_icon_entry },
 		  { "font picker", create_font_picker },
 		  { "href", create_href },
-		  { "icon list", create_icon_list },
-		  { "about box", create_about_box }
+		  { "icon list", create_icon_list }
 	  };
 	int nbuttons = sizeof (buttons) / sizeof (buttons[0]);
 	MateProgram *program;

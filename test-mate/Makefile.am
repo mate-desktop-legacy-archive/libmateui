@@ -14,7 +14,7 @@ LDADD = \
 	$(top_builddir)/libmateui/libmateui-2.la $(MATE_TEST_LIBS)
 
 noinst_PROGRAMS = \
-	test-mate test-druid test-entry test-iconlist test-password-dialog test-mategdkpixbuf
+	test-mate test-druid test-entry test-iconlist test-password-dialog
 
 test_mate_SOURCES =		\
 	testmate.c		\
@@ -33,9 +33,6 @@ test_entry_SOURCES = 	\
 
 test_iconlist_SOURCES = 	\
 	testiconlist.c
-
-test_mategdkpixbuf_SOURCES = 	\
-	testmategdkpixbuf.c
 
 EXTRA_DIST = 		\
 	bomb.xpm	\

@@ -41,7 +41,7 @@
 #include "mate-icon-sel.h"
 #include "libmateui-access.h"
 
-#include <libmatevfs/mate-vfs-ops.h>
+#include <gio/gio.h>
 
 #define ICON_SIZE 48
 
@@ -305,19 +305,22 @@ mate_icon_selection_add_directory (MateIconSelection * gis,
   while ( (de = readdir(dp)) != NULL ) {
     const char *mimetype;
     char *uri;
-    MateVFSFileInfo *info;
+    GFile* file = NULL;
+    GFileInfo* fileinfo = NULL;
+    GError* info_error = NULL;
     gchar *full_path;
     
     if ( *(de->d_name) == '.' ) continue; /* skip dotfiles */
 
     full_path = g_build_filename (dir, de->d_name, NULL);
     uri = g_filename_to_uri (full_path, "localhost", NULL);
-    info = mate_vfs_file_info_new ();
+    file = g_file_new_for_uri (uri);
+    fileinfo = g_file_query_info (file, "standard::content-type", G_FILE_QUERY_INFO_NONE, NULL, &info_error);
+    if (info_error == NULL) {
+        /* FIXME: OK to do synchronous I/O here? */
+        mimetype = g_file_info_get_attribute_string (fileinfo, G_FILE_ATTRIBUTE_STANDARD_CONTENT_TYPE);
+    }
     g_free (full_path);
-    /* FIXME: OK to do synchronous I/O here? */
-    mate_vfs_get_file_info (uri, info, MATE_VFS_FILE_INFO_GET_MIME_TYPE | 
-			     MATE_VFS_FILE_INFO_FOLLOW_LINKS);
-    mimetype = info->mime_type;
     g_free (uri);
 
     if (mimetype != NULL &&
@@ -333,7 +336,8 @@ mate_icon_selection_add_directory (MateIconSelection * gis,
       }
       g_free(full_path);
     }
-    mate_vfs_file_info_unref (info);
+    g_object_unref(fileinfo);
+    g_object_unref(file);
   }
 
   closedir(dp);

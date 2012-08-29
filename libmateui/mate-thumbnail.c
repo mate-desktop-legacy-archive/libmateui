@@ -41,8 +41,7 @@
 
 #include <libmate/mate-macros.h>
 #include <libmate/mate-init.h>
-#include <libmatevfs/mate-vfs-utils.h>
-#include "mate-vfs-util.h"
+#include <gio/gio.h>
 #include "mate-thumbnail.h"
 #include "mate-mateconf-ui.h"
 #include <mateconf/mateconf.h>
@@ -50,6 +49,7 @@
 #include <glib/gstdio.h>
 
 #define SECONDS_BETWEEN_STATS 10
+#define LOAD_BUFFER_SIZE 4096
 
 struct _MateThumbnailFactoryPrivate {
   char *application;
@@ -61,6 +61,14 @@ struct _MateThumbnailFactoryPrivate {
   guint thumbnailers_notify;
   guint reread_scheduled;
 };
+
+typedef struct {
+    gint width;
+    gint height;
+    gint input_width;
+    gint input_height;
+    gboolean preserve_aspect_ratio;
+} SizePrepareContext;
 
 static void mate_thumbnail_factory_init          (MateThumbnailFactory      *factory);
 static void mate_thumbnail_factory_class_init    (MateThumbnailFactoryClass *class);
@@ -518,6 +526,7 @@ expand_thumbnailing_script (const char *script,
 			    const char *outfile)
 {
   GString *str;
+  GFile *localgfile;
   const char *p, *last;
   char *localfile, *quoted;
   gboolean got_in;
@@ -540,7 +549,8 @@ expand_thumbnailing_script (const char *script,
 	p++;
 	break;
       case 'i':
-	localfile = mate_vfs_get_local_path_from_uri (inuri);
+	localgfile = g_file_new_for_uri (inuri);
+	localfile = g_file_get_path (localgfile);
 	if (localfile)
 	  {
 	    quoted = g_shell_quote (localfile);
@@ -549,6 +559,7 @@ expand_thumbnailing_script (const char *script,
 	    g_free (quoted);
 	    g_free (localfile);
 	  }
+	g_object_unref(localgfile);
 	p++;
 	break;
       case 'o':
@@ -578,6 +589,171 @@ expand_thumbnailing_script (const char *script,
 
   g_string_free (str, TRUE);
   return NULL;
+}
+
+
+static void
+size_prepared_cb (GdkPixbufLoader *loader, 
+		  int              width,
+		  int              height,
+		  gpointer         data)
+{
+	SizePrepareContext *info = data;
+
+	g_return_if_fail (width > 0 && height > 0);
+
+	info->input_width = width;
+	info->input_height = height;
+	
+	if (width < info->width && height < info->height) return;
+	
+	if (info->preserve_aspect_ratio && 
+	    (info->width > 0 || info->height > 0)) {
+		if (info->width < 0)
+		{
+			width = width * (double)info->height/(double)height;
+			height = info->height;
+		}
+		else if (info->height < 0)
+		{
+			height = height * (double)info->width/(double)width;
+			width = info->width;
+		}
+		else if ((double)height * (double)info->width >
+			 (double)width * (double)info->height) {
+			width = 0.5 + (double)width * (double)info->height / (double)height;
+			height = info->height;
+		} else {
+			height = 0.5 + (double)height * (double)info->width / (double)width;
+			width = info->width;
+		}
+	} else {
+		if (info->width > 0)
+			width = info->width;
+		if (info->height > 0)
+			height = info->height;
+	}
+	
+	gdk_pixbuf_loader_set_size (loader, width, height);
+}
+
+
+/**
+ * mate_gdk_pixbuf_new_from_uri_at_scale:
+ * @uri: the uri of an image
+ * @width: The width the image should have or -1 to not constrain the width
+ * @height: The height the image should have or -1 to not constrain the height
+ * @preserve_aspect_ratio: %TRUE to preserve the image's aspect ratio
+ * 
+ * Loads a GdkPixbuf from the image file @uri points to, scaling it to the
+ * desired size. If you pass -1 for @width or @height then the value
+ * specified in the file will be used.
+ *
+ * When preserving aspect ratio, if both height and width are set the size
+ * is picked such that the scaled image fits in a width * height rectangle.
+ * 
+ * Return value: The loaded pixbuf, or NULL on error
+ *
+ * Since: MATE 1.5.0
+ **/
+GdkPixbuf *
+mate_gdk_pixbuf_new_from_uri_at_scale (const char *uri,
+					gint        width,
+					gint        height,
+					gboolean    preserve_aspect_ratio)
+{
+    GError *result;
+    char buffer[LOAD_BUFFER_SIZE];
+    guint64 bytes_read;
+    GdkPixbufLoader *loader;
+    GdkPixbuf *pixbuf;	
+    GdkPixbufAnimation *animation;
+    GdkPixbufAnimationIter *iter;
+    gboolean has_frame;
+    SizePrepareContext info;
+    GFile *file;
+    GFileInputStream *file_input_stream;
+
+    g_return_val_if_fail (uri != NULL, NULL);
+
+    file = g_file_new_for_uri (uri);
+    file_input_stream = g_file_read (file, NULL, NULL);
+    if (file_input_stream == NULL) {
+	g_object_unref (file);
+	return NULL;
+    }
+
+    loader = gdk_pixbuf_loader_new ();
+    if (1 <= width || 1 <= height) {
+        info.width = width;
+        info.height = height;
+	info.input_width = info.input_height = 0;
+        info.preserve_aspect_ratio = preserve_aspect_ratio;        
+        g_signal_connect (loader, "size-prepared", G_CALLBACK (size_prepared_cb), &info);
+    }
+
+    has_frame = FALSE;
+
+    result = G_IO_ERROR_FAILED;
+    while (!has_frame) {
+
+	bytes_read = g_input_stream_read (G_INPUT_STREAM (file_input_stream),
+					  buffer,
+					  sizeof (buffer),
+					  NULL,
+					  NULL);
+	if (bytes_read == -1) {
+	    break;
+	}
+	result = NULL;
+	if (bytes_read == 0) {
+	    break;
+	}
+
+	if (!gdk_pixbuf_loader_write (loader,
+				      (unsigned char *)buffer,
+				      bytes_read,
+				      NULL)) {
+	    result = G_IO_ERROR_INVALID_DATA;
+	    break;
+	}
+
+	animation = gdk_pixbuf_loader_get_animation (loader);
+	if (animation) {
+		iter = gdk_pixbuf_animation_get_iter (animation, NULL);
+		if (!gdk_pixbuf_animation_iter_on_currently_loading_frame (iter)) {
+			has_frame = TRUE;
+		}
+		g_object_unref (iter);
+	}
+    }
+
+    gdk_pixbuf_loader_close (loader, NULL);
+    
+    if (result != NULL) {
+	g_object_unref (G_OBJECT (loader));
+	g_input_stream_close (G_INPUT_STREAM (file_input_stream), NULL, NULL);
+	g_object_unref (file_input_stream);
+	g_object_unref (file);
+	g_error_free (result);
+	return NULL;
+    }
+
+    g_input_stream_close (G_INPUT_STREAM (file_input_stream), NULL, NULL);
+    g_object_unref (file_input_stream);
+    g_object_unref (file);
+
+    pixbuf = gdk_pixbuf_loader_get_pixbuf (loader);
+    if (pixbuf != NULL) {
+	g_object_ref (G_OBJECT (pixbuf));
+	g_object_set_data (G_OBJECT (pixbuf), "mate-original-width",
+			   GINT_TO_POINTER (info.input_width));
+	g_object_set_data (G_OBJECT (pixbuf), "mate-original-height",
+			   GINT_TO_POINTER (info.input_height));
+    }
+    g_object_unref (G_OBJECT (loader));
+
+    return pixbuf;
 }
 
 

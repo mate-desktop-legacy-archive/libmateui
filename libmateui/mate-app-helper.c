@@ -49,7 +49,6 @@
 #include <libxml/tree.h>
 
 #include <libmate/mate-util.h>
-#include <libmate/mate-help.h>
 #include <libmate/mate-config.h>
 
 /* Note that this file must include gi18n, and not gi18n-lib, so that
@@ -1135,9 +1134,11 @@ help_view_display_callback (GtkWidget *w, gpointer data)
 	char *file_name = data;
 
 	/* FIXME: handle errors somehow */
+	/* FIXME: is mate_help still needed???
 	mate_help_display (file_name,
 			    NULL,
-			    NULL /* error */);
+			    NULL /* error * /);
+	*/
 }
 
 /* Creates the menu entries for help topics.  Returns the updated position

@@ -34,12 +34,10 @@
 
 #include <libmateui/mate-uidefs.h>
 
-#include <libmateui/mate-about.h>
 #include <libmateui/mate-app.h>
 #include <libmateui/mate-app-helper.h>
 #include <libmateui/mate-app-util.h>
 #include <libmateui/mate-appbar.h>
-#include <libmateui/mate-authentication-manager.h>
 #include <libmatecanvas/mate-canvas.h>
 #include <libmatecanvas/mate-canvas-pixbuf.h>
 #include <libmatecanvas/mate-canvas-line.h>
@@ -50,9 +48,7 @@
 #include <libmatecanvas/mate-canvas-widget.h>
 #include <libmateui/mate-color-picker.h>
 #include <libmateui/mate-entry.h>
-#include <libmateui/mate-file-entry.h>
 #include <libmateui/mate-font-picker.h>
-#include <libmateui/mate-icon-entry.h>
 #include <libmateui/mate-icon-item.h>
 #include <libmateui/mate-icon-list.h>
 #include <libmateui/mate-icon-sel.h>
@@ -60,7 +56,6 @@
 #include <libmateui/mate-types.h>
 #include <libmateui/mate-icon-theme.h>
 #include <libmateui/mate-thumbnail.h>
-#include <libmateui/mate-icon-lookup.h>
 #include <libmateui/mate-stock-icons.h>
 #include <libmateui/mate-scores.h>
 #include <libmateui/mate-client.h>
@@ -78,15 +73,12 @@
 #include <libmateui/mate-mdi-child.h>
 #include <libmateui/mate-mdi-generic-child.h>
 #include <libmateui/mate-mdi-session.h>
-#include <libmateui/mate-vfs-util.h>
 #include <libmateui/mate-pixmap.h>
-#include <libmateui/mate-pixmap-entry.h>
 #include <libmateui/mate-popup-menu.h>
 #include <libmateui/mate-propertybox.h>
 #include <libmateui/mate-window.h>
 #include <libmateui/mate-window-icon.h>
 #include <libmateui/mate-password-dialog.h>
-#include <libmateui/mate-help.h>
 #include <libmateui/mate-url.h>
 
 #endif

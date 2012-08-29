@@ -27,10 +27,6 @@
 /* enumerations from "mate-icon-list.h" */
     (void) mate_icon_list_mode_get_type ();
 
-/* enumerations from "mate-icon-lookup.h" */
-    (void) mate_icon_lookup_flags_get_type ();
-    (void) mate_icon_lookup_result_flags_get_type ();
-
 /* enumerations from "mate-mdi.h" */
     (void) mate_mdi_mode_get_type ();
 

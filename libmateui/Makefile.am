@@ -33,10 +33,7 @@ if OS_WIN32
 platform_dep_sources = \
 	mate-ui-win32.c
 else
-platform_dep_sources = \
-	mate-authentication-manager.c  \
-	mate-authentication-manager.h  \
-	mate-authentication-manager-private.h
+platform_dep_sources = 
 endif
 
 
@@ -45,7 +42,6 @@ libmateui_2_la_SOURCES = \
 	libmateui-access.h		\
 	matetypebuiltins.h		\
 	matetypebuiltins.c		\
-	mate-about.c			\
 	mate-app.c			\
 	mate-app-helper.c		\
 	mate-app-util.c		\
@@ -61,7 +57,6 @@ libmateui_2_la_SOURCES = \
 	mate-druid-page-edge.c		\
 	mate-druid-page-standard.c	\
 	mate-entry.c			\
-	mate-file-entry.c		\
 	mate-font-picker.c		\
 	mate-mateconf-ui.c		\
 	mate-href.c			\
@@ -74,7 +69,6 @@ libmateui_2_la_SOURCES = \
 	mate-mdi-session.c		\
 	mate-multiscreen.c		\
 	mate-pixmap.c			\
-	mate-pixmap-entry.c		\
 	mate-popup-menu.c		\
 	mate-propertybox.c		\
 	mate-scores.c			\
@@ -83,13 +77,10 @@ libmateui_2_la_SOURCES = \
 	mate-thumbnail-pixbuf-utils.c	\
 	mate-ui-init.c			\
 	matetypes.c			\
-	mate-icon-entry.c		\
 	mate-icon-item.c		\
 	mate-icon-list.c		\
-	mate-icon-lookup.c		\
 	mate-icon-sel.c		\
 	mate-icon-theme.c		\
-	mate-vfs-util.c		\
 	mate-window.c			\
 	mate-window-icon.c		\
 	mate-mateconf-ui.h		\
@@ -100,12 +91,10 @@ libmateui_2_la_SOURCES = \
 
 ## this lists all the non-generated headers
 mate_headers = \
-	mate-about.h			\
 	mate-app.h			\
 	mate-app-helper.h		\
 	mate-app-util.h		\
 	mate-appbar.h			\
-	mate-authentication-manager.h  \
 	mate-client.h			\
 	mate-color-picker.h		\
 	mate-dateedit.h		\
@@ -116,15 +105,11 @@ mate_headers = \
 	mate-druid-page-edge.h		\
 	mate-druid-page-standard.h	\
 	mate-entry.h			\
-	mate-file-entry.h		\
 	mate-font-picker.h		\
-	mate-help.h			\
 	mate-href.h			\
 	mate-ice.h			\
-	mate-icon-entry.h		\
 	mate-icon-item.h		\
 	mate-icon-list.h		\
-	mate-icon-lookup.h		\
 	mate-icon-sel.h		\
 	mate-icon-theme.h		\
 	mate-messagebox.h		\
@@ -134,7 +119,6 @@ mate_headers = \
 	mate-mdi-session.h		\
 	mate-password-dialog.h         \
 	mate-pixmap.h			\
-	mate-pixmap-entry.h		\
 	mate-popup-menu.h		\
 	mate-propertybox.h		\
 	mate-scores.h			\
@@ -144,7 +128,6 @@ mate_headers = \
 	mate-types.h			\
 	mate-uidefs.h			\
 	mate-url.h			\
-	mate-vfs-util.h		\
 	mate-window.h			\
 	mate-window-icon.h		\
 	libmateui.h

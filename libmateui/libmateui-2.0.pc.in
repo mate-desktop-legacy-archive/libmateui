@@ -6,7 +6,7 @@ libmateui_serverdir=@libexecdir@
 
 Name: libmateui
 Description: libmateui
-Requires: libmate-2.0 libmatecomponentui-2.0 libmatecanvas-2.0 gtk+-2.0 gdk-pixbuf-2.0 mate-vfs-2.0
+Requires: libmate-2.0 libmatecomponentui-2.0 libmatecanvas-2.0 gtk+-2.0 gdk-pixbuf-2.0
 Requires.private: libart-2.0 mateconf-2.0 @MATE_KEYRING@ 
 Version: @VERSION@
 Libs: -L${libdir} -lmateui-2 @SM_LIBS@

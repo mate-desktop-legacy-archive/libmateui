@@ -323,48 +323,6 @@ mate_icon_list_mode_get_type (void)
 }
 
 
-/* enumerations from "mate-icon-lookup.h" */
-GType
-mate_icon_lookup_flags_get_type (void)
-{
-  static GType type = 0;
-
-  if (G_UNLIKELY (type == 0))
-  {
-    static const GFlagsValue _mate_icon_lookup_flags_values[] = {
-      { MATE_ICON_LOOKUP_FLAGS_NONE, "MATE_ICON_LOOKUP_FLAGS_NONE", "none" },
-      { MATE_ICON_LOOKUP_FLAGS_EMBEDDING_TEXT, "MATE_ICON_LOOKUP_FLAGS_EMBEDDING_TEXT", "embedding-text" },
-      { MATE_ICON_LOOKUP_FLAGS_SHOW_SMALL_IMAGES_AS_THEMSELVES, "MATE_ICON_LOOKUP_FLAGS_SHOW_SMALL_IMAGES_AS_THEMSELVES", "show-small-images-as-themselves" },
-      { MATE_ICON_LOOKUP_FLAGS_ALLOW_SVG_AS_THEMSELVES, "MATE_ICON_LOOKUP_FLAGS_ALLOW_SVG_AS_THEMSELVES", "allow-svg-as-themselves" },
-      { 0, NULL, NULL }
-    };
-
-    type = g_flags_register_static ("MateIconLookupFlags", _mate_icon_lookup_flags_values);
-  }
-
-  return type;
-}
-
-GType
-mate_icon_lookup_result_flags_get_type (void)
-{
-  static GType type = 0;
-
-  if (G_UNLIKELY (type == 0))
-  {
-    static const GFlagsValue _mate_icon_lookup_result_flags_values[] = {
-      { MATE_ICON_LOOKUP_RESULT_FLAGS_NONE, "MATE_ICON_LOOKUP_RESULT_FLAGS_NONE", "none" },
-      { MATE_ICON_LOOKUP_RESULT_FLAGS_THUMBNAIL, "MATE_ICON_LOOKUP_RESULT_FLAGS_THUMBNAIL", "thumbnail" },
-      { 0, NULL, NULL }
-    };
-
-    type = g_flags_register_static ("MateIconLookupResultFlags", _mate_icon_lookup_result_flags_values);
-  }
-
-  return type;
-}
-
-
 /* enumerations from "mate-mdi.h" */
 GType
 mate_mdi_mode_get_type (void)
